@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<TeamMentor_Article Metadata_Hash="0" Content_Hash="0">
+  <Metadata>
+    <Id>6a0e9a1b-05b3-4b31-8c69-b08122a33060</Id>
+    <Library_Id>eb39d862-f752-4d1c-ab6e-14ed697397c0</Library_Id>
+    <Title>Test Landing Page</Title>
+  </Metadata>
+  <Content Sanitized="false" DataType="xml">
+    <Data><![CDATA[<?xml-stylesheet type="text/xsl" href="/xml/xslt_LandingPage"?>
+<TeamMentor_LandingPage>
+
+	<!-- Splash Content-->
+	<SplashPanel_Data	title			= "TeamMentor (TEST page)"
+					image		= "TM_Images/TM_GUI.jpg" 
+					
+					button_1_text	= "Download Now"
+					button_link		= "https://github.com/downloads/TeamMentor/Master/TeamMentor%20(with-SI-Library)%20-%203.0%20Release.zip"
+					button_2_text 	= "Ask for Help"
+					button_2_link	="http://www.securityinnovation.com/products/secure-development-knowledgebase/request-a-tm-demo.html" />
+
+	<SplashPanel_Text>
+					Please use the button below to start the download of the latest version of TeamMentor <br/> <br/>
+				      	Our objective is to make the installation so easy that even TOM's mum can do it
+	</SplashPanel_Text>	
+
+
+	<Feature_1  	title = "Unzip" 
+			  	image ="/tm_images/UnZip_TM.jpg"
+			  	text ="The TeamMentor download is a password-protected zip file that contains all files needed to run or install TeamMentor (you should have been given a password from your Sales Rep) "/>
+
+	<Feature_2	title = "Run locally" 
+			  	image ="/tm_images/Run_Locally.jpg"
+			  	text=" If you want to run TeamMentor from your computer, you just need to click on the 'Start WebServer.bat' file to launch a version of TeamMentor hosted by a local WebServer (included on the downloads)."/>
+
+	<Feature_3  	title = "Run on IIS"
+				image ="/tm_images/IIS.jpg"
+				text=" To run TeamMentor on IIS usually you only need to create an IIS website and point it to the /Web Applications/TM_Website folder" />
+
+
+	<BigYellowBox 	title 		  = "Looking for a TeamMentor Manual?"
+			 	body_text 	  = "If you need more help, or want to read all about what you can do with TeamMentor, we have a site for you "
+				button_text = "View Documentation"
+				button_href = "http://docs.teammentor.net"/> 	 
+
+	<Gallery		image_1_href = "http://docs.teammentor.net/Image/Edit%20mode%20-%20context%20menu%20item.jpg"
+				image_2_href = "http://docs.teammentor.net/Image/GuidanceItem%20Editor%20-%20In%20browser.jpg"
+				image_3_href = "http://docs.teammentor.net/Image/Link%20to%20Guidance%20Items%20Editor.jpg"
+				image_4_href = "http://docs.teammentor.net/Image/GuidanceItem%20Editor%20-%20popup%20window.jpg"
+				image_5_href = "http://docs.teammentor.net/Image/Edit%20Mode%20Buttons.jpg"
+				image_6_href = "http://docs.teammentor.net/Image/Edit%20link%20(top%20right).jpg"   />
+
+	<Testimonials 	title 		 	 = "See what others are saying"
+				slot_1_text 	 = "We're deploying TeamMentor to our worldwide team of developers."
+				slot_1_company = "Mr Corporate - Company Y"
+				slot_2_text 	 = "We were able to add a great Knowledge base to our product."
+				slot_2_company = "Joe Inventor - Tool X"
+				slot_3_text 	 = "I think TeamMentor is great, I use it for every thing, specially my cooking recipes.."
+				slot_3_company = "Ed's Mum"
+				slot_4_text 	 = "Yeah, TeamMentor, it's that thing we use to Mentor Teams, right?."
+				slot_4_company = "XYZ's Friend - Somewhere in the world" />
+	
+
+	<FooterText>TeamMentor is a real-time reference guide, the industry's largest repository of secure software development knowledge 
+			    that provides software developers secure coding checklists and relevant examples, at the time they need it.
+	</FooterText>
+	<FooterTextCopyright>Copyright 2012 Security Innovation.</FooterTextCopyright>
+
+</TeamMentor_LandingPage>]]></Data>
+  </Content>
+</TeamMentor_Article>

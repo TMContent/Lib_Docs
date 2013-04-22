@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<TeamMentor_Article Metadata_Hash="0" Content_Hash="0">
+  <Metadata>
+    <Id>4d72e436-f295-4a54-b1a8-0a69d087c952</Id>
+    <Library_Id>eb39d862-f752-4d1c-ab6e-14ed697397c0</Library_Id>
+    <Title>WikiText Support</Title>
+    <Category>Editor</Category>
+    <Phase>Content</Phase>
+    <Technology>TeamMentor</Technology>
+    <Type>WiiText</Type>
+    <DirectLink>WikiText Support</DirectLink>
+  </Metadata>
+  <Content Sanitized="false" DataType="html">
+    <Data><![CDATA[It is possible to use WikiText instead of HTML for the Article's content.<div><br /></div><div>The version used is the one from&amp;nbsp;<a style="font-size: 10pt; " href="http://www.wikicreole.org/" target="_blank">http://www.wikicreole.org/</a>&amp;nbsp; and the parsing is done using this <a href="https://github.com/codeholic/jscreole" target="_blank">jsCreole Javascript API</a></div><div><br /></div><div>See this <a href="http://www.wikicreole.org/wiki/CheatSheet">CheatSheet </a>to see the syntax available</div><div><br /></div><div>As an example look at the code of the <a href="/notepad/Table_of_Contents">Table of Contents</a> page</div>]]></Data>
+  </Content>
+</TeamMentor_Article>

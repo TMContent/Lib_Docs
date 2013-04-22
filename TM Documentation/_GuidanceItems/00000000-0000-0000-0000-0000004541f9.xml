@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<TeamMentor_Article Metadata_Hash="-1874290984" Content_Hash="623801499">
+  <Metadata>
+    <Id>00000000-0000-0000-0000-0000004541f9</Id>
+    <Library_Id>eb39d862-f752-4d1c-ab6e-14ed697397c0</Library_Id>
+    <Title>Script - Batch Creation of Users from CSV file</Title>
+    <Category> </Category>
+    <Phase>Draft</Phase>
+    <Technology>TeamMentor</Technology>
+    <Type />
+    <DirectLink />
+    <Tag />
+    <Security_Demand />
+    <Author />
+    <Priority />
+    <Status />
+  </Metadata>
+  <Content Sanitized="true" DataType="Html">
+    <Data><![CDATA[
+<div><font face="Arial, Verdana" size="2"><br>
+</font></div>
+<div><font face="Arial, Verdana" size="2"><br>
+</font></div>
+<div><font face="Arial, Verdana" size="2"><br>
+</font></div>
+<div><font face="Arial, Verdana" size="2"><br>
+</font></div>
+<div><font face="Arial, Verdana" size="2">//var tmSite= &quot;http://localhost.:12345&quot;;</font></div>
+<div><font face="Arial, Verdana" size="2">//var adminPwd = &quot;....!&quot;;</font></div>
+<div><font face="Arial, Verdana" size="2"><br>
+</font></div>
+<div><font face="Arial, Verdana" size="2">var tmSite = &quot;http://teammentor.securityinnovation.com&quot;;</font></div>
+<div><font face="Arial, Verdana" size="2">var adminPwd = &quot;...&quot;;</font></div>
+<div><font face="Arial, Verdana" size="2"><br>
+</font></div>
+<div><font face="Arial, Verdana" size="2">var tmWebServices = new API_TeamMentor_WebServices(tmSite); &nbsp; &nbsp; &nbsp;</font></div>
+<div><font face="Arial, Verdana" size="2">tmWebServices.login(&quot;admin&quot;,adminPwd).str();</font></div>
+<div><font face="Arial, Verdana" size="2"><br>
+</font></div>
+<div><font face="Arial, Verdana" size="2">var topPanel = panel.clear().add_Panel();&nbsp;</font></div>
+<div><font face="Arial, Verdana" size="2">var dataGridView = topPanel.add_DataGridView();</font></div>
+<div><font face="Arial, Verdana" size="2"><br>
+</font></div>
+<div><font face="Arial, Verdana" size="2">dataGridView.add_Columns(&quot;UserID&quot;,&quot;UserName&quot;,&quot;Password&quot;,&quot;email&quot;,&quot;FirstName&quot;,&quot;LastName&quot;,&quot;Role&quot;,&quot;Active&quot;,&quot;ExpirationDate&quot;,&quot;Title&quot;, &quot;Company&quot;);</font></div>
+<div><font face="Arial, Verdana" size="2"><br>
+</font></div>
+<div><font face="Arial, Verdana" size="2">var csvFile1 = @&quot;{path to}\V2 version - web users\UsersWithNoExpirationDate.csv&quot;;</font></div>
+<div><font face="Arial, Verdana" size="2">var csvFile2 = @&quot;</font> <span style="font-family:Arial,Verdana; font-size:small">
+{path to}</span><font face="Arial, Verdana" size="2">\V2 version - web users\UsersWithFutureExpirationDate.csv&quot;;</font></div>
+<div><font face="Arial, Verdana" size="2"><br>
+</font></div>
+<div><font face="Arial, Verdana" size="2">var csvContent = csvFile1.fileContents().line() &#43;&nbsp;</font></div>
+<div><font face="Arial, Verdana" size="2"><span class="x_Apple-tab-span" style="white-space:pre"></span>&nbsp; &nbsp; csvFile2.fileContents().line();<br>
+<br>
+</font></div>
+<div><font face="Arial, Verdana" size="2">var lines = csvContent.split_onLines().removeEmpty();</font></div>
+<div><font face="Arial, Verdana" size="2"><br>
+</font></div>
+<div><font face="Arial, Verdana" size="2">//var line = lines[0];</font></div>
+<div><font face="Arial, Verdana" size="2">var max = 1000;</font></div>
+<div><font face="Arial, Verdana" size="2">foreach(var line in lines)</font></div>
+<div><font face="Arial, Verdana" size="2">{&nbsp;</font></div>
+<div><font face="Arial, Verdana" size="2"><span class="x_Apple-tab-span" style="white-space:pre"></span>var items = line.remove(&quot;NULL&quot;).split(&quot;,&quot;);</font></div>
+<div><span class="x_Apple-tab-span" style="white-space:pre"><font face="Arial, Verdana" size="2"></font></span></div>
+<div><font face="Arial, Verdana" size="2"><span class="x_Apple-tab-span" style="white-space:pre"></span>//tmWebServices.delete_User(items[1]);</font></div>
+<div><span class="x_Apple-tab-span" style="white-space:pre"><font face="Arial, Verdana" size="2"></font></span></div>
+<div><font face="Arial, Verdana" size="2"><span class="x_Apple-tab-span" style="white-space:pre"></span>var role = items[6].toInt() &#43; 1;&nbsp;</font></div>
+<div><font face="Arial, Verdana" size="2"><span class="x_Apple-tab-span" style="white-space:pre"></span>var note = &quot;CSV Import&quot;;</font></div>
+<div><font face="Arial, Verdana" size="2"><span class="x_Apple-tab-span" style="white-space:pre"></span>tmWebServices.add_User(items[1], items[2], items[3], items[4], items[5], role, items[9], items [10], &nbsp;note);</font></div>
+<div><font face="Arial, Verdana" size="2"><span class="x_Apple-tab-span" style="white-space:pre"></span>dataGridView.add_Row(items.ToArray());&nbsp;</font></div>
+<div><span class="x_Apple-tab-span" style="white-space:pre"><font face="Arial, Verdana" size="2"></font></span></div>
+<div><font face="Arial, Verdana" size="2"><span class="x_Apple-tab-span" style="white-space:pre"></span>if (max-- == 0)</font></div>
+<div><font face="Arial, Verdana" size="2"><span class="x_Apple-tab-span" style="white-space:pre"></span>break;</font></div>
+<div><font face="Arial, Verdana" size="2">}</font></div>
+<div><font face="Arial, Verdana" size="2"><br>
+</font></div>
+<div><font face="Arial, Verdana" size="2">return tmWebServices.users().size();</font></div>
+<div><font face="Arial, Verdana" size="2"><br>
+</font></div>
+<div><font face="Arial, Verdana" size="2">//O2File:API_TeamMentor_WebServices.cs</font></div>
+<div><font face="Arial, Verdana" size="2">//using SecurityInnovation.TeamMentor</font></div>
+<div><font face="Arial, Verdana" size="2">//O2Ref:System.Web.Services.dll</font></div>
+<div><font face="Arial, Verdana" size="2">//O2Ref:O2_Misc_Microsoft_MPL_Libs.dll</font></div>
+<div><font face="Arial, Verdana" size="2">//_O2Tag_DontAddExtraO2Files</font></div>
+]]></Data>
+  </Content>
+</TeamMentor_Article>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<TeamMentor_Article Metadata_Hash="-40857053" Content_Hash="2046686358">
+  <Metadata>
+    <Id>00000000-0000-0000-0000-00000087e538</Id>
+    <Library_Id>eb39d862-f752-4d1c-ab6e-14ed697397c0</Library_Id>
+    <Title>Filters Pane</Title>
+    <Category>User Interface</Category>
+    <Phase>NA</Phase>
+    <Technology>TeamMentor</Technology>
+    <Type>Documentation</Type>
+    <DirectLink />
+    <Tag />
+    <Security_Demand />
+    <Author />
+    <Priority />
+    <Status />
+  </Metadata>
+  <Content Sanitized="true" DataType="Html">
+    <Data><![CDATA[The filters pane allows filtering content in the current library/folder/view based on applicable technology, development phase, article type, and subject matter category. Filters can be enabled or disabled by using the corresponding checkboxes.]]></Data>
+  </Content>
+</TeamMentor_Article>

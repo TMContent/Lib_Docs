@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<TeamMentor_Article Metadata_Hash="0" Content_Hash="0">
+  <Metadata>
+    <Id>36778567-966a-4b86-9952-8bb984d384f6</Id>
+    <Library_Id>eb39d862-f752-4d1c-ab6e-14ed697397c0</Library_Id>
+    <Title>How to - Control TeamMentor via IE Automation</Title>
+    <Category />
+    <Phase />
+    <Technology />
+    <Type />
+    <DirectLink>How to - Control TeamMentor via IE Automation</DirectLink>
+  </Metadata>
+  <Content Sanitized="false" DataType="wikitext">
+    <Data><![CDATA[It is also possible to control the TeamMentor Web Interface from via IE Automation (in this case using O2's WatiN support)
+
+
+===Consuming TM API from the IE===
+{{{
+var ie = "ie_HJYAB".o2Cache&lt; WatiN_IE&gt;(()=&gt; panel.clear().add_IE()).silent(true)
+Test_TM.tmServer = "http://127.0.0.1:3187/"; 
+var teamMentor = new API_TeamMentor_IE(ie); 
+teamMentor.login("admin",adminPwd);
+
+//using SecurityInnovation.TeamMentor
+//O2File:.._TeamMentor\TeamMentor-UnitTests\APIs\API_TeamMentor_IE.cs
+//O2File:WatiN_IE_ExtensionMethods.cs 
+//O2Ref:WatiN.Core.1x.dll
+}}}
+
+===Login in via the edit url===
+{{{
+Test_TM.tmServer = "http://127.0.0.1:3187/"; 
+var teamMentor = new API_TeamMentor_IE(ie);
+teamMentor.open("/logout");
+teamMentor.open("/edit/asd");
+ie.waitForLink("login").click();
+ie.waitForField("UsernameBox").value(username);
+ie.field("PasswordBox").value(password);
+ie.button("login").click();
+}}}]]></Data>
+  </Content>
+</TeamMentor_Article>

@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<TeamMentor_Article Metadata_Hash="0" Content_Hash="0">
+  <Metadata>
+    <Id>d5b19213-d399-4c31-a91f-231775749619</Id>
+    <Library_Id>eb39d862-f752-4d1c-ab6e-14ed697397c0</Library_Id>
+    <Title>Case Study - Fix Intra-Article Broken Links</Title>
+  </Metadata>
+  <Content Sanitized="false" DataType="wikitext">
+    <Data><![CDATA[This script was used to fix a number of broken links that existed between articles (caused by GUID remapping)
+
+{{{
+
+var tmSite = "http://localhost.:12121/";
+var adminPwd= "..."; 
+  
+var topPanel = panel.clear().add_Panel();
+var tree1 = topPanel.add_GroupBox("OK").add_TreeView().sort().afterSelect<string>((text)=> text.clipboardText_Set());
+var tree2 = tree1.insert_Right().add_GroupBox("NOT OK").add_TreeView().sort().afterSelect<string>((text)=> text.clipboardText_Set());
+var teamMentor = new API_TeamMentor_WebServices(tmSite);  
+teamMentor.login("admin", adminPwd); 
+
+//return teamMentor.loggedIn();
+//var library = teamMentor.library("Java"); 
+var okList = new List<string>();
+var notokList = new List<string>();
+
+var count =1;
+var linksFixed = 0;
+foreach(var library in teamMentor.libraries())
+{
+	var tmArticles = library.tmWebServices.webServices.GetGuidanceItemsInLibrary(library.Id);
+	
+	
+	foreach(var tmArticle in tmArticles)
+	{
+		//"{0} : {1}".info(tmArticle.Metadata.Title, tmArticle.Metadata.Id);
+		try
+		{
+			var htmlCode = tmArticle.Content.Data.Value;
+			var htmlDocument = htmlCode.htmlDocument();		
+			var linkFixes = false;
+			foreach(var link in htmlDocument.links()) 
+			{
+				var href = link.attribute("href");
+				if(href.notNull())  
+				{
+					var splittedHref = href.Value.split("/");									
+					if (splittedHref.size()==3 &&  splittedHref[1].contains("article") && splittedHref[2].isGuid())
+					{									
+						var guid = splittedHref[2].guid(); 				
+						var guidanceItem = library.tmWebServices.webServices.GetGuidanceItemById(guid.str());
+						if (guidanceItem.notNull())
+							okList.add_If_Not_There(href.Value);	  
+						else
+						{
+							var mapping = link.InnerText.split(":").last().trim(); 
+							
+							guid = library.tmWebServices.webServices.getGuidForMapping(mapping);
+							
+							if (guid == Guid.Empty)		
+							{
+								"no ok : {0}  -  {1}".error(link.InnerText, mapping);
+								notokList.add_If_Not_There(href.Value);	  
+							}
+							else
+							{
+								"fixed: {0} -> {1}".debug(guid , mapping);
+								href.Value =  "/article/{0}".format(guid);			
+								linkFixes = true;
+								linksFixed++;
+							}							
+						}	
+					}
+				}			
+			}	
+			if (linkFixes)
+			{
+				"Saving: {0}".info(tmArticle.Metadata.Id);
+				
+				tmArticle.Content.Data.Value = htmlDocument.tidyHtml();					
+				library.tmWebServices.webServices.UpdateGuidanceItem(tmArticle);				
+				linkFixes = false;
+			}
+			
+			//return tmArticle.Content.Data.Value;
+		}
+		catch(Exception ex)
+		{
+			"error: {0}".error(ex.Message);
+		} 
+		if (count++.mod0(150))
+		{
+			"[{0}/{1}]".info(count, tmArticles.size());			
+		}		
+	}
+	"okList: {0}".info(okList.size());
+	"notokList: {0}".info(notokList.size());
+}
+tree1.add_Nodes(okList);
+tree2.add_Nodes(notokList);
+
+
+return "links fixed: {0}".info(linksFixed);
+//return library.articles();
+
+
+//using SecurityInnovation.TeamMentor;
+//O2File:HtmlAgilityPack_ExtensionMethods.cs
+//O2File:...\TeamMentor-UnitTests\APIs\API_TeamMentor_WebServices.cs
+//O2Ref:System.Web.Services.dll
+//O2Ref:O2_Misc_Microsoft_MPL_Libs.dll
+//O2Tag_DontAddExtraO2Files
+}}}
+]]></Data>
+  </Content>
+</TeamMentor_Article>

@@ -1,0 +1,199 @@
+<?xml version="1.0"?>
+<TeamMentor_Article Metadata_Hash="1850612607" Content_Hash="2076832792">
+  <Metadata>
+    <Id>00000000-0000-0000-0000-00000001f6f7</Id>
+    <Library_Id>eb39d862-f752-4d1c-ab6e-14ed697397c0</Library_Id>
+    <Title>Editing Articles</Title>
+    <Category>Editing</Category>
+    <Phase>NA</Phase>
+    <Technology>TeamMentor</Technology>
+    <Type>Documentation</Type>
+    <DirectLink>Editing Articles</DirectLink>
+    <Tag />
+    <Security_Demand />
+    <Author />
+    <Priority />
+    <Status />
+  </Metadata>
+  <Content Sanitized="true" DataType="Html">
+    <Data><![CDATA[<div style="font-family:Arial,Verdana; font-size:10pt; font-style:normal; font-variant:normal; font-weight:normal; line-height:normal">
+Editing content in TeamMentor is done via the "Edit Mode" which is&amp;nbsp;<span style="font-size:10pt">available to Editors and Administrators.&amp;nbsp;</span></div>
+  <div style="font-family:Arial,Verdana; font-size:10pt; font-style:normal; font-variant:normal; font-weight:normal; line-height:normal">
+    <span style="font-size:10pt">
+      <br />
+    </span>
+  </div>
+  <div style="font-family:Arial,Verdana; font-size:10pt; font-style:normal; font-variant:normal; line-height:normal">
+    <span style="font-size:10pt">
+      <b>Open Edit Mode</b>
+    </span>
+  </div>
+  <div style="font-family:Arial,Verdana; font-size:10pt; font-style:normal; font-variant:normal; line-height:normal">
+    <span style="font-size:10pt">
+      <b>
+        <br />
+      </b>
+    </span>
+  </div>
+  <div style="font-family:Arial,Verdana; font-size:10pt; font-style:normal; font-variant:normal; font-weight:normal; line-height:normal">
+    <span style="font-size:10pt">There are two ways to &amp;nbsp;access the TeamMentor "Edit Mode":</span>
+  </div>
+  <div style="font-family:Arial,Verdana; font-size:10pt; font-style:normal; font-variant:normal; font-weight:normal; line-height:normal">
+    <span style="font-size:10pt">
+      <br />
+    </span>
+  </div>
+  <div style="font-family:Arial,Verdana; font-size:10pt; font-style:normal; font-variant:normal; font-weight:normal; line-height:normal">
+    <span style="font-size:10pt">1) click the "Edit Mode" link in the top right of the main user interface:</span>
+  </div>
+  <div style="font-family:Arial,Verdana; font-size:10pt; font-style:normal; font-variant:normal; font-weight:normal; line-height:normal">
+    <span style="font-size:10pt">
+      <br />
+    </span>
+  </div>
+  <div>
+    <blockquote style="font-family:Arial,Verdana; font-size:10pt; font-style:normal; font-variant:normal; font-weight:normal; line-height:normal; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:40px; border-top-style:none; border-right-style:none; border-bottom-style:none; border-left-style:none; border-width:initial; border-color:initial; padding-top:0px; padding-right:0px; padding-bottom:0px; padding-left:0px">
+      <div>
+        <img src="/Image/Edit%20link%20(top%20right).jpg" style="" />
+        <br />
+        <br />
+      </div>
+    </blockquote>
+    <font size="2" face="Arial, Verdana">2) left-click on the library tree to open up the context menu, and choose the option 'Open Edit Mode':</font>
+  </div>
+  <div>
+    <font size="2" face="Arial, Verdana">
+      <br />
+    </font>
+    <blockquote style="font-family:Arial,Verdana; font-size:10pt; font-style:normal; font-variant:normal; font-weight:normal; line-height:normal; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:40px; border-top-style:none; border-right-style:none; border-bottom-style:none; border-left-style:none; border-width:initial; border-color:initial; padding-top:0px; padding-right:0px; padding-bottom:0px; padding-left:0px">
+      <div>
+        <img src="/Image/Edit%20mode%20-%20context%20menu%20item.jpg" />
+      </div>
+      <div>
+        <br />
+      </div>
+    </blockquote>
+  </div>
+  <div style="font-family:Arial,Verdana; font-size:10pt; font-style:normal; font-variant:normal; font-weight:normal; line-height:normal">
+Once the "Edit Mode" is loaded, a number of buttons should be visible on the Guidance Item's Table (for example: 'Select All', 'Deselect All', 'Delete Guidance Items from Library'):
+</div>
+  <div style="font-family:Arial,Verdana; font-size:10pt; font-style:normal; font-variant:normal; font-weight:normal; line-height:normal">
+    <blockquote style="margin:0 0 0 40px; border:none; padding:0px">
+      <div style="font-family:Arial,Verdana; font-size:10pt; font-style:normal; font-variant:normal; font-weight:normal; line-height:normal">
+        <img src="/Image/Edit%20Mode%20Buttons.jpg" />
+      </div>
+    </blockquote>
+  </div>
+  <div style="font-family:Arial,Verdana; font-size:10pt; font-style:normal; font-variant:normal; font-weight:normal; line-height:normal">
+    <br />
+  </div>
+  <div style="font-family:Arial,Verdana; font-size:10pt; font-style:normal; font-variant:normal; font-weight:normal; line-height:normal">
+    <br />
+  </div>
+  <div style="font-family:Arial,Verdana; font-size:10pt; font-style:normal; font-variant:normal; line-height:normal">
+    <b>Editing an Article (via 'Edit Mode')</b>
+  </div>
+  <div style="font-family:Arial,Verdana; font-size:10pt; font-style:normal; font-variant:normal; line-height:normal">
+    <b>
+      <br />
+    </b>
+  </div>
+  <div style="font-family:Arial,Verdana; font-size:10pt; font-style:normal; font-variant:normal; font-weight:normal; line-height:normal">
+Double-clicking on articles in the list while in "Edit Mode" opens articles for editing in a pop-up window. The editing is done via a built-in WYSISWYG html editor.</div>
+  <div style="font-family:Arial,Verdana; font-size:10pt; font-style:normal; font-variant:normal; font-weight:normal; line-height:normal">
+    <br />
+  </div>
+  <div style="font-family:Arial,Verdana; font-size:10pt; font-style:normal; font-variant:normal; font-weight:normal; line-height:normal">
+The article list pane works the same way in "Edit Mode" as in regular mode - folders and views can be navigated via the navigation pane on the left; filters and search strings can be used to narrow down the list in the content list pane. The major difference
+ is that double-clicking an article opens it for editing, rather than for viewing.</div>
+  <div style="font-family:Arial,Verdana; font-size:10pt; font-style:normal; font-variant:normal; font-weight:normal; line-height:normal">
+    <br />
+  </div>
+  <div style="font-family:Arial,Verdana; font-size:10pt; font-style:normal; font-variant:normal; font-weight:normal; line-height:normal">
+    <blockquote style="margin:0 0 0 40px; border:none; padding:0px">
+      <div style="font-family:Arial,Verdana; font-size:10pt; font-style:normal; font-variant:normal; font-weight:normal; line-height:normal">
+        <img src="/Image/GuidanceItem%20Editor%20-%20In%20browser.jpg" />
+      </div>
+    </blockquote>
+  </div>
+  <div style="font-family:Arial,Verdana; font-size:10pt; font-style:normal; font-variant:normal; font-weight:normal; line-height:normal">
+    <br />
+  </div>
+  <div style="font-family:Arial,Verdana; font-size:10pt; font-style:normal; font-variant:normal; font-weight:normal; line-height:normal">
+    <br />
+  </div>
+  <div style="font-family:Arial,Verdana; font-size:10pt; font-style:normal; font-variant:normal; font-weight:normal; line-height:normal">
+    <b>Editing an Article (outside 'Edit Mode')</b>
+  </div>
+  <div style="font-family:Arial,Verdana; font-size:10pt; font-style:normal; font-variant:normal; line-height:normal">
+    <br />
+  </div>
+  <div style="font-family:Arial,Verdana; font-size:10pt; font-style:normal; font-variant:normal; line-height:normal">
+When not in "Edit Mode", the Article editor can also be accessed via the 'Edit Guidance Item' link:</div>
+  <div style="font-family:Arial,Verdana; font-size:10pt; font-style:normal; font-variant:normal; line-height:normal">
+    <br />
+  </div>
+  <div style="font-family:Arial,Verdana; font-size:10pt; font-style:normal; font-variant:normal; line-height:normal">
+    <blockquote style="margin:0 0 0 40px; border:none; padding:0px">
+      <div style="font-family:Arial,Verdana; font-size:10pt; font-style:normal; font-variant:normal; line-height:normal">
+        <img src="/Image/Link%20to%20Guidance%20Items%20Editor.jpg" />
+      </div>
+    </blockquote>
+  </div>
+  <div style="font-family:Arial,Verdana; font-size:10pt; font-style:normal; font-variant:normal; line-height:normal">
+    <br />
+  </div>
+  <div style="font-family:Arial,Verdana; font-size:10pt; font-style:normal; font-variant:normal; line-height:normal">
+Which when clicked will open the Html Editor in the same pop-up window:</div>
+  <div style="font-family:Arial,Verdana; font-size:10pt; font-style:normal; font-variant:normal; line-height:normal">
+    <br />
+  </div>
+  <blockquote style="margin:0 0 0 40px; border:none; padding:0px">
+    <div style="font-family:Arial,Verdana; font-size:10pt; font-style:normal; font-variant:normal; line-height:normal">
+      <div style="font-family:Arial,Verdana; font-size:10pt; font-style:normal; font-variant:normal; line-height:normal">
+        <img src="/Image/GuidanceItem%20Editor%20-%20popup%20window.jpg" />
+      </div>
+      <div style="font-family:Arial,Verdana; font-size:10pt; font-style:normal; font-variant:normal; line-height:normal">
+        <br />
+      </div>
+    </div>
+  </blockquote>
+  <div style="font-family:Arial,Verdana; font-size:10pt; font-style:normal; font-variant:normal; line-height:normal">
+    <b>
+      <br />
+    </b>
+  </div>
+  <div style="font-family:Arial,Verdana; font-size:10pt; font-style:normal; font-variant:normal; line-height:normal">
+    <b>Guidance Item article Metadata</b>
+  </div>
+  <div style="font-family:Arial,Verdana; font-size:10pt; font-style:normal; font-variant:normal; font-weight:normal; line-height:normal">
+    <br />
+  </div>
+  <div style="font-family:Arial,Verdana; font-size:10pt; font-style:normal; font-variant:normal; font-weight:normal; line-height:normal">
+Each article has the following meta-data:&amp;nbsp;</div>
+  <div style="font-family:Arial,Verdana; font-size:10pt; font-style:normal; font-variant:normal; line-height:normal">
+    <ul>
+      <li>
+        <span style="font-size:10pt">
+          <b>Title</b>:&amp;nbsp;</span> The title is the title that is displayed in the article list</li>
+      <li>
+        <span style="font-size:10pt">
+          <b>Technology</b> tag:&amp;nbsp;</span> The technology tag reflects what technology the article applies to</li>
+      <li>
+        <span style="font-size:10pt">
+          <b>Phase</b> tag:&amp;nbsp;</span> The phase tag signifies which phase of the software development life-cycle the article is relevant to</li>
+      <li>
+        <span style="font-size:10pt">
+          <b>Type </b>tag:&amp;nbsp;</span> The type tag describes the type of the article</li>
+      <li>
+        <span style="font-size:10pt">
+          <b>Category </b>tag:&amp;nbsp;</span> The category tag describes what kind of security control the article is about</li>
+    </ul>
+  </div>
+  <div style="font-family:Arial,Verdana; font-size:10pt; font-style:normal; font-variant:normal; font-weight:normal; line-height:normal">
+    <span style="font-size:10pt">The values of these fields creates the filters and a drop-down list items in the article editor.</span>
+  </div>
+  <div style="font-family:Arial,Verdana; font-size:10pt; font-style:normal; font-variant:normal; font-weight:normal; line-height:normal">
+  </div>]]></Data>
+  </Content>
+</TeamMentor_Article>

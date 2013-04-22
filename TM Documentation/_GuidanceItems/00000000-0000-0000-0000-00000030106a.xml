@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<TeamMentor_Article Metadata_Hash="0" Content_Hash="0">
+  <Metadata>
+    <Id>00000000-0000-0000-0000-00000030106a</Id>
+    <Library_Id>eb39d862-f752-4d1c-ab6e-14ed697397c0</Library_Id>
+    <Title>Troubleshooting</Title>
+    <Category>Administration</Category>
+    <Phase>NA</Phase>
+    <Technology>TeamMentor</Technology>
+    <Type>Documentation</Type>
+    <DirectLink>Troubleshooting</DirectLink>
+    <Author />
+    <Priority />
+    <Status />
+  </Metadata>
+  <Content Sanitized="false" DataType="wikitext">
+    <Data><![CDATA[=Unzip of the install file requests a password=
+Paid content of TeamMentor is distributed via a password protected zip file. However, users installing free content can sometimes see this error. This error will be shown by Microsoft unzip program if the destination path is greater then 260 characters. This is the limit in most Windows APIs. To fix, unzip the files into c:\tmp or similar directory with a short name. This will shorten the destination path and allow the unzip operation. Note that other unzip programs such as WinRar will show correct error message, reflecting the file path limit being exceeded.
+
+=Password failure on unzip of the install file=
+First verify that you have the correct password for the paid content. If the password is correct note that this error will be shown by Microsoft unzip program if the destination path is greater then 260 characters. This is the limit in most Windows APIs. To fix, unzip the files into c:\tmp or similar directory with a short name. This will shorten the destination path and allow the unzip operation. Note that other unzip programs such as WinRar will show correct error message, reflecting the file path limit being exceeded.]]></Data>
+  </Content>
+</TeamMentor_Article>

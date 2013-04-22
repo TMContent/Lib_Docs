@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<guidanceExplorer xmlns="urn:microsoft:guidanceexplorer">
+  <library name="eb39d862-f752-4d1c-ab6e-14ed697397c0" caption="TM Documentation">
+    <libraryStructure>
+      <view caption="Installation" id="42d43763-f674-4929-98f4-71a3345a5ec8" creationDate="0001-01-01T00:00:00">
+        <items>
+          <item>00000000-0000-0000-0000-000000410a3a</item>
+          <item>00000000-0000-0000-0000-00000017c916</item>
+          <item>00000000-0000-0000-0000-0000000724b8</item>
+          <item>00000000-0000-0000-0000-00000056909e</item>
+          <item>00000000-0000-0000-0000-0000006647d6</item>
+        </items>
+      </view>
+      <view caption="Administration" id="9e7ebebb-7658-4407-b215-3160b0c45931" creationDate="0001-01-01T00:00:00">
+        <items>
+          <item>00000000-0000-0000-0000-0000001c8add</item>
+          <item>00000000-0000-0000-0000-0000005b52c6</item>
+          <item>00000000-0000-0000-0000-000000825831</item>
+          <item>00000000-0000-0000-0000-0000005d8802</item>
+          <item>00000000-0000-0000-0000-00000017c916</item>
+          <item>00000000-0000-0000-0000-0000002ccdf6</item>
+          <item>00000000-0000-0000-0000-00000030106a</item>
+          <item>00000000-0000-0000-0000-0000000c4a16</item>
+        </items>
+      </view>
+      <view caption="UI Elements" id="dbd83828-15b8-453e-ba97-261cfdde3fcc" creationDate="0001-01-01T00:00:00">
+        <items>
+          <item>00000000-0000-0000-0000-0000000693a7</item>
+          <item>00000000-0000-0000-0000-00000061eb3b</item>
+          <item>00000000-0000-0000-0000-00000008578b</item>
+          <item>00000000-0000-0000-0000-0000000c24d5</item>
+          <item>00000000-0000-0000-0000-0000008d8ed7</item>
+          <item>00000000-0000-0000-0000-00000087e538</item>
+          <item>00000000-0000-0000-0000-000000067e51</item>
+          <item>00000000-0000-0000-0000-0000006c87b2</item>
+        </items>
+      </view>
+      <view caption="Reading Content" id="a1416f12-a35b-4ddb-9498-57736b7c7839" creationDate="0001-01-01T00:00:00">
+        <items>
+          <item>00000000-0000-0000-0000-000000803568</item>
+          <item>00000000-0000-0000-0000-00000018204d</item>
+          <item>00000000-0000-0000-0000-0000001a9296</item>
+          <item>00000000-0000-0000-0000-00000024fdb5</item>
+          <item>00000000-0000-0000-0000-0000001ecaec</item>
+        </items>
+      </view>
+      <view caption="Editing Content" id="dbb802e1-4051-45f9-8935-bf9e2186b752" creationDate="0001-01-01T00:00:00">
+        <items>
+          <item>00000000-0000-0000-0000-000000481b9d</item>
+          <item>00000000-0000-0000-0000-0000008e9fb0</item>
+          <item>00000000-0000-0000-0000-000000579bb9</item>
+          <item>00000000-0000-0000-0000-00000060462d</item>
+          <item>00000000-0000-0000-0000-00000079da36</item>
+          <item>00000000-0000-0000-0000-0000003ea057</item>
+          <item>00000000-0000-0000-0000-0000002df883</item>
+          <item>00000000-0000-0000-0000-000000982619</item>
+          <item>00000000-0000-0000-0000-0000002b8175</item>
+        </items>
+      </view>
+      <view caption="Consuming TM Data" id="4c266663-9b37-4ba9-81af-9a205b26079d" creationDate="0001-01-01T00:00:00">
+        <items>
+          <item>00000000-0000-0000-0000-000000443637</item>
+          <item>00000000-0000-0000-0000-00000028dbbc</item>
+          <item>00000000-0000-0000-0000-0000004541f9</item>
+          <item>00000000-0000-0000-0000-000000919e51</item>
+          <item>00000000-0000-0000-0000-00000025cc25</item>
+        </items>
+      </view>
+      <view caption="Visual Studio Plugin" id="dd217eed-8165-40ad-8059-6ea59a3c3f6a" creationDate="0001-01-01T00:00:00">
+        <items>
+          <item>00000000-0000-0000-0000-0000004866a5</item>
+          <item>00000000-0000-0000-0000-00000078b4c4</item>
+        </items>
+      </view>
+    </libraryStructure>
+    <items />
+  </library>
+</guidanceExplorer>

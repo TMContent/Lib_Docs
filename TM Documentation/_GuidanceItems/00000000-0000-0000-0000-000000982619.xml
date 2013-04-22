@@ -1,0 +1,135 @@
+<?xml version="1.0"?>
+<TeamMentor_Article Metadata_Hash="0" Content_Hash="0">
+  <Metadata>
+    <Id>00000000-0000-0000-0000-000000982619</Id>
+    <Library_Id>eb39d862-f752-4d1c-ab6e-14ed697397c0</Library_Id>
+    <Title>Linking Articles in WikiText</Title>
+    <Category>Editing</Category>
+    <Phase>NA</Phase>
+    <Technology>TeamMentor</Technology>
+    <Type>Documentation</Type>
+    <DirectLink>Linking Articles in WikiText</DirectLink>
+    <Author />
+    <Priority />
+    <Status />
+  </Metadata>
+  <Content Sanitized="false" DataType="WikiText">
+    <Data><![CDATA[=Linking using GUID=
+\\
+==Synopsis:==
+
+**URL Access:**
+
+{{/Image/wikilinks-img1.jpg}} 
+
+**WikiText Link:**
+
+{{/Image/wikilinks-img2.jpg}} 
+
+==Description:==
+Team Mentor supports a number of methods to insert links to other articles. It is important to note that all articles are associated internally with GUIDs (Global Unique Identifiers).  Therefore the simplest way of accessing an article is by:
+{{{
+http://tm.mycompany.com/article/8b8b0ec3-7ad7-4c0f-bcaf-ce30b56b4e50
+}}}
+
+
+Team Mentor supports standard WikiText notation for links. The title of this example article above happens to be “Assume All Input Is Malicious”. Linking to this article from WikiText would look something like this:
+{{{
+==Related Items==
+Please see [[http://tm.mycompany.com/article/8b8b0ec3-7ad7-4c0f-bcaf-ce30b56b4e50|Assume All Input Is Malicious]] for additional information.
+}}}
+
+Note that in all links, "//http:~/~/tm.mycompany.com~/article//" prefix is necessary only if you are linking to content hosted on a different system, for example "//http:~/~/tmnew.mysistercompany.com~/article~/8b8b0ec3-7ad7-4c0f-bcaf-ce30b56b4e50//". If all content is hosted on a single system it is acceptable to omit the "//http:~/~/tm.mycompany.com~/article prefix//". This looks like:
+
+{{{
+==Related Items==
+Please see [[8b8b0ec3-7ad7-4c0f-bcaf-ce30b56b4e50|Assume All Input Is Malicious]] for additional information.
+}}}
+
+The //“|”//symbol is used to separate the actual link from the description that is seen by the reader. The links above would look to the reader like:
+
+{{/Image/wikilinks-img3.jpg}} 
+
+In WikiText notation it is possible to omit the description seen by the reader (the //“|”// symbol and anything following it. In this case the link in WikiText would look like:
+
+{{{
+==Related Items==
+Please see [[8b8b0ec3-7ad7-4c0f-bcaf-ce30b56b4e50]] for additional information.
+}}}
+
+The link will still work and the reader would see: 
+
+{{/Image/wikilinks-img4.jpg}}
+
+=Linking using Title=
+\\
+==Synopsis:==
+
+**URL Access:**
+
+{{/Image/wikilinks-img5.jpg}}
+ 
+**WikiText Links:**
+
+{{/Image/wikilinks-img6.jpg}} 
+
+==Description:==
+Linking to existing articles using GUID is not always practical or manageable. Team Mentor supports access to articles using the article Title. 
+{{{
+http://tm.mycompany.com/article/Assume All Input Is Malicious
+}}}
+Note: spaces are OK in the title name and resulting URL as browser automatically converts space to %20 for link to look like: 
+{{{
+http://tm.mycompany.com /article/Assume%20All%20Input%20Is%20Malicious.
+}}}
+
+Linking to this article from WikiText would look something like:
+{{{
+==Related Items==
+Please see [[Assume All Input Is Malicious|Assume All Input Is Malicious]] for additional information.
+}}}
+
+Or the shorter form: 
+
+{{{
+==Related Items==
+Please see [[Assume All Input Is Malicious]] for additional information.
+}}}
+\\
+==Same Title Articles:==
+Team Mentor allows having multiple articles with the same title. For example two different articles with the title: //“Deny All Access by Default”// exist, one in Java and one in .NET 4.0 libraries.
+
+Articles with the same name can also exist in the same library but associated with different Technology, Phase, Type or Category. For example in the Java library there are 2 articles with the title //“Back Up And Analyze Log Files Regularly”//.  One applies to //“Web Application”// technology, //“Design”// phase, is a //“Principle”// type, and is in //“Auditing and Logging”// category. The other applies to //“Any”// technology, //“Design”// phase, is a //“Guideline”// type, and is in the //“Auditing and Logging”// category. 
+
+Team Mentor allows to specify which Library the article should be retrieved from as well as to drill down on which Technology, Phase, Type or Category the article should belong to. 
+Use the “^” separator after the title to specify the Library, Technology, Phase, Type or Category.  It is acceptable to omit the more granular identifications of the article if no duplicates exist. For example:
+To access the article “Deny All Access by Default” from the Java library use:
+{{{
+http://tm.mycompany.com/article/Deny All Access by Default^java
+}}}
+{{{
+Linking to this article from WikiText would look like:
+==Related Items==
+Please see [[Deny All Access by Default^java|Assume All Input Is Malicious]] for additional information.
+}}}
+To access the article //“Back Up And Analyze Log Files Regularly”// from the Java library, that is a //"Guideline"// and applies to the //“Web Application”// technology use:
+{{{
+http://tm.mycompany.com/article/Back Up And Analyze Log Files Regularly^java^web application^design^guideline
+}}}
+
+Linking to this article from WikiText would look like:
+{{{
+==Related Items==
+Please see [[Back Up And Analyze Log Files Regularly^java^web application^design^guideline|Back Up And Analyze Log Files Regularly]] for additional information.
+}}}
+Please note, that category //"Any"// has an implicit space in front of it. Therefore accessing //“Back Up And Analyze Log Files Regularly”// that is in the //"Java"// library and applies to //"Any"// technology using: 
+{{{
+ [[Back Up And Analyze Log Files Regularly^java^Any|Back Up And Analyze Log Files Regularly]]
+}}}
+will fail. To properly specify articles with //"Any"// in the //"Technology"// field put a space before //"Any"//. This way will work:
+{{{
+ [[Back Up And Analyze Log Files Regularly^java^ Any|Back Up And Analyze Log Files Regularly]]
+}}}
+Note the space between //"^"// and //"Any"//]]></Data>
+  </Content>
+</TeamMentor_Article>

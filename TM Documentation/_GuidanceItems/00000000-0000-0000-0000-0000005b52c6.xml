@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<TeamMentor_Article Metadata_Hash="-1877472877" Content_Hash="1515244028">
+  <Metadata>
+    <Id>00000000-0000-0000-0000-0000005b52c6</Id>
+    <Library_Id>eb39d862-f752-4d1c-ab6e-14ed697397c0</Library_Id>
+    <Title>Installing Libraries</Title>
+    <Category>Administration</Category>
+    <Phase>NA</Phase>
+    <Technology>TeamMentor</Technology>
+    <Type>Documentation</Type>
+    <DirectLink />
+    <Tag />
+    <Security_Demand />
+    <Author />
+    <Priority />
+    <Status />
+  </Metadata>
+  <Content Sanitized="true" DataType="Html">
+    <Data><![CDATA[
+<div>To install libraries, move them to the folder that is configured as the TeamMentor library folder. Libraries are distributed as zip archives. The zip archives can be extracted to the TeamMentor library folder. The TeamMentor library folder is &quot;Library_Data\XmlDatabase\TM_Libraries&quot;
+ relative to the TeamMentor installation path by default.&nbsp;</div>
+<div><br>
+</div>
+<div>The TeamMentor library path can be changed by editing the TMConfig.Config file in the &quot;Web Applications\TM_Website&quot; folder relative to the TeamMentor installation path. The XmlLibrariesPath setting in TMConfig.Config is responsible for the location of
+ the TeamMentor library folder. The value of this property can be either an absolute path or a path relative to the &quot;\Library_Data\XmlDatabase&quot; folder.</div>
+]]></Data>
+  </Content>
+</TeamMentor_Article>

@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<TeamMentor_Article Metadata_Hash="1332688535" Content_Hash="1440755112">
+  <Metadata>
+    <Id>00000000-0000-0000-0000-0000008e9fb0</Id>
+    <Library_Id>eb39d862-f752-4d1c-ab6e-14ed697397c0</Library_Id>
+    <Title>Editing Views</Title>
+    <Category>Editing</Category>
+    <Phase>NA</Phase>
+    <Technology>TeamMentor</Technology>
+    <Type>Documentation</Type>
+    <DirectLink />
+    <Tag />
+    <Security_Demand />
+    <Author />
+    <Priority />
+    <Status />
+  </Metadata>
+  <Content Sanitized="true" DataType="Html">
+    <Data><![CDATA[
+<div>Editing content in TeamMentor is done via &quot;Edit Mode&quot;. &quot;Edit Mode&quot; is only available to Editors and Administrators. To access &quot;Edit Mode&quot;, login as either an Administrator or an Editor user and click the &quot;Edit Mode&quot; link in the top right of the main user
+ interface.</div>
+<div><br>
+</div>
+<div>The three main ways to edit views in TeamMentor are via the right-click context menu, via drag &amp; drop operations, and via the content list buttons. Right-click menu context operations allow managing the views, drag &amp; drop operations allow moving articles
+ into views, and content list buttons allow removing articles from views.</div>
+<div><br>
+</div>
+<div>The right-click menu provides access to the following functions: &quot;Add Guidance Item&quot;, &quot;Rename View&quot;, &quot;Delete View&quot;, and &quot;Exit Edit Mode&quot;. &quot;Add Guidance Item&quot; creates a new article in the current view. &quot;Rename View&quot; allows renaming the current view. &quot;Delete
+ View&quot; deletes the clicked view. &quot;Exit Edit Mode&quot; returns the main user interface to regular mode.</div>
+<div><br>
+</div>
+<div>Drag &amp; drop operations allow moving the articles between views. Multiple articles can be selected by using the checkboxes next to the article names. The views are the important aspect of the library and folders are a supporting element to help organize
+ the views. Therefore, articles can be dragged and dropped into views, but not into folders. &nbsp;The views contain links to articles. The same article can be located in multiple views, but a view can only be inside one folder. Selecting a folder in the navigation
+ pane shows all the items in the views that are contained in that folder. Items cannot be moved between libraries.</div>
+<div><br>
+</div>
+<div>Content list buttons include &quot;Select All&quot;, &quot;Deselect All&quot;, and &quot;Remove Guidance Items from View&quot;. &quot;Select All&quot; selects all the articles currently visible in the content list pane. &quot;Deselect All&quot; clears the selection. &quot;Remove Guidance Items from View&quot; removes
+ the selected articles from the current view.&nbsp;</div>
+<div><font size="2"></font></div>
+<div></div>
+]]></Data>
+  </Content>
+</TeamMentor_Article>

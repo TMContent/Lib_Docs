@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<TeamMentor_Article Metadata_Hash="0" Content_Hash="0">
+  <Metadata>
+    <Id>00000000-0000-0000-0000-000000410a3a</Id>
+    <Library_Id>eb39d862-f752-4d1c-ab6e-14ed697397c0</Library_Id>
+    <Title>Minimum Requirements</Title>
+    <Category>Administration</Category>
+    <Phase>NA</Phase>
+    <Technology>TeamMentor</Technology>
+    <Type>Documentation</Type>
+    <DirectLink>Minimum Requirements</DirectLink>
+    <Author />
+    <Priority />
+    <Status />
+  </Metadata>
+  <Content Sanitized="false" DataType="wikitext">
+    <Data><![CDATA[=Minimum Server Requirements=
+The following hardware and software is required to run a TeamMentor.
+
+*Windows Server 2003 or higher
+*IIS 6 or higher
+*.NET 4.0
+*2GB of RAM
+*1GB of Storage
+
+Please note that it may be possible to run TeamMentor with less RAM and Storage.  We have successfully tested TeamMentor under Windows 2003 with IIS 6 and 613MB of RAM. However performance does degrade under load and minimal configuration listed above is recommended for production environments. 
+
+=Client Side Requirements=
+Following browsers and platforms are supported:
+*IE7 or above
+*Firefox
+*Chrome
+*Safari
+*iPad
+
+
+]]></Data>
+  </Content>
+</TeamMentor_Article>

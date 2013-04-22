@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<TeamMentor_Article Metadata_Hash="0" Content_Hash="0">
+  <Metadata>
+    <Id>4c2c621d-40c4-4305-a817-4e69985c2c1b</Id>
+    <Library_Id>eb39d862-f752-4d1c-ab6e-14ed697397c0</Library_Id>
+    <Title>TeamMentor with Text Support</Title>
+    <Category />
+    <Phase />
+    <Technology />
+    <Type />
+    <DirectLink>TeamMentor with Text Support</DirectLink>
+  </Metadata>
+  <Content Sanitized="false" DataType="wikitext">
+    <Data><![CDATA[test<div><br></div><div>this is another test</div>]]></Data>
+  </Content>
+</TeamMentor_Article>

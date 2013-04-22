@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<TeamMentor_Article Metadata_Hash="-531678571" Content_Hash="610153971">
+  <Metadata>
+    <Id>00000000-0000-0000-0000-00000008578b</Id>
+    <Library_Id>eb39d862-f752-4d1c-ab6e-14ed697397c0</Library_Id>
+    <Title>Signing Up for Regular Accounts</Title>
+    <Category>User Interface</Category>
+    <Phase>NA</Phase>
+    <Technology>TeamMentor</Technology>
+    <Type>Documentation</Type>
+    <DirectLink />
+    <Tag />
+    <Security_Demand />
+    <Author />
+    <Priority />
+    <Status />
+  </Metadata>
+  <Content Sanitized="true" DataType="Html">
+    <Data><![CDATA[Users can create new TeamMentor accounts via the &quot;Sign Up&quot; window. The TeamMentor &quot;Sign Up&quot; window can be accessed via the &quot;Sign Up&quot; link in the top right corner of the main user interface. The window has input fields for the username, the password, the
+ e-mail address, the first name, and the last name; the first three are mandatory to create an account. Clicking the &quot;Sign Up&quot; button submits the entered information. If the submitted information is valid, a new account is created and can be used to access
+ the application.&nbsp;<br>
+<div></div>
+]]></Data>
+  </Content>
+</TeamMentor_Article>

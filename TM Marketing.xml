@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<guidanceExplorer xmlns="urn:microsoft:guidanceexplorer">
+  <library name="fcd4cd02-bfd3-4755-8943-7ff25f3ed00a" caption="TM Marketing">
+    <libraryStructure>
+      <view caption="Tom" id="69c030ad-d406-44bf-b624-8bb5d3879732" creationDate="0001-01-01T00:00:00">
+        <items />
+      </view>
+      <view caption="XSLTs" id="40624d70-1fae-4d01-b832-afcc8498e08a" creationDate="0001-01-01T00:00:00" />
+    </libraryStructure>
+    <items />
+  </library>
+</guidanceExplorer>

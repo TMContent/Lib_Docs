@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<TeamMentor_Article Metadata_Hash="0" Content_Hash="0">
+  <Metadata>
+    <Id>00000000-0000-0000-0000-0000000c4a16</Id>
+    <Library_Id>eb39d862-f752-4d1c-ab6e-14ed697397c0</Library_Id>
+    <Title>Debugging TeamMentor</Title>
+    <Category>Administration</Category>
+    <Phase>NA</Phase>
+    <Technology>TeamMentor</Technology>
+    <Type>Documentation</Type>
+    <DirectLink>Debugging TeamMentor</DirectLink>
+    <Author />
+    <Priority />
+    <Status />
+  </Metadata>
+  <Content Sanitized="false" DataType="wikitext">
+    <Data><![CDATA[=Debugging Login Issues=
+To debug issues where a valid user cannot log-in, perform the following:
+Open the Console View in IE Developer Tools, and issue the following commands:
+#{{{TM.WebServices.WS_Users.login("//username//", "//userpassword//",alert)}}}\\
+This command should show an alert with a new GUID
+#{{{TM.WebServices.WS_Users.login("//username//", "//userpassword//",alert)}}}\\
+This command show an alert with an empty GUID
+#{{{TM.WebServices.WS_Users.login("//username//", "//userpassword//", TM.Events.onUserChange)}}}\\
+This command should login and refresh the GUI (namely the top right bit)
+
+Note that you will also get the GUI refreshed (after a couple secs) if you run the first one and wait a bit.
+ 
+Instead of IE Developer Tools Console, these commands can also be run from the URL bar using the following sintax:
+{{{
+javascript:TM.WebServices.WS_Users.login("//username//", "//userpassword//", TM.Events.onUserChange)
+}}}
+
+]]></Data>
+  </Content>
+</TeamMentor_Article>

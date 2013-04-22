@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<TeamMentor_Article Metadata_Hash="0" Content_Hash="0">
+  <Metadata>
+    <Id>00000000-0000-0000-0000-000000481b9d</Id>
+    <Library_Id>eb39d862-f752-4d1c-ab6e-14ed697397c0</Library_Id>
+    <Title>Editing Overview</Title>
+    <Category>Editing</Category>
+    <Phase>NA</Phase>
+    <Technology>TeamMentor</Technology>
+    <Type>Documentation</Type>
+    <DirectLink>Editing Overview</DirectLink>
+    <Author />
+    <Priority />
+    <Status />
+  </Metadata>
+  <Content Sanitized="false" DataType="WikiText">
+    <Data><![CDATA[=Editing in Team Mentor=
+Team Mentor supports flexible update of content and customization based on user needs. Most editing operations in Team Mentor are done using the "Edit Mode". This mode is available to users with "Editor" or "Administrator" roles and allows editing of folders, libraries and views. Articles can be edited through "Edit Mode" as well.  
+
+==Editing in View Mode==
+Team Mentor offers the flexibility of editing articles without going in and out of "Edit Mode". If the logged in user is in "Administrator" or "Editor" role, articles can be edited by clicking on one of the edit buttons in the article view.  
+
+=HTML and WikiText Article Formats=
+Currently Team Mentor supports two article formats - HTML and WikiText. Steps for editing an article vary depending on article format. HTML Articles are edited using a WYSIWYG editor (optionally manipulating HTML content). WikiText articles are edited using the WikiCreole language with a WikiCreole Editor. It is recommended that all future articles are created using WikiText. This allows a wider audience to update and format the articles.
+
+=Logging in=
+Prior to editing an article it is necessary to log in. Click on the “Login” link in the upper right corner. The login dialog box will pop up. Enter your user credentials:
+
+{{/Image/editingoverview-img1.jpg}}
+
+=Accessing “Edit Mode”=
+There are two ways to access the TeamMentor "Edit Mode":
+1) Click the "Edit Mode" link in the top right of the main user interface:
+
+{{/Image/editingoverview-img2.jpg}}
+ 
+2) left-click on the library tree to open up the context menu, and choose the option 'Open Edit Mode':
+
+{{/Image/editingoverview-img3.jpg}} 
+
+Once the "Edit Mode" is loaded, a number of buttons should be visible on the Guidance Item's Table (for example: 'Select All', 'Deselect All', 'Delete Guidance Items from Library').  
+
+{{/Image/editingoverview-img4.jpg}}
+
+The article list pane works the same way in "Edit Mode" as in regular mode - folders and views can be navigated via the navigation pane on the left; filters and search strings can be used to narrow down the list in the content list pane. The major difference is that double-clicking an article opens it for editing, rather than for viewing.
+
+=Related Items=
+For more information on Article Metadata see:\\
+[[Edit Article Metadata]]\\
+
+For information on editing HTML articles see:\\
+[[Editing HTML Articles]]\\
+
+For information on editing WikiText articles see:\\
+[[Editing WikiText Articles]]\\
+]]></Data>
+  </Content>
+</TeamMentor_Article>

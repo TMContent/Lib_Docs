@@ -1,0 +1,171 @@
+<?xml version="1.0"?>
+<TeamMentor_Article Metadata_Hash="0" Content_Hash="0">
+  <Metadata>
+    <Id>b815f0fa-861c-46a1-bfe4-41f8f5eaff8b</Id>
+    <Library_Id>eb39d862-f752-4d1c-ab6e-14ed697397c0</Library_Id>
+    <Title>Case Study - Creating a CWE Library from CheckMarx data</Title>
+    <Category />
+    <Phase />
+    <Technology />
+    <Type />
+    <DirectLink>Case Study - Creating a CWE Library from CheckMarx data</DirectLink>
+  </Metadata>
+  <Content Sanitized="false" DataType="wikitext">
+    <Data><![CDATA[This article shows an script example on how a custom CWE Library was created using TeamMentor's WebServices API, using as source material the CWE HTML files distributed with Checkmarx
+
+**Requirements**: Windows with .NET 4.0, [[https://github.com/o2platform/O2_Install | O2 Platform]], [[https://github.com/TeamMentor/UnitTests | TeamMentor Unit Tests]] GitHub Repository
+
+===Connect to a instance of TeamMentor and and login===
+
+{{{
+var teamMentor = new API_TeamMentor_WebServices("http://localhost:3186/"); 
+teamMentor.login("admin", adminPwd);
+return teamMentor.loggedIn();
+//using SecurityInnovation.TeamMentor;
+//O2File:..\TeamMentor-UnitTests\APIs\API_TeamMentor_WebServices.cs
+}}}
+
+===Connect to a instance of TeamMentor and and login===
+
+{{{
+var teamMentor = new API_TeamMentor_WebServices("http://localhost:3186/"); 
+teamMentor.login("admin", adminPwd);
+return teamMentor.loggedIn();
+}}}
+
+===Create Checkmarx library===
+{{{
+var teamMentor = new API_TeamMentor_WebServices("http://localhost:3186/"); 
+teamMentor.login("admin", adminPwd);
+var library = teamMentor.library("Checkmarx");
+return library;
+}}}
+
+===Create/Get View:===
+{{{
+var teamMentor = new API_TeamMentor_WebServices("http://localhost:3186/"); 
+teamMentor.login("admin", adminPwd);
+var library = teamMentor.library("Checkmarx");
+return library.view("CWE Data");
+}}}
+
+===Create/Get Article===
+{{{
+teamMentor.login("admin", adminPwd); 
+var library = teamMentor.library("Checkmarx"); 
+var view = library.view("CWE Data");
+return view.article("test article 3");
+}}}
+
+===Create Article with Metadata===
+{{{
+var library = teamMentor.library("Checkmarx"); 
+
+var view = library.view("CWE Data");
+ 
+var title = "XYZ topic";
+var content = "<h1>Article on XYZ</h1>With some content here";
+var technology  = "Any";
+var phase = "Design";
+var type = "Principle";
+var category = "AppSec";
+
+return view.add_Article(title, content, technology, phase, type, category);
+}}}
+
+===Add one article===
+{{{
+var teamMentor = new API_TeamMentor_WebServices("http://localhost.:3186/");  
+teamMentor.login("admin", adminPwd); 
+
+var library = teamMentor.library("Checkmarx").delete().library("Checkmarx");
+var view = library.view("CWE Data");
+
+//load Checkmarx CWE data
+var checkMark_XmlDumps = "_CheckMark_XmlDumps".tempDir(false); 
+var xRoot = "cweData".o2Cache[XElement](()=] checkMark_XmlDumps.pathCombine("CWE.xml").xRoot());
+
+var cweEntry = xRoot.elements().second();
+
+//add entry as TM article
+var cweId = cweEntry.elements().first().value();
+var cweHtml = cweEntry.elements().second().value();
+ 
+ 
+var title = cweId;
+var content = cweHtml;
+var technology  = "Any"; 
+var phase = "Report"; 
+var type = "Chexkmarx";
+var category  = "CWE";
+
+return view.add_Article(title, content, technology, phase, type, category);
+}}}
+
+
+
+===Add all articles===
+{{{
+var teamMentor = new API_TeamMentor_WebServices(tmSite);  
+teamMentor.login("admin", adminPwd); 
+
+var library = teamMentor.library("Checkmarx").delete().library("Checkmarx");
+var view = library.view("CWE Data");
+
+//load Checkmarx CWE data
+var checkMark_XmlDumps = "_CheckMark_XmlDumps".tempDir(false); 
+var xRoot = "cweData".o2Cache[XElement](()=] checkMark_XmlDumps.pathCombine("CWE.xml").xRoot());
+
+var count = 0;
+
+var cweEntries = xRoot.elements().toList();
+foreach(var cweEntry in cweEntries)
+{
+	//add entry as TM article
+	var cweId = cweEntry.elements().first().value();
+	var cweHtml = cweEntry.elements().second().value();
+	var technology  = "Any"; 
+	var phase = "Report"; 
+	var type = "CWE";
+	var category  = "CheckMarx DB";
+	var title = cweId;
+	var content = cweHtml;
+	if (cweId=="-1") 	// handle special case where they embeded the css on the item with id -1
+	{
+		type = "css";
+		title = "main.css";
+		cweHtml =  cweHtml.subString_After("[style]").trim();
+	}
+	view.add_Article(title, content, technology, phase, type, category);
+	if (count++.mod0(20))
+		"[{0} / {1}]".debug(count, cweEntries.size());
+}
+return "Created {0} TeamMentor articles".format(count).info();
+
+}}}
+
+===Script to mass change Checkmark CWE table to point into TM content:===
+
+{{{
+var vistaDb = new API_VistaDB();
+var serverIp = "xx.xx.xx.xx";
+var htmlRedirectTemplate = "&lt;" + @"html&gt;<meta http-equiv="" refresh""="" content="" 0;="" url="http://{0}/html/{1}&quot;&quot;">";
+
+"starting update".info();
+var rows = vistaDb.table("CWE").dataTable().Rows;
+var count = 0;
+foreach(DataRow row in rows) 
+{
+	var cweId = row.ItemArray[0].str().info(); 
+	var htmlRedirect = htmlRedirectTemplate.format(serverIp, cweId);
+	vistaDb.executeScalar("UPDATE CWE SET Description = '{1}' where CweId ='{0}'".format(cweId, htmlRedirect)); 
+	vistaDb.executeScalar("select Description from CWE where CweId ='{0}'".format(cweId));
+	if (count++.mod0(25))
+		"[{0}/{1}".debug(count, rows.size());
+ }
+"update complete".info();
+return vistaDb;
+}}}
+]]></Data>
+  </Content>
+</TeamMentor_Article>

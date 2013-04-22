@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<TeamMentor_Article Metadata_Hash="-36913794" Content_Hash="912128074">
+  <Metadata>
+    <Id>00000000-0000-0000-0000-0000000c24d5</Id>
+    <Library_Id>eb39d862-f752-4d1c-ab6e-14ed697397c0</Library_Id>
+    <Title>Article List Pane</Title>
+    <Category>User Interface</Category>
+    <Phase>NA</Phase>
+    <Technology>TeamMentor</Technology>
+    <Type>Documentation</Type>
+    <DirectLink />
+    <Tag />
+    <Security_Demand />
+    <Author />
+    <Priority />
+    <Status />
+  </Metadata>
+  <Content Sanitized="true" DataType="Html">
+    <Data><![CDATA[The article list pane displays the list of articles in the current library/folder/view in the navigation pane. The list of articles is filtered using the currently selected filters in the filters pane. The article list is the main control of the application.
+ Selecting an article in the list updates the preview pane with the contents of the selected article. Double-clicking on an article opens it in a new window.]]></Data>
+  </Content>
+</TeamMentor_Article>

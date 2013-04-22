@@ -1,0 +1,142 @@
+<?xml version="1.0"?>
+<TeamMentor_Article Metadata_Hash="0" Content_Hash="0">
+  <Metadata>
+    <Id>00000000-0000-0000-0000-0000004866a5</Id>
+    <Library_Id>eb39d862-f752-4d1c-ab6e-14ed697397c0</Library_Id>
+    <Title>TeamMentor Plugin for Visual Studio</Title>
+    <Category>Visual Studio Plugin</Category>
+    <Phase>N/A</Phase>
+    <Technology>Team Mentor</Technology>
+    <Type>Documentation</Type>
+    <DirectLink>TeamMentor Plugin for Visual Studio</DirectLink>
+    <Author />
+    <Priority />
+    <Status />
+  </Metadata>
+  <Content Sanitized="false" DataType="Html">
+    <Data><![CDATA[<p>Team Mentor Plugin for Visual Studio integrates Team Mentor Guidance articles with the power of Cat.NET scanner, right into the integrated development environment. This combination allows the developer to identify security issues quickly and have information at their fingertips to find &amp;nbsp;the easiest and quickest resolution. &amp;nbsp;</p>
+  <p>The core of this product is quick and easy access to security information that is accurate and relevant to specific code security questions. This reduces the number of security scan cycles that involve QA, infosec or other teams, as well as the total number of vulnerabilities found by security scans and penetration tests. Integrating security scanning and guidance into a development workflow ultimately results in quicker production of more secure and stable applications.</p>
+  <h1>Workflow</h1>
+  <ul>
+    <li>Team Mentor integrates into the Visual Studio development workflow.</li>
+    <li>Each time the solution is built, a scan is triggered.</li>
+    <li>The results of the scan show up in the Visual Studio Error List. &amp;nbsp;</li>
+    <li>Double clicking on the error will bring up the relevant information in the Team Mentor window.</li>
+  </ul>
+  <h1>Installation</h1>
+  <p>Team Mentor installs as a Visual Studio plugin. &amp;nbsp;It requires Visual Studio 2010. (Evaluation Version is supported)</p>
+  <ol>
+    <li>Download the installation VSIX file. &amp;nbsp;</li>
+    <li>Double click on the downloaded file. &amp;nbsp;This will trigger the installation process. &amp;nbsp;The plug-in will be installed into the logged-in user Visual Studio Extension folder.&amp;nbsp;</li>
+    <li>
+      <p>Click Install</p>
+      <p>
+        <img height="203" src="/Image/vsplugin-image001.jpg" width="291" />
+      </p>
+    </li>
+    <li>
+      <p>Close the installer after successful installation.</p>
+      <p>
+        <img height="203" src="/Image/vsplugin-image002.jpg" width="291" />
+      </p>
+    </li>
+    <li>Restart Visual Studio. It will take some time for Team Mentor to initialize the first time. You will see the downloading various components, including Cat.NET Scanner.</li>
+    <li>
+      <p>After successful initialization. You will see Team Mentor Landing Page tab and the Team Mentor Menu.</p>
+      <p>
+        <img height="231" src="/Image/vsplugin-image003.jpg" width="560" />
+      </p>
+    </li>
+    <li>
+      <p>The plugin will show in Extension Manager. &amp;nbsp;Access the Visual Studio Extension Manager by clicking on <i>Tools -&gt; Extension Manager.</i> &amp;nbsp;Select “<i>All</i>” extensions if not already selected. This is also the place to go if for some strange reason you wanted to uninstall Team Mentor VS Plugin.</p>
+      <p>
+        <img height="232" src="/Image/vsplugin-image004.jpg" width="386" />
+      </p>
+    </li>
+  </ol>
+  <h1>Triggering a Scan</h1>
+  <p>Building the solution will trigger a scan. The results of the scan will show in the Visual Studio Error List. Scans can also be triggered manually by accessing Team Mentor VS Plugin debug functions in<i> Team Mentor -&gt; Debug Tools (For this extension) -&gt; Trigger Scan</i></p>
+  <p>
+    <img height="238" src="/Image/vsplugin-image005.jpg" width="448" />
+  </p>
+  <h1>Sample Scan</h1>
+  <p>Below is a workflow for a sample scan on sample code</p>
+  <ol>
+    <li>
+      <p>Create a new C# Windows Class Library Project</p>
+      <p>
+        <img height="270" src="/Image/vsplugin-image006.jpg" width="400" />
+      </p>
+    </li>
+    <li>
+      <p>
+In the Solution Explorer right click on “<i>References</i>” and click “<i>Add Reference</i>”. Add “<i>System.Web</i>” as a reference from <i>.NET Framework</i>.
+</p>
+      <p>
+        <img height="268" src="/Image/vsplugin-image007.jpg" width="327" />
+      </p>
+    </li>
+    <li>
+      <p>
+Cut and paste the following code into the newly created .cs file
+</p>
+      <pre>using System;
+using System.IO;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Data.SqlClient;
+using System.Web.UI;
+
+namespace ConsoleApplication2
+{
+  class VulnPage : Page
+  {
+    public void test()
+    {
+        var taint = Request["name"];
+        Response.Write(taint);     // gives XSS
+        File.OpenRead(taint);      // gives File Canonicalization
+        new SqlCommand(taint);     // gives SQL injection            
+     }
+  }
+}
+</pre>
+      <p>
+        <img height="248" src="/Image/vsplugin-image008.jpg" width="497" />
+      </p>
+    </li>
+    <li>
+      <p>Build the Solution. You will see 3 errors in the Error List.</p>
+      <p>
+        <img height="118" src="/Image/vsplugin-image009.jpg" width="459" />
+      </p>
+    </li>
+    <li>
+      <p>Double clicking on one of the Errors, will bring up the relevant Team Mentor Guidance.</p>
+      <p>
+        <img height="232" src="/Image/vsplugin-image010.jpg" width="467" />
+      </p>
+    </li>
+  </ol>
+  <h1>Options and Tools</h1>
+  <p>Team Mentor VS Plugin is highly configurable and customizable. Here are some of the options that can be changed to modify the user experience.</p>
+  <h2>Main Configuration Options</h2>
+  <p>Team Mentor VS Plugin exposes its configuration through a series of menus. <i>&amp;nbsp;Team Mentor -&gt; View Options</i> &amp;nbsp;allows configuration of available settings as they relate to the appearance and behavior of the plugin.&amp;nbsp;</p>
+  <p>
+    <img height="289" src="/Image/vsplugin-image011.jpg" width="291" />
+  </p>
+  <p>
+    <i>AutoScanOnBuild</i> – Selects if the Team Mentor VS plugin will automatically initiate a scan when a solution is built.,<br /><i>DefaultPage</i> – Is the default Landing Page the user sees when the Team Mentor VS plugin loads.<br /><i>LandingPages_Browser &amp; LandingPages_Panel </i>– Allow the developer to control certain attributes of the Team Mentor pane.<br /><i>OpenLinksInNewTab</i> &amp;nbsp;- Specifies if links from the landing pages are opened in a new tab or in the existing tab.&amp;nbsp;<br /><i>TeamMentorServer</i> – Specifies the server where the Team Mentor content resides.</p>
+  <h2>Content Mapping</h2>
+  <p>Team Mentor uses Cat.NET scanning technology. &amp;nbsp;It maps each Vulnerability found by Cat.NET to a relevant Team Mentor Landing page. The Landing page in turn allows navigating to links with in depth information on the vulnerability and its resolution. Under the hood, all Team Mentor articles are associated with a Global Unique Identifier (GUID). &amp;nbsp;Team Mentor allows the user to set the mapping of a Cat.NET vulnerability to a GUID.&amp;nbsp;<i>Team Mentor -&gt; “Open Cat.NET -&gt; Team Mentor Mappings</i>”</p>
+  <p>
+    <img height="141" src="/Image/vsplugin-image012.jpg" width="578" />
+  </p>
+  <h2>Scripts Editor&amp;nbsp;</h2>
+  <p>Under the hood, the Team Mentor VS Plugin uses a REPL script and a set of custom APIs. Scripts used by Team Mentor VS Plugin to configure the Visual Studio environment are available through the editor. An experienced user may modify these or create new scripts to customize the Team Mentor VS plugin. </p>
+  <p>
+    <img height="203" src="/Image/vsplugin-image013.jpg" width="291" />
+  </p>]]></Data>
+  </Content>
+</TeamMentor_Article>

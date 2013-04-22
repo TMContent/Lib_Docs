@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<TeamMentor_Article Metadata_Hash="-93656796" Content_Hash="-1468932271">
+  <Metadata>
+    <Id>00000000-0000-0000-0000-0000001a9296</Id>
+    <Library_Id>eb39d862-f752-4d1c-ab6e-14ed697397c0</Library_Id>
+    <Title>Using the Filters</Title>
+    <Category>Reading</Category>
+    <Phase>NA</Phase>
+    <Technology>TeamMentor</Technology>
+    <Type>Documentation</Type>
+    <DirectLink>Using the Filters</DirectLink>
+    <Tag />
+    <Security_Demand />
+    <Author />
+    <Priority />
+    <Status />
+  </Metadata>
+  <Content Sanitized="true" DataType="Html">
+    <Data><![CDATA[<div style="font-size:10pt">Filters allow narrowing down the presented article list to help find the most relevant articles in the currently selected library, folder, or view in the navigation pane. The filters are located in the filters pane in the center
+ of the main user interface. The currently active filters are displayed on top of the navigation pane on the left. The currently active filters may be cleared by clicking the respective "X" icons. Selecting filters narrows down the list of available articles
+ and therefore the list of available filters. Filters that are no longer available are greyed out.</div>
+  <div style="font-size:10pt">
+    <br />
+  </div>
+  <div style="font-size:10pt">The following filters are available:</div>
+  <div style="font-size:10pt">
+    <ul>
+      <li>The "Technology" filter - the technology filter allows the user to display only the articles that pertain to a specific technology.</li>
+      <li>The "Phase" filter - the phase filter allows the user to select only the articles that apply to a specific software development life-cycle phase.</li>
+      <li>The "Type" filter - the type filter allows the user to choose what types of articles to display. The most common types are "Checklists" and "Guidelines". "Guidelines" describe how to do something in general terms that should be applicable to most applications,
+ but still specific enough to be implemented. A "Checklist" describes how to test if a specific security measure or control has been implemented correctly and how to implement it correctly. Checklists and guidance usually exist in pairs. Other types of articles
+ include: "Attack", "Code Example", "How To", "Inspection Question", "Principle", and "Q&amp;A" - the names of these article types are self-explanatory.</li>
+      <li>The "Category" filter - the category filter allows the user to filter the article list based on the type of security control that is being described.&amp;nbsp;</li>
+    </ul>
+  </div>
+  <div style="font-size:10pt">
+    <br />
+  </div>
+  <div style="font-size:10pt">The Search bar is located in the filter pane and acts as a filter based on the article title and article content. The applied search string shows up as a filter on top of the navigation pane, like the other filters.<br /><br /></div>
+  <h1>Filtering by Library in the URL</h1>
+  <p>Team Mentor provides capability to filter the library available for users to view based on the parameters passed in the URL.&amp;nbsp; This convenient feature allows narrowing down interactions with Team Mentor to a specific library. For example, when working on a Java project, the developer does not need to be distracted by articles from .NET library.&amp;nbsp; This feature works per user session. It is not a security feature and is not intended to limit access.&amp;nbsp; </p>
+  <p>For example:</p>
+  <p>
+    <i>http://teammentor.mycompany.com/ </i>-&amp;nbsp; Opens Team Mentor&amp;nbsp; with all libraries available. <br /><i>http:// teammentor.mycompany.com/Library/Java&amp;nbsp;</i> - Opens Team Mentor only with the Java library<br /><i>http:// teammentor.mycompany.com/Library/.NET 3.5</i>&amp;nbsp; - Opens Team Mentor only with the .NET 3.5 library <br /><i>http:// teammentor.mycompany.com/Library</i> - Will re-set the filter to show ALL libraries&amp;nbsp;</p>
+  <p>
+    <br />
+  </p>
+  <h1>Pining Filters</h1>
+  <p>Selected filters only apply to the article list currently selected for display in the navigation pane.&amp;nbsp; Clicking on another view, library or folder in the navigation pane will reset the filters. Sometimes this behavior&amp;nbsp; is not desirable.&amp;nbsp; Team Mentor offers the option of “pinning” the filter. </p>
+  <p>&amp;nbsp;To pin the filter, first select the filter. The selected filter will show up in the “Applied Filters” section of the navigation pane.</p>
+  <img height="256" src="/Image/filtering-img01.jpg" width="720" />
+  <br />
+  <br />
+  <p>Then click the pin icon.&amp;nbsp; This will pin the filter. Now when navigating to a different folder, library or view, the selected filter will still be applied. To remove the filter, click the “X” next to the filter.&amp;nbsp; <br /></p>
+  <img height="378" src="/Image/filtering-img02.jpg" width="720" />
+  <br />
+  <br />
+  <p>Note: If there are no articles that match filter selection in a particular list of articles.&amp;nbsp;</p>
+  <img height="394" src="/Image/filtering-img03.jpg" width="723" />
+  <br />
+  <br />
+  <h1>Filtering by Meta-Data in the URL</h1>
+  <p>Team Mentor also provides ability to narrow down or filter articles displayed to the user directly at URL level. This flexibility allows constructing a URL and accessing directly the type of Guidance Articles the user is looking for.&amp;nbsp; The URL will automatically construct and pin a filter, as if it was pinned by clicking on the pin icon. (as shown above)</p>
+  <p>To use the feature, construct the URL to filter Team Mentor Articles. Articles can be filtered by any combination of <i>Technology</i>, Phase, Type or Category</p>
+  <pre>http://localhost:12115/html_pages/Gui/TeamMentor.html#technology:[technolgy]&amp;phase:[phase]&amp;type: [type]&amp;category:[category]
+</pre>
+  <p>
+For example, if the user is interested only in Java technology, he/she can type"
+</p>
+  <pre>http://127.0.0.1:12115/html_pages/Gui/TeamMentor.html#technology:Java
+</pre>
+  <p>In the URL window of the browser and the Java technology filter will be automatically selected. </p>
+  <img height="394" src="/Image/filtering-img04.jpg" width="723" />
+  <br />
+  <br />
+  <p>To filter by “Java” technology and look only for “Data Access” article categories construct the following link:</p>
+  <pre>http://127.0.0.1:12115/html_pages/Gui/TeamMentor.html#technology:Java&amp;category:Data Access<br />&amp;nbsp;</pre>
+  <img height="394" src="/Image/filtering-img05.jpg" width="723" />
+  <br />
+  <br />
+  <p>Or to look only for Guidelines use: :</p>
+  <pre>http://127.0.0.1:12115/html_pages/Gui/TeamMentor.html#type:Guideline<br />&amp;nbsp;</pre>
+  <img height="394" src="/Image/filtering-img06.jpg" width="723" />]]></Data>
+  </Content>
+</TeamMentor_Article>

@@ -1,0 +1,166 @@
+<?xml version="1.0"?>
+<TeamMentor_Article Metadata_Hash="-377927615" Content_Hash="-379906202">
+  <Metadata>
+    <Id>00000000-0000-0000-0000-000000919e51</Id>
+    <Library_Id>eb39d862-f752-4d1c-ab6e-14ed697397c0</Library_Id>
+    <Title>Script - Creating TM Library based on CWE files</Title>
+    <Category> </Category>
+    <Phase>Draft</Phase>
+    <Technology>TeamMentor</Technology>
+    <Type>Script</Type>
+    <DirectLink />
+    <Tag />
+    <Security_Demand />
+    <Author />
+    <Priority />
+    <Status />
+  </Metadata>
+  <Content Sanitized="true" DataType="Html">
+    <Data><![CDATA[
+<div style="font-family:Arial,Verdana; font-size:10pt; font-style:normal; font-variant:normal; font-weight:normal; line-height:normal">
+<br>
+</div>
+<div style="font-family:Arial,Verdana; font-size:10pt; font-style:normal; font-variant:normal; font-weight:normal; line-height:normal">
+<br>
+</div>
+<h3>File 1</h3>
+<div style="font-family:Arial,Verdana; font-size:10pt; font-style:normal; font-variant:normal; font-weight:normal; line-height:normal">
+<br>
+</div>
+<div>
+<div><font face="Arial, Verdana" size="2">var xmlFile = @&quot;C:\O2\_tempDir\2-23-2012\tmp26D7_cwec_v2.1.xml\cwec_v2.1.xml&quot;;</font></div>
+<div><font face="Arial, Verdana" size="2">var xmlData = Weakness_Catalog.Load(xmlFile);&nbsp;</font></div>
+<div><font face="Arial, Verdana" size="2"><br>
+</font></div>
+<div><font face="Arial, Verdana" size="2">var targetFile = @&quot;C:\O2\_tempDir\2-28-2012\cweData.xml&quot;;</font></div>
+<div><font face="Arial, Verdana" size="2">var cweData= new CWE_Data();</font></div>
+<div><font face="Arial, Verdana" size="2"><br>
+</font></div>
+<div><font face="Arial, Verdana" size="2">var maxItems = 5000;</font></div>
+<div><font face="Arial, Verdana" size="2">foreach(var weakness in xmlData.Weaknesses.Weakness)</font></div>
+<div><font face="Arial, Verdana" size="2">{</font></div>
+<div><font face="Arial, Verdana" size="2"><span class="x_Apple-tab-span" style="white-space:pre"></span>var cweWeakness = new CWE_Weakness();</font></div>
+<div><font face="Arial, Verdana" size="2"><span class="x_Apple-tab-span" style="white-space:pre"></span>cweWeakness.Content = weakness.Description.str();</font></div>
+<div><span class="x_Apple-tab-span" style="white-space:pre"><font face="Arial, Verdana" size="2"></font></span></div>
+<div><font face="Arial, Verdana" size="2"><span class="x_Apple-tab-span" style="white-space:pre"></span>if (weakness.Applicable_Platforms.isNull() || weakness.Applicable_Platforms.Languages.isNull())<span class="x_Apple-tab-span" style="white-space:pre">
+</span></font></div>
+<div><font face="Arial, Verdana" size="2"><span class="x_Apple-tab-span" style="white-space:pre"></span>cweWeakness.Technology = &quot;NA&quot;;<span class="x_Apple-tab-span" style="white-space:pre">
+</span></font></div>
+<div><font face="Arial, Verdana" size="2"><span class="x_Apple-tab-span" style="white-space:pre"></span>else</font></div>
+<div><font face="Arial, Verdana" size="2"><span class="x_Apple-tab-span" style="white-space:pre"></span>{&nbsp;</font></div>
+<div><font face="Arial, Verdana" size="2"><span class="x_Apple-tab-span" style="white-space:pre"></span>//return weakness;</font></div>
+<div><font face="Arial, Verdana" size="2"><span class="x_Apple-tab-span" style="white-space:pre"></span>var languages = weakness.Applicable_Platforms.Languages;</font></div>
+<div><font face="Arial, Verdana" size="2"><span class="x_Apple-tab-span" style="white-space:pre"></span>if (languages.Language_Class.size() &gt;0)</font></div>
+<div><font face="Arial, Verdana" size="2"><span class="x_Apple-tab-span" style="white-space:pre"></span>cweWeakness.Technology = languages.Language_Class[0].Language_Class_Description;</font></div>
+<div><font face="Arial, Verdana" size="2"><span class="x_Apple-tab-span" style="white-space:pre"></span>else</font></div>
+<div><font face="Arial, Verdana" size="2"><span class="x_Apple-tab-span" style="white-space:pre"></span>cweWeakness.Technology = languages.Language[0].Language_Name;</font></div>
+<div><font face="Arial, Verdana" size="2"><span class="x_Apple-tab-span" style="white-space:pre"></span>}</font></div>
+<div><font face="Arial, Verdana" size="2"><span class="x_Apple-tab-span" style="white-space:pre"></span>//cweWeakness.Phase = weakness.Causal_Nature;</font></div>
+<div><font face="Arial, Verdana" size="2"><span class="x_Apple-tab-span" style="white-space:pre"></span>//if (cweWeakness.Phase.inValid())</font></div>
+<div><font face="Arial, Verdana" size="2"><span class="x_Apple-tab-span" style="white-space:pre"></span>//return weakness;</font></div>
+<div><font face="Arial, Verdana" size="2"><span class="x_Apple-tab-span" style="white-space:pre"></span>cweWeakness.Title = &quot;CWE:{0} - {1}&quot;.format(weakness.ID, weakness.Name);</font></div>
+<div><font face="Arial, Verdana" size="2"><span class="x_Apple-tab-span" style="white-space:pre"></span>&nbsp;</font></div>
+<div><font face="Arial, Verdana" size="2"><span class="x_Apple-tab-span" style="white-space:pre"></span>cweWeakness.Phase = (weakness.Time_of_Introduction.isNull())</font></div>
+<div><font face="Arial, Verdana" size="2"><span class="x_Apple-tab-span" style="white-space:pre"></span>? &quot;&quot;</font></div>
+<div><font face="Arial, Verdana" size="2"><span class="x_Apple-tab-span" style="white-space:pre"></span>: weakness.Time_of_Introduction.Introductory_Phase.toList().join(&quot;,&quot;);</font></div>
+<div><font face="Arial, Verdana" size="2"><span class="x_Apple-tab-span" style="white-space:pre"></span>//&quot;phase: {0}&quot;.info(cweWeakness.Phase);<span class="x_Apple-tab-span" style="white-space:pre">
+</span></font></div>
+<div><font face="Arial, Verdana" size="2"><span class="x_Apple-tab-span" style="white-space:pre"></span>cweWeakness.Type = weakness.Status;</font></div>
+<div><font face="Arial, Verdana" size="2"><span class="x_Apple-tab-span" style="white-space:pre"></span>cweWeakness.Category = &quot;CWE&quot;;</font></div>
+<div><span class="x_Apple-tab-span" style="white-space:pre"><font face="Arial, Verdana" size="2"></font></span></div>
+<div><font face="Arial, Verdana" size="2"><span class="x_Apple-tab-span" style="white-space:pre"></span>cweData.Weaknesses.Add(cweWeakness);</font></div>
+<div><span class="x_Apple-tab-span" style="white-space:pre"><font face="Arial, Verdana" size="2"></font></span></div>
+<div><font face="Arial, Verdana" size="2">}</font></div>
+<div><font face="Arial, Verdana" size="2">cweData.saveAs(targetFile);</font></div>
+<div><font face="Arial, Verdana" size="2"><br>
+</font></div>
+<div><font face="Arial, Verdana" size="2"><br>
+</font></div>
+<div><font face="Arial, Verdana" size="2">return cweData.Weaknesses.size();</font></div>
+<div><font face="Arial, Verdana" size="2"><br>
+</font></div>
+<div><font face="Arial, Verdana" size="2"><br>
+</font></div>
+<div><font face="Arial, Verdana" size="2"><br>
+</font></div>
+<div><font face="Arial, Verdana" size="2">//O2File:CWE_Data.cs</font></div>
+<div><font face="Arial, Verdana" size="2">//O2File:cwe_schema_v5.1.cs</font></div>
+<div><font face="Arial, Verdana" size="2">//O2Ref:O2_Misc_Microsoft_MPL_Libs.dll</font></div>
+</div>
+<div><font face="Arial, Verdana" size="2"><br>
+</font></div>
+<div><font face="Arial, Verdana" size="2"><br>
+</font></div>
+<h2><font face="Arial, Verdana" size="2">File 2</font></h2>
+<div><font face="Arial, Verdana" size="2"><br>
+</font></div>
+<div><font face="Arial, Verdana" size="2">
+<div>var topPanel = panel.clear().add_Panel(); &nbsp;&nbsp;</div>
+<div>var tmSite= &quot;http://localhost.:12348&quot;;</div>
+<div>//tmSite = &quot;http://localhost.:12347&quot;;</div>
+<div>//tmSite = &quot;http://localhost.:3186&quot;; &nbsp;&nbsp;</div>
+<div>tmSite = &quot;http://50.19.221.68:92&quot;;</div>
+<div>var libraryName = &quot;CWE Library&quot;;</div>
+<div><br>
+</div>
+<div>var tmWebServices = new API_TeamMentor_WebServices(tmSite); &nbsp; &nbsp; &nbsp;</div>
+<div><br>
+</div>
+<div>tmWebServices.login(&quot;admin&quot;,&quot;!!tmbeta&quot;).str();</div>
+<div>&nbsp; &nbsp;</div>
+<div>var library = tmWebServices.library(libraryName)</div>
+<div><span class="x_Apple-tab-span" style="white-space:pre"></span>.delete()</div>
+<div><span class="x_Apple-tab-span" style="white-space:pre"></span>.library(libraryName);&nbsp;</div>
+<div>&nbsp;</div>
+<div>var targetFile = @&quot;C:\O2\_tempDir\2-28-2012\cweData.xml&quot;; &nbsp;</div>
+<div>var cweData = targetFile.load&lt;CWE_Data&gt;();</div>
+<div>&nbsp;</div>
+<div>var folderName = &quot;Weakness Folder&quot;;&nbsp;</div>
+<div>var viewName = &quot;Weakness&quot;; &nbsp;</div>
+<div><br>
+</div>
+<div>var view = library.folder(folderName)</div>
+<div><span class="x_Apple-tab-span" style="white-space:pre"></span>&nbsp;<span class="x_Apple-tab-span" style="white-space:pre">
+</span>&nbsp;.view(viewName); &nbsp;</div>
+<div>&nbsp;</div>
+<div>var max = 1000; &nbsp;</div>
+<div>var itemsAddded = 0;</div>
+<div>var o2Timer = new O2Timer(&quot;created {0} in &quot;.format(max)).start();&nbsp;</div>
+<div><br>
+</div>
+<div>foreach(var weakness in cweData.Weaknesses)</div>
+<div>{ <span class="x_Apple-tab-span" style="white-space:pre"></span></div>
+<div><span class="x_Apple-tab-span" style="white-space:pre"></span>var title = weakness.Title; &nbsp;&nbsp;</div>
+<div><span class="x_Apple-tab-span" style="white-space:pre"></span>var content = weakness.Content;</div>
+<div><span class="x_Apple-tab-span" style="white-space:pre"></span>var technology = weakness.Technology;</div>
+<div><span class="x_Apple-tab-span" style="white-space:pre"></span>var phase = weakness.Phase;&nbsp;</div>
+<div><span class="x_Apple-tab-span" style="white-space:pre"></span>var type = weakness.Type; &nbsp;&nbsp;</div>
+<div><span class="x_Apple-tab-span" style="white-space:pre"></span>var category = weakness.Category; &nbsp;&nbsp;</div>
+<div><span class="x_Apple-tab-span" style="white-space:pre"></span></div>
+<div><span class="x_Apple-tab-span" style="white-space:pre"></span>view.add_Article(title, content, technology, phase, type, category);</div>
+<div><span class="x_Apple-tab-span" style="white-space:pre"></span></div>
+<div><span class="x_Apple-tab-span" style="white-space:pre"></span>if (itemsAddded&#43;&#43; % 10 == 0)&nbsp;</div>
+<div><span class="x_Apple-tab-span" style="white-space:pre"></span>&quot;[{0}/{1}] - {2}&quot;.info(itemsAddded, cweData.Weaknesses.size(), title);</div>
+<div><span class="x_Apple-tab-span" style="white-space:pre"></span>if (itemsAddded &gt; max)</div>
+<div><span class="x_Apple-tab-span" style="white-space:pre"></span>break;</div>
+<div>}</div>
+<div>&nbsp;o2Timer.stop();</div>
+<div>return view.articles();</div>
+<div>&nbsp;</div>
+<div>//O2File:CWE_Data.cs &nbsp;</div>
+<div>//O2File:API_TeamMentor_WebServices.cs</div>
+<div>//using SecurityInnovation.TeamMentor</div>
+<div><br>
+</div>
+<div>//O2Ref:System.Web.Services.dll</div>
+<div>//O2Ref:O2_Misc_Microsoft_MPL_Libs.dll</div>
+<div><br>
+</div>
+<div>//O2Tag_DontAddExtraO2Files</div>
+</font></div>
+<div style="font-family:Arial,Verdana; font-size:10pt; font-style:normal; font-variant:normal; font-weight:normal; line-height:normal">
+<br>
+</div>
+]]></Data>
+  </Content>
+</TeamMentor_Article>

@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<TeamMentor_Article Metadata_Hash="550331741" Content_Hash="1815543162">
+  <Metadata>
+    <Id>00000000-0000-0000-0000-00000056909e</Id>
+    <Library_Id>eb39d862-f752-4d1c-ab6e-14ed697397c0</Library_Id>
+    <Title>Installing TeamMentor on IIS 7.0</Title>
+    <Category>Administration</Category>
+    <Phase>NA</Phase>
+    <Technology>TeamMentor</Technology>
+    <Type>Documentation</Type>
+    <DirectLink />
+    <Tag />
+    <Security_Demand />
+    <Author />
+    <Priority />
+    <Status />
+  </Metadata>
+  <Content Sanitized="true" DataType="Html">
+    <Data><![CDATA[
+<div style="font-family:Arial,Verdana; font-size:10pt; font-style:normal; font-variant:normal; font-weight:normal; line-height:normal">
+If you want to use the application locally only, use Cassini. If you want to expose the application&nbsp;on a web server to your team, use IIS.&nbsp;</div>
+<div style="font-family:Arial,Verdana; font-size:10pt; font-style:normal; font-variant:normal; font-weight:normal; line-height:normal">
+<br>
+</div>
+<div style="font-family:Arial,Verdana; font-size:10pt; font-style:normal; font-variant:normal; font-weight:normal; line-height:normal">
+To install TeamMentor on IIS 7.0:</div>
+<div style="font-style:normal; font-variant:normal; font-weight:normal; line-height:normal; font-family:'Times New Roman'; font-size:medium">
+<span><br>
+</span></div>
+<div>
+<ol>
+<li>Copy TeamMentor files to local folder
+<ul>
+<li><b>Download&nbsp;the .zip</b>&nbsp;file of TeamMentor and extract it</li><li>You can also do a&nbsp;<b>Git Clone</b>&nbsp;of the desired version of TeamMentor from GitHub</li></ul>
+</li><li><b>The&nbsp;TeamMentor root folder</b>&nbsp;should contain the following folders:
+<ul>
+<li>Library_Data - this folder contains the library files.</li><li>Web Application - this folder contains the application files.</li></ul>
+</li><li><span style="font-style:normal; font-variant:normal; font-weight:normal; line-height:normal; font-family:Arial,Verdana; font-size:small"><b>Add TeamMentor to IIS 7.0.</b></span>
+<ul>
+<li>Open the &quot;Internet Information Services (IIS) Manager&quot;.&nbsp;</li><li>Navigate to the &quot;Sites&quot; folder in the &quot;Connections&quot; tree on the left.&nbsp;</li><li>Right click on the&nbsp;&quot;Sites&quot; folder.</li><li>Select &quot;Add Web Site...” An &quot;Add Web Site&quot; window should appear.&nbsp;</li><li>Enter a name for the site in the &quot;Site name:&quot; text box.&nbsp;</li><li>Click the &quot;...&quot; next to the &quot;Physical&nbsp;path:&quot; text box to set the root of the web site.&nbsp;A &quot;Browse for Folder&quot; window should&nbsp;appear.&nbsp;</li><li>Select to the &quot;Web Applications\TM_Website&quot; folder&nbsp;inside the TeamMentor root folder&nbsp;&nbsp;</li><li>Click &quot;Ok&quot;. Set the port in the &quot;Port:&quot; text&nbsp;box, if necessary.&nbsp;</li><li>Click &quot;OK&quot;.</li><li>The &quot;Add Web Site&quot; window should close and a new web&nbsp;site should appear in the &quot;Sites&quot; folder in the tree on the left of the &quot;Internet Information&nbsp;Services (IIS) Manager&quot; window.</li><li>A new&nbsp;web site should appear in the tree structure on the left of the &quot;Internet Information&nbsp;Services (IIS) Manager&quot; window.&nbsp;<br>
+<br>
+TeamMentor 3 should now be&nbsp;operational.<br>
+<br>
+</li></ul>
+</li><li style="font-family:Arial,Verdana; font-size:10pt; font-style:normal; font-variant:normal; font-weight:normal; line-height:normal">
+<b>If content or user changes are desired,</b><span>&nbsp;the account used by IIS needs to have write privileges to the TeamMentor Root folder</span><br>
+<ul>
+<li><span><b>Identify the application account.</b>&nbsp;which is the Windows user account used by the&nbsp;</span><span>IIS Application Pool configured on the TeamMentor website.</span></li></ul>
+<ol>
+<ul>
+<li><span>On the &quot;Internet&nbsp;</span><span>Information Services (IIS) Manager&quot;.&nbsp;</span></li><li><span>Navigate to &quot;Application Pools&quot; in the tree on the&nbsp;left.&nbsp;</span></li><li><span>Right-click on the &quot;Default App Pool&quot; and select &quot;Advanced Settings...”&nbsp;</span></li><li><span>Take note&nbsp;of the user-name in the &quot;Identity&quot; row under &quot;Process Model&quot;</span></li><li><span>By default, it is&nbsp;&quot;NetworkService&quot;</span><br>
+</li></ul>
+</ol>
+<ul>
+<li><span><b>Adjust the file-system permissions</b>. Give write permissions for the TeamMentor folder&nbsp;</span><span>to the Windows user account that is used to run TeamMentor. This is the username that&nbsp;</span><span>has been discovered in the previous step.&nbsp;</span></li></ul>
+<ol>
+<ul>
+<li><span>Right click on the TeamMentor root folder</span></li><li><span>Select &quot;Properties&quot;. A &quot;Properties&quot; window&nbsp;</span><span>should appear.&nbsp;</span></li><li><span>Select the &quot;Security&quot; tab in the &quot;Properties&quot; window. Give &quot;Full Access&quot;&nbsp;</span><span>permissions to the Windows account that is used to run TeamMentor.&nbsp;</span></li><li><span>Click &quot;OK&quot;</span></li></ul>
+</ol>
+</li></ol>
+</div>
+]]></Data>
+  </Content>
+</TeamMentor_Article>

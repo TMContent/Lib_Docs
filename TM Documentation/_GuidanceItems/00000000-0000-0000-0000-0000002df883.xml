@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<TeamMentor_Article Metadata_Hash="0" Content_Hash="0">
+  <Metadata>
+    <Id>00000000-0000-0000-0000-0000002df883</Id>
+    <Library_Id>eb39d862-f752-4d1c-ab6e-14ed697397c0</Library_Id>
+    <Title>Edit Article Metadata</Title>
+    <Category>Editing</Category>
+    <Phase>NA</Phase>
+    <Technology>TeamMentor</Technology>
+    <Type>Documentation</Type>
+    <DirectLink>Edit Article Metadata</DirectLink>
+    <Author />
+    <Priority />
+    <Status />
+  </Metadata>
+  <Content Sanitized="false" DataType="WikiText">
+    <Data><![CDATA[=Editing Article Metadata=
+**Guidance Item article Metadata**
+
+Each article has the following meta-data: 
+
+* **Title**:  The title is the title that is displayed in the article list
+* **Technology** tag:  The technology tag reflects what technology the article applies to
+* **Phase** tag:  The phase tag signifies which phase of the software development life-cycle the article is relevant to
+* **Type** tag:  The type tag describes the type of the article
+* **Category** tag:  The category tag describes what kind of security control the article is about
+
+The values of these fields create the filters and a drop-down list items in the article editor. These values can be change in the WYSIWING editor window. Use the drop downs to change the metadata of the articles. To add a new tag, enter the tag in the drop down field and click “Save Changes”
+
+{{/Image/editmetadata-img1.jpg}}
+
+=Related Items=
+For more information on Article Metadata see:\\
+[[Edit Article Metadata]]\\
+
+For information on editing HTML articles see:\\
+[[Editing HTML Articles]]\\
+
+For information on editing WikiText articles see:\\
+[[Editing WikiText Articles]]\\]]></Data>
+  </Content>
+</TeamMentor_Article>

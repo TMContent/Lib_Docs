@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<TeamMentor_Article Metadata_Hash="0" Content_Hash="0">
+  <Metadata>
+    <Id>1da6050d-3521-4c13-93c2-49ce93b8583f</Id>
+    <Library_Id>eb39d862-f752-4d1c-ab6e-14ed697397c0</Library_Id>
+    <Title>Case Study - Direct XML File Manipulation to Fix Double Encoding Issue</Title>
+  </Metadata>
+  <Content Sanitized="false" DataType="wikitext">
+    <Data><![CDATA[This Script shows how the Article's XML file can be edited directly (useful for large/batch changes/fixes).
+
+In this case there was a double encoding issue on the Article's Schema update from version 3.0 to 3.1
+
+
+===Fixing the Double Encode issue in one file===
+{{{
+var topPanel = panel.clear().add_Panel();
+var sourceFiles = @"C:\_WorkDir\TeamMentor\TM - Libraries\SI_Library\Java\Java";
+
+var target = @"...\TeamMentor\TM - Libraries\SI_Library\Java\Java\Checklist Item\c88e1b49-357d-4202-aafc-86ce0de485bd.xml";
+
+topPanel.add_SourceCodeViewer()
+		.open(target);
+						
+var tmArticle = target.load< TeamMentor_Article>();
+tmArticle.Content.Data.Value = tmArticle.Content.Data.Value.replace("&","&");
+tmArticle.saveAs(target);
+ 
+return target;
+//using SecurityInnovation.TeamMentor.WebClient
+//O2File:...\Web Applications\TeamMentor.CoreLib\TM_AppCode\Schemas\TeamMentor_Article.cs
+}}}
+
+===Fixing the double encoding for all files===
+{{{
+var topPanel = panel.clear().add_Panel();
+var sourceFiles = @"C:\_WorkDir\TeamMentor\TM - Libraries\SI_Library";
+
+foreach (var file in sourceFiles.files("*.xml",true))
+{	
+	if(file.fileName_WithoutExtension().isGuid().isFalse())
+		continue;
+	var tmArticle = file.load< TeamMentor_Article>();
+	if (tmArticle.Content.Data.Value.contains("&"))
+	{
+		"fixing: {0}".debug(file);	
+		tmArticle.Content.Data.Value = tmArticle.Content.Data.Value.replace("&","&");
+		tmArticle.saveAs(file);
+	}
+	else
+		"Skipping: {0}".info(file);	
+  } 
+
+//using SecurityInnovation.TeamMentor.WebClient
+//O2File:...\Web Applications\TeamMentor.CoreLib\TM_AppCode\Schemas\TeamMentor_Article.cs
+}}}
+
+===Upgrading 1 file from 3.0 schema to 3.1===
+{{{
+var target = @"...\TeamMentor\TM - Libraries\SI_Library\Java\Java\Code Example\18ac74df-602b-4a58-8998-52f638f3a045.xml";
+return target.load< Guidance_Item_Import>().transform().saveAs(target);
+}}}
+
+]]></Data>
+  </Content>
+</TeamMentor_Article>

@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<TeamMentor_Article Metadata_Hash="1334847491" Content_Hash="-1188817129">
+  <Metadata>
+    <Id>00000000-0000-0000-0000-00000061eb3b</Id>
+    <Library_Id>eb39d862-f752-4d1c-ab6e-14ed697397c0</Library_Id>
+    <Title>User Interface Overview</Title>
+    <Category>User Interface</Category>
+    <Phase>NA</Phase>
+    <Technology>TeamMentor</Technology>
+    <Type>Documentation</Type>
+    <DirectLink />
+    <Tag />
+    <Security_Demand />
+    <Author />
+    <Priority />
+    <Status />
+  </Metadata>
+  <Content Sanitized="true" DataType="Html">
+    <Data><![CDATA[
+<div>
+<div>The main user interface window has five panes: the banner pane at the top, the navigation pane on the left, the filters pane in the middle, the preview pane on the right, and the article list pane on the bottom. The navigation, filters, and preview panes
+ can be hidden by clicking the rectangles in the middle of the respective border-lines. Each pane performs a specific function.</div>
+<div><br>
+</div>
+<div>The banner pane provides access to application controls, such as logging in, switching to edit mode, or opening the control panel.</div>
+<div><br>
+</div>
+<div>The navigation pane gives an overview of content organized into libraries, folders, and views. Folders and views work differently than file system objects, although there are some similarities. The similarities are mostly in the way they are navigated
+ - folders contain multiple other objects inside them. The difference is that TeamMentor folders contain views, not file system objects - the same article may appear in multiple folders and/or views.</div>
+<div><br>
+</div>
+<div>The filters pane allows filtering content in the current library/folder/view based on applicable technology, development phase, article type, and subject matter category. Filters can be enabled or disabled by using the corresponding checkboxes.</div>
+<div><br>
+</div>
+<div>The preview pane displays the content of the currently selected article in the list. The purpose of the preview pane is to give the user an idea of what's inside while browsing the list to help find the right article.&nbsp;</div>
+<div><br>
+</div>
+<div>The article list pane displays the list of articles in the current library/folder/view in the navigation pane. The list of articles is filtered using the currently selected filters in the filters pane. The article list is the main control of the application.
+ Selecting an article in the list updates the preview pane with the contents of the selected article. Double-clicking on an article opens it in a new window.</div>
+<div><br>
+</div>
+<div>The TeamMentor interface is designed to be simple and intuitive. The main task of navigating the content to find specific articles should be familiar to most users, because it is similar to navigating file-system objects.<br>
+</div>
+</div>
+<div></div>
+]]></Data>
+  </Content>
+</TeamMentor_Article>

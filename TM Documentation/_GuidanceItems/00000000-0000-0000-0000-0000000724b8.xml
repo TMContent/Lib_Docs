@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<TeamMentor_Article Metadata_Hash="1189242070" Content_Hash="1935070537">
+  <Metadata>
+    <Id>00000000-0000-0000-0000-0000000724b8</Id>
+    <Library_Id>eb39d862-f752-4d1c-ab6e-14ed697397c0</Library_Id>
+    <Title>Installing TeamMentor on IIS 6.0</Title>
+    <Category>Administration</Category>
+    <Phase>NA</Phase>
+    <Technology>TeamMentor</Technology>
+    <Type>Documentation</Type>
+    <DirectLink />
+    <Tag />
+    <Security_Demand />
+    <Author />
+    <Priority />
+    <Status />
+  </Metadata>
+  <Content Sanitized="true" DataType="Html">
+    <Data><![CDATA[
+<div><span style="font-family:Arial,Verdana; font-size:small">If you want to use the application locally only, use Cassini. If you want to expose the application
+</span><span style="font-family:Arial,Verdana; font-size:small">on a web server to your team, use IIS.&nbsp;</span></div>
+<div><span style="font-family:Arial,Verdana; font-size:small"><br>
+</span></div>
+<div><span style="font-family:Arial,Verdana; font-size:small">To install TeamMentor on IIS 6:</span></div>
+<div><span style="font-family:Arial,Verdana; font-size:small"><br>
+</span></div>
+<div>
+<ol>
+<li><font face="Arial, Verdana" size="2">Copy TeamMentor files to local folder</font>
+<ul>
+<li><span style="font-family:Arial,Verdana; font-size:small"><b>Download&nbsp;the .zip</b> file of TeamMentor and extract it</span></li><li><span style="font-family:Arial,Verdana; font-size:small">You can also do a <b>
+Git Clone</b> of the desired version of TeamMentor from GitHub</span></li></ul>
+</li><li><span style="font-family:Arial,Verdana; font-size:small"><b>The&nbsp;</b></span><span style="font-family:Arial,Verdana; font-size:small"><b>TeamMentor root folder</b> should contain the following folders:</span>
+<ul>
+<li><span style="font-family:Arial,Verdana; font-size:small">Library_Data - this folder contains the library files.</span></li><li><span style="font-family:Arial,Verdana; font-size:small">Web Application - this folder contains the application files.</span></li></ul>
+</li><li><span style="font-family:Arial,Verdana; font-size:small"><b>Add TeamMentor to IIS 6.0.</b> Open the &quot;Internet Information Services (IIS) Manager&quot;.&nbsp;</span>
+<ul>
+<li><span style="font-family:Arial,Verdana; font-size:small">Navigate to &quot;Web Sites&quot; in the tree on the left of the &quot;Internet Information Services (IIS) &nbsp;</span><span style="font-family:Arial,Verdana; font-size:small">Manager&quot; window.&nbsp;</span></li><li><span style="font-family:Arial,Verdana; font-size:small">Right-click on &quot;Web Sites&quot; and select &quot;New&quot; -&gt; &quot;Web Site...”&nbsp;</span></li><li><span style="font-family:Arial,Verdana; font-size:small">A&nbsp;</span><span style="font-family:Arial,Verdana; font-size:small">&quot;Web Site Creation Wizard&quot; should appear.&nbsp;</span></li><li><span style="font-family:Arial,Verdana; font-size:small">Click &quot;Next&quot;.&nbsp;</span></li><li><span style="font-family:Arial,Verdana; font-size:small">Enter a description for the web&nbsp;</span><span style="font-family:Arial,Verdana; font-size:small">site, something like &quot;TeamMentor 3&quot;.&nbsp;</span></li><li><span style="font-family:Arial,Verdana; font-size:small">Click &quot;Next&quot;.&nbsp;</span></li><li><span style="font-family:Arial,Verdana; font-size:small">Change the port setting, if necessary.&nbsp;</span></li><li><span style="font-family:Arial,Verdana; font-size:small">Click &quot;Next&quot;.&nbsp;</span></li><li><span style="font-family:Arial,Verdana; font-size:small">Click &quot;Browse...”&nbsp;</span></li><li><span style="font-family:Arial,Verdana; font-size:small">Select to the &quot;Web Applications\TM_Website&quot; folder&nbsp;</span><span style="font-family:Arial,Verdana; font-size:small">inside the TeamMentor root folder&nbsp;</span></li><li><span style="font-family:Arial,Verdana; font-size:small">Click &quot;Next&quot;.&nbsp;</span></li><li><span style="font-family:Arial,Verdana; font-size:small">Check&nbsp;</span><span style="font-family:Arial,Verdana; font-size:small">the checkbox next to &quot;Run scripts (such as ASP)&quot;.&nbsp;</span></li><li><span style="font-family:Arial,Verdana; font-size:small">Click &quot;Next&quot;.&nbsp;</span></li><li><span style="font-family:Arial,Verdana; font-size:small">Click &quot;Finish&quot;. <br>
+<br>
+A new&nbsp;</span><span style="font-family:Arial,Verdana; font-size:small">web site should appear in the tree structure on the left of the &quot;Internet Information&nbsp;</span><span style="font-family:Arial,Verdana; font-size:small">Services (IIS) Manager&quot; window.&nbsp;<br>
+<br>
+</span></li><li><span style="font-family:Arial,Verdana; font-size:small">Right-click on this new web site.&nbsp;</span></li><li><span style="font-family:Arial,Verdana; font-size:small">Select &quot;Properties&quot;. A&nbsp;</span><span style="font-family:Arial,Verdana; font-size:small">&quot;Properties&quot; window should appear.&nbsp;</span></li><li><span style="font-family:Arial,Verdana; font-size:small">Go to the &quot;ASP.NET&quot; tab in the &quot;Properties&quot;&nbsp;</span><span style="font-family:Arial,Verdana; font-size:small">window.&nbsp;</span></li><li><span style="font-family:Arial,Verdana; font-size:small">Set the .NET version to 2.0. Click &quot;OK&quot;.
+<br>
+<br>
+TeamMentor 3 should now be&nbsp;</span><span style="font-family:Arial,Verdana; font-size:small">operational.<br>
+<br>
+</span></li></ul>
+</li><li><span style="font-family:Arial,Verdana; font-size:small"><b>If content or user changes are desired,</b> the account used by IIS needs to have write privileges to the TeamMentor Root folder<br>
+<br>
+</span>
+<ul>
+<li><span style="font-family:Arial,Verdana; font-size:small"><b>Identify the application account.</b> which is the Windows user account used by the&nbsp;</span><span style="font-family:Arial,Verdana; font-size:small">IIS Application Pool configured on the TeamMentor
+ website.</span>
+<ul>
+<li><span style="font-family:Arial,Verdana; font-size:small">On the &quot;Internet&nbsp;</span><span style="font-family:Arial,Verdana; font-size:small">Information Services (IIS) Manager&quot;.&nbsp;</span></li><li><span style="font-family:Arial,Verdana; font-size:small">Navigate to &quot;Application Pools&quot; in the tree on the&nbsp;</span><span style="font-family:Arial,Verdana; font-size:small">left.&nbsp;</span></li><li><span style="font-family:Arial,Verdana; font-size:small">Right-click on the &quot;Default App Pool&quot; and select &quot;Properties&quot;. A &quot;Properties&quot;&nbsp;</span><span style="font-family:Arial,Verdana; font-size:small">window should appear.&nbsp;</span></li><li><span style="font-family:Arial,Verdana; font-size:small">Go to the &quot;Identity&quot; tab in the &quot;Properties&quot; window. Take note of&nbsp;</span><span style="font-family:Arial,Verdana; font-size:small">the selected user-name. By default, it is &quot;Network Service&quot;.</span></li></ul>
+</li><li><span style="font-family:Arial,Verdana; font-size:small"><b>Adjust the file-system permissions</b>. Give write permissions for the TeamMentor folder&nbsp;</span><span style="font-family:Arial,Verdana; font-size:small">to the Windows user account that is used
+ to run TeamMentor. This is the username that&nbsp;</span><span style="font-family:Arial,Verdana; font-size:small">has been discovered in the previous step.&nbsp;</span>
+<ul>
+<li><span style="font-family:Arial,Verdana; font-size:small">Right click on the TeamMentor root folder</span></li><li><span style="font-family:Arial,Verdana; font-size:small">Select &quot;Properties&quot;. A &quot;Properties&quot; window&nbsp;</span><span style="font-family:Arial,Verdana; font-size:small">should appear.&nbsp;</span></li><li><span style="font-family:Arial,Verdana; font-size:small">Select the &quot;Security&quot; tab in the &quot;Properties&quot; window. Give &quot;Full Access&quot;&nbsp;</span><span style="font-family:Arial,Verdana; font-size:small">permissions to the Windows account that is used to run TeamMentor.&nbsp;</span></li><li><span style="font-family:Arial,Verdana; font-size:small">Click &quot;OK&quot;</span></li></ul>
+</li></ul>
+</li></ol>
+</div>
+]]></Data>
+  </Content>
+</TeamMentor_Article>

@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<TeamMentor_Article Metadata_Hash="-1556045927" Content_Hash="-1467158474">
+  <Metadata>
+    <Id>00000000-0000-0000-0000-000000579bb9</Id>
+    <Library_Id>eb39d862-f752-4d1c-ab6e-14ed697397c0</Library_Id>
+    <Title>Editing Folders</Title>
+    <Category>Editing</Category>
+    <Phase>NA</Phase>
+    <Technology>TeamMentor</Technology>
+    <Type>Documentation</Type>
+    <DirectLink />
+    <Tag />
+    <Security_Demand />
+    <Author />
+    <Priority />
+    <Status />
+  </Metadata>
+  <Content Sanitized="true" DataType="Html">
+    <Data><![CDATA[
+<div>Editing content in TeamMentor is done via &quot;Edit Mode&quot;. &quot;Edit Mode&quot; is only available to Editors and Administrators. To access &quot;Edit Mode&quot;, login as either an Administrator or an Editor user and click the &quot;Edit Mode&quot; link in the top right of the main user
+ interface.</div>
+<div><br>
+</div>
+<div>The two main ways to edit folders in TeamMentor are via the right-click context menu and via drag &amp; drop operations. Right-click context menu operations allow managing the folders themselves, while drag &amp; drop operations allow placing content inside of
+ folders.</div>
+<div><br>
+</div>
+<div>The right-click content menu provides the following options: &quot;Add View&quot;, &quot;Add Folder&quot;, &quot;Rename Folder&quot;, &quot;Delete Folder&quot;, and &quot;Exit Edit Mode&quot;. &quot;Add View&quot; creates a new view in the selected folder. &quot;Add Folder&quot; creates a new folder inside the selected folder.
+ &quot;Rename Folder&quot; allows renaming the current folder. &quot;Delete Folder&quot; deletes the clicked folder. &quot;Exit Edit Mode&quot; returns the user interface to regular mode.</div>
+<div><br>
+</div>
+<div>Drag &amp; drop operations allow placing existing views inside a folder. To move a view into a folder, drag it into the destination folder. Items cannot be moved across libraries.</div>
+<div><font size="2"></font></div>
+<div></div>
+]]></Data>
+  </Content>
+</TeamMentor_Article>

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<TeamMentor_Article Metadata_Hash="0" Content_Hash="0">
+  <Metadata>
+    <Id>a62c6e34-d725-41f2-9f61-1815dae985ae</Id>
+    <Library_Id>dcd14beb-da56-4835-9e17-c5ff2f0a12bc</Library_Id>
+    <Title>Control Panel WebServices GUI</Title>
+  </Metadata>
+  <Content Sanitized="false" DataType="wikitext">
+    <Data><![CDATA[On the TeamMentor ControlPanel, there are two special Web Interface that allows the direct invocation of TM WebServices:
+
+== Admin Tasks ==
+
+{{/Image/4_10_2012_4_01_51_PM.jpg}}
+
+==TeamMentor Web Services ==
+
+{{/Image/4_10_2012_4_01_00_PM.jpg}}]]></Data>
+  </Content>
+</TeamMentor_Article>

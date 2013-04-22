@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<TeamMentor_Article Metadata_Hash="-1126743425" Content_Hash="-1131677681">
+  <Metadata>
+    <Id>00000000-0000-0000-0000-0000001c8add</Id>
+    <Library_Id>eb39d862-f752-4d1c-ab6e-14ed697397c0</Library_Id>
+    <Title>Managing Users</Title>
+    <Category>Administration</Category>
+    <Phase>NA</Phase>
+    <Technology>TeamMentor</Technology>
+    <Type>Documentation</Type>
+    <DirectLink />
+    <Tag />
+    <Security_Demand />
+    <Author />
+    <Priority />
+    <Status />
+  </Metadata>
+  <Content Sanitized="true" DataType="Html">
+    <Data><![CDATA[
+<div>Administrators can manage TeamMentor users via the Control Panel. The Control Panel can be accessed via the &quot;Control Panel&quot; link in the top right corner of the main user interface. The TeamMentor Control Panel is only available to Administrator users.&nbsp;</div>
+<div><br>
+</div>
+<div>The user management section consists of the following links: &quot;My Account&quot;, &quot;Manage Users&quot;, and &quot;Create Multiple Users&quot;. The &quot;My Account&quot; link opens a window that allows changing the properties of the current user account. The &quot;Manage Users&quot; link opens
+ a page that allows managing all the users of the application. The &quot;Create Multiple Users&quot; link opens a page that allows creating multiple user accounts.</div>
+]]></Data>
+  </Content>
+</TeamMentor_Article>

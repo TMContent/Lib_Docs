@@ -1,0 +1,174 @@
+<?xml version="1.0"?>
+<TeamMentor_Article Metadata_Hash="0" Content_Hash="0">
+  <Metadata>
+    <Id>05c1f934-edd7-4bd7-bd7f-1dcc3aa68dad</Id>
+    <Library_Id>fcd4cd02-bfd3-4755-8943-7ff25f3ed00a</Library_Id>
+    <Title>xslt LandingPage Variation 2</Title>
+  </Metadata>
+  <Content Sanitized="false" DataType="xml">
+    <Data>
+				<![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+    xmlns:msxsl="urn:schemas-microsoft-com:xslt" exclude-result-prefixes="msxsl">
+    <xsl:output method="html" indent="yes"/>
+	
+  <xsl:template match="/">
+	<xsl:apply-templates select="*"/>
+  </xsl:template>
+
+ 
+  <xsl:template match="TeamMentor_LandingPage">
+   <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
+    <html>
+	<head>
+		<base href="https://docs.teammentor.net"/>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>TeamMentor Download</title>			
+		<link rel="shortcut icon" href="favicon.ico"/>
+		<meta name="description" content="" />			
+		<meta name="keywords" content="" />			
+		<link rel="stylesheet" type="text/css" href="css/layout.css"/>			
+		<link rel="stylesheet" type="text/css" href="css/prettyphoto.css"/>
+
+		<!--[if IE 7]><link rel="stylesheet" type="text/css" href="css/ie7.css" /><![endif]-->
+		<!--[if IE 8]><link rel="stylesheet" type="text/css" href="css/ie8.css" /><![endif]-->
+
+		<script type="text/javascript" src="lib/jquery-core.js"></script>
+		<script type="text/javascript" src="lib/jquery-reveal.js"></script>
+		<script type="text/javascript" src="lib/jquery-accordion.js"></script>
+		<script type="text/javascript" src="lib/jquery-prettyphoto.js"></script>
+		<script type="text/javascript" src="lib/jquery-form.js"></script>
+		<script type="text/javascript" src="lib/jquery-enquire.js"></script>
+		<script>
+			$(function() 
+				{
+					$("a").each(function() 
+						{ 
+							var linktext = this.text;
+							$(this).click(function() 
+								{ my_Gauge.track("Click",linktext  );   });	
+						})
+				});
+		</script>
+      	</head>
+      	<body>
+		<div id="wrapper">
+		   <div id="container">	
+			<div class="navigation">
+				<img src="https://www.securityinnovation.com/_img/art/logo.png" alt="Security Innovation" height="38" id ='siLogo' />					
+			</div>	
+			<div class="splash">
+				<div class="splash-content">
+					<h2><xsl:value-of select="SplashPanel_Data/@title"/></h2>
+					<br/>
+					<p><xsl:apply-templates select="SplashPanel_Text"/></p>					
+					<span class="call-to-action-1">
+						<a><xsl:attribute name="href"><xsl:value-of select="SplashPanel_Data/@button_1_link" /></xsl:attribute><xsl:value-of select="SplashPanel_Data/@button_1_text" /></a>
+					</span>
+					<span class="call-to-action-2">
+						<a target="_blank"><xsl:attribute name="href"><xsl:value-of select="SplashPanel_Data/@button_2_link" /></xsl:attribute><xsl:value-of select="SplashPanel_Data/@button_2_text" /></a>
+					</span>
+				</div>	
+				<span class="splash-screenshot">
+					<img width="320" height="320" style="position:relative ; left:120" class="screenshot" alt="example"><xsl:attribute name="src"><xsl:value-of select="SplashPanel_Data/@image" /></xsl:attribute></img>
+				</span>
+<!--				<span class="clouds"></span>-->
+			</div>
+
+ 			<!-- Features-->
+			<div class="features">
+			<br/><br/><br/><br/><br/>
+					<div class="feature-01">						
+						<img width="238" height="138"  border="2"><xsl:attribute name="src"><xsl:value-of select="Feature_1  /@image" /></xsl:attribute></img>	
+						<h2><span>1</span><xsl:value-of select="Feature_1  /@title" /></h2>						
+						<h3><xsl:value-of select="Feature_1/@text" /></h3>
+					</div>
+					<div class="feature-02">
+						<img width="238" height="138"  border="2"><xsl:attribute name="src"><xsl:value-of select="Feature_2/@image" /></xsl:attribute></img>
+						<h2>
+							<span>2</span><xsl:value-of select="Feature_2/@title" /></h2>
+						<h3><xsl:value-of select="Feature_2/@text" /></h3>
+					</div>
+					<div class="feature-03">
+						<img width="238" height="138"  border="2"><xsl:attribute name="src"><xsl:value-of select="Feature_3/@image" /></xsl:attribute></img>
+						<h2><span>3</span><xsl:value-of select="Feature_3/@title" /></h2>
+						<h3><xsl:value-of select="Feature_3/@text" /></h3>
+					</div>
+				</div>
+
+			<!-- BigYellowBox-->
+				<div class="download">
+					<h2><xsl:value-of select="BigYellowBox/@title" /></h2>
+					<span class="clear"></span><br/><br/>
+					<p><xsl:value-of select="BigYellowBox/@body_text" /></p>
+					<span class="call-to-action-1">
+						<a>
+							<xsl:attribute name="href"><xsl:value-of select="BigYellowBox/@button_href" /></xsl:attribute>
+							<xsl:value-of select="BigYellowBox/@button_text" />
+						</a>
+					</span>
+				</div>	
+
+			<!-- TM Videos-->
+
+				<div>
+					<h2><xsl:value-of select="TM_Animation/@title" /></h2>					
+					<br/>
+					<iframe src="https://securityinnovation.com/tmgraphic/animation.html" frameborder="0" scrolling="no" height="440" width="700"></iframe>			
+					<h2><xsl:value-of select="Videos/@title" /></h2>
+					<br/>
+					<p align="center">
+						<iframe width="420" height="315" src="http://www.youtube.com/embed/fo3eP_GD7ng" frameborder="0" allowfullscreen="true"></iframe>.
+						<iframe width="420" height="315" src="http://www.youtube.com/embed/S15DPgGg9ek" frameborder="0" allowfullscreen="true"></iframe>
+						<iframe width="420" height="315" src="http://www.youtube.com/embed/q14qzOXR3UA" frameborder="0" allowfullscreen="true"></iframe>.
+						<iframe width="420" height="315" src="http://www.youtube.com/embed/4sfEUKPATA4" frameborder="0" allowfullscreen="true"></iframe>
+					</p>
+					<br/><br/><br/>
+			
+				</div>
+
+
+		<!-- Testimonials -->
+
+				<div class="testimonials">
+
+					<h2><xsl:value-of select="Testimonials/@title" /></h2>
+					<br/>
+					<p><i><xsl:value-of select="Testimonials/@slot_1_text" /></i></p>
+					<p class="testimonial-user"><xsl:value-of select="Testimonials/@slot_1_company" /></p>
+					<br/>
+					<p><i><xsl:value-of select="Testimonials/@slot_2_text" /></i></p>
+					<p class="testimonial-user"><xsl:value-of select="Testimonials/@slot_2_company" /></p>
+					<br/>
+					<p><i><xsl:value-of select="Testimonials/@slot_3_text" /></i></p>
+					<p class="testimonial-user"><xsl:value-of select="Testimonials/@slot_3_company" /></p>
+					<br/>
+					<p><i><xsl:value-of select="Testimonials/@slot_4_text" /></i></p>
+					<p class="testimonial-user"><xsl:value-of select="Testimonials/@slot_4_company" /></p>
+
+				</div>
+			<div class="clear"></div>
+		   </div>
+		</div>
+
+	<!-- Footer -->
+		<div class="footer">
+			<div class="footer-content">
+				<p>  <xsl:value-of select="FooterText"/></p>
+				<div class="copyright">
+					<p class="left copyright-text"><xsl:value-of select="FooterTextCopyright"/></p>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+		<script src="https://docs.teammentor.net/Javascript/Gauges/Gauges_Tracking_Code.js" type="text/javascript"></script>
+       	</body>
+    </html>
+  </xsl:template>
+
+  <xsl:template match="br">
+  <br/>
+  </xsl:template>
+</xsl:stylesheet>]]></Data>
+  </Content>
+</TeamMentor_Article>

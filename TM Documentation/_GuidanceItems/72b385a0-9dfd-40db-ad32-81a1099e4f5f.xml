@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<TeamMentor_Article Metadata_Hash="0" Content_Hash="0">
+  <Metadata>
+    <Id>72b385a0-9dfd-40db-ad32-81a1099e4f5f</Id>
+    <Library_Id>eb39d862-f752-4d1c-ab6e-14ed697397c0</Library_Id>
+    <Title>Sandbox</Title>
+  </Metadata>
+  <Content Sanitized="false" DataType="html">
+    <Data><![CDATA[This is a test page (to try html and wikitext markup)
+
+<img src="/_customizations/Images/GuidanceItem%20Editor%20-%20In%20browser.jpg" /><br /><img src="/Image/GuidanceItem%20Editor%20-%20In%20browser.jpg" /><br /><img src="/Image/GuidanceItem_Editor_-_In_browser.jpg" />]]></Data>
+  </Content>
+</TeamMentor_Article>

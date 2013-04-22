@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<TeamMentor_Article Metadata_Hash="0" Content_Hash="0">
+  <Metadata>
+    <Id>00000000-0000-0000-0000-0000003ea057</Id>
+    <Library_Id>eb39d862-f752-4d1c-ab6e-14ed697397c0</Library_Id>
+    <Title>Editing HTML Articles </Title>
+    <Category>Editing</Category>
+    <Phase>NA</Phase>
+    <Technology>TeamMentor</Technology>
+    <Type>Documentation</Type>
+    <DirectLink>Editing HTML Articles </DirectLink>
+    <Author />
+    <Priority />
+    <Status />
+  </Metadata>
+  <Content Sanitized="false" DataType="WikiText">
+    <Data><![CDATA[=Editing HTML Articles in Edit Mode=
+Double clicking on an HTML article in “Edit Mode” brings up the built-in WYSIWYG HTML editor. You can click on the “view source icon”   to edit HTML source code. Article metadata, such as title, technology, phase, type and category etc. can also be modified in this editor. See Related Items for more details.
+
+{{/Image/editinghtml-img1.jpg}}
+
+=Editing HTML Articles in “View Mode”=
+In “view mode”, article editing can be accomplished by clicking on ether the “Edit WYSIWYG” or “Edit Source” buttons.
+
+{{/Image/editinghtml-img2.jpg}}
+ 
+Clicking on “Edit WYSIWING” will bring up the already familiar WYSIWYG editor window. You can click on the “view source icon”   to edit HTML source code. Article metadata, such as title, technology, phase, type and category etc. can also be modified in this editor. See Related Items  for further details.
+ Save changes to your edits by clicking the “Save Changes” Button. Clicking “View Article” will bring up the article in view mode, however, your changes will not be saved unless you go back to editing the article and click  on “Save Changes”
+
+{{/Image/editinghtml-img3.jpg}}
+ 
+Clicking on “Edit Source” will bring up a different HTML source view editor. Here you can modify HTML and change the article data type. Currently HTML and WikiText article data types are supported. 
+ 
+{{/Image/editinghtml-img4.jpg}}
+
+=Related Items=
+For more information on Article Metadata see:\\
+[[Edit Article Metadata]]\\
+
+For information on editing HTML articles see:\\
+[[Editing HTML Articles]]\\
+
+For information on editing WikiText articles see:\\
+[[Editing WikiText Articles]]\\]]></Data>
+  </Content>
+</TeamMentor_Article>

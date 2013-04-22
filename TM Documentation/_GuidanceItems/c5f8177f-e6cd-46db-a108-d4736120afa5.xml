@@ -1,0 +1,211 @@
+<?xml version="1.0"?>
+<TeamMentor_Article Metadata_Hash="0" Content_Hash="0">
+  <Metadata>
+    <Id>c5f8177f-e6cd-46db-a108-d4736120afa5</Id>
+    <Library_Id>eb39d862-f752-4d1c-ab6e-14ed697397c0</Library_Id>
+    <Title>Case Study - Creating a CWE Library from CWE raw XML</Title>
+  </Metadata>
+  <Content Sanitized="false" DataType="wikitext">
+    <Data><![CDATA[After  we have a normalized CWE XML file lets create the TeamMentor project
+
+
+**Logging in into teamMentor:**
+{{{
+var teamMentor = new API_TeamMentor_WebServices("http://localhost:12115");
+
+teamMentor.login("editor",editorPwd).str();
+return teamMentor.isLoggedIn();
+//using SecurityInnovation.TeamMentor 
+//O2File:...\TM_UnitTests\APIs\API_TeamMentor_WebServices.cs
+//O2Ref:System.Web.Services.dll
+}}}
+
+**Get Current User roles:**
+{{{
+var teamMentor = new API_TeamMentor_WebServices("http://127.0.0.1:12115"); 
+
+teamMentor.login("editor",editorPwd).str();
+return teamMentor.currentUser_Roles();
+get Current Libraries
+var teamMentor = new API_TeamMentor_WebServices("http://127.0.0.1:12115"); 
+teamMentor.login("editor",editorPwd).str();
+
+return teamMentor.libraries();
+}}}
+
+**Create/Get CWE Library**
+{{{
+var teamMentor = new API_TeamMentor_WebServices("http://127.0.0.1:12115"); 
+teamMentor.login("editor",editorPwd).str();
+
+var cweLibrary = teamMentor.library("CWE");
+
+return cweLibrary;
+Get -> Delete -> Create CWE library
+var cweLibrary = teamMentor.library("CWE")
+						   .delete()
+						   .library("CWE");
+
+return cweLibrary;
+Create View:
+var cweLibrary = teamMentor.library("CWE").delete().library("CWE");
+var cweWeakness = cweLibrary.add_View("Weaknesses");
+return cweWeakness;
+}}}
+
+**Loading CWE Data (from XML file)**
+{{{
+var editorPwd = "123qwe";
+
+var targetDir = "_CWE_Data".tempDir(false);
+var mappedXml = targetDir.pathCombine("Cwe_data.xml");
+var cweData = mappedXml.load<CWE_Data>();
+
+
+var teamMentor = new API_TeamMentor_WebServices("http://localhost:12115");
+teamMentor.login("editor",editorPwd).str();
+
+//using SecurityInnovation.TeamMentor 
+//O2File:...\TM_UnitTests\APIs\API_TeamMentor_WebServices.cs
+//O2File:CWE_Data.cs
+//O2Ref:System.Web.Services.dll
+}}}
+
+**Creating 10 articles in Weaknesses View**
+{{{
+
+var cweData = mappedXml.load<CWE_Data>();
+
+var teamMentor = new API_TeamMentor_WebServices("http://localhost:12115");
+teamMentor.login("editor",editorPwd).str();
+
+var tmLibrary = teamMentor.library("CWE").delete().library("CWE");
+var tmView = tmLibrary.add_View("Weaknesses");
+
+foreach(var weakness in cweData.Weaknesses.Take(10))
+{
+	tmView.add_Article(weakness.Title, weakness.Content);
+}
+return "done";
+testing populating metadata fields and viewing TM site in browser window
+foreach(var weakness in cweData.Weaknesses.Take(10))
+{
+	tmView.add_Article(weakness.Title,weakness.Content, "1","2","3","4");
+}
+panel.clear().add_WebBrowser_Control().open(tmSite);
+}}}
+
+**Populating metadata**
+{{{
+foreach(var weakness in cweData.Weaknesses.Take(10))
+{
+	tmView.add_Article(weakness.Title,weakness.Content, weakness.Technology,weakness.Phase, weakness.Type, weakness.Category);
+}
+
+**Adding all articles**
+{{{
+var tmLibrary = teamMentor.library("CWE").delete().library("CWE");
+var tmView = tmLibrary.add_View("Weaknesses");
+var itemsProcessed = 0;
+foreach(var weakness in cweData.Weaknesses)
+{
+	tmView.add_Article(weakness.Title,weakness.Content, weakness.Technology,weakness.Phase, weakness.Type, weakness.Category);
+	if (itemsProcessed++.mod0(30))
+		"[{0}/{1}]".info(itemsProcessed, cweData.Weaknesses.size()); 
+}
+}}}
+
+**Creating a Folder mapped by Phase: **
+
+Start by creating a filtered view of the data:
+
+{{{
+var tmLibrary = teamMentor.library("CWE").delete().library("CWE");
+var weakness_By_Phase = new Dictionary<string,List<CWE_Weakness>>();
+foreach(var weakness in cweData.Weaknesses)
+{
+	foreach(var phase in weakness.Phase.split(","))
+		weakness_By_Phase.add(phase.trim(), weakness);
+}
+
+return weakness_By_Phase;
+}}}
+
+**Create a folder to hold a view per phase:**
+{{{
+foreach(var item in weakness_By_Phase)
+{
+	var tmView = tmFolder.add_View(item.Key);
+	foreach(var weakness in item.Value)
+		tmView.add_Article(weakness.Title,weakness.Content, weakness.Technology, item.Key, weakness.Type, weakness.Category);
+		
+	if (itemsProcessed++.mod0(30))
+		"[{0}/{1}]".info(itemsProcessed, cweData.Weaknesses.size()); 
+	
+ }
+
+panel.clear().add_WebBrowser_Control().open(tmSite); 
+}}}
+
+**Complete script which creates two libraries:**
+
+{{{
+
+var targetDir = "_CWE_Data".tempDir(false);
+var mappedXml = targetDir.pathCombine("Cwe_data.xml");
+var cweData = mappedXml.load<CWE_Data>();
+
+var tmSite = "http://localhost.:12115";
+var teamMentor = new API_TeamMentor_WebServices(tmSite);
+
+
+teamMentor.login("editor",editorPwd).str(); 
+ 
+var tmLibrary = teamMentor.library("CWE_by_Phase").delete().library("CWE_by_Phase");
+
+var weakness_By_Phase = new Dictionary<string,List<CWE_Weakness>>();
+foreach(var weakness in cweData.Weaknesses)
+{
+	foreach(var phase in weakness.Phase.split(","))
+		weakness_By_Phase.add(phase.trim(), weakness);
+}
+var tmFolder = tmLibrary.add_Folder("Weakness by Phase");
+
+var itemsProcessed = 0;
+
+foreach(var item in weakness_By_Phase)
+{
+	var tmView = tmFolder.add_View(item.Key);
+	foreach(var weakness in item.Value)
+		tmView.add_Article(weakness.Title,weakness.Content, weakness.Technology, item.Key, weakness.Type, weakness.Category);
+		
+	if (itemsProcessed++.mod0(30))
+		"[{0}/{1}]".info(itemsProcessed, cweData.Weaknesses.size()); 
+	
+ }
+ 
+//Creating a view with all Items
+tmLibrary = teamMentor.library("CWE_All").delete().library("CWE_All");
+var _tmView = tmLibrary.add_View("Weaknesses");
+itemsProcessed = 0;
+foreach(var weakness in cweData.Weaknesses)
+{
+	_tmView.add_Article(weakness.Title,weakness.Content, weakness.Technology,weakness.Phase, weakness.Type, weakness.Category);
+	if (itemsProcessed++.mod0(30))
+		"[{0}/{1}]".info(itemsProcessed, cweData.Weaknesses.size()); 
+}
+
+panel.clear().add_WebBrowser_Control().open(tmSite); 
+
+
+
+return "done";
+//using SecurityInnovation.TeamMentor 
+//O2File:..\TM_UnitTests\APIs\API_TeamMentor_WebServices.cs
+//O2File:CWE_Data.cs
+//O2Ref:System.Web.Services.dll
+}}}
+
+]]></Data>
+  </Content>
+</TeamMentor_Article>

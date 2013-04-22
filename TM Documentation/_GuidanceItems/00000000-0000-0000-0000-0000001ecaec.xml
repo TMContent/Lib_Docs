@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<TeamMentor_Article Metadata_Hash="0" Content_Hash="0">
+  <Metadata>
+    <Id>00000000-0000-0000-0000-0000001ecaec</Id>
+    <Library_Id>eb39d862-f752-4d1c-ab6e-14ed697397c0</Library_Id>
+    <Title>Changing Layout and Collaborating</Title>
+    <Category>Editing</Category>
+    <Phase>NA</Phase>
+    <Technology>TeamMentor</Technology>
+    <Type>Documentation</Type>
+    <DirectLink>Changing Layout and Collaborating</DirectLink>
+    <Author />
+    <Priority />
+    <Status />
+  </Metadata>
+  <Content Sanitized="false" DataType="html">
+    <Data><![CDATA[<h1>Displaying a Link to a Particular View</h1>
+  <p>Sometimes it is necessary to generate and send a link to a particular view. Team Mentor provides that capability for logged in users via the “Display Direct Link” feature. </p>
+  <p>Navigate to a library view to be shared.</p>
+  <img height="410" src="/Image/chlayout-img01.jpg" width="660" />
+  <br />
+  <br />
+  <p>
+Right click on that item to bring up the context menu and clicks on “Show Direct Link”
+</p>
+  <img src="/Image/chlayout-img02.jpg" />
+  <br />
+  <br />
+  <p>The URL bar on the browser will change to indicate the link for this particular menu item.</p>
+  <img src="/Image/chlayout-img03.jpg" />
+  <br />
+  <br />
+  <p>Copy and send that URL to another user. The receiving user will open the link in their browser.</p>
+  <img height="410" src="/Image/chlayout-img04.jpg" width="660" />
+  <br />
+  <br />
+  <h1>Changing Layout</h1>
+  <p>Team Mentor GUI is composed of 4 main panes. The navigator pane sows the list of available Libraries, Folders and Views.  Search and Filter pane shows the search bar and list of available metadata filters of Technology, Phase, Type and Category.   The article list pane shows the list of articles in a navigator selection.  Finally, the preview pane shows a preview of the article currently selected on the article list pane.  It is possible change the size of these panes by dragging the sides of each pane. It is also possible to close and open these panes by clicking on the dark blue ribbon on the side of each pane.  
+</p>
+  <img height="410" src="/Image/chlayout-img05.jpg" width="660" />
+  <br />
+  <br />
+  <h1>Reading Layout</h1>
+  <p>Sometimes it is convenient to have only the list of articles and their previews displayed.  This is called the Reading Layout.  Reading Layout is only available to logged-in users.  To access the Reading Layout:
+In the Navigator pane, select the view (the list of articles) to be shown in the Reading Layout and right-click to bring up the context menu.
+</p>
+  <img src="/Image/chlayout-img06.jpg" />
+  <p>Click on “Show Reading View” and the reading layout comes up.</p>
+  <img height="410" src="/Image/chlayout-img08.jpg" width="660" />]]></Data>
+  </Content>
+</TeamMentor_Article>

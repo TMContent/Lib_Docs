@@ -1,0 +1,173 @@
+<?xml version="1.0"?>
+<TeamMentor_Article Metadata_Hash="0" Content_Hash="0">
+  <Metadata>
+    <Id>2a872a37-171d-4ae4-96e6-795e311528df</Id>
+    <Library_Id>fcd4cd02-bfd3-4755-8943-7ff25f3ed00a</Library_Id>
+    <Title>xslt LandingPage</Title>
+    <Category />
+    <Phase />
+    <Technology />
+    <Type />
+    <DirectLink>xslt LandingPage</DirectLink>
+  </Metadata>
+  <Content Sanitized="false" DataType="xml">
+    <Data><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+    xmlns:msxsl="urn:schemas-microsoft-com:xslt" exclude-result-prefixes="msxsl">
+    <xsl:output method="html" indent="yes"/>
+
+  <xsl:template match="/">
+	<xsl:apply-templates select="*"/>
+  </xsl:template>
+
+ 
+  <xsl:template match="TeamMentor_LandingPage">
+    <html>
+	<head>
+		<base href="http://customer.teammentor.net"/>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>TeamMentor Customer Download</title>			
+		<link rel="shortcut icon" href="favicon.ico"/>
+		<meta name="description" content="" />			
+		<meta name="keywords" content="" />			
+		<link rel="stylesheet" type="text/css" href="css/layout.css"/>			
+		<link rel="stylesheet" type="text/css" href="css/prettyphoto.css"/>
+
+		<!--[if IE 7]><link rel="stylesheet" type="text/css" href="css/ie7.css" /><![endif]-->
+		<!--[if IE 8]><link rel="stylesheet" type="text/css" href="css/ie8.css" /><![endif]-->
+
+		<script type="text/javascript" src="lib/jquery-core.js"></script>
+		<script type="text/javascript" src="lib/jquery-reveal.js"></script>
+		<script type="text/javascript" src="lib/jquery-accordion.js"></script>
+		<script type="text/javascript" src="lib/jquery-prettyphoto.js"></script>
+		<script type="text/javascript" src="lib/jquery-form.js"></script>
+		<script type="text/javascript" src="lib/jquery-enquire.js"></script>
+      	</head>
+      	<body>
+		<div id="wrapper">
+		   <div id="container">				
+			<div class="navigation">
+				<img src="http://www.securityinnovation.com/_img/art/logo.png" alt="Security Innovation" height="38" id ='siLogo' />					
+			</div>	
+			<div class="splash">
+				<div class="splash-content">
+					<h2><xsl:value-of select="SplashPanel_Data/@title"/></h2>
+					<br/>
+					<p><xsl:apply-templates select="SplashPanel_Text"/></p>
+					<span class="call-to-action-1">
+						<a><xsl:attribute name="href"><xsl:value-of select="SplashPanel_Data/@button_1_link" /></xsl:attribute><xsl:value-of select="SplashPanel_Data/@button_1_text" /></a>
+					</span>
+					<span class="call-to-action-2">
+						<a target="_blank"><xsl:attribute name="href"><xsl:value-of select="SplashPanel_Data/@button_1_link" /></xsl:attribute><xsl:value-of select="SplashPanel_Data/@button_2_text" /></a>
+					</span>
+				</div>	
+				<span class="splash-screenshot">
+					<img width="435" height="274" class="screenshot" alt="example"><xsl:attribute name="src"><xsl:value-of select="SplashPanel_Data/@image" /></xsl:attribute></img>
+				</span>
+				<span class="clouds"></span>
+			</div>
+
+			<!-- Features-->
+
+			<div class="features">
+					<div class="feature-01">						
+						<img width="238" height="138"  border="2"><xsl:attribute name="src"><xsl:value-of select="Feature_1  /@image" /></xsl:attribute></img>
+	
+						<h2><span>1</span><xsl:value-of select="Feature_1  /@title" /></h2>						
+						<h3><xsl:value-of select="Feature_1/@text" /></h3>
+					</div>
+					<div class="feature-02">
+						<img width="238" height="138"  border="2"><xsl:attribute name="src"><xsl:value-of select="Feature_2/@image" /></xsl:attribute></img>
+						<h2>
+							<span>2</span><xsl:value-of select="Feature_2/@title" /></h2>
+						<h3><xsl:value-of select="Feature_2/@text" /></h3>
+					</div>
+					<div class="feature-03">
+						<img width="238" height="138"  border="2"><xsl:attribute name="src"><xsl:value-of select="Feature_3/@image" /></xsl:attribute></img>
+						<h2><span>3</span><xsl:value-of select="Feature_3/@title" /></h2>
+						<h3><xsl:value-of select="Feature_3/@text" /></h3>
+					</div>
+				</div>
+
+			<!-- BigYellowBox-->
+				<div class="download">
+					<h2><xsl:value-of select="BigYellowBox/@title" /></h2>
+					<span class="clear"></span><br/><br/>
+					<p><xsl:value-of select="BigYellowBox/@body_text" /></p>
+					<span class="call-to-action-1">
+						<a>
+							<xsl:attribute name="href"><xsl:value-of select="BigYellowBox/@button_href" /></xsl:attribute>
+							<xsl:value-of select="BigYellowBox/@button_text" />
+						</a>
+					</span>
+				</div>	
+
+			<!-- Gallery -->
+
+				<div class="gallery">
+					<ul class="gallery-list">
+						<li><a rel="gallery-set[1]"><xsl:attribute name="href"><xsl:value-of select="Gallery/@image_1_href" /></xsl:attribute>
+						    		<img width="128" height="93" ><xsl:attribute name="src"><xsl:value-of select="Gallery/@image_1_href" /></xsl:attribute></img></a></li>
+
+						<li><a rel="gallery-set[1]"><xsl:attribute name="href"><xsl:value-of select="Gallery/@image_2_href" /></xsl:attribute>
+								<img width="128" height="93" ><xsl:attribute name="src"><xsl:value-of select="Gallery/@image_2_href" /></xsl:attribute></img></a></li>
+
+						<li><a rel="gallery-set[1]"><xsl:attribute name="href"><xsl:value-of select="Gallery/@image_3_href" /></xsl:attribute>
+								<img width="128" height="93" ><xsl:attribute name="src"><xsl:value-of select="Gallery/@image_3_href" /></xsl:attribute></img></a></li>
+
+						<li><a rel="gallery-set[1]"><xsl:attribute name="href"><xsl:value-of select="Gallery/@image_4_href" /></xsl:attribute>
+								<img width="128" height="93" ><xsl:attribute name="src"><xsl:value-of select="Gallery/@image_4_href" /></xsl:attribute></img></a></li>
+
+						<li><a rel="gallery-set[1]"><xsl:attribute name="href"><xsl:value-of select="Gallery/@image_5_href" /></xsl:attribute>
+								<img width="128" height="93" ><xsl:attribute name="src"><xsl:value-of select="Gallery/@image_5_href" /></xsl:attribute></img></a></li>
+
+						<li><a rel="gallery-set[1]"><xsl:attribute name="href"><xsl:value-of select="Gallery/@image_6_href" /></xsl:attribute>
+								<img width="128" height="93" ><xsl:attribute name="src"><xsl:value-of select="Gallery/@image_6_href" /></xsl:attribute></img></a></li>
+					</ul>
+				</div>
+
+
+		<!-- Testimonials -->
+				<div class="testimonials">
+					<h2><xsl:value-of select="Testimonials/@title" /></h2>
+
+					<span class="testimonials-top"></span>
+					<ul>
+						<li><p><xsl:value-of select="Testimonials/@slot_1_text" /></p>
+							<p class="testimonial-user"><xsl:value-of select="Testimonials/@slot_1_company" /></p></li>
+
+						<li><p><xsl:value-of select="Testimonials/@slot_2_text" /></p>
+							<p class="testimonial-user"><xsl:value-of select="Testimonials/@slot_1_company" /></p></li>
+
+						<li><p><xsl:value-of select="Testimonials/@slot_3_text" /></p>
+							<p class="testimonial-user"><xsl:value-of select="Testimonials/@slot_1_company" /></p></li>
+
+						<li><p><xsl:value-of select="Testimonials/@slot_4_text" /></p>
+							<p class="testimonial-user"><xsl:value-of select="Testimonials/@slot_1_company" /></p></li>
+					</ul>
+					<span class="testimonials-bottom"></span>
+				</div>
+			<div class="clear"></div>
+		   </div>
+		</div>
+
+	<!-- Footer -->
+		<div class="footer">
+			<div class="footer-content">
+				<p>  <xsl:value-of select="FooterText"/></p>
+				<div class="copyright">
+					<p class="left copyright-text"><xsl:value-of select="FooterTextCopyright"/></p>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+       	</body>
+    </html>
+  </xsl:template>
+
+  <xsl:template match="br">
+  <br/>
+  </xsl:template>
+</xsl:stylesheet>]]></Data>
+  </Content>
+</TeamMentor_Article>

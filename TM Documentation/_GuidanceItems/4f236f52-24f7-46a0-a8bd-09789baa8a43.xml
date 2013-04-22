@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<TeamMentor_Article Metadata_Hash="0" Content_Hash="0">
+  <Metadata>
+    <Id>4f236f52-24f7-46a0-a8bd-09789baa8a43</Id>
+    <Library_Id>eb39d862-f752-4d1c-ab6e-14ed697397c0</Library_Id>
+    <Title>How to - Upload Files or Images</Title>
+  </Metadata>
+  <Content Sanitized="false" DataType="wikitext">
+    <Data><![CDATA[This article shows how to programatically uploading files or images to an TeamMentor instance via its WebServices
+
+**Requirements**: Windows with .NET 4.0, [[https://github.com/o2platform/O2_Install | O2 Platform]], [[https://github.com/TeamMentor/UnitTests | TeamMentor Unit Tests]] GitHub Repository
+
+===Config target TM instance===
+{{{
+var teamMentor = new API_TeamMentor_WebServices("localhost",3187);
+return teamMentor.ping(); 
+
+//using SecurityInnovation.TeamMentor
+//O2File:...l\_TeamMentor\TeamMentor-UnitTests\APIs\API_TeamMentor_WebServices.cs
+//O2Ref:System.Web.Services.dll
+}}}
+
+===Login ===
+{{{
+var adminPwd = "*****";
+var teamMentor = new API_TeamMentor_WebServices("localhost",3187);
+teamMentor.login("admin",adminPwd);
+return teamMentor.loggedIn();
+}}}
+
+===Get Upload Token===
+{{{
+var teamMentor = new API_TeamMentor_WebServices("localhost",3187);
+teamMentor.login("admin",adminPwd);
+var uploadToken = teamMentor.webServices.GetUploadToken();
+return uploadToken.str();
+}}}
+
+===Upload/create a text file===
+{{{
+var teamMentor = new API_TeamMentor_WebServices("localhost.",3187);
+teamMentor.login("admin",adminPwd);
+
+var uploadToken = teamMentor.webServices.GetUploadToken();
+var targetFile = "filename.txt";
+var fileContents = "This is the file contents";
+
+var requestParams = "/Aspx_Pages/File_Upload.ashx?uploadToken={0}&qqfile={1}".format(uploadToken, targetFile);
+var uploadHandler = teamMentor.WebSite_Url.append(requestParams);
+
+return uploadHandler.POST(fileContents);
+}}}
+
+===Uploading an Image===
+{{{
+var teamMentor = new API_TeamMentor_WebServices("localhost.",3187);
+teamMentor.login("admin",adminPwd); 
+
+var uploadToken = teamMentor.webServices.GetUploadToken(); 
+var targetFile = "O2_Logo.gif";
+var fileContents = targetFile.local().fileContents_AsByteArray();
+
+var requestParams = "/Aspx_Pages/File_Upload.ashx?uploadToken={0}&qqfile={1}".format(uploadToken, targetFile);
+var uploadHandler = teamMentor.WebSite_Url.append(requestParams);
+
+return uploadHandler.POST(fileContents);
+
+return uploadToken.str();
+}}}
+
+===Simpler version of upload file===
+{{{
+var teamMentor = new API_TeamMentor_WebServices("localhost.",3187);
+teamMentor.login("admin",adminPwd); 
+
+var targetFile = "O2_Logo.gif";
+var fileContents = targetFile.local().fileContents_AsByteArray();
+			
+return teamMentor.uploadFile(targetFile, fileContents);
+}}}
+
+===Upload files that can then be retrieved via urls===
+{{{
+var teamMentor = new API_TeamMentor_WebServices("localhost.",3187);
+teamMentor.login("admin",adminPwd); 
+ 
+var filename = "O2_Logo.gif";
+var fileContents = filename.local().fileContents_AsByteArray();			
+var libraryId = "daa1ebc4-d488-46ba-81cf-32e280b5d885".guid();
+
+return teamMentor.webServices.Upload_File_To_Library(libraryId ,filename , fileContents );
+}}}
+
+===Upload to a specific directory===
+{{{
+var teamMentor = new API_TeamMentor_WebServices("localhost.",3187);
+teamMentor.login("admin",adminPwd); 
+ 
+var filename = "O2_Logo.gif";
+var fileContents = filename.local().fileContents_AsByteArray();			
+
+var library = teamMentor.library("OWASP");
+
+teamMentor.webServices.Upload_File_To_Library(library.Id ,filename , fileContents );
+
+var imageUrl = teamMentor.WebSite_Url.append("/Image/{0}/{1}".format(library.Id, filename));
+}}}
+
+===Uploading an Image and viewing it===
+{{{
+var teamMentor = new API_TeamMentor_WebServices("localhost.",3187);
+teamMentor.login("admin",adminPwd); 
+ 
+var filename = "O2_Logo.gif";
+var fileContents = filename.local().fileContents_AsByteArray();			
+var libraryId = "daa1ebc4-d488-46ba-81cf-32e280b5d885".guid();
+
+teamMentor.webServices.Upload_File_To_Library(libraryId ,filename , fileContents );
+
+var imageUrl = teamMentor.WebSite_Url.append("/Image/{0}/{1}".format(libraryId, filename));
+panel.clear().add_WebBrowser_Control().open(imageUrl.str());
+
+return imageUrl;
+}}}
+
+===Uploading an image from the Clipboard===
+{{{
+var teamMentor = new API_TeamMentor_WebServices("localhost.",3187);
+teamMentor.login("admin",adminPwd); 
+ 
+var tmpFolder= "_tmpImages".tempDir();
+
+var image = tmpFolder.saveImageFromClipboardToFolder(); 
+
+var filename = image.fileName();
+var fileContents = image.fileContents_AsByteArray();			
+
+var library = teamMentor.library("OWASP");
+
+teamMentor.webServices.Upload_File_To_Library(library.Id ,filename , fileContents );
+
+var imageUrl = teamMentor.WebSite_Url.append("/Image/{0}/{1}".format(library.Id, filename));
+panel.clear().add_WebBrowser_Control().open(imageUrl.str());
+}}}
+]]></Data>
+  </Content>
+</TeamMentor_Article>

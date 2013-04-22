@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<TeamMentor_Article Metadata_Hash="0" Content_Hash="0">
+  <Metadata>
+    <Id>00000000-0000-0000-0000-00000079da36</Id>
+    <Library_Id>eb39d862-f752-4d1c-ab6e-14ed697397c0</Library_Id>
+    <Title>Editing WikiText Articles</Title>
+    <Category>Editing</Category>
+    <Phase>NA</Phase>
+    <Technology>TeamMentor</Technology>
+    <Type>Documentation</Type>
+    <DirectLink>Editing WikiText Articles</DirectLink>
+    <Author />
+    <Priority />
+    <Status />
+  </Metadata>
+  <Content Sanitized="false" DataType="WikiText">
+    <Data><![CDATA[=Editing WikiText Articles in Edit Mode=
+Double clicking on a WikiText article in “Edit Mode” opens up the editor window. Here you can modify WikiText content using WikiCreole markup. See the WikiCreole markup cheat-sheet for syntax details. Article metadata, such as title, technology, phase, type and category etc. can also be modified in this editor.  See Related Items for further details. Save changes to your edits by clicking the “Save Changes” Button.  Clicking “View Article” will bring up the article in view mode, however, your changes will not be saved unless you go back to editing the article and click  on “Save Changes”
+
+{{/Image/editingwikitext-img1.jpg}}
+
+=Editing WikiText Articles in View Mode=
+WikiText articles can be edited while viewing the article and clicking “Edit WikiText” or “Edit Source” buttons. 
+ 
+{{/Image/editingwikitext-img2.jpg}}
+
+Clicking the “Edit WikiText” button brings up the familiar WikiText editor. Here you can modify WikiText content using WikiCreole markup. See the WikiCreole markup cheat-sheet for syntax details. Article metadata, such as title, technology, phase, type and category etc. can also be modified in this editor. See Related Items for further details. Save changes to your edits by clicking the “Save Changes” Button. Clicking “View Article” will bring up the article in view mode, however, your changes will not be saved unless you go back to editing the article and click  on “Save Changes”
+ 
+{{/Image/editingwikitext-img3.jpg}}
+
+Clicking on the “Edit Source” button brings up the WikiText source view window. Here you can modify WikiText content using WikiCreole markup. Here you have the link to WikiCreole cheat-sheet. From this window you can also change the article data type. Currently HTML and WikiText article data types are supported. 
+
+{{/Image/editingwikitext-img4.jpg}}
+
+
+=Related Items=
+For more information on Article Metadata see:\\
+[[Edit Article Metadata]]\\
+
+For information on editing HTML articles see:\\
+[[Editing HTML Articles]]\\
+
+For information on editing WikiText articles see:\\
+[[Editing WikiText Articles]]\\]]></Data>
+  </Content>
+</TeamMentor_Article>

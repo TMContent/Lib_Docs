@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<TeamMentor_Article Metadata_Hash="0" Content_Hash="0">
+  <Metadata>
+    <Id>5de001d7-8c21-487d-b7ab-7fd19345aac3</Id>
+    <Library_Id>eb39d862-f752-4d1c-ab6e-14ed697397c0</Library_Id>
+    <Title>TM SourceCode</Title>
+  </Metadata>
+  <Content Sanitized="false" DataType="wikitext">
+    <Data><![CDATA[TeamMentor uses [[http://git-scm.com/ | Git]] and [[https://github.com | GitHub]] as its Source-Code Version system/solution.
+
+The latest version of TeamMentor is available on the public GitHub repositories of TeamMentor. There are a number of private repositories (forked from the public ones) that are used for the main TeamMentor customer release and its multiple customizations.
+
+===Test/Eval version===
+If you are looking to test or evaluate team mentor and just want to get your hands on its code, then grab a clone/fork of one of these repositories:
+
+* [[https://github.com/TeamMentor-Owasp/Master]] - Latest stable release with OWASP Library
+* [[https://github.com/TeamMentor/TeamMentor-Documentation]] - Latest stable release with TeamMentor's documentation library (i.e. this website)
+
+===Development version===
+If you want the latest development version this is the one to clone:
+
+* [[https://github.com/DinisCruz/TeamMentor-3.0-Release]]
+
+===Master version===
+If you want to fork TeamMentor and manage your own libraries, the best one to use is the Master version:
+* [[https://github.com/TeamMentor/Master]]
+Note that it is this version that the other TeamMentor Forks use. New versions will always be pushed here, and then pulled into the other repositories (like the TeamMentor+SI_Library , TeamMentor+OWASP or TeamMentor+Documentation)
+
+==Bug tracking==
+The current list of Bugs/Issues is at  [[https://github.com/TeamMentor/Master/issues]] (note that there is a large number of issues still need to be moved from the legacy repository: [[https://github.com/DinisCruz/TeamMentor-v3.0/issues]])]]></Data>
+  </Content>
+</TeamMentor_Article>

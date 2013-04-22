@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<TeamMentor_Article Metadata_Hash="0" Content_Hash="0">
+  <Metadata>
+    <Id>6e3221bf-08b8-4de1-bb3b-4edacc85fab6</Id>
+    <Library_Id>eb39d862-f752-4d1c-ab6e-14ed697397c0</Library_Id>
+    <Title>Active Directory Support</Title>
+  </Metadata>
+  <Content Sanitized="false" DataType="wikitext">
+    <Data><![CDATA[By default TeamMentor uses its Xml-based User Store, but it is possible to use Active Directory to authenticate users.
+
+===Set-up==
+
+These are the steps required to set it up
+
+**Step 1: Configure web.config file **
+
+In this file (which you will find in the Web Root '\Web Applications\TM_Website') you need to make one change: Set the impersonate value of the system.web identity element
+
+By default the impersonate value is set to false, so you will need to set it to true
+{{{
+	<system.web>
+		...
+		<identity impersonate="false"/> <!-- for TeamMentor ActiveDirectory support set to true-->
+	</system.web>
+}}}
+
+Due to changes in .Net 4 and IIS, the following setting must also be set when impersonate="true" (note that the default value is already set to false)
+{{{
+	<system.webServer>
+	    <validation  validateIntegratedModeConfiguration="false"/> <!-- for TeamMentor ActiveDirectory support-->
+		...	
+	</system.webServer>
+}}}
+
+**Step 2: Configure TMConfig.Config file **
+
+In this file (which you will find in the Web Root '\Web Applications\TM_Website') you need to make two changes: Enable Windows Authentication and set the relevant security groups.
+
+By default WindowsAuthentication is set to false, so you will need to set the Enabled element to true and change the ReaderGroup, EditorGroup, AdminGroup values to match your Active Directory settings
+{{{
+	<TMConfig>
+		<WindowsAuthentication>
+			<Enabled>false</Enabled>
+			<ReaderGroup>TEAMMENTOR\TeamMentor Readers</ReaderGroup>
+			<EditorGroup>TEAMMENTOR\TeamMentor Editors</EditorGroup>
+			<AdminGroup>TEAMMENTOR\TeamMentor Admins</AdminGroup>
+		</WindowsAuthentication>
+	</TMConfig>
+}}}
+
+
+== Troubleshoot ==
+
+
+**Q: You get a 401 error when connecting to the IIS server from a remote computer, but it works locally**
+
+**A: ** See this Microsoft KB for a workaround [[http://support.microsoft.com/kb/871179]]
+
+**Q: You get this error when running TeamMentor on a fresh IIS installation: //"Handler'"WebServiceHandlerFactory-Integrated' has a bad module 'ManagedPipelineHandler' in its module list."//**
+
+**A: ** Try running //aspnet_regiis.exe -i// from the .Net 4.0 folder. See this post for more details: http://forums.iis.net/p/1149449/1869918.aspx
+
+
+==References==
+* on why need to set validateIntegratedModeConfiguration=false
+** [[http://forums.iis.net/t/1187993.aspx]]]]></Data>
+  </Content>
+</TeamMentor_Article>

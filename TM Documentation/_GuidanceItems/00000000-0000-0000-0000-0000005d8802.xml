@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<TeamMentor_Article Metadata_Hash="-1535922535" Content_Hash="1513984744">
+  <Metadata>
+    <Id>00000000-0000-0000-0000-0000005d8802</Id>
+    <Library_Id>eb39d862-f752-4d1c-ab6e-14ed697397c0</Library_Id>
+    <Title>Editing the Configuration File</Title>
+    <Category>Administration</Category>
+    <Phase>NA</Phase>
+    <Technology>TeamMentor</Technology>
+    <Type>Documentation</Type>
+    <DirectLink />
+    <Tag />
+    <Security_Demand />
+    <Author />
+    <Priority />
+    <Status />
+  </Metadata>
+  <Content Sanitized="true" DataType="Html">
+    <Data><![CDATA[
+<div>The TeamMentor configuration file is called TMConfig.Config and it is located in the &quot;Web Applications\TM_Website&quot; folder relative to the TeamMentor installation path. The following settings are available in the TMConfig.Config file:</div>
+<div><br>
+</div>
+<div>
+<ul>
+<li><b>Version</b>. This is the version information used for debugging and technical support purposes. It should probably be left alone.</li><li><b>WebSite_Port</b>. This is used by TeamMentor Unit Tests to know the location of TeamMentor. Note that this value is not used by the Web Server.</li><li><b>WebSite_IP</b>. This is used by TeamMentor Unit Tests to know the location of TeamMentor. Note that this value is not used by the Web Server.</li><li><b>XmlLibrariesPath</b>. This is the path to the library files. This is probably the most important option to edit, because it has to be set correctly for TM to load the library files. The value of this property can be either an absolute path or a path
+ relative to the &quot;\Library_Data\XmlDatabase&quot; folder.&nbsp;</li><li><b>Libraries_Disabled</b>. This is a list that can be used to prevent one or more libraries from being loaded (even if they exist in the library folder).</li><li><b>DefaultAdminUserName</b>. Set this option to define the default administrator user name. This user name will be used to manage TeamMentor in the early stages of using it.</li><li><b>DefaultAdminPassword</b>. Set this option to define the default administrator password. This password, together with the default administrator user name, will be used to manage TeamMentor in the early stages of using it.</li><li><b>LibrariesZipsFolder</b>. This is the location to save the zip files that are downloaded from the 'Install/Upload Libraries' Control Panel item. This function is disabled on default installations.</li><li><b>ShowContentToAnonymousUsers</b>. This setting defines whether or not full articles will be displayed to unauthenticated users.</li></ul>
+</div>
+]]></Data>
+  </Content>
+</TeamMentor_Article>
