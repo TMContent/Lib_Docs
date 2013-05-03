@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<TeamMentor_Article Metadata_Hash="0" Content_Hash="0">
+  <Metadata>
+    <Id>bc697c6c-e340-4a20-ba75-9f410dc9d5bb</Id>
+    <Library_Id>eb39d862-f752-4d1c-ab6e-14ed697397c0</Library_Id>
+    <Title>Google Analytics</Title>
+    <Category>Administration</Category>
+    <Phase>NA</Phase>
+    <Technology>TeamMentor</Technology>
+    <Type>Documentation</Type>
+    <DirectLink>Google Analytics</DirectLink>
+    <Author />
+    <Priority />
+    <Status />
+  </Metadata>
+  <Content Sanitized="false" DataType="wikitext">
+    <Data><![CDATA[TeamMentor now has ability to integrate with Google Analytics. There are two Google Analytics integration points. One is on the server side and the other on the client side. The server side integration collects analytic information on the usage of TeamMentor by a particular user.  The client side integration is invoked when the main TeamMentor page loads and collects basic statistic information about the user environment, geoip, browser and similar information.  Please contact Security Innovation support to implement Google Analytics on your site.]]></Data>
+  </Content>
+</TeamMentor_Article>

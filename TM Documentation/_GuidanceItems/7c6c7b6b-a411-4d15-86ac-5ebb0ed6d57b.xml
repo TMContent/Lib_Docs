@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<TeamMentor_Article Metadata_Hash="0" Content_Hash="0">
+  <Metadata>
+    <Id>7c6c7b6b-a411-4d15-86ac-5ebb0ed6d57b</Id>
+    <Library_Id>eb39d862-f752-4d1c-ab6e-14ed697397c0</Library_Id>
+    <Title>Forgot Password</Title>
+    <Category>User Interface</Category>
+    <Phase>NA</Phase>
+    <Technology>TeamMentor</Technology>
+    <Type>Documentation</Type>
+    <DirectLink>Forgot Password</DirectLink>
+    <Author />
+    <Priority />
+    <Status />
+  </Metadata>
+  <Content Sanitized="false" DataType="wikitext">
+    <Data><![CDATA[TeamMentor can assist users in case they have forgotten their password. The user can simply click on forgot password link at the login prompt. 
+
+{{/Image/forgotpassword1.jpg}}
+
+The user will be asked for the email that associated with the users account. TM will then send a one-time, temporary password reset link to the users email account on file.  
+
+In order for “forgot password” feature to work, email must be configured properly and user must have a valid email address associated with his/hers account. 
+]]></Data>
+  </Content>
+</TeamMentor_Article>

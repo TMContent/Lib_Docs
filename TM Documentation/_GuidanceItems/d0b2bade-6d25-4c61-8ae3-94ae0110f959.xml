@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<TeamMentor_Article Metadata_Hash="0" Content_Hash="0">
+  <Metadata>
+    <Id>d0b2bade-6d25-4c61-8ae3-94ae0110f959</Id>
+    <Library_Id>eb39d862-f752-4d1c-ab6e-14ed697397c0</Library_Id>
+    <Title>Configuring Email</Title>
+    <Category>Administration</Category>
+    <Phase>NA</Phase>
+    <Technology>TeamMentor</Technology>
+    <Type>Documentation</Type>
+    <DirectLink>Configuring Email</DirectLink>
+    <Author />
+    <Priority />
+    <Status />
+  </Metadata>
+  <Content Sanitized="false" DataType="wikitext">
+    <Data><![CDATA[TeamMentor has the capability of sending email. This is required for “Forgot Password” functionality to send the temporary password reset link. Team Mentor will also send status emails to specified Admin accounts. These emails include: 
+
+*User Login/Logout
+*Password Reset
+
+To configure email, set the following information in the //\Library_Data\XmlDatabase\User_Data\TMSecretData.config// file:
+
+{{{
+  <SMTP_Server>SMTP Server FQDN or IP address</SMTP_Server>
+  <SMTP_UserName>SMTP  User Name </SMTP_UserName>
+  <SMTP_Password>SMTP User Password </SMTP_Password>
+}}}
+
+And in //\Library_Data\XmlDatabase\User_Data\TMConfig.config//
+
+
+{{{
+   <Default_AdminEmail>Email address that TM will send status email to</Default_AdminEmail>
+}}}
+
+Note that TM does not currently support unauthenticated SMTP connections. Also note that the FROM address on the status emails will be the same as the TO address set in //<Default_AdminEmail>//. ]]></Data>
+  </Content>
+</TeamMentor_Article>

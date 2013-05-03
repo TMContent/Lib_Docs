@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<TeamMentor_Article Metadata_Hash="0" Content_Hash="0">
+  <Metadata>
+    <Id>738f8545-5818-45fb-9494-92ea795af257</Id>
+    <Library_Id>eb39d862-f752-4d1c-ab6e-14ed697397c0</Library_Id>
+    <Title>Upgrading TeamMentor</Title>
+    <Category>Administration</Category>
+    <Phase>NA</Phase>
+    <Technology>TeamMentor</Technology>
+    <Type>Documentation</Type>
+    <DirectLink>Upgrading TeamMentor</DirectLink>
+    <Author />
+    <Priority />
+    <Status />
+  </Metadata>
+  <Content Sanitized="false" DataType="wikitext">
+    <Data><![CDATA[Please contact Security Innovation support for help upgrading your internal instance of TeamMentor. Security Innovation support experts will work with you to ensure a smooth upgrade. Please note that the structure for storing user credentials has changes (as explained later). Please contact Security Innovation support to import old users. The user’s password will remain the same and the import will be transparent to the user]]></Data>
+  </Content>
+</TeamMentor_Article>

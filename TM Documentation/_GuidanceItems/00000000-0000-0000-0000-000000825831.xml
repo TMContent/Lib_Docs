@@ -15,8 +15,10 @@
     <Priority />
     <Status />
   </Metadata>
-  <Content Sanitized="true" DataType="Html">
-    <Data><![CDATA[Libraries can be removed by deleting the corresponding library folders. Library folders can be found in the location configured in TMConfig.Config or in the &quot;Library_Data\XmlDatabase\TM_Libraries&quot; folder relative to the TeamMentor installation path by
- default. The setting for the library location in the TMConfig.Config file is XmlLibrariesPath.]]></Data>
+  <Content Sanitized="true" DataType="wikitext">
+    <Data><![CDATA[Libraries can be removed by deleting the corresponding library folders. Library folders can be found in the location configured in TMConfig.Config or in the "Library_Data\XmlDatabase\TM_Libraries" folder relative to the TeamMentor installation path by
+ default. The setting for the library location in the TMConfig.Config file is XmlLibrariesPath.
+
+Libraries can also be removed in "Edit Mode" by right clicking on the library and choosing "Delete Library" option from the context menu. ]]></Data>
   </Content>
 </TeamMentor_Article>

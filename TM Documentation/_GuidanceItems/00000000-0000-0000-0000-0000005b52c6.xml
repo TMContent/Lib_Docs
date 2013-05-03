@@ -8,21 +8,88 @@
     <Phase>NA</Phase>
     <Technology>TeamMentor</Technology>
     <Type>Documentation</Type>
-    <DirectLink />
+    <DirectLink>Installing Libraries</DirectLink>
     <Tag />
     <Security_Demand />
     <Author />
     <Priority />
     <Status />
   </Metadata>
-  <Content Sanitized="true" DataType="Html">
-    <Data><![CDATA[
-<div>To install libraries, move them to the folder that is configured as the TeamMentor library folder. Libraries are distributed as zip archives. The zip archives can be extracted to the TeamMentor library folder. The TeamMentor library folder is &quot;Library_Data\XmlDatabase\TM_Libraries&quot;
- relative to the TeamMentor installation path by default.&nbsp;</div>
-<div><br>
-</div>
-<div>The TeamMentor library path can be changed by editing the TMConfig.Config file in the &quot;Web Applications\TM_Website&quot; folder relative to the TeamMentor installation path. The XmlLibrariesPath setting in TMConfig.Config is responsible for the location of
- the TeamMentor library folder. The value of this property can be either an absolute path or a path relative to the &quot;\Library_Data\XmlDatabase&quot; folder.</div>
+  <Content Sanitized="true" DataType="wikitext">
+    <Data><![CDATA[TeamMentor provides for a number of alternatives for installing libraries. Libraries can be installed locally using a zip file, the zip file can be uploaded using the TeamMentor admin console and libraries can also linked to github repository.
+
+==Installing TeamMentor Library from Github==
+Please see [[/article/e28fe45e-675c-47f4-b921-968921efcab9|TM_Libraries Git Support]] for explanation on how TeamMentor links to git repositories for library updates and versioning.
+\\
+
+Configuring TM_Libraries  git support requires configuration changes in two places. One is to enable git support for TM_Libraries and the other to configure remote git repositories with content to be pulled.
+
+To enable git support on TM_Libraries add the following line to the //Library_Data\XmlDatabase\User_Data\TmConfig.config// configuration file in between the //<Git> </Git>//  tags.
+{{{
+   <Git>
+        <AutoCommit_LibraryData>true</AutoCommit_LibraryData>
+  </Git>
+}}}
+
+By itself this configuration will not provide any functionality. You must also configure the remote git repositories from which you will pull content. The configuration directive involves input of the username and password for the remote repository. This configuration information is considered sensitive and is configured in the //\Library_Data\XmlDatabase\User_Data\TMSecretData.config//  file.
+
+Edit  \Library_Data\XmlDatabase\User_Data\TMSecretData.config  
+
+Remove the following line
+{{{
+<Libraries_Git_Repositories />
+}}}
+
+And add the following
+
+{{{
+<Libraries_Git_Repositories>
+    <string>https://[USERNAME]:[PASSWORD]@[GIT SERVER]/[PATH TO_.GIT FILE]</string>
+</Libraries_Git_Repositories>
+}}}
+
+Replace the parameters in square brackets [] with parameters relevant to your environment. This configures TeamMentor to pull from the above repository using the credentials specified in the URL line.
+
+Stop and Start TM. You now should have the git linked library installed on your TM instance. Any time you save an article the changes will get committed locally and propagate to the git server.
+
+After the latest content had been pulled, administrator must initiate a cache reload for the content to show up in the UI. (This step is not necessary when performing cache reload)
+
+\\
+\\
+
+==Installing by Uploading to Control Panel==
+The  easiest way to install the ZIP distribution of a library is by uploading it to the system using the control panel. 
+#Login as Admin of the TeamMentor instance.
+#Click on Control Panel at the top right corner
+#Click on Advanced Admin Tools\\
+\\
+{{/Image/AdvancedAdminMenu1.jpg}}
+\\
+#Click on the "Install/Upload Libraries under Develper/Utils menu.\\
+\\
+{{/Image/InstallUploadLibraries1.jpg}}
+\\
+#On the upload page, click the Upload button\\
+\\
+{{/Image/UploadFile1.jpg}}
+\\
+#Choose the ZIP file with the library and click OK. This will upload the library to the LibrariesUploadedFiles Folder (specified by //LibrariesUploadedFiles// configuration parameter). Once the file is uploaded it will be available as a clickable link under the //"Current Libraries Zip Folder"//. Click the link and the full filename will appear under //"Install Library from File or URL"//. Provide the UNZIP password as provided to you by Security Innovation.  and Click Install
+\\
+{{/Image/UploadedLibrary1.jpg}}
+]]
+
+After the latest content had been pulled, administrator must initiate a cache reload for the content to show up in the UI. (This step is not necessary when performing cache reload)
+
+\\
+\\
+
+==Installing locally via zip file==
+To install libraries that are destribed as zip archives, move them to the folder that is configured as the TeamMentor library folder (XmlLibrariesPath configuration parameter). The zip archives can be extracted to the TeamMentor library folder. The default TeamMentor library folder is "Library_Data\XmlDatabase\TM_Libraries" relative to the TeamMentor installation
+. 
+The TeamMentor library path can be changed by editing the TMConfig.Config file in the //"Web Applications\TM_Website"// folder relative to the TeamMentor installation path. The //XmlLibrariesPath// setting in TMConfig.Config is responsible for the location of the TeamMentor library folder. The value of this property can be either an absolute path or a path relative to the //"\Library_Data\XmlDatabase"// folder.
+
+After the latest content had been pulled, administrator must initiate a cache reload for the content to show up in the UI. (This step is not necessary when performing cache reload)
+
 ]]></Data>
   </Content>
 </TeamMentor_Article>

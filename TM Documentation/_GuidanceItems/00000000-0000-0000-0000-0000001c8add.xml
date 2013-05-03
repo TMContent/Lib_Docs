@@ -8,20 +8,36 @@
     <Phase>NA</Phase>
     <Technology>TeamMentor</Technology>
     <Type>Documentation</Type>
-    <DirectLink />
+    <DirectLink>Managing Users</DirectLink>
     <Tag />
     <Security_Demand />
     <Author />
     <Priority />
     <Status />
   </Metadata>
-  <Content Sanitized="true" DataType="Html">
-    <Data><![CDATA[
-<div>Administrators can manage TeamMentor users via the Control Panel. The Control Panel can be accessed via the &quot;Control Panel&quot; link in the top right corner of the main user interface. The TeamMentor Control Panel is only available to Administrator users.&nbsp;</div>
-<div><br>
-</div>
-<div>The user management section consists of the following links: &quot;My Account&quot;, &quot;Manage Users&quot;, and &quot;Create Multiple Users&quot;. The &quot;My Account&quot; link opens a window that allows changing the properties of the current user account. The &quot;Manage Users&quot; link opens
- a page that allows managing all the users of the application. The &quot;Create Multiple Users&quot; link opens a page that allows creating multiple user accounts.</div>
+  <Content Sanitized="true" DataType="wikitext">
+    <Data><![CDATA[Administrators can manage TeamMentor users via the Control Panel. The Control Panel can be accessed via the "Control Panel" link in the top right corner of the main user interface. The TeamMentor Control Panel is only available to Administrator users. 
+
+The user management section consists of the following links: "My Account", "Manage Users", and "Create Multiple Users". The "My Account" link opens a window that allows changing the properties of the current user account. The "Manage Users" link opens
+ a page that allows managing all the users of the application. The "Create Multiple Users" link opens a page that allows creating multiple user accounts.
+
+==Preventing Users From Signing Up==
+At the moment when ShowContentToAnonymousUsers is set to false, TeamMentor displays the user sign up page. By default any user can sign up for access. Upon successful sign up the user access is restricted only by the following two parameters:
+
+*EvalAccounts_Enabled(true) This setting specifies if unauthenticated users will be able to create accounts on the system for Evaluation purposes (only works if ShowContentToAnonymousUsers=false) (note: due to current limitation, if set to "false" users are still able to create accounts on the system which will not expire)
+*EvalAccounts_Days(15) This specifies the duration, in days, that self-created account will have read access to the content (only works if ShowContentToAnonymousUsers=false). 
+
+Regardless if the the access is allowed for evaluation or not, anonymous user sign-up may not be the desired behavior.  To work around the current limitation, please set **EvalAccounts_Enabled** to **true** and **EvalAccounts_Days** to **-1**. This will still allow users to create accounts, however they will not be usable. If this workaround is implemented only the administrator will be able to create user accounts.
+
+\\
+
+==User Account Structure and User Activity Log==
+User accounts now stored in XML structure that is specific to the user. Each user is stored in a file under //\Library_Data\XmlDatabase\User_Data\Users directory// with a file name that begins with a user name followed by the user GUID.   The file contains user information, expiration date and other meta information. The file also contains user activity. Activity is updated when user clicks on an article and the article is viewed in ether a preview pane or in full view.
+
+{{/Image/userfile1.jpg}}
+
+{{/Image/useractivity1.jpg}}
+
 ]]></Data>
   </Content>
 </TeamMentor_Article>

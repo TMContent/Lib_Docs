@@ -3,28 +3,74 @@
   <Metadata>
     <Id>00000000-0000-0000-0000-0000005d8802</Id>
     <Library_Id>eb39d862-f752-4d1c-ab6e-14ed697397c0</Library_Id>
-    <Title>Editing the Configuration File</Title>
+    <Title>Editing the Default Configuration</Title>
     <Category>Administration</Category>
     <Phase>NA</Phase>
     <Technology>TeamMentor</Technology>
     <Type>Documentation</Type>
-    <DirectLink />
+    <DirectLink>Editing the Default Configuration</DirectLink>
     <Tag />
     <Security_Demand />
     <Author />
     <Priority />
     <Status />
   </Metadata>
-  <Content Sanitized="true" DataType="Html">
-    <Data><![CDATA[
-<div>The TeamMentor configuration file is called TMConfig.Config and it is located in the &quot;Web Applications\TM_Website&quot; folder relative to the TeamMentor installation path. The following settings are available in the TMConfig.Config file:</div>
-<div><br>
-</div>
-<div>
-<ul>
-<li><b>Version</b>. This is the version information used for debugging and technical support purposes. It should probably be left alone.</li><li><b>WebSite_Port</b>. This is used by TeamMentor Unit Tests to know the location of TeamMentor. Note that this value is not used by the Web Server.</li><li><b>WebSite_IP</b>. This is used by TeamMentor Unit Tests to know the location of TeamMentor. Note that this value is not used by the Web Server.</li><li><b>XmlLibrariesPath</b>. This is the path to the library files. This is probably the most important option to edit, because it has to be set correctly for TM to load the library files. The value of this property can be either an absolute path or a path
- relative to the &quot;\Library_Data\XmlDatabase&quot; folder.&nbsp;</li><li><b>Libraries_Disabled</b>. This is a list that can be used to prevent one or more libraries from being loaded (even if they exist in the library folder).</li><li><b>DefaultAdminUserName</b>. Set this option to define the default administrator user name. This user name will be used to manage TeamMentor in the early stages of using it.</li><li><b>DefaultAdminPassword</b>. Set this option to define the default administrator password. This password, together with the default administrator user name, will be used to manage TeamMentor in the early stages of using it.</li><li><b>LibrariesZipsFolder</b>. This is the location to save the zip files that are downloaded from the 'Install/Upload Libraries' Control Panel item. This function is disabled on default installations.</li><li><b>ShowContentToAnonymousUsers</b>. This setting defines whether or not full articles will be displayed to unauthenticated users.</li></ul>
-</div>
+  <Content Sanitized="true" DataType="wikitext">
+    <Data><![CDATA[==User_Data Directory==
+//Library_Data\XmlDatabase\User_Data// directory directory contains information about user credentials and configuration of this instance of TM.
+
+{{/Image/user_datadir1.jpg}}
+
+
+==Default Configuration File==
+TeamMentor default configuration file is located at //Web Applications\TM_Website\TmConfig.config// this file shows all the non-sensitive configurable options and their default values for TeamMentor. This file should not be used to make configuration changes. If you would like to change any of the default configuration options, copy the file to //Library_Data\XmlDatabase\User_Data\TmConfig.config//. This file should only contain configuration values that you want to override and alter from their defaults.  For example:
+
+{{{
+<?xml version="1.0"?>
+<TMConfig>
+   <Git>
+    <AutoCommit_UserData>true</AutoCommit_UserData>
+    <AutoCommit_LibraryData>true</AutoCommit_LibraryData>
+  </Git>
+</TMConfig>
+}}}
+
+
+The following are some of the usefull settings available in the //TMConfig.config// file. Settings not mentioned below should not be changed without contacting SI support. Default values of the settings are provided in ():
+
+**XmlLibrariesPath**(TM_Libraries) This is the path to the library files. This is probably the most important option to edit, because it has to be set correctly for TM to load the library files. The value of this property can be either an absolute path or a path relative to the //"\Library_Data\XmlDatabase"// folder. 
+
+**EnableGZipForWebServices**(true) This option enables or disables GZip compression for WebService interaction with TeamMentor. GZip compression generally increases performance.
+
+**ShowContentToAnonymousUsers**(false) This setting defines whether or not full articles will be displayed to unauthenticated users.
+
+**SSL_RedirectHttpToHttps**(true) This setting redirects all non SSL traffic, except for traffic coming from localhost, to SSL port. This ensures all TeamMentor traffic is protected using SSL.
+
+**EvalAccounts_Enabled**(true) This setting specifies if unauthenticated users will be able to create accounts on the system for Evaluation purposes (only works if ShowContentToAnonymousUsers=false) (note: due to current limitation, if set to "false" users are still able to create accounts on the system which will not expire, see [[article/00000000-0000-0000-0000-0000005d8802|Managing Users for workaround]])
+
+**EvalAccounts_Days**(15) This specifies the duration, in days, that self-created account will have read access to the content (only works if ShowContentToAnonymousUsers=false). 
+
+**DefaultAdminUserName**(admin) Set this option to define the default administrator user name. This user name will be used to manage TeamMentor in the early stages of using it.
+
+**DefaultAdminPassword**(!!tmadmin) Set this option to define the default administrator password. This password, together with the default administrator user name, will be used to manage TeamMentor in the initial setup stage. It is highly recommended to change the administrator password, using the //"Change Password"// link on the UI, right after TeamMentor had started for the first time.
+
+**Default_AdminEmail**(TM_alerts@securityinnovation.com) Specifies the email address of the "admin" account. This email will be used to send TM status and alert information to.
+
+**AutoCommit_UserData**(false) Specifies if any changes to //User_Data// directory (including the configuration file) will be automatically saved and versioned using built in Git auto-commit mechanism
+
+**AutoCommit_LibraryData**(false) Specifies if any changes to the content of the libraries will be automatically saved, versioned, and pushed to git remote repository using built in Git auto-commit mechanism
+\\
+\\
+
+==Secret Configuration File==
+
+//\Library_Data\XmlDatabase\User_Data\TMSecretData.config// contains configuration parameters that are sensitive in nature. These include SMTP user accounts and passwords, Git repository user names, and others. These should not be edited unless following specific instructions for enabling a feature, or unless directed by SI support staff. 
+
+
+
+
+
+
 ]]></Data>
   </Content>
 </TeamMentor_Article>

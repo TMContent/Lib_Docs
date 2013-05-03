@@ -1,29 +1,33 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<guidanceExplorer xmlns="urn:microsoft:guidanceexplorer">
+<?xml version="1.0"?>
+<guidanceExplorer>
   <library name="eb39d862-f752-4d1c-ab6e-14ed697397c0" caption="TM Documentation">
+    <items />
     <libraryStructure>
-      <view caption="Installation" id="42d43763-f674-4929-98f4-71a3345a5ec8" creationDate="0001-01-01T00:00:00">
+      <view id="42d43763-f674-4929-98f4-71a3345a5ec8" caption="Installation" creationDate="0001-01-01T00:00:00">
         <items>
           <item>00000000-0000-0000-0000-000000410a3a</item>
           <item>00000000-0000-0000-0000-00000017c916</item>
           <item>00000000-0000-0000-0000-0000000724b8</item>
           <item>00000000-0000-0000-0000-00000056909e</item>
           <item>00000000-0000-0000-0000-0000006647d6</item>
+          <item>738f8545-5818-45fb-9494-92ea795af257</item>
         </items>
       </view>
-      <view caption="Administration" id="9e7ebebb-7658-4407-b215-3160b0c45931" creationDate="0001-01-01T00:00:00">
+      <view id="9e7ebebb-7658-4407-b215-3160b0c45931" caption="Administration" creationDate="0001-01-01T00:00:00">
         <items>
           <item>00000000-0000-0000-0000-0000001c8add</item>
           <item>00000000-0000-0000-0000-0000005b52c6</item>
           <item>00000000-0000-0000-0000-000000825831</item>
           <item>00000000-0000-0000-0000-0000005d8802</item>
-          <item>00000000-0000-0000-0000-00000017c916</item>
           <item>00000000-0000-0000-0000-0000002ccdf6</item>
           <item>00000000-0000-0000-0000-00000030106a</item>
-          <item>00000000-0000-0000-0000-0000000c4a16</item>
+          <item>132315b0-dd70-46d9-978e-ddbff096f09d</item>
+          <item>e28fe45e-675c-47f4-b921-968921efcab9</item>
+          <item>d0b2bade-6d25-4c61-8ae3-94ae0110f959</item>
+          <item>bc697c6c-e340-4a20-ba75-9f410dc9d5bb</item>
         </items>
       </view>
-      <view caption="UI Elements" id="dbd83828-15b8-453e-ba97-261cfdde3fcc" creationDate="0001-01-01T00:00:00">
+      <view id="dbd83828-15b8-453e-ba97-261cfdde3fcc" caption="UI Elements" creationDate="0001-01-01T00:00:00">
         <items>
           <item>00000000-0000-0000-0000-0000000693a7</item>
           <item>00000000-0000-0000-0000-00000061eb3b</item>
@@ -33,9 +37,10 @@
           <item>00000000-0000-0000-0000-00000087e538</item>
           <item>00000000-0000-0000-0000-000000067e51</item>
           <item>00000000-0000-0000-0000-0000006c87b2</item>
+          <item>7c6c7b6b-a411-4d15-86ac-5ebb0ed6d57b</item>
         </items>
       </view>
-      <view caption="Reading Content" id="a1416f12-a35b-4ddb-9498-57736b7c7839" creationDate="0001-01-01T00:00:00">
+      <view id="a1416f12-a35b-4ddb-9498-57736b7c7839" caption="Reading Content" creationDate="0001-01-01T00:00:00">
         <items>
           <item>00000000-0000-0000-0000-000000803568</item>
           <item>00000000-0000-0000-0000-00000018204d</item>
@@ -44,7 +49,7 @@
           <item>00000000-0000-0000-0000-0000001ecaec</item>
         </items>
       </view>
-      <view caption="Editing Content" id="dbb802e1-4051-45f9-8935-bf9e2186b752" creationDate="0001-01-01T00:00:00">
+      <view id="dbb802e1-4051-45f9-8935-bf9e2186b752" caption="Editing Content" creationDate="0001-01-01T00:00:00">
         <items>
           <item>00000000-0000-0000-0000-000000481b9d</item>
           <item>00000000-0000-0000-0000-0000008e9fb0</item>
@@ -57,7 +62,7 @@
           <item>00000000-0000-0000-0000-0000002b8175</item>
         </items>
       </view>
-      <view caption="Consuming TM Data" id="4c266663-9b37-4ba9-81af-9a205b26079d" creationDate="0001-01-01T00:00:00">
+      <view id="4c266663-9b37-4ba9-81af-9a205b26079d" caption="Consuming TM Data" creationDate="0001-01-01T00:00:00">
         <items>
           <item>00000000-0000-0000-0000-000000443637</item>
           <item>00000000-0000-0000-0000-00000028dbbc</item>
@@ -66,13 +71,12 @@
           <item>00000000-0000-0000-0000-00000025cc25</item>
         </items>
       </view>
-      <view caption="Visual Studio Plugin" id="dd217eed-8165-40ad-8059-6ea59a3c3f6a" creationDate="0001-01-01T00:00:00">
+      <view id="dd217eed-8165-40ad-8059-6ea59a3c3f6a" caption="Visual Studio Plugin" creationDate="0001-01-01T00:00:00">
         <items>
           <item>00000000-0000-0000-0000-0000004866a5</item>
           <item>00000000-0000-0000-0000-00000078b4c4</item>
         </items>
       </view>
     </libraryStructure>
-    <items />
   </library>
 </guidanceExplorer>

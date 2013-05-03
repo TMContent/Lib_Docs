@@ -8,7 +8,7 @@
     <Phase>NA</Phase>
     <Technology>TeamMentor</Technology>
     <Type>Documentation</Type>
-    <DirectLink />
+    <DirectLink>Running TeamMentor locally (using Cassini)</DirectLink>
     <Tag />
     <Security_Demand />
     <Author />
@@ -16,47 +16,34 @@
     <Status />
   </Metadata>
   <Content Sanitized="true" DataType="Html">
-    <Data><![CDATA[
-<div style="font-family:Arial,Verdana; font-style:normal; font-variant:normal; line-height:normal; font-weight:normal; font-size:10pt">
-If you want to use TeamMentor locally only, use Cassini. If you want to expose the TeamMentor on a web server to your team, use IIS.&nbsp;</div>
-<div style="font-family:Arial,Verdana; font-style:normal; font-variant:normal; line-height:normal; font-weight:normal; font-size:10pt">
-<br>
-</div>
-<div style="font-family:Arial,Verdana; font-style:normal; font-variant:normal; line-height:normal; font-weight:normal; font-size:10pt">
-To run TeamMentor locally, there is no installation needed, once the TeamMentor files are available locally, the only step required is to start the Cassini web server using the provided batch file</div>
-<div style="font-style:normal; font-variant:normal; line-height:normal; font-weight:normal; font-family:'Times New Roman'; font-size:medium">
-<span><br>
-</span></div>
-<div>
-<ol>
-<li>Copy TeamMentor files to local folder
-<ul>
-<li><b>Download&nbsp;the .zip</b>&nbsp;file of TeamMentor and extract it</li><li>You can also do a&nbsp;<b>Git Clone</b>&nbsp;of the desired version of TeamMentor from GitHub<br>
-<br>
-</li></ul>
-</li><li><b>The&nbsp;TeamMentor root folder&nbsp;</b>should contain the following folders:
-<ul>
-<li>Library_Data - this folder contains the library files.</li><li>Web Application - this folder contains the application files.<br>
-<br>
-</li></ul>
-</li><li>(Optional)<b> Set the local TeamMentor port</b>
-<ul style="font-family:Arial,Verdana; font-size:10pt; font-style:normal; font-variant:normal; font-weight:normal; line-height:normal">
-<li>Open the &quot;start webserver.bat&quot; file with a text editor.</li><li>Edit&nbsp;the &quot;/port&quot; argument in the following line:
-<ul>
-<li>start &quot;WebServer&quot; &quot;WebServer/CassiniDev.exe&quot; /port:<b>12345</b>&nbsp;/portMode:Specific /path:&quot;Web Applications\TM_Website&quot;</li></ul>
-</li><li>Set same port on the next line
-<ul>
-<li>start http://127.0.0.1:<b>12345<br>
-</b><br>
-</li></ul>
-</li></ul>
-</li><li style="font-family:Arial,Verdana; font-size:10pt; font-style:normal; font-variant:normal; font-weight:normal; line-height:normal">
-<b>Start local WebServer</b> (using batch file)
-<ul>
-<li>Double-click on the &quot;start webserver.bat&quot; file to start the web server&nbsp;on the defined port</li><li>The default web browser should open&nbsp;automatically with the TeamMentor web site<br>
-</li></ul>
-</li></ol>
-</div>
-]]></Data>
+    <Data><![CDATA[<div style="font-family:Arial,Verdana; font-style:normal; font-variant:normal; line-height:normal; font-weight:normal; font-size:10pt">
+If you want to use TeamMentor locally only, use Cassini. If you want to expose the TeamMentor on a web server to your team, use IIS.&amp;nbsp;</div>
+  <div style="font-family:Arial,Verdana; font-style:normal; font-variant:normal; line-height:normal; font-weight:normal; font-size:10pt">
+    <br />
+  </div>
+  <div style="font-family:Arial,Verdana; font-style:normal; font-variant:normal; line-height:normal; font-weight:normal; font-size:10pt">
+To run TeamMentor locally, there is no installation needed, once the TeamMentor files are available locally, the only step required is to start the Cassini web server using the provided batch file. SSL certificate is not required when connecting to TeamMentor instance running on "localhost".<br /></div>
+  <div style="font-style:normal; font-variant:normal; line-height:normal; font-weight:normal; font-family:'Times New Roman'; font-size:medium">
+    <span>
+      <br />
+    </span>
+  </div>
+  <div>
+    <ol>
+      <li>Copy TeamMentor files to local folder
+<ul><li><b>Download&amp;nbsp;the .zip</b>&amp;nbsp;file of TeamMentor and extract it</li><li>You can also do a&amp;nbsp;<b>Git Clone</b>&amp;nbsp;of the desired version of TeamMentor from GitHub<br /><br /></li></ul></li>
+      <li>
+        <b>The&amp;nbsp;TeamMentor root folder&amp;nbsp;</b>should contain the following folders:
+<ul><li>Docs<br /></li><li>Tools</li><li>Web Applications</li><li>Library_Data (Note: Only the zip file will have this 
+directory, for TM cloned from GitHub this directory will automatically 
+be created on first run of TM)<br /><br /></li></ul></li>
+      <li>(Optional)<b> Set the local TeamMentor port</b><ul style="font-family:Arial,Verdana; font-size:10pt; font-style:normal; font-variant:normal; font-weight:normal; line-height:normal"><li>Open the "start webserver.bat" file with a text editor.</li><li>Edit&amp;nbsp;the "/port" argument in the following line:
+<ul><li>start "WebServer" "WebServer/CassiniDev.exe" /port:<b>12345</b>&amp;nbsp;/portMode:Specific /path:"Web Applications\TM_Website"</li></ul></li><li>Set same port on the next line
+<ul><li>start http://127.0.0.1:<b>12345<br /></b><br /></li></ul></li></ul></li>
+      <li style="font-family:Arial,Verdana; font-size:10pt; font-style:normal; font-variant:normal; font-weight:normal; line-height:normal">
+        <b>Start local WebServer</b> (using batch file)
+<ul><li>Double-click on the "start webserver.bat" file to start the web server&amp;nbsp;on the defined port</li><li>The default web browser should open&amp;nbsp;automatically with the TeamMentor web site<br /></li></ul></li>
+    </ol>
+  </div>]]></Data>
   </Content>
 </TeamMentor_Article>
