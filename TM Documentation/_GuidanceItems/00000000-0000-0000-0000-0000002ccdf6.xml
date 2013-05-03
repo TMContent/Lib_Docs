@@ -13,87 +13,69 @@
     <Priority />
     <Status />
   </Metadata>
-  <Content Sanitized="false" DataType="html">
-    <Data><![CDATA[<p>
-  </p>
-  <h1>
-    <b>3.2 RELEASE </b>
-  </h1>
-  <p>
-    <br />The TeamMentor 3.2 release includes new content and new application code. Stability improvements have been made to the application and features have been added. Content libraries covering mobile platform security have been added and multiple fixes have been made to content.<br /><br /><br /><b>APPLICATION CHANGES</b><br /></p>
-  <p>The TM3.2 release includes the following application changes:<br /></p>
-  <ul>
-    <li>Visual Studio code analysis plug-in.</li>
-    <li>WikiText article mark-up support (with Syntax Highlight)</li>
-    <li>Support for setting filters via the URL.</li>
-    <li>Support for controlling the UI via the URL.</li>
-    <li>Pinned Filters</li>
-    <li>Easy download and install of Libraries (to/from Zip files)</li>
-    <li>Improve Article search (by title and on all articles)</li>
-    <li>GZip compression and Client size cache (reduced data transfers by 50%) </li>
-    <li>Multiple minor bug fixes</li>
-  </ul>
-  <p>
-    <br />
-    <b>CONTENT CHANGES</b>
-    <br />
-  </p>
-  <ul>
-    <li>The TM3.2 release includes the following content changes:</li>
-    <li>Android and iOS libraries have been added.</li>
-    <li>Broken links have been fixed throughout all libraries.</li>
-    <li>Major improvements to articles applicable to "Any" technology.<br /></li>
-  </ul>
-  <p>
-    <b>DEFAULT ACCOUNTS</b>
-    <br />
-  </p>
-  <p>A TMUsers.xml file will be created on first run with only the admin account in it:<br />Username: admin<br />Password: !!tmadmin<br /><b><br />LOCAL WEBSITE</b><br /><br />To run TeamMentor locally run "start TeamMentor.bat" which will start a local WebServer (Cassini) on a high port: http://127.0.0.1:12120 &lt;http://127.0.0.1:12120/&gt; <br /></p>
-  <p>
-    <br />
-    <span style="font-size: 10pt; ">
-    </span>
-  </p>
-  <h1>3.1 RELEASE</h1>
-  <p style="font-size: 10pt; ">
-    <span style="font-size: 10pt; ">The TeamMentor 3.1 release includes both new content and new application code. Major stability and usability improvements have been made to the application. A new content library has been added and numerous content fixes have been made based on feedback by a new editor - the TM content is periodically reviewed by different information security professionals.</span>
-  </p>
-  <p style="font-size: 10pt; ">
-    <b>APPLICATION CHANGES</b>
-    <br />The TM3.1 release includes the following changes:</p>
-  <p style="font-size: 10pt; ">
-  </p>
-  <ul style="font-size: 10pt; ">
-    <li>New article schema (with more metadata and better content formatting).</li>
-    <li>Active Directory support.</li>
-    <li>New Link structure.</li>
-    <li>Xml and XSLT support (client and server side).</li>
-    <li>REST API to access articles in multiple formats (raw, xml, jsonp) with ability to find article by GUID or title.</li>
-    <li>New C# WebServices API.</li>
-    <li>TM Technology pages providing technical details on TM APIs.</li>
-    <li>New WebServices Methods that simplify the creation of TM Content.</li>
-    <li>Multiple GUI and performance fixes.</li>
-    <li>Gaug.es support.</li>
-    <li>Upgrade to .NET 4.0.</li>
-  </ul>
-  <b style="font-size: 10pt; ">CONTENT CHANGES</b>
-  <br />
-  <font size="2">
-The 2012Q1 TM content release has the following updates:</font>
-  <br />
-  <ul style="font-size: 10pt; ">
-    <li>The new "CWE" library. A new library based on the CWE Top 25 Vulnerabilities list has been added. The articles are based heavily on the original CWE text. A few minor changes have been made to the original text by a team of reviewers. Additional material has been added in places where the original CWE content was too short. The CWE library is a stand-alone library and has 110 articles.</li>
-    <li>The updated "PCI DSS Compliance" library. The PCI DSS library has been edited to be clearer and to improve the browsing experience. New articles have been added to have a one-to-one correspondence of Guideline and Checklist items. The content has been reviewed by one more editor and numerous minor fixes have been made. The meta-data tags have been edited to simplify navigation. The new PCI DSS library is a stand-alone library and includes 331 articles.</li>
-  </ul>
-  <b style="font-size: 10pt; ">DEFAULT ACCOUNTS</b>
-  <br />
-  <ul style="font-size: 10pt; ">
-    <li>admin  : !!tmadmin</li>
-    <li>editor : !!tmeditor</li>
-    <li>reader : !!tmreader</li>
-  </ul>
-  <a href="http://docs.teammentor.net" style="font-size: 10pt; ">
-  </a>
-  <p style="font-size: 10pt; " />]]></Data>
+  <Content Sanitized="false" DataType="wikitext">
+    <Data><![CDATA[==3.2 RELEASE==
+
+The TeamMentor 3.2 release includes new content and new application code. Stability improvements have been made to the application and features have been added. Content libraries covering mobile platform security have been added and multiple fixes have been made to content.
+
+
+===APPLICATION CHANGES===
+
+The TM3.2 release includes the following application changes:
+
+* Visual Studio code analysis plug-in.
+* WikiText article mark-up support (with Syntax Highlight)
+* Support for setting filters via the URL.
+* Support for controlling the UI via the URL.
+* Pinned Filters
+* Easy download and install of Libraries (to/from Zip files)
+* Improve Article search (by title and on all articles)
+* GZip compression and Client size cache (reduced data transfers by 50%)
+* Multiple minor bug fixes
+
+===CONTENT CHANGES===
+* The TM3.2 release includes the following content changes:
+* Android and iOS libraries have been added.
+* Broken links have been fixed throughout all libraries.
+* Major improvements to articles applicable to "Any" technology.
+
+===DEFAULT ACCOUNTS===
+A TMUsers.xml file will be created on first run with only the admin account in it:
+* Username: admin
+* Password: !!tmadmin
+
+===LOCAL WEBSITE===
+
+To run TeamMentor locally run "start TeamMentor.bat" which will start a local WebServer (Cassini) on a high port: http://127.0.0.1:12120 <http://127.0.0.1:12120/> 
+
+
+
+==3.1 RELEASE==
+The TeamMentor 3.1 release includes both new content and new application code. Major stability and usability improvements have been made to the application. A new content library has been added and numerous content fixes have been made based on feedback by a new editor - the TM content is periodically reviewed by different information security professionals.
+
+===APPLICATION CHANGES===
+The TM3.1 release includes the following changes:
+
+* New article schema (with more metadata and better content formatting).
+* Active Directory support.
+* New Link structure.
+* Xml and XSLT support (client and server side).
+* REST API to access articles in multiple formats (raw, xml, jsonp) with ability to find article by GUID or title.
+* New C# WebServices API.
+* TM Technology pages providing technical details on TM APIs.
+* New WebServices Methods that simplify the creation of TM Content.
+* Multiple GUI and performance fixes.
+* Gaug.es support.
+* Upgrade to .NET 4.0.
+
+===CONTENT CHANGES===
+The 2012Q1 TM content release has the following updates: 
+* The new "CWE" library. A new library based on the CWE Top 25 Vulnerabilities list has been added. The articles are based heavily on the original CWE text. A few minor changes have been made to the original text by a team of reviewers. Additional material has been added in places where the original CWE content was too short. The CWE library is a stand-alone library and has 110 articles.
+* The updated "PCI DSS Compliance" library. The PCI DSS library has been edited to be clearer and to improve the browsing experience. New articles have been added to have a one-to-one correspondence of Guideline and Checklist items. The content has been reviewed by one more editor and numerous minor fixes have been made. The meta-data tags have been edited to simplify navigation. The new PCI DSS library is a stand-alone library and includes 331 articles.
+
+===DEFAULT ACCOUNTS===
+* admin : !!tmadmin
+* editor : !!tmeditor
+* reader : !!tmreader]]></Data>
   </Content>
 </TeamMentor_Article>
