@@ -6,11 +6,11 @@
       <view id="42d43763-f674-4929-98f4-71a3345a5ec8" caption="Installation" creationDate="0001-01-01T00:00:00">
         <items>
           <item>00000000-0000-0000-0000-000000410a3a</item>
-          <item>00000000-0000-0000-0000-00000017c916</item>
           <item>00000000-0000-0000-0000-0000000724b8</item>
           <item>00000000-0000-0000-0000-00000056909e</item>
           <item>00000000-0000-0000-0000-0000006647d6</item>
           <item>738f8545-5818-45fb-9494-92ea795af257</item>
+          <item>00000000-0000-0000-0000-00000017c916</item>
         </items>
       </view>
       <view id="9e7ebebb-7658-4407-b215-3160b0c45931" caption="Administration" creationDate="0001-01-01T00:00:00">
@@ -19,7 +19,6 @@
           <item>00000000-0000-0000-0000-0000005b52c6</item>
           <item>00000000-0000-0000-0000-000000825831</item>
           <item>00000000-0000-0000-0000-0000005d8802</item>
-          <item>00000000-0000-0000-0000-0000002ccdf6</item>
           <item>00000000-0000-0000-0000-00000030106a</item>
           <item>132315b0-dd70-46d9-978e-ddbff096f09d</item>
           <item>e28fe45e-675c-47f4-b921-968921efcab9</item>
@@ -75,6 +74,14 @@
         <items>
           <item>00000000-0000-0000-0000-0000004866a5</item>
           <item>00000000-0000-0000-0000-00000078b4c4</item>
+        </items>
+      </view>
+      <view id="fab28cbc-945f-4b4a-aa7a-b3b86c8cecbf" caption="About TeamMentor" creationDate="2013-05-04T23:19:08.6940289+04:00">
+        <items>
+          <item>00000000-0000-0000-0000-0000002ccdf6</item>
+          <item>323dae88-b74b-465c-a949-d48c33f4ac85</item>
+          <item>1eda3d77-43e0-474b-be99-9ba118408dd3</item>
+          <item>0bfb008b-49c8-4526-bb6a-0a21d01eeb0e</item>
         </items>
       </view>
     </libraryStructure>

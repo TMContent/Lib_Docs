@@ -14,6 +14,6 @@
     <Status />
   </Metadata>
   <Content Sanitized="false" DataType="wikitext">
-    <Data><![CDATA[TeamMentor now has ability to integrate with Google Analytics. There are two Google Analytics integration points. One is on the server side and the other on the client side. The server side integration collects analytic information on the usage of TeamMentor by a particular user.  The client side integration is invoked when the main TeamMentor page loads and collects basic statistic information about the user environment, geoip, browser and similar information.  Please contact Security Innovation support to implement Google Analytics on your site.]]></Data>
+    <Data><![CDATA[TeamMentor now has ability to integrate with Google Analytics. There are two Google Analytics integration points. One is on the server side and the other on the client side. The server side integration collects analytic information on the usage of TeamMentor by a particular user.  The client side integration is invoked when the main TeamMentor page loads and collects basic statistic information about the user environment, geoip, browser and similar information.  Please contact Security Innovation [[323dae88-b74b-465c-a949-d48c33f4ac85|support]] to implement Google Analytics on your site.]]></Data>
   </Content>
 </TeamMentor_Article>
