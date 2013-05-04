@@ -14,6 +14,6 @@
     <Status />
   </Metadata>
   <Content Sanitized="false" DataType="wikitext">
-    <Data><![CDATA[Please contact Security Innovation support for help upgrading your internal instance of TeamMentor. Security Innovation support experts will work with you to ensure a smooth upgrade. Please note that the structure for storing user credentials has changes (as explained later). Please contact Security Innovation [[/aritcle/323dae88-b74b-465c-a949-d48c33f4ac85|support]] to import old users. The user’s password will remain the same and the import will be transparent to the user]]></Data>
+    <Data><![CDATA[Please contact Security Innovation support for help upgrading your internal instance of TeamMentor. Security Innovation support experts will work with you to ensure a smooth upgrade. Please note that the structure for storing user credentials has changes (as explained later). Please contact Security Innovation [[/article/323dae88-b74b-465c-a949-d48c33f4ac85|support]] to import old users. The user’s password will remain the same and the import will be transparent to the user]]></Data>
   </Content>
 </TeamMentor_Article>
