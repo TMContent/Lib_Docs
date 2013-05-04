@@ -23,7 +23,7 @@ TeamMentor can be used in multiple ways:
 *Integrated with the Cat.Net or Checkmarx static code analysis tools. In this scenario, the report produced by the static analysis tool provides links to the relevant TeamMentor guidance that describes how to remove the vulnerability.
 *Browsing content to increase the skill level of the developers. TeamMentor libraries offer an effective overview of the currently available information security controls. As developers view this information, their overall understanding of application security controls increases.
 
-Please take a look at our [[0bfb008b-49c8-4526-bb6a-0a21d01eeb0e|Quick Start Guide]] for quick tips on getting started.
+Please take a look at our [[/article/0bfb008b-49c8-4526-bb6a-0a21d01eeb0e|Quick Start Guide]] for quick tips on getting started.
 ]]></Data>
   </Content>
 </TeamMentor_Article>
