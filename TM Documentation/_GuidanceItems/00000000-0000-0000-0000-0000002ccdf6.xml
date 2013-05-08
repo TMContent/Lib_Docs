@@ -3,12 +3,12 @@
   <Metadata>
     <Id>00000000-0000-0000-0000-0000002ccdf6</Id>
     <Library_Id>eb39d862-f752-4d1c-ab6e-14ed697397c0</Library_Id>
-    <Title>What&amp;#39;s new in this release?</Title>
+    <Title>What is new in this release?</Title>
     <Category>Administration</Category>
     <Phase>NA</Phase>
     <Technology>TeamMentor</Technology>
     <Type>Documentation</Type>
-    <DirectLink>What&amp;#39;s new in this release?</DirectLink>
+    <DirectLink>What is new in this release?</DirectLink>
     <Author />
     <Priority />
     <Status />
@@ -40,7 +40,7 @@ The new articles in this release include vulnerability based Landing Pages. Thes
 Due to the new XML database structure, Security Innovation support will work with each customer to perform upgrades. When you are ready, please contact us at support@securityinnovation.com to schedule an upgrade. This service is included with your TeamMentor license and support.
 
 **LOCAL WEBSITE**\\
-To run TeamMentor locally run "start TeamMentor.bat" which will start a local WebServer (Cassini) on a high port: http://127.0.0.1:12120 <http://127.0.0.1:12120/> 
+To run TeamMentor locally run "start TeamMentor.bat" which will start a local WebServer (Cassini) on a high port: http://127.0.0.1:12120 <http: 127.0.0.1:12120=""></http:> 
 
 \\
 
@@ -66,7 +66,7 @@ The TM3.2 release includes the following content changes:
 *Major improvements to articles applicable to "Any" technology.
 
 **LOCAL WEBSITE**\\
-To run TeamMentor locally run "start TeamMentor.bat" which will start a local WebServer (Cassini) on a high port: http://127.0.0.1:12120 <http://127.0.0.1:12120/> 
+To run TeamMentor locally run "start TeamMentor.bat" which will start a local WebServer (Cassini) on a high port: http://127.0.0.1:12120 <http: 127.0.0.1:12120=""></http:> 
 
 \\
 =3.1 RELEASE=
