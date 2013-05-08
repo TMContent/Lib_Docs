@@ -39,11 +39,6 @@ The new articles in this release include vulnerability based Landing Pages. Thes
 **UPGRADING FROM PREVIOUS VERSION OF TEAMMENTOR**\\
 Due to the new XML database structure, Security Innovation support will work with each customer to perform upgrades. When you are ready, please contact us at support@securityinnovation.com to schedule an upgrade. This service is included with your TeamMentor license and support.
 
-**DEFAULT ACCOUNTS**\\
-Library_Data\XmlDatabase\User_Data\Users directory will be created on first run with only admin_ account file in it. 
-*Username: admin
-*Password: !!tmadmin
-
 **LOCAL WEBSITE**\\
 To run TeamMentor locally run "start TeamMentor.bat" which will start a local WebServer (Cassini) on a high port: http://127.0.0.1:12120 <http://127.0.0.1:12120/> 
 
@@ -69,11 +64,6 @@ The TM3.2 release includes the following content changes:
 *Android and iOS libraries have been added.
 *Broken links have been fixed throughout all libraries.
 *Major improvements to articles applicable to "Any" technology.
-
-**DEFAULT ACCOUNTS**\\
-A TMUsers.xml file will be created on first run with only the admin account in it: \\
-Username: admin \\
-Password: !!tmadmin \\
 
 **LOCAL WEBSITE**\\
 To run TeamMentor locally run "start TeamMentor.bat" which will start a local WebServer (Cassini) on a high port: http://127.0.0.1:12120 <http://127.0.0.1:12120/> 
@@ -101,10 +91,6 @@ The 2012Q1 TM content release has the following updates:
 *The new "CWE" library. A new library based on the CWE Top 25 Vulnerabilities list has been added. The articles are based heavily on the original CWE text. A few minor changes have been made to the original text by a team of reviewers. Additional material has been added in places where the original CWE content was too short. The CWE library is a stand-alone library and has 110 articles.
 *The updated "PCI DSS Compliance" library. The PCI DSS library has been edited to be clearer and to improve the browsing experience. New articles have been added to have a one-to-one correspondence of Guideline and Checklist items. The content has been reviewed by one more editor and numerous minor fixes have been made. The meta-data tags have been edited to simplify navigation. The new PCI DSS library is a stand-alone library and includes 331 articles.
  
-**DEFAULT ACCOUNTS**
-*admin  : !!tmadmin
-*editor : !!tmeditor
-*reader : !!tmreader
 
 ]]></Data>
   </Content>
