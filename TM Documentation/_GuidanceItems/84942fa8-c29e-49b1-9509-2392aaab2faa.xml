@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<TeamMentor_Article Metadata_Hash="0" Content_Hash="0">
+  <Metadata>
+    <Id>84942fa8-c29e-49b1-9509-2392aaab2faa</Id>
+    <Library_Id>eb39d862-f752-4d1c-ab6e-14ed697397c0</Library_Id>
+    <Title>WhatsNew</Title>
+    <Category>Administration</Category>
+    <Phase>Content</Phase>
+    <Technology>TeamMentor</Technology>
+    <Type>Documentation</Type>
+    <DirectLink>WhatsNew</DirectLink>
+    <Author />
+    <Priority />
+    <Status />
+  </Metadata>
+  <Content Sanitized="false" DataType="wikitext">
+    <Data><![CDATA[=3.3 RELEASE=
+The TeamMentor 3.3 release includes both new application security content and new web application capabilities. 
+The update includes over 100 new articles added to multiple libraries to facilitate integration with code analysis tools.
+
+**APPLICATION CHANGES**\\
+The TeamMentor 3.3 release includes the following new application features:
+*New XML Database directory structure to simplify configuration and improve security
+**New structure separates Libraries, Application Logs, User Data and Configuration
+*GIT support – native capability to store TM Libraries and User Data in GIT.
+**Enables collaboration and version control of authored content using GIT
+**Simplifies merging any local changes with updated TeamMentor content
+**Decouples content updates from application updates
+*Self-service password reset capability for forgotten passwords
+**TeamMentor will send a one-time password via email to the user when they click the new Forgot Password link on the login prompt box. Email details must be configured for this new feature.
+*Google Analytics support – both server side and client side integrations with Google Analytics for collecting analytics to track the usage of your TeamMentor installation
+
+**CONTENT CHANGES**\\
+The new articles in this release include vulnerability based Landing Pages. These pages simplify navigation and are designed to be included in reports produced by automated application security assessment tools. The new articles are in the following libraries:
+*.NET 4 – 72 new articles
+*Java – 33 new articles
+*PHP – 27 new articles
+
+**UPGRADING FROM PREVIOUS VERSION OF TEAMMENTOR**\\
+Due to the new XML database structure, Security Innovation support will work with each customer to perform upgrades. When you are ready, please contact us at support@securityinnovation.com to schedule an upgrade. This service is included with your TeamMentor license and support.
+
+**LOCAL WEBSITE**\\
+To run TeamMentor locally run "start TeamMentor.bat" which will start a local WebServer (Cassini) on a high port: http://127.0.0.1:12120 <http://127.0.0.1:12120/> 
+
+\\
+
+=3.2 RELEASE=
+The TeamMentor 3.2 release includes new content and new application code. Stability improvements have been made to the application and features have been added. Content libraries covering mobile platform security have been added and multiple fixes have been made to content.
+
+**APPLICATION CHANGES**\\
+The TM3.2 release includes the following application changes:
+*Visual Studio code analysis plug-in.
+*WikiText article mark-up support (with Syntax Highlight)
+*Support for setting filters via the URL.
+*Support for controlling the UI via the URL.
+*Pinned Filters
+*Easy download and install of Libraries (to/from Zip files)
+*Improve Article search (by title and on all articles)
+*GZip compression and Client size cache (reduced data transfers by 50%) 
+*Multiple minor bug fixes
+
+**CONTENT CHANGES**\\
+The TM3.2 release includes the following content changes:
+*Android and iOS libraries have been added.
+*Broken links have been fixed throughout all libraries.
+*Major improvements to articles applicable to "Any" technology.
+
+**LOCAL WEBSITE**\\
+To run TeamMentor locally run "start TeamMentor.bat" which will start a local WebServer (Cassini) on a high port: http://127.0.0.1:12120 <http://127.0.0.1:12120/> 
+
+\\
+=3.1 RELEASE=
+The TeamMentor 3.1 release includes both new content and new application code. Major stability and usability improvements have been made to the application. A new content library has been added and numerous content fixes have been made based on feedback by a new editor - the TM content is periodically reviewed by different information security professionals.
+
+**APPLICATION CHANGES**\\
+The TM3.1 release includes the following changes:
+*New article schema (with more metadata and better content formatting).
+*Active Directory support.
+*New Link structure.
+*Xml and XSLT support (client and server side).
+*REST API to access articles in multiple formats (raw, xml, jsonp) with ability to find article by GUID or title.
+*New C# WebServices API.
+*TM Technology pages providing technical details on TM APIs.
+*New WebServices Methods that simplify the creation of TM Content.
+*Multiple GUI and performance fixes.
+*Gaug.es support.
+*Upgrade to .NET 4.0.
+
+**CONTENT CHANGES**\\
+The 2012Q1 TM content release has the following updates:
+*The new "CWE" library. A new library based on the CWE Top 25 Vulnerabilities list has been added. The articles are based heavily on the original CWE text. A few minor changes have been made to the original text by a team of reviewers. Additional material has been added in places where the original CWE content was too short. The CWE library is a stand-alone library and has 110 articles.
+*The updated "PCI DSS Compliance" library. The PCI DSS library has been edited to be clearer and to improve the browsing experience. New articles have been added to have a one-to-one correspondence of Guideline and Checklist items. The content has been reviewed by one more editor and numerous minor fixes have been made. The meta-data tags have been edited to simplify navigation. The new PCI DSS library is a stand-alone library and includes 331 articles.
+ 
+
+]]></Data>
+  </Content>
+</TeamMentor_Article>
