@@ -7,7 +7,7 @@
     <Category>Editor</Category>
     <Phase>Content</Phase>
     <Technology>TeamMentor</Technology>
-    <Type>WiiText</Type>
+    <Type>WikiText</Type>
     <DirectLink>WikiText Support</DirectLink>
   </Metadata>
   <Content Sanitized="false" DataType="html">
