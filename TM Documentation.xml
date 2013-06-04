@@ -3,12 +3,13 @@
   <library name="eb39d862-f752-4d1c-ab6e-14ed697397c0" caption="TM Documentation">
     <items />
     <libraryStructure>
-      <view id="fab28cbc-945f-4b4a-aa7a-b3b86c8cecbf" caption="About TeamMentor" creationDate="2013-05-04T23:19:08.6940289+04:00">
+      <view id="fab28cbc-945f-4b4a-aa7a-b3b86c8cecbf" caption="About TeamMentor" creationDate="2013-05-04T22:19:08.6940289+03:00">
         <items>
           <item>00000000-0000-0000-0000-0000002ccdf6</item>
           <item>1eda3d77-43e0-474b-be99-9ba118408dd3</item>
           <item>0bfb008b-49c8-4526-bb6a-0a21d01eeb0e</item>
-	  <item>323dae88-b74b-465c-a949-d48c33f4ac85</item>
+          <item>323dae88-b74b-465c-a949-d48c33f4ac85</item>
+          <item>e49463d8-916c-442f-a7d0-e677bfe07b13</item>
         </items>
       </view>
       <view id="42d43763-f674-4929-98f4-71a3345a5ec8" caption="Installation" creationDate="0001-01-01T00:00:00">
@@ -84,7 +85,6 @@
           <item>00000000-0000-0000-0000-00000078b4c4</item>
         </items>
       </view>
-
     </libraryStructure>
   </library>
 </guidanceExplorer>
