@@ -4,9 +4,17 @@
     <Id>1da6050d-3521-4c13-93c2-49ce93b8583f</Id>
     <Library_Id>eb39d862-f752-4d1c-ab6e-14ed697397c0</Library_Id>
     <Title>Case Study - Direct XML File Manipulation to Fix Double Encoding Issue</Title>
+    <Category />
+    <Phase />
+    <Technology />
+    <Type />
+    <DirectLink>Case Study - Direct XML File Manipulation to Fix Double Encoding Issue</DirectLink>
   </Metadata>
   <Content Sanitized="false" DataType="wikitext">
     <Data><![CDATA[This Script shows how the Article's XML file can be edited directly (useful for large/batch changes/fixes).
+
+blah
+
 
 In this case there was a double encoding issue on the Article's Schema update from version 3.0 to 3.1
 
@@ -21,7 +29,7 @@ var target = @"...\TeamMentor\TM - Libraries\SI_Library\Java\Java\Checklist Item
 topPanel.add_SourceCodeViewer()
 		.open(target);
 						
-var tmArticle = target.load< TeamMentor_Article>();
+var tmArticle = target.load&lt; TeamMentor_Article&gt;();
 tmArticle.Content.Data.Value = tmArticle.Content.Data.Value.replace("&","&");
 tmArticle.saveAs(target);
  
@@ -39,7 +47,7 @@ foreach (var file in sourceFiles.files("*.xml",true))
 {	
 	if(file.fileName_WithoutExtension().isGuid().isFalse())
 		continue;
-	var tmArticle = file.load< TeamMentor_Article>();
+	var tmArticle = file.load&lt; TeamMentor_Article&gt;();
 	if (tmArticle.Content.Data.Value.contains("&"))
 	{
 		"fixing: {0}".debug(file);	
@@ -57,7 +65,7 @@ foreach (var file in sourceFiles.files("*.xml",true))
 ===Upgrading 1 file from 3.0 schema to 3.1===
 {{{
 var target = @"...\TeamMentor\TM - Libraries\SI_Library\Java\Java\Code Example\18ac74df-602b-4a58-8998-52f638f3a045.xml";
-return target.load< Guidance_Item_Import>().transform().saveAs(target);
+return target.load&lt; Guidance_Item_Import&gt;().transform().saveAs(target);
 }}}
 
 ]]></Data>
