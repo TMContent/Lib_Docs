@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<TeamMentor_Article Metadata_Hash="0" Content_Hash="0">
+  <Metadata>
+    <Id>dc591ba1-0c0f-4bbd-a598-5bc2a3007323</Id>
+    <Library_Id>eb39d862-f752-4d1c-ab6e-14ed697397c0</Library_Id>
+    <Title>How to Evaluate and What to Expect</Title>
+    <Category>User Guide</Category>
+    <Phase>NA</Phase>
+    <Technology>Eclipse Plugin</Technology>
+    <Type>Documentation</Type>
+    <DirectLink>How to Evaluate and What to Expect</DirectLink>
+    <Author />
+    <Priority />
+    <Status />
+  </Metadata>
+  <Content Sanitized="false" DataType="wikitext">
+    <Data><![CDATA[Evaluate the TEAM Mentor Eclipse Plugin for Fortify by installing it on your environment and using it with your applications.
+
+Use the guidance to help you build secure software. The TEAM Mentor Eclipse Plugin currently points to our open http://vulnerabilities.TEAMMentor.net server which contains vulnerabilities content. This content, through hyperlinks, points to further paid content available on www.TEAMMentor.net.  If you already have a www.TEAMMentor.net account, see [[/article/34acf3d3-404e-4c77-bc80-3336e74f0cd3|Linking TEAM Mentor instance account with the Eclipse Plugin]] for information on how to link your account. 
+
+If you don’t have an account at www.TEAMMentor.net speak with your Security Innovation sales rep or your TEAM Mentor administrator to get an account.
+
+Alternatively, you can also sign up for a free 30 day account on the main TEAM Mentor page.
+
+Again follow the [[/article/34acf3d3-404e-4c77-bc80-3336e74f0cd3|Linking TEAM Mentor instance account with the Eclipse Plugin]] for information on how to link the account to the plugin.
+
+What if we don’t have guidance for a particular finding? Some Fortify findings do not have associated TEAM Mentor guidance.  In this case TEAM Mentor will show the Fortify recommendation for that finding. If you would like to see TEAM Mentor guidance for this finding, let us know. 
+
+{{/Image/echwe1.jpg}}
+]]></Data>
+  </Content>
+</TeamMentor_Article>

@@ -3,7 +3,7 @@
   <library name="eb39d862-f752-4d1c-ab6e-14ed697397c0" caption="TM Documentation">
     <items />
     <libraryStructure>
-      <view id="fab28cbc-945f-4b4a-aa7a-b3b86c8cecbf" caption="About TeamMentor" creationDate="2013-05-04T19:19:08.6940289+00:00">
+      <view id="fab28cbc-945f-4b4a-aa7a-b3b86c8cecbf" caption="About TeamMentor" creationDate="2013-05-05T03:19:08.6940289+08:00">
         <items>
           <item>00000000-0000-0000-0000-0000002ccdf6</item>
           <item>1eda3d77-43e0-474b-be99-9ba118408dd3</item>
@@ -84,6 +84,19 @@
         <items>
           <item>00000000-0000-0000-0000-0000004866a5</item>
           <item>00000000-0000-0000-0000-00000078b4c4</item>
+        </items>
+      </view>
+      <view id="171edd2a-7090-4a36-84b9-2ed74b3bd9b7" caption="Eclipse Plugin" creationDate="2014-02-17T10:35:36.3959985+08:00">
+        <items>
+          <item>39274045-7359-4ed4-9be8-b92232b7bbbf</item>
+          <item>9b930fee-9e7e-43a6-8eca-847770709aa6</item>
+          <item>23a3c023-fc74-46fe-9a6e-e7ec2d136335</item>
+          <item>3e498ccd-366d-4f3d-a429-f633724d7e17</item>
+          <item>dbec6179-c6a3-49cb-a032-10b9ba82f6d2</item>
+          <item>c7dfdf96-39b4-48c2-93d6-684b5626ec01</item>
+          <item>dc591ba1-0c0f-4bbd-a598-5bc2a3007323</item>
+          <item>f9ee3b74-20ef-4b5e-8fc5-1bb70793a514</item>
+          <item>34acf3d3-404e-4c77-bc80-3336e74f0cd3</item>
         </items>
       </view>
     </libraryStructure>

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<TeamMentor_Article Metadata_Hash="0" Content_Hash="0">
+  <Metadata>
+    <Id>3e498ccd-366d-4f3d-a429-f633724d7e17</Id>
+    <Library_Id>eb39d862-f752-4d1c-ab6e-14ed697397c0</Library_Id>
+    <Title>Updating</Title>
+    <Category>Administration</Category>
+    <Phase>NA</Phase>
+    <Technology>Eclipse Plugin</Technology>
+    <Type>Documentation</Type>
+    <DirectLink>Updating</DirectLink>
+    <Author />
+    <Priority />
+    <Status />
+  </Metadata>
+  <Content Sanitized="false" DataType="wikitext">
+    <Data><![CDATA[Updating TEAM Mentor Eclipse Plugin for Fortify is as straight-forward as upgrading any Eclipse plugin.
+#In the Eclipse toolbar click on  Help ->  Check for Updates \\
+After Eclipse contacts all the plugin repositories you will see a list of available updates.  In this case only the TEAM Mentor Eclipse Plugin for Fortify has a new version and can be updated. Select the plugin and click “Next”
+#Confirm the items update details and click “Next”.
+#Accept the license and click “Finish”
+#Software will be updated
+#Restart Eclipse when prompted
+
+
+]]></Data>
+  </Content>
+</TeamMentor_Article>

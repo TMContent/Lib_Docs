@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<TeamMentor_Article Metadata_Hash="0" Content_Hash="0">
+  <Metadata>
+    <Id>39274045-7359-4ed4-9be8-b92232b7bbbf</Id>
+    <Library_Id>eb39d862-f752-4d1c-ab6e-14ed697397c0</Library_Id>
+    <Title>Requirements</Title>
+    <Category>Administration</Category>
+    <Phase>NA</Phase>
+    <Technology>Eclipse Plugin</Technology>
+    <Type>Documentation</Type>
+    <DirectLink>Requirements</DirectLink>
+    <Author />
+    <Priority />
+    <Status />
+  </Metadata>
+  <Content Sanitized="false" DataType="wikitext">
+    <Data><![CDATA[*OSX/Windows XP/Windows 7/Windows Server 2008 (any OS that runs Eclipse would work)\\
+*Eclipse (32 and 64 bit versions are supported)\\
+**Kepler (4.3.1)
+**Juno (4.2.2)
+**Indigo (3.7.2)
+//Note that other variations of these versions, such as Indigo 3.7.1, are also supported, however they have not been extensively tested//
+*Java, 1.7.x versions are supported. 
+*Fortify Plugin
+]]></Data>
+  </Content>
+</TeamMentor_Article>

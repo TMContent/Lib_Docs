@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<TeamMentor_Article Metadata_Hash="0" Content_Hash="0">
+  <Metadata>
+    <Id>34acf3d3-404e-4c77-bc80-3336e74f0cd3</Id>
+    <Library_Id>eb39d862-f752-4d1c-ab6e-14ed697397c0</Library_Id>
+    <Title>Linking TEAM Mentor instance account with the Eclipse Plugin</Title>
+    <Category>Administration</Category>
+    <Phase>NA</Phase>
+    <Technology>Eclipse Plugin</Technology>
+    <Type>Documentation</Type>
+    <DirectLink>Linking TEAM Mentor instance account with the Eclipse Plugin</DirectLink>
+    <Author />
+    <Priority />
+    <Status />
+  </Metadata>
+  <Content Sanitized="false" DataType="wikitext">
+    <Data><![CDATA[If you have a www.TEAMMentor.net account  or an account on your company specific TEAM Mentor instance you can link the account to the plugin for seamless integration.  Following a successful linking content displayed in your plugin will be fetched from the TEAM Mentor instance you specify as well as all the hyper-linked articles will become available.
+
+To link your account follow these steps:
+
+#Open the properties page by selecting “Open Properties Page” from TEAM Mentor menu.
+#In the TEAM Mentor Server field enter https://www.TEAMMentor.net  OR the full URL for your TEAM Mentor instance. 
+#In the User name field type your user name
+#Type your password in the password field. Your screen should look something like this \\ \\
+{{/Image/eccfg2.jpg}} \\ \\
+#Now click on “Authenticate”. The plugin will attempt to authenticate with the provided credentials.  If the authentication is successful, you will see the following screen with an updated Session ID. Note that we do not store the username and a password. Once the configuration screen is closed, these fields become blank again. \\ \\
+{{/Image/eccfg4.jpg}} \\ \\]]></Data>
+  </Content>
+</TeamMentor_Article>

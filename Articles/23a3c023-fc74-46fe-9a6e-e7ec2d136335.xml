@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<TeamMentor_Article Metadata_Hash="0" Content_Hash="0">
+  <Metadata>
+    <Id>23a3c023-fc74-46fe-9a6e-e7ec2d136335</Id>
+    <Library_Id>eb39d862-f752-4d1c-ab6e-14ed697397c0</Library_Id>
+    <Title>Installing TEAM Mentor Eclipse Plugin for Fortify</Title>
+    <Category>Administration</Category>
+    <Phase>NA</Phase>
+    <Technology>Eclipse Plugin</Technology>
+    <Type>Documentation</Type>
+    <DirectLink>Installing TEAM Mentor Eclipse Plugin for Fortify</DirectLink>
+    <Author />
+    <Priority />
+    <Status />
+  </Metadata>
+  <Content Sanitized="false" DataType="wikitext">
+    <Data><![CDATA[#In the Eclipse toolbar click on  Help ->  Install New Software  and click on “Add” \\ \\
+{{/Image/ecins1.jpg}} \\ \\ \\
+#In the dialog box that appears enter a name (TEAM Mentor Eclipse Plugin for Fortify) in the name section and for Install Link  use: \\ \\
+https://eclipse.TEAMMentor.net \\ \\
+Click “OK”  \\  \\
+{{/Image/ecins2.jpg}} \\ \\ \\
+#Select Security Innovation TEAM Mentor Plugin for Fortify and click “Next” \\ \\
+{{/Image/ecins3.jpg}} \\ \\ \\
+#Confirm the items being installed.  Click “Next” \\ \\
+{{/Image/ecins4.jpg}} \\ \\ \\
+#Accept the license and click “Finish” \\ \\
+{{/Image/ecins5.jpg}} \\ \\ \\
+#Restart Eclipse when prompted \\ \\
+{{/Image/ecins6.jpg}}]]></Data>
+  </Content>
+</TeamMentor_Article>
