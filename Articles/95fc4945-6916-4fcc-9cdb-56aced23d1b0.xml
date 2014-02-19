@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<TeamMentor_Article Metadata_Hash="0" Content_Hash="0">
+  <Metadata>
+    <Id>95fc4945-6916-4fcc-9cdb-56aced23d1b0</Id>
+    <Library_Id>eb39d862-f752-4d1c-ab6e-14ed697397c0</Library_Id>
+    <Title>How to Evaluate and What to Expect</Title>
+    <Category>User Guide</Category>
+    <Phase>NA</Phase>
+    <Technology>HP Fortify SCA UI Integration</Technology>
+    <Type>Documentation</Type>
+    <DirectLink>How to Evaluate and What to Expect</DirectLink>
+    <Author />
+    <Priority />
+    <Status />
+  </Metadata>
+  <Content Sanitized="false" DataType="wikitext">
+    <Data><![CDATA[Evaluate the TEAM Mentor Fortify SCA UI Integration by installing it on your environment and using it with your applications.
+
+Use the guidance to help you build secure software.  The content, through hyperlinks, points to further content available on www.TEAMMentor.net. When you click on such a link you will see a login prompt. If you already have user account on www.TEAMMentor.net, feel free to login and use the content. 
+
+If you don’t have an account at www.TEAMMentor.net speak with your Security Innovation sales rep or your TEAM Mentor administrator to get an account.
+
+Alternatively, you can also sign up for a free 30 day account on the main TEAM Mentor page
+
+**What if we don’t have guidance for a particular finding? **
+
+Some Fortify findings do not have associated TEAM Mentor guidance.  In this case you will not see “Custom Explanation” and “Custom Recommendation” provided by TEAM Mentor. You will see regular Fortify provided guidance.
+
+**Reports in PDF**
+
+Because our Custom Guidance uses hyperlinks, and HP Fortify PDF rendering engine does not interpret hyperlinks in custom content very well. You may see raw HTML characters when you generate a PDF report. 
+
+]]></Data>
+  </Content>
+</TeamMentor_Article>

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<TeamMentor_Article Metadata_Hash="0" Content_Hash="0">
+  <Metadata>
+    <Id>3ce441aa-3a43-4080-9c8f-533f7de70ed0</Id>
+    <Library_Id>eb39d862-f752-4d1c-ab6e-14ed697397c0</Library_Id>
+    <Title>Using TEAM Mentor Fortify SCA UI Integration</Title>
+    <Category>User Guide</Category>
+    <Phase>NA</Phase>
+    <Technology>HP Fortify SCA UI Integration</Technology>
+    <Type>Documentation</Type>
+    <DirectLink>Using TEAM Mentor Fortify SCA UI Integration</DirectLink>
+    <Author />
+    <Priority />
+    <Status />
+  </Metadata>
+  <Content Sanitized="false" DataType="wikitext">
+    <Data><![CDATA[To make use of TEAM Mentor integrated guidance simply Scan a project. You will see TEAM Mentor Guidance in the “Custom Explanation” field in the Details tab and “Custom Recommendation” field in the Recommendation tab.  
+
+{{/Image/ftusn1.jpg}} \\ \\ \\
+
+{{/Image/ftusn2.jpg}} \\ \\ \\]]></Data>
+  </Content>
+</TeamMentor_Article>

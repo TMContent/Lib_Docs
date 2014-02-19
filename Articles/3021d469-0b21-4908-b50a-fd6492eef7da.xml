@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<TeamMentor_Article Metadata_Hash="0" Content_Hash="0">
+  <Metadata>
+    <Id>3021d469-0b21-4908-b50a-fd6492eef7da</Id>
+    <Library_Id>eb39d862-f752-4d1c-ab6e-14ed697397c0</Library_Id>
+    <Title>About Eclipse Plugin</Title>
+    <Category>Administration</Category>
+    <Phase>NA</Phase>
+    <Technology>Eclipse Plugin</Technology>
+    <Type>Documentation</Type>
+    <DirectLink>About Eclipse Plugin</DirectLink>
+    <Author />
+    <Priority />
+    <Status />
+  </Metadata>
+  <Content Sanitized="false" DataType="wikitext">
+    <Data><![CDATA[TEAM Mentor Plugin for HP Fortify Eclipse UI integrates TEAM Mentor Guidance articles with HP Fortify Eclipse plugin, right in the Eclipse IDE. As a developer goes through Fortify findings, relevant, line of code, guidance is at developers fingertips to assist in quickest resolution. 
+
+The core of this product is quick and easy access to security information that is accurate and relevant to specific code security questions. This reduces the number of security scan cycles that involve QA, infosec or other teams, as well as the total number of vulnerabilities found by security scans and penetration tests. Integrating security scanning and guidance into a development workflow ultimately results in quicker production of more secure and stable applications.]]></Data>
+  </Content>
+</TeamMentor_Article>

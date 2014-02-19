@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<TeamMentor_Article Metadata_Hash="0" Content_Hash="0">
+  <Metadata>
+    <Id>6863995d-d509-4b56-834f-b77ffaa73939</Id>
+    <Library_Id>eb39d862-f752-4d1c-ab6e-14ed697397c0</Library_Id>
+    <Title>Updating TEAM Mentor Custom Rulepack</Title>
+    <Category>Admin</Category>
+    <Phase>NA</Phase>
+    <Technology>HP Fortify SCA UI Integration</Technology>
+    <Type>Documentation</Type>
+    <DirectLink>Updating TEAM Mentor Custom Rulepack</DirectLink>
+    <Author />
+    <Priority />
+    <Status />
+  </Metadata>
+  <Content Sanitized="false" DataType="wikitext">
+    <Data><![CDATA[Unfortunately, HP Fortify does not provide an interface to update the custom rulepacks. To update TEAM Mentor custom rulepack you must manually remove it from directory:
+
+
+//%ProgramFiles%\HP_Fortify\HP_Fortify_SCA_and_Apps_4.00\Core\config\customrules//
+
+By deleting  **TEAMMentorRulePack.xml** file and Installing the Custom Rulepack again.
+]]></Data>
+  </Content>
+</TeamMentor_Article>

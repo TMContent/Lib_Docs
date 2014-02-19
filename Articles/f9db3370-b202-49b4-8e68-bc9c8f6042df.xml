@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<TeamMentor_Article Metadata_Hash="0" Content_Hash="0">
+  <Metadata>
+    <Id>f9db3370-b202-49b4-8e68-bc9c8f6042df</Id>
+    <Library_Id>eb39d862-f752-4d1c-ab6e-14ed697397c0</Library_Id>
+    <Title>Using a Sample Vulnerable Application</Title>
+    <Category />
+    <Phase />
+    <Technology />
+    <Type />
+    <DirectLink>Using a Sample Vulnerable Application</DirectLink>
+    <Author />
+    <Priority />
+    <Status />
+  </Metadata>
+  <Content Sanitized="false" DataType="wikitext">
+    <Data><![CDATA[To see the TEAM Mentor Eclipse Plugin for Fortify at work you can scan a sample, purposely vulnerable application. For this we have chosen “BodgeIt Store” – A vulnerable web application aimed at people new to pen testing.  You can read more about the application here:
+
+	https://code.google.com/p/bodgeit/
+
+\\
+Follow these steps to download, import and scan the application:
+
+#We use SVN to checkout the latest source code version of the application. TortoiseSVN provides a nice graphical interface. The SVN source code repository is found here:\\ \\
+http://bodgeit.googlecode.com/svn/trunk/ \\ \\
+{{/Image/ftsmp1.jpg}} \\ \\ \\
+#TortoiseSVN will download the source code \\ \\
+{{/Image/ftsmp2.jpg}} \\ \\ \\
+#Open HP Fortify Audit Workbench.  Choose File->Scan Java Project. Now open the directory where you have stored the source code.  Choose Java Version to be 1.5. And take all the default scan settings. Then click on “Run Scan” \\ \\
+{{/Image/ftsmp3.jpg}} \\ \\ \\
+#Once the scan completes, you will see the findings on the left pane. \\ \\
+{{/Image/ftsmp4.jpg}} \\ \\ \\
+#Expand “Cross-Site Scripting: Persistent” folder in the category list on the right pane. Click on one of the findings.  Click on the Details tab on the bottom. You will see TEAM Mentor guidance show up in the “Custom Explanation” Field \\ \\
+{{/Image/ftsmp5.jpg}} \\ \\ \\
+You will also see further TEAM Mentor guidance on the “Recommendations” Tab \\ \\
+{{/Image/ftsmp5-1.jpg}} \\ \\ \\
+#Expand the “Race Condition: Singleton Member Field” in the category on the right pane. Click on one finding. You will notice that there is no TEAM Mentor guidance available for this finding. You may use regular Fortify guidance available on the bottom pane.  \\ \\
+{{/Image/ftsmp6.jpg}} \\ \\
+{{/Image/ftsmp6-1.jpg}} \\ \\]]></Data>
+  </Content>
+</TeamMentor_Article>
