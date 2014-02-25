@@ -6,7 +6,7 @@
     <Title>User Interface Overview</Title>
     <Category>User Interface</Category>
     <Phase>NA</Phase>
-    <Technology>TeamMentor</Technology>
+    <Technology>TEAM Mentor</Technology>
     <Type>Documentation</Type>
     <DirectLink />
     <Tag />
@@ -26,7 +26,7 @@
 <div><br>
 </div>
 <div>The navigation pane gives an overview of content organized into libraries, folders, and views. Folders and views work differently than file system objects, although there are some similarities. The similarities are mostly in the way they are navigated
- - folders contain multiple other objects inside them. The difference is that TeamMentor folders contain views, not file system objects - the same article may appear in multiple folders and/or views.</div>
+ - folders contain multiple other objects inside them. The difference is that TEAM Mentor folders contain views, not file system objects - the same article may appear in multiple folders and/or views.</div>
 <div><br>
 </div>
 <div>The filters pane allows filtering content in the current library/folder/view based on applicable technology, development phase, article type, and subject matter category. Filters can be enabled or disabled by using the corresponding checkboxes.</div>
@@ -39,7 +39,7 @@
  Selecting an article in the list updates the preview pane with the contents of the selected article. Double-clicking on an article opens it in a new window.</div>
 <div><br>
 </div>
-<div>The TeamMentor interface is designed to be simple and intuitive. The main task of navigating the content to find specific articles should be familiar to most users, because it is similar to navigating file-system objects.<br>
+<div>The TEAM Mentor interface is designed to be simple and intuitive. The main task of navigating the content to find specific articles should be familiar to most users, because it is similar to navigating file-system objects.<br>
 </div>
 </div>
 <div></div>

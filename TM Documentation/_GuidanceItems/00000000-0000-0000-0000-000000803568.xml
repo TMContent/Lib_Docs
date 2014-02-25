@@ -6,7 +6,7 @@
     <Title>Navigating</Title>
     <Category>Reading</Category>
     <Phase>NA</Phase>
-    <Technology>TeamMentor</Technology>
+    <Technology>TEAM Mentor</Technology>
     <Type>Documentation</Type>
     <DirectLink />
     <Tag />
@@ -17,11 +17,11 @@
   </Metadata>
   <Content Sanitized="true" DataType="Html">
     <Data><![CDATA[
-<div>The simplest way to navigate TeamMentor content is via the aptly named navigation pane on the left. The navigation pane shows a tree representation of the available libraries as folders and views. This tree can be navigated in a manner similar to playlists
+<div>The simplest way to navigate TEAM Mentor content is via the aptly named navigation pane on the left. The navigation pane shows a tree representation of the available libraries as folders and views. This tree can be navigated in a manner similar to playlists
  in a music player, such as iTunes.&nbsp;</div>
 <div><br>
 </div>
-<div>TeamMentor content is organized in a manner similar to playlists. All the articles are located in the library. Views are references to sub-sets of these files, like playlists in music players. Folders are a way to organize the views. An article may appear
+<div>TEAM Mentor content is organized in a manner similar to playlists. All the articles are located in the library. Views are references to sub-sets of these files, like playlists in music players. Folders are a way to organize the views. An article may appear
  in multiple views and folders, but there is still only one copy of the article - the views and folders display references to it.</div>
 <div><br>
 </div>

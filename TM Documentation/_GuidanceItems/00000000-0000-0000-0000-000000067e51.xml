@@ -6,7 +6,7 @@
     <Title>Navigation Pane</Title>
     <Category>User Interface</Category>
     <Phase>NA</Phase>
-    <Technology>TeamMentor</Technology>
+    <Technology>TEAM Mentor</Technology>
     <Type>Documentation</Type>
     <DirectLink />
     <Tag />
@@ -19,7 +19,7 @@
     <Data><![CDATA[The navigation pane gives an overview of content organized into libraries, folders, and views.&nbsp;This tree can be navigated in a manner similar to files and folders, which are familiar to most people.&nbsp;
 <div><br>
 </div>
-<div>Browsing TeamMentor content via the navigation pane is similar to exploring files and folders, but there are some differences. All the articles are located in the library, rather than in the folders or views. Views are references to sub-sets of these files,
+<div>Browsing TEAM Mentor content via the navigation pane is similar to exploring files and folders, but there are some differences. All the articles are located in the library, rather than in the folders or views. Views are references to sub-sets of these files,
  like playlists in music players. Folders are a way to organize the views. An article may appear in multiple views and folders, but there is still only one copy of the article - the views and folders display references to it.</div>
 <div><br>
 </div>

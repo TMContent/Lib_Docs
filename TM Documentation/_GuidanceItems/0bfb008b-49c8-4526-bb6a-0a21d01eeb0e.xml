@@ -6,7 +6,7 @@
     <Title>Quick Start Guide</Title>
     <Category>Administration</Category>
     <Phase>NA</Phase>
-    <Technology>TeamMentor</Technology>
+    <Technology>TEAM Mentor</Technology>
     <Type>Documentation</Type>
     <DirectLink>Quick Start Guide</DirectLink>
     <Author />
@@ -15,9 +15,9 @@
   </Metadata>
   <Content Sanitized="false" DataType="wikitext">
     <Data><![CDATA[==Signing Up==
-Depending on how your administrator had set up your instance of TeamMentor you may need to create an account. Security Innovation allows 2 weeks of free access to [[https://www.teammentor.net]] - a full version of TeamMentor. 
+Depending on how your administrator had set up your instance of TEAM Mentor you may need to create an account. Security Innovation allows 2 weeks of free access to [[https://www.TEAMMentor.net]] - a full version of TEAM Mentor. 
 
-To create a TeamMentor account, fill in the bolded Username, Password and E-Mail in the Selected Article pane and click Sign Up. 
+To create a TEAM Mentor account, fill in the bolded Username, Password and E-Mail in the Selected Article pane and click Sign Up. 
 Note that while creating your account you will be required to use a complex password that must fulfill the following requirements:
 *At least 8 characters in length
 *Have at least one decimal
@@ -32,13 +32,13 @@ Here’s additional detail on what are considered alphanumeric and non-alphanume
 
 \\
 
-==Accessing TeamMentor==
+==Accessing TEAM Mentor==
 
-To access TeamMentor content, click the Login link in the top right corner. 
+To access TEAM Mentor content, click the Login link in the top right corner. 
 
 {{/Image/login1.jpg}}
 
-Enter your user account credentials in the Login into TeamMentor pop up that appears. After successfully authenticating, you will be able to access TeamMentor content. 
+Enter your user account credentials in the Login into TEAM Mentor pop up that appears. After successfully authenticating, you will be able to access TEAM Mentor content. 
 
 {{/Image/login2.jpg}}
 
@@ -48,10 +48,10 @@ If you have forgotten your password, click on the Forgot your password? link, fi
 
 \\
 
-==Using TeamMentor==
+==Using TEAM Mentor==
 
-The simplest way to navigate TeamMentor content is via the navigation pane on the left. The navigation pane shows a tree representation of the available libraries as folders and views. This tree can be navigated in a manner similar to playlists in a music player, such as iTunes. 
-TeamMentor content is organized in a manner similar to playlists. All the articles are located in the library. Views are references to sub-sets of these files. Folders are a way to organize the views. An article may appear in multiple views and folders, but there is still only one copy of the article - the views and folders display references to it.
+The simplest way to navigate TEAM Mentor content is via the navigation pane on the left. The navigation pane shows a tree representation of the available libraries as folders and views. This tree can be navigated in a manner similar to playlists in a music player, such as iTunes. 
+TEAM Mentor content is organized in a manner similar to playlists. All the articles are located in the library. Views are references to sub-sets of these files. Folders are a way to organize the views. An article may appear in multiple views and folders, but there is still only one copy of the article - the views and folders display references to it.
 Articles can be opened from the article list pane. Navigating the folders and views in the navigation pane changes the list of articles presented in the article list pane. The list of articles can be further narrowed down by using filters. Once the desired articles have been located, they can be previewed in the preview pane on the right by single-clicking on the article title in the list. To open the article in a new window, double-click on the article title in the list. 
 
 {{/Image/nav1.jpg}}

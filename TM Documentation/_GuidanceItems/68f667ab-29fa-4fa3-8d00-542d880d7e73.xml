@@ -6,33 +6,33 @@
     <Title>Creating Library, Folder, Views and Articles</Title>
   </Metadata>
   <Content Sanitized="false" DataType="wikitext">
-    <Data><![CDATA[The TeamMentor client API provides a simple way to create Libraries, Folders, Views and Articles
+    <Data><![CDATA[The TEAM Mentor client API provides a simple way to create Libraries, Folders, Views and Articles
 
-The API_TeamMentor_Local.cs is a C# file that simplifies the consumption of TeamMentor WebServices (for example it automates the set-up of the CSRF token and provides a fluent API to TeamMentor exposed Web Methods)
+The API_TEAM Mentor_Local.cs is a C# file that simplifies the consumption of TEAM Mentor WebServices (for example it automates the set-up of the CSRF token and provides a fluent API to TEAM Mentor exposed Web Methods)
 
-**Requirements**: Windows with .NET 4.0, [[https://github.com/o2platform/O2_Install | O2 Platform]], [[https://github.com/TeamMentor/UnitTests | TeamMentor Unit Tests]] GitHub Repository
+**Requirements**: Windows with .NET 4.0, [[https://github.com/o2platform/O2_Install | O2 Platform]], [[https://github.com/TEAM Mentor/UnitTests | TEAM Mentor Unit Tests]] GitHub Repository
 
 ===Get libraries list:===
 {{{
-var tmLocal = new API_TeamMentor_Local(); 
+var tmLocal = new API_TEAM Mentor_Local(); 
 return tmLocal.libraries();
 }}}
 
 ===get Library details (using name)===
 {{{
-var tmLocal = new API_TeamMentor_Local(); 
+var tmLocal = new API_TEAM Mentor_Local(); 
 return tmLocal.library("OWASP");  
 }}}
 
 ===get Library details (using GUID)===
 {{{
-var tmLocal = new API_TeamMentor_Local(); 
+var tmLocal = new API_TEAM Mentor_Local(); 
 return tmLocal.library("4738d445-bc9b-456c-8b35-a35057596c16".guid());  
 }}}
 
 ===Get Library's Folders===
 {{{
-var tmLocal = new API_TeamMentor_Local(); 
+var tmLocal = new API_TEAM Mentor_Local(); 
 var library = tmLocal.library("OWASP");  
 var folders = library.folders();
 return folders;
@@ -40,7 +40,7 @@ return folders;
 
 ===get folder views:===
 {{{
-var tmLocal = new API_TeamMentor_Local(); 
+var tmLocal = new API_TEAM Mentor_Local(); 
 var library = tmLocal.library("OWASP");  
 var folders = library.folders();
 return folders[0].views();

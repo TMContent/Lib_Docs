@@ -6,7 +6,7 @@
     <Title>Article Editor Workflow Ideas</Title>
     <Category>Editing</Category>
     <Phase>Draft</Phase>
-    <Technology>TeamMentor</Technology>
+    <Technology>TEAM Mentor</Technology>
     <Type>Documentation</Type>
     <DirectLink />
     <Tag />
@@ -25,14 +25,14 @@
 <div>&#43; Add multiple editor packages in parallel</div>
 <div>&#43; Let the users choose/enable/disable editors based on personal preferences</div>
 <div>&#43; Add an html editor for power users</div>
-<div>&#43; Add a JavaScript based converter to convert from plain-text to HTML based on TeamMentor-specific style guide and format</div>
+<div>&#43; Add a JavaScript based converter to convert from plain-text to HTML based on TEAM Mentor-specific style guide and format</div>
 <div>&#43; Provide access to editors without having to create an article first, similar to opening notepad, jotting down some notes, then saving only if it's worth-while. The saved text should be saved as a draft that's not published to the public site, but should
  be either visible to the user alone or shared with others. Making the draft a published article should be also an option.</div>
 <div><br>
 </div>
 <div><br>
 </div>
-<div>TeamMentor Style Guide</div>
+<div>TEAM Mentor Style Guide</div>
 <div><br>
 </div>
 <div>To be documented when requested...</div>

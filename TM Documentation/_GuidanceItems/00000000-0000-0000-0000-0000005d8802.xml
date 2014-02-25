@@ -6,7 +6,7 @@
     <Title>Editing the Default Configuration</Title>
     <Category>Administration</Category>
     <Phase>NA</Phase>
-    <Technology>TeamMentor</Technology>
+    <Technology>TEAM Mentor</Technology>
     <Type>Documentation</Type>
     <DirectLink>Editing the Default Configuration</DirectLink>
     <Tag />
@@ -23,7 +23,7 @@
 
 
 ==Default Configuration File==
-TeamMentor default configuration file is located at //Web Applications\TM_Website\TmConfig.config// this file shows all the non-sensitive configurable options and their default values for TeamMentor. This file should not be used to make configuration changes. If you would like to change any of the default configuration options, copy the file to //Library_Data\XmlDatabase\User_Data\TmConfig.config//. This file should only contain configuration values that you want to override and alter from their defaults.  For example:
+TEAM Mentor default configuration file is located at //Web Applications\TM_Website\TmConfig.config// this file shows all the non-sensitive configurable options and their default values for TEAM Mentor. This file should not be used to make configuration changes. If you would like to change any of the default configuration options, copy the file to //Library_Data\XmlDatabase\User_Data\TmConfig.config//. This file should only contain configuration values that you want to override and alter from their defaults.  For example:
 
 {{{
 <?xml version="1.0"?>
@@ -40,19 +40,19 @@ The following are some of the usefull settings available in the //TMConfig.confi
 
 **XmlLibrariesPath**(TM_Libraries) This is the path to the library files. This is probably the most important option to edit, because it has to be set correctly for TM to load the library files. The value of this property can be either an absolute path or a path relative to the //"\Library_Data\XmlDatabase"// folder. 
 
-**EnableGZipForWebServices**(true) This option enables or disables GZip compression for WebService interaction with TeamMentor. GZip compression generally increases performance.
+**EnableGZipForWebServices**(true) This option enables or disables GZip compression for WebService interaction with TEAM Mentor. GZip compression generally increases performance.
 
 **ShowContentToAnonymousUsers**(false) This setting defines whether or not full articles will be displayed to unauthenticated users.
 
-**SSL_RedirectHttpToHttps**(true) This setting redirects all non SSL traffic, except for traffic coming from localhost, to SSL port. This ensures all TeamMentor traffic is protected using SSL.
+**SSL_RedirectHttpToHttps**(true) This setting redirects all non SSL traffic, except for traffic coming from localhost, to SSL port. This ensures all TEAM Mentor traffic is protected using SSL.
 
 **EvalAccounts_Enabled**(true) This setting specifies if unauthenticated users will be able to create accounts on the system for Evaluation purposes (only works if ShowContentToAnonymousUsers=false) (note: due to current limitation, if set to "false" users are still able to create accounts on the system which will not expire, see [[article/00000000-0000-0000-0000-0000005d8802|Managing Users for workaround]])
 
 **EvalAccounts_Days**(15) This specifies the duration, in days, that self-created account will have read access to the content (only works if ShowContentToAnonymousUsers=false). 
 
-**DefaultAdminUserName**(admin) Set this option to define the default administrator user name. This user name will be used to manage TeamMentor in the early stages of using it.
+**DefaultAdminUserName**(admin) Set this option to define the default administrator user name. This user name will be used to manage TEAM Mentor in the early stages of using it.
 
-**DefaultAdminPassword**(!!tmadmin) Set this option to define the default administrator password. This password, together with the default administrator user name, will be used to manage TeamMentor in the initial setup stage. It is highly recommended to change the administrator password, using the //"Change Password"// link on the UI, right after TeamMentor had started for the first time.
+**DefaultAdminPassword**(!!tmadmin) Set this option to define the default administrator password. This password, together with the default administrator user name, will be used to manage TEAM Mentor in the initial setup stage. It is highly recommended to change the administrator password, using the //"Change Password"// link on the UI, right after TEAM Mentor had started for the first time.
 
 **Default_AdminEmail**(TM_alerts@securityinnovation.com) Specifies the email address of the "admin" account. This email will be used to send TM status and alert information to.
 

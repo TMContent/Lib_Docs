@@ -6,7 +6,7 @@
     <Title>What is new in this release?</Title>
     <Category>Administration</Category>
     <Phase>NA</Phase>
-    <Technology>TeamMentor</Technology>
+    <Technology>TEAM Mentor</Technology>
     <Type>Documentation</Type>
     <DirectLink>What is new in this release?</DirectLink>
     <Author />
@@ -15,20 +15,20 @@
   </Metadata>
   <Content Sanitized="false" DataType="wikitext">
     <Data><![CDATA[=3.3 RELEASE=
-The TeamMentor 3.3 release includes both new application security content and new web application capabilities. 
+The TEAM Mentor 3.3 release includes both new application security content and new web application capabilities. 
 The update includes over 100 new articles added to multiple libraries to facilitate integration with code analysis tools.
 
 **APPLICATION CHANGES**\\
-The TeamMentor 3.3 release includes the following new application features:
+The TEAM Mentor 3.3 release includes the following new application features:
 *New XML Database directory structure to simplify configuration and improve security
 **New structure separates Libraries, Application Logs, User Data and Configuration
 *GIT support – native capability to store TM Libraries and User Data in GIT.
 **Enables collaboration and version control of authored content using GIT
-**Simplifies merging any local changes with updated TeamMentor content
+**Simplifies merging any local changes with updated TEAM Mentor content
 **Decouples content updates from application updates
 *Self-service password reset capability for forgotten passwords
-**TeamMentor will send a one-time password via email to the user when they click the new Forgot Password link on the login prompt box. Email details must be configured for this new feature.
-*Google Analytics support – both server side and client side integrations with Google Analytics for collecting analytics to track the usage of your TeamMentor installation
+**TEAM Mentor will send a one-time password via email to the user when they click the new Forgot Password link on the login prompt box. Email details must be configured for this new feature.
+*Google Analytics support – both server side and client side integrations with Google Analytics for collecting analytics to track the usage of your TEAM Mentor installation
 
 **CONTENT CHANGES**\\
 The new articles in this release include vulnerability based Landing Pages. These pages simplify navigation and are designed to be included in reports produced by automated application security assessment tools. The new articles are in the following libraries:
@@ -37,15 +37,15 @@ The new articles in this release include vulnerability based Landing Pages. Thes
 *PHP – 27 new articles
 
 **UPGRADING FROM PREVIOUS VERSION OF TEAMMENTOR**\\
-Due to the new XML database structure, Security Innovation support will work with each customer to perform upgrades. When you are ready, please contact us at support@securityinnovation.com to schedule an upgrade. This service is included with your TeamMentor license and support.
+Due to the new XML database structure, Security Innovation support will work with each customer to perform upgrades. When you are ready, please contact us at support@securityinnovation.com to schedule an upgrade. This service is included with your TEAM Mentor license and support.
 
 **LOCAL WEBSITE**\\
-To run TeamMentor locally run "start TeamMentor.bat" which will start a local WebServer (Cassini) on a high port: http://127.0.0.1:12120 <http: 127.0.0.1:12120=""></http:> 
+To run TEAM Mentor locally run "start TEAM Mentor.bat" which will start a local WebServer (Cassini) on a high port: http://127.0.0.1:12120 <http: 127.0.0.1:12120=""></http:> 
 
 \\
 
 =3.2 RELEASE=
-The TeamMentor 3.2 release includes new content and new application code. Stability improvements have been made to the application and features have been added. Content libraries covering mobile platform security have been added and multiple fixes have been made to content.
+The TEAM Mentor 3.2 release includes new content and new application code. Stability improvements have been made to the application and features have been added. Content libraries covering mobile platform security have been added and multiple fixes have been made to content.
 
 **APPLICATION CHANGES**\\
 The TM3.2 release includes the following application changes:
@@ -66,11 +66,11 @@ The TM3.2 release includes the following content changes:
 *Major improvements to articles applicable to "Any" technology.
 
 **LOCAL WEBSITE**\\
-To run TeamMentor locally run "start TeamMentor.bat" which will start a local WebServer (Cassini) on a high port: http://127.0.0.1:12120 <http: 127.0.0.1:12120=""></http:> 
+To run TEAM Mentor locally run "start TEAM Mentor.bat" which will start a local WebServer (Cassini) on a high port: http://127.0.0.1:12120 <http: 127.0.0.1:12120=""></http:> 
 
 \\
 =3.1 RELEASE=
-The TeamMentor 3.1 release includes both new content and new application code. Major stability and usability improvements have been made to the application. A new content library has been added and numerous content fixes have been made based on feedback by a new editor - the TM content is periodically reviewed by different information security professionals.
+The TEAM Mentor 3.1 release includes both new content and new application code. Major stability and usability improvements have been made to the application. A new content library has been added and numerous content fixes have been made based on feedback by a new editor - the TM content is periodically reviewed by different information security professionals.
 
 **APPLICATION CHANGES**\\
 The TM3.1 release includes the following changes:

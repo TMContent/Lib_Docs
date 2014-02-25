@@ -6,7 +6,7 @@
     <Title>QA Action Plan</Title>
   </Metadata>
   <Content Sanitized="false" DataType="wikitext">
-    <Data><![CDATA[This is the current TeamMentor testing/QA plan:
+    <Data><![CDATA[This is the current TEAM Mentor testing/QA plan:
 
 *for a number of TM repositories  (TM +SI , TM +OWASP, TM + TM Docs, TM + AD Support  )
 ** download, run locally, run on IIS, open in Visual Studio, run from Visual Studio (using .git distribution)
@@ -17,7 +17,7 @@
 ** create a custom version of TM's GUI (change logos, add extra text, etc..)
 
 * Update/Improve [[User Scenario Matrix]] as much as possible
-** Review TM Documentation: http:docs.teammentor.net (update/improve them as much as possible)
+** Review TM Documentation: http:docs.TEAMMentor.net (update/improve them as much as possible)
 ** Perform Security review on TM WebServices and TM GUI Javascripts
 ** Provide recommendations on TM usability and customizability]]></Data>
   </Content>

@@ -6,7 +6,7 @@
     <Title>Linking Articles in WikiText</Title>
     <Category>Editing</Category>
     <Phase>NA</Phase>
-    <Technology>TeamMentor</Technology>
+    <Technology>TEAM Mentor</Technology>
     <Type>Documentation</Type>
     <DirectLink>Linking Articles in WikiText</DirectLink>
     <Author />
@@ -27,13 +27,13 @@
 {{/Image/wikilinks-img2.jpg}} 
 
 ==Description:==
-Team Mentor supports a number of methods to insert links to other articles. It is important to note that all articles are associated internally with GUIDs (Global Unique Identifiers).  Therefore the simplest way of accessing an article is by:
+TEAM Mentor supports a number of methods to insert links to other articles. It is important to note that all articles are associated internally with GUIDs (Global Unique Identifiers).  Therefore the simplest way of accessing an article is by:
 {{{
 http://tm.mycompany.com/article/8b8b0ec3-7ad7-4c0f-bcaf-ce30b56b4e50
 }}}
 
 
-Team Mentor supports standard WikiText notation for links. The title of this example article above happens to be “Assume All Input Is Malicious”. Linking to this article from WikiText would look something like this:
+TEAM Mentor supports standard WikiText notation for links. The title of this example article above happens to be “Assume All Input Is Malicious”. Linking to this article from WikiText would look something like this:
 {{{
 ==Related Items==
 Please see [[http://tm.mycompany.com/article/8b8b0ec3-7ad7-4c0f-bcaf-ce30b56b4e50|Assume All Input Is Malicious]] for additional information.
@@ -74,7 +74,7 @@ The link will still work and the reader would see:
 {{/Image/wikilinks-img6.jpg}} 
 
 ==Description:==
-Linking to existing articles using GUID is not always practical or manageable. Team Mentor supports access to articles using the article Title. 
+Linking to existing articles using GUID is not always practical or manageable. TEAM Mentor supports access to articles using the article Title. 
 {{{
 http://tm.mycompany.com/article/Assume All Input Is Malicious
 }}}
@@ -97,11 +97,11 @@ Please see [[Assume All Input Is Malicious]] for additional information.
 }}}
 \\
 ==Same Title Articles:==
-Team Mentor allows having multiple articles with the same title. For example two different articles with the title: //“Deny All Access by Default”// exist, one in Java and one in .NET 4.0 libraries.
+TEAM Mentor allows having multiple articles with the same title. For example two different articles with the title: //“Deny All Access by Default”// exist, one in Java and one in .NET 4.0 libraries.
 
 Articles with the same name can also exist in the same library but associated with different Technology, Phase, Type or Category. For example in the Java library there are 2 articles with the title //“Back Up And Analyze Log Files Regularly”//.  One applies to //“Web Application”// technology, //“Design”// phase, is a //“Principle”// type, and is in //“Auditing and Logging”// category. The other applies to //“Any”// technology, //“Design”// phase, is a //“Guideline”// type, and is in the //“Auditing and Logging”// category. 
 
-Team Mentor allows to specify which Library the article should be retrieved from as well as to drill down on which Technology, Phase, Type or Category the article should belong to. 
+TEAM Mentor allows to specify which Library the article should be retrieved from as well as to drill down on which Technology, Phase, Type or Category the article should belong to. 
 Use the “^” separator after the title to specify the Library, Technology, Phase, Type or Category.  It is acceptable to omit the more granular identifications of the article if no duplicates exist. For example:
 To access the article “Deny All Access by Default” from the Java library use:
 {{{

@@ -6,7 +6,7 @@
     <Title>Managing Users</Title>
     <Category>Administration</Category>
     <Phase>NA</Phase>
-    <Technology>TeamMentor</Technology>
+    <Technology>TEAM Mentor</Technology>
     <Type>Documentation</Type>
     <DirectLink>Managing Users</DirectLink>
     <Tag />
@@ -16,13 +16,13 @@
     <Status />
   </Metadata>
   <Content Sanitized="true" DataType="wikitext">
-    <Data><![CDATA[Administrators can manage TeamMentor users via the Control Panel. The Control Panel can be accessed via the "Control Panel" link in the top right corner of the main user interface. The TeamMentor Control Panel is only available to Administrator users. 
+    <Data><![CDATA[Administrators can manage TEAM Mentor users via the Control Panel. The Control Panel can be accessed via the "Control Panel" link in the top right corner of the main user interface. The TEAM Mentor Control Panel is only available to Administrator users. 
 
 The user management section consists of the following links: "My Account", "Manage Users", and "Create Multiple Users". The "My Account" link opens a window that allows changing the properties of the current user account. The "Manage Users" link opens
  a page that allows managing all the users of the application. The "Create Multiple Users" link opens a page that allows creating multiple user accounts.
 
 ==Preventing Users From Signing Up==
-At the moment when ShowContentToAnonymousUsers is set to false, TeamMentor displays the user sign up page. By default any user can sign up for access. Upon successful sign up the user access is restricted only by the following two parameters:
+At the moment when ShowContentToAnonymousUsers is set to false, TEAM Mentor displays the user sign up page. By default any user can sign up for access. Upon successful sign up the user access is restricted only by the following two parameters:
 
 *EvalAccounts_Enabled(true) This setting specifies if unauthenticated users will be able to create accounts on the system for Evaluation purposes (only works if ShowContentToAnonymousUsers=false) (note: due to current limitation, if set to "false" users are still able to create accounts on the system which will not expire)
 *EvalAccounts_Days(15) This specifies the duration, in days, that self-created account will have read access to the content (only works if ShowContentToAnonymousUsers=false). 

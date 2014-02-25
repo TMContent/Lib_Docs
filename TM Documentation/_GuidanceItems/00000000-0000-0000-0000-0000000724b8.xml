@@ -3,12 +3,12 @@
   <Metadata>
     <Id>00000000-0000-0000-0000-0000000724b8</Id>
     <Library_Id>eb39d862-f752-4d1c-ab6e-14ed697397c0</Library_Id>
-    <Title>Installing TeamMentor on IIS 6.0</Title>
+    <Title>Installing TEAM Mentor on IIS 6.0</Title>
     <Category>Administration</Category>
     <Phase>NA</Phase>
-    <Technology>TeamMentor</Technology>
+    <Technology>TEAM Mentor</Technology>
     <Type>Documentation</Type>
-    <DirectLink>Installing TeamMentor on IIS 6.0</DirectLink>
+    <DirectLink>Installing TEAM Mentor on IIS 6.0</DirectLink>
     <Tag />
     <Security_Demand />
     <Author />
@@ -27,7 +27,7 @@
     </span>
   </div>
   <div>
-    <span style="font-family:Arial,Verdana; font-size:small">To install TeamMentor on IIS 6:</span>
+    <span style="font-family:Arial,Verdana; font-size:small">To install TEAM Mentor on IIS 6:</span>
   </div>
   <div>
     <span style="font-family:Arial,Verdana; font-size:small">
@@ -37,15 +37,15 @@
   <div>
     <ol>
       <li>
-        <font size="2" face="Arial, Verdana">Copy TeamMentor files to local folder</font>
+        <font size="2" face="Arial, Verdana">Copy TEAM Mentor files to local folder</font>
         <ul>
           <li>
             <span style="font-family:Arial,Verdana; font-size:small">
-              <b>Download&amp;nbsp;the .zip</b> file of TeamMentor and extract it</span>
+              <b>Download&amp;nbsp;the .zip</b> file of TEAM Mentor and extract it</span>
           </li>
           <li>
             <span style="font-family:Arial,Verdana; font-size:small">You can also do a <b>
-Git Clone</b> of the latest version of TeamMentor from GitHub (see Install <a href="/article/Install TeamMentor from a GitHub Repository">TeamMentor from a GitHub Repository</a>)<br /></span>
+Git Clone</b> of the latest version of TEAM Mentor from GitHub (see Install <a href="/article/Install TEAM Mentor from a GitHub Repository">TEAM Mentor from a GitHub Repository</a>)<br /></span>
           </li>
         </ul>
       </li>
@@ -54,7 +54,7 @@ Git Clone</b> of the latest version of TeamMentor from GitHub (see Install <a hr
           <b>The&amp;nbsp;</b>
         </span>
         <span style="font-family:Arial,Verdana; font-size:small">
-          <b>TeamMentor root folder</b> should contain the following folders:</span>&amp;nbsp;</li>
+          <b>TEAM Mentor root folder</b> should contain the following folders:</span>&amp;nbsp;</li>
       <ul>
         <li>Docs<br /></li>
         <li>Tools</li>
@@ -63,7 +63,7 @@ Git Clone</b> of the latest version of TeamMentor from GitHub (see Install <a hr
       </ul>
       <li>
         <span style="font-family:Arial,Verdana; font-size:small">
-          <b>Add TeamMentor to IIS 6.0.</b> Open the "Internet Information Services (IIS) Manager".&amp;nbsp;</span>
+          <b>Add TEAM Mentor to IIS 6.0.</b> Open the "Internet Information Services (IIS) Manager".&amp;nbsp;</span>
         <ul>
           <li>
             <span style="font-family:Arial,Verdana; font-size:small">Navigate to "Web Sites" in the tree on the left of the "Internet Information Services (IIS) &amp;nbsp;</span>
@@ -81,7 +81,7 @@ Git Clone</b> of the latest version of TeamMentor from GitHub (see Install <a hr
           </li>
           <li>
             <span style="font-family:Arial,Verdana; font-size:small">Enter a description for the web&amp;nbsp;</span>
-            <span style="font-family:Arial,Verdana; font-size:small">site, something like "TeamMentor".&amp;nbsp;</span>
+            <span style="font-family:Arial,Verdana; font-size:small">site, something like "TEAM Mentor".&amp;nbsp;</span>
           </li>
           <li>
             <span style="font-family:Arial,Verdana; font-size:small">Click "Next".&amp;nbsp;</span>
@@ -97,7 +97,7 @@ Git Clone</b> of the latest version of TeamMentor from GitHub (see Install <a hr
           </li>
           <li>
             <span style="font-family:Arial,Verdana; font-size:small">Select to the "Web Applications\TM_Website" folder&amp;nbsp;</span>
-            <span style="font-family:Arial,Verdana; font-size:small">inside the TeamMentor root folder&amp;nbsp;</span>
+            <span style="font-family:Arial,Verdana; font-size:small">inside the TEAM Mentor root folder&amp;nbsp;</span>
           </li>
           <li>
             <span style="font-family:Arial,Verdana; font-size:small">Click "Next".&amp;nbsp;</span>
@@ -136,7 +136,7 @@ A new&amp;nbsp;</span>
         </ul>
       </li>
       <li>
-        <b>Set up SSL</b>. SSL is enabled by default for TeamMentor. Therefore it is necessary to set up SSL certificate. (Note: It is possible to disable SSL configuration see: )</li>
+        <b>Set up SSL</b>. SSL is enabled by default for TEAM Mentor. Therefore it is necessary to set up SSL certificate. (Note: It is possible to disable SSL configuration see: )</li>
       <ol>
         <li>First generate a CSR<br /></li>
         <ul>
@@ -176,12 +176,12 @@ Install your certificate</li>
       </ol>
       <li>
         <span style="font-family:Arial,Verdana; font-size:small">
-          <b>Set up Permissions,</b> the account used by IIS needs to have write privileges to the TeamMentor Library_Data folder<br /><br /></span>
+          <b>Set up Permissions,</b> the account used by IIS needs to have write privileges to the TEAM Mentor Library_Data folder<br /><br /></span>
         <ul>
           <li>
             <span style="font-family:Arial,Verdana; font-size:small">
               <b>Identify the application account.</b> which is the Windows user account used by the&amp;nbsp;</span>
-            <span style="font-family:Arial,Verdana; font-size:small">IIS Application Pool configured on the TeamMentor
+            <span style="font-family:Arial,Verdana; font-size:small">IIS Application Pool configured on the TEAM Mentor
  website.</span>
             <ul>
               <li>
@@ -204,13 +204,13 @@ Install your certificate</li>
           </li>
           <li>
             <span style="font-family:Arial,Verdana; font-size:small">
-              <b>Adjust the file-system permissions</b>. Give write permissions for the TeamMentor Library_Data folder&amp;nbsp;</span>
+              <b>Adjust the file-system permissions</b>. Give write permissions for the TEAM Mentor Library_Data folder&amp;nbsp;</span>
             <span style="font-family:Arial,Verdana; font-size:small">to the Windows user account that is used
- to run TeamMentor. This is the username that&amp;nbsp;</span>
+ to run TEAM Mentor. This is the username that&amp;nbsp;</span>
             <span style="font-family:Arial,Verdana; font-size:small">has been discovered in the previous step.&amp;nbsp;</span>
             <ul>
               <li>
-                <span style="font-family:Arial,Verdana; font-size:small">Right click on the TeamMentor Library_Data folder</span>
+                <span style="font-family:Arial,Verdana; font-size:small">Right click on the TEAM Mentor Library_Data folder</span>
               </li>
               <li>
                 <span style="font-family:Arial,Verdana; font-size:small">Select "Properties". A "Properties" window&amp;nbsp;</span>
@@ -218,7 +218,7 @@ Install your certificate</li>
               </li>
               <li>
                 <span style="font-family:Arial,Verdana; font-size:small">Select the "Security" tab in the "Properties" window. Give "Full Access"&amp;nbsp;</span>
-                <span style="font-family:Arial,Verdana; font-size:small">permissions to the Windows account that is used to run TeamMentor.&amp;nbsp;</span>
+                <span style="font-family:Arial,Verdana; font-size:small">permissions to the Windows account that is used to run TEAM Mentor.&amp;nbsp;</span>
               </li>
               <li>
                 <span style="font-family:Arial,Verdana; font-size:small">Click "OK"</span>

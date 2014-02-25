@@ -7,15 +7,15 @@
   </Metadata>
   <Content Sanitized="false" DataType="xml">
     <Data><![CDATA[<?xml-stylesheet type="text/xsl" href="/xml/xslt_LandingPage"?>
-<TeamMentor_For_Customers>
+<TEAM Mentor_For_Customers>
 
-	<Title>Evaluating TeamMentor</Title>
+	<Title>Evaluating TEAM Mentor</Title>
 
-	<FooterText>TeamMentor is a real-time reference guide, the industry's largest repository of secure software development knowledge 
+	<FooterText>TEAM Mentor is a real-time reference guide, the industry's largest repository of secure software development knowledge 
 			    that provides software developers secure coding checklists and relevant examples, at the time they need it.
 	</FooterText>
 
 
-</TeamMentor_For_Customers>]]></Data>
+</TEAM Mentor_For_Customers>]]></Data>
   </Content>
 </TeamMentor_Article>

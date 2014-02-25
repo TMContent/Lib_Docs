@@ -3,15 +3,15 @@
   <Metadata>
     <Id>bfb6ca19-fbe5-47c2-9f73-183d52047877</Id>
     <Library_Id>eb39d862-f752-4d1c-ab6e-14ed697397c0</Library_Id>
-    <Title>TeamMentor Landing Page</Title>
+    <Title>TEAM Mentor Landing Page</Title>
     <Category />
     <Phase />
     <Technology />
     <Type />
-    <DirectLink>TeamMentor Landing Page</DirectLink>
+    <DirectLink>TEAM Mentor Landing Page</DirectLink>
   </Metadata>
   <Content Sanitized="false" DataType="html">
-    <Data><![CDATA[<font face="Arial, Verdana" style="font-size: 10pt; ">Welcome to TeamMentor integrated into Visual Studio and CAT.NET.</font>
+    <Data><![CDATA[<font face="Arial, Verdana" style="font-size: 10pt; ">Welcome to TEAM Mentor integrated into Visual Studio and CAT.NET.</font>
   <div style="font-size: 10pt; font-family: Arial, Verdana; ">
     <br />
   </div>
@@ -19,31 +19,31 @@
   <div style="font-size: 10pt; font-family: Arial, Verdana; ">
     <br />
   </div>
-  <div style="font-size: 10pt; font-family: Arial, Verdana; ">TeamMentor provides the guidance you need to understand and fix these vulnerabilities.</div>
+  <div style="font-size: 10pt; font-family: Arial, Verdana; ">TEAM Mentor provides the guidance you need to understand and fix these vulnerabilities.</div>
   <div style="font-size: 10pt; font-family: Arial, Verdana; ">
     <br />
   </div>
-  <div style="font-size: 10pt; font-family: Arial, Verdana; ">To use TeamMentor, build your code and a CAT.NET scan will be started automatically. If vulnerabilities are found in your code, you will see them in the error list within Visual Studio. Double click on an error and you will see information on the vulnerability in this page. Click on any of the links to review best practice guidelines for fixing the problem as well as checklists for checking your own code.</div>
+  <div style="font-size: 10pt; font-family: Arial, Verdana; ">To use TEAM Mentor, build your code and a CAT.NET scan will be started automatically. If vulnerabilities are found in your code, you will see them in the error list within Visual Studio. Double click on an error and you will see information on the vulnerability in this page. Click on any of the links to review best practice guidelines for fixing the problem as well as checklists for checking your own code.</div>
   <div style="font-size: 10pt; font-family: Arial, Verdana; ">
     <br />
   </div>
   <div>
     <span class="Apple-style-span" style="border-collapse: separate; border-spacing: 0px; ">
       <font size="2" face="Arial">
-        <p class="MsoNormal" style="margin: 0in 0in 0.0001pt; ">Use the following resources to help you familiarize yourself with TeamMentor’s capabilities and use cases:</p>
+        <p class="MsoNormal" style="margin: 0in 0in 0.0001pt; ">Use the following resources to help you familiarize yourself with TEAM Mentor’s capabilities and use cases:</p>
         <p class="MsoNormal" style="margin: 0in 0in 0.0001pt; ">&amp;nbsp;</p>
         <ul type="disc" style="margin-bottom: 0in; margin-top: 0in; ">
           <li class="MsoNormal" style="margin: 0in 0in 0.0001pt; ">To view a video tutorial to accompany the attached reference guide on how to get the VS-integrated solution installed and running,&amp;nbsp;<a href="http://www.youtube.com/watch?v=QeI3POSpAvQ&amp;noredirect=1">click here</a>.</li>
-          <li class="MsoNormal" style="margin: 0in 0in 0.0001pt; ">To read more on the downloadable components that power TeamMentor’s new static analysis integration,&amp;nbsp;<a href="http://www.reddit.com/r/teammentor/comments/xn651/teammentor_32_powertools_beta/">click here</a>.</li>
-          <li class="MsoNormal" style="margin: 0in 0in 0.0001pt; ">Read up on the latest functional test and use cases with TeamMentor by Principal Architect Dinis Cruz on his&amp;nbsp;<a href="http://diniscruz.blogspot.com/">blog</a>.</li>
-          <li class="MsoNormal" style="margin: 0in 0in 0.0001pt; ">To see and vote on conversations around various TeamMentor topics,&amp;nbsp;<a href="http://www.reddit.com/r/teammentor/">visit our community page on Reddit</a>.</li>
-          <li class="MsoNormal" style="margin: 0in 0in 0.0001pt; ">For internal development notes and details, visit&amp;nbsp;<a href="http://teammentordevelopment.wordpress.com/">The TeamMentor Development Blog</a>.</li>
-          <li class="MsoNormal" style="margin: 0in 0in 0.0001pt; ">Take a look at full product documentation information on the&amp;nbsp;<a href="http://docs.teammentor.net/">TeamMentor documentation page</a>.</li>
+          <li class="MsoNormal" style="margin: 0in 0in 0.0001pt; ">To read more on the downloadable components that power TEAM Mentor’s new static analysis integration,&amp;nbsp;<a href="http://www.reddit.com/r/TEAM Mentor/comments/xn651/TEAM Mentor_32_powertools_beta/">click here</a>.</li>
+          <li class="MsoNormal" style="margin: 0in 0in 0.0001pt; ">Read up on the latest functional test and use cases with TEAM Mentor by Principal Architect Dinis Cruz on his&amp;nbsp;<a href="http://diniscruz.blogspot.com/">blog</a>.</li>
+          <li class="MsoNormal" style="margin: 0in 0in 0.0001pt; ">To see and vote on conversations around various TEAM Mentor topics,&amp;nbsp;<a href="http://www.reddit.com/r/TEAM Mentor/">visit our community page on Reddit</a>.</li>
+          <li class="MsoNormal" style="margin: 0in 0in 0.0001pt; ">For internal development notes and details, visit&amp;nbsp;<a href="http://TEAM Mentordevelopment.wordpress.com/">The TEAM Mentor Development Blog</a>.</li>
+          <li class="MsoNormal" style="margin: 0in 0in 0.0001pt; ">Take a look at full product documentation information on the&amp;nbsp;<a href="http://docs.TEAMMentor.net/">TEAM Mentor documentation page</a>.</li>
           <li class="MsoNormal" style="margin: 0in 0in 0.0001pt; ">See what our lead content developer Serge Truth is posting on his&amp;nbsp;<a href="http://sergesecurity.wordpress.com/">Serge Security Blog</a>.</li>
           <li class="MsoNormal" style="margin: 0in 0in 0.0001pt; ">
-            <a href="http://docs.teammentor.net/xsl/Table_of_Contents">TeamMentor: How it Works</a>
+            <a href="http://docs.TEAMMentor.net/xsl/Table_of_Contents">TEAM Mentor: How it Works</a>
           </li>
-          <li class="MsoNormal" style="margin: 0in 0in 0.0001pt; ">For more videos on how to use TeamMentor, pull up the&amp;nbsp;<a href="http://www.youtube.com/user/SITeamMentor?feature=watch">TeamMentor YouTube Page</a>.</li>
+          <li class="MsoNormal" style="margin: 0in 0in 0.0001pt; ">For more videos on how to use TEAM Mentor, pull up the&amp;nbsp;<a href="http://www.youtube.com/user/SITEAM Mentor?feature=watch">TEAM Mentor YouTube Page</a>.</li>
         </ul>
       </font>
     </span>

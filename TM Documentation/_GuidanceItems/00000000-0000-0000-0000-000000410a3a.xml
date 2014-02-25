@@ -6,7 +6,7 @@
     <Title>Minimum Requirements</Title>
     <Category>Administration</Category>
     <Phase>NA</Phase>
-    <Technology>TeamMentor</Technology>
+    <Technology>TEAM Mentor</Technology>
     <Type>Documentation</Type>
     <DirectLink>Minimum Requirements</DirectLink>
     <Author />
@@ -15,7 +15,7 @@
   </Metadata>
   <Content Sanitized="false" DataType="wikitext">
     <Data><![CDATA[=Minimum Server Requirements=
-The following hardware and software is required to run a TeamMentor.
+The following hardware and software is required to run a TEAM Mentor.
 
 *Windows Server 2003 or higher
 *IIS 6 or higher
@@ -24,7 +24,7 @@ The following hardware and software is required to run a TeamMentor.
 *1GB of Storage
 *SSL Certificate
 
-Please note that it may be possible to run TeamMentor with less RAM and Storage.  We have successfully tested TeamMentor under Windows 2003 with IIS 6 and 613MB of RAM. However performance does degrade under load and minimal configuration listed above is recommended for production environments. Also note, when connecting to TeamMentor on local machine (connecting to "localhost") SSL certificate is not required. It is also possible to disable the default SSL configuration, weaving the SSL certificate requirement, however this is highly discouraged. Self-signed certificate may be used for test environments.
+Please note that it may be possible to run TEAM Mentor with less RAM and Storage.  We have successfully tested TEAM Mentor under Windows 2003 with IIS 6 and 613MB of RAM. However performance does degrade under load and minimal configuration listed above is recommended for production environments. Also note, when connecting to TEAM Mentor on local machine (connecting to "localhost") SSL certificate is not required. It is also possible to disable the default SSL configuration, weaving the SSL certificate requirement, however this is highly discouraged. Self-signed certificate may be used for test environments.
 
 =Client Side Requirements=
 Following browsers and platforms are supported:

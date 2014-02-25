@@ -6,7 +6,7 @@
     <Title>Script - Creating TM Library based on CWE files</Title>
     <Category> </Category>
     <Phase>Draft</Phase>
-    <Technology>TeamMentor</Technology>
+    <Technology>TEAM Mentor</Technology>
     <Type>Script</Type>
     <DirectLink />
     <Tag />
@@ -103,7 +103,7 @@
 <div>var libraryName = &quot;CWE Library&quot;;</div>
 <div><br>
 </div>
-<div>var tmWebServices = new API_TeamMentor_WebServices(tmSite); &nbsp; &nbsp; &nbsp;</div>
+<div>var tmWebServices = new API_TEAM Mentor_WebServices(tmSite); &nbsp; &nbsp; &nbsp;</div>
 <div><br>
 </div>
 <div>tmWebServices.login(&quot;admin&quot;,&quot;!!tmbeta&quot;).str();</div>
@@ -148,8 +148,8 @@
 <div>return view.articles();</div>
 <div>&nbsp;</div>
 <div>//O2File:CWE_Data.cs &nbsp;</div>
-<div>//O2File:API_TeamMentor_WebServices.cs</div>
-<div>//using SecurityInnovation.TeamMentor</div>
+<div>//O2File:API_TEAM Mentor_WebServices.cs</div>
+<div>//using SecurityInnovation.TEAM Mentor</div>
 <div><br>
 </div>
 <div>//O2Ref:System.Web.Services.dll</div>

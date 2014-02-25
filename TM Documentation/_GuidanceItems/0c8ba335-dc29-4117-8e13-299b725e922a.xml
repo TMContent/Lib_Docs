@@ -11,20 +11,20 @@
     <DirectLink>Case Study - Creating a PCI Library from other Libraries</DirectLink>
   </Metadata>
   <Content Sanitized="false" DataType="wikitext">
-    <Data><![CDATA[This article will show how to transfer content from one TeamMentor Library into another using scripts that consume the available WebServices API
+    <Data><![CDATA[This article will show how to transfer content from one TEAM Mentor Library into another using scripts that consume the available WebServices API
 
-**Requirements**: Windows with .NET 4.0, [[https://github.com/o2platform/O2_Install | O2 Platform]], [[https://github.com/TeamMentor/UnitTests | TeamMentor Unit Tests]] GitHub Repository
+**Requirements**: Windows with .NET 4.0, [[https://github.com/o2platform/O2_Install | O2 Platform]], [[https://github.com/TEAM Mentor/UnitTests | TEAM Mentor Unit Tests]] GitHub Repository
 
 ===Creating PCI Library from other Libraries===
-This script will create a TeamMentor library called "PCI DSS Compliance" with a view per PCI DSS area
+This script will create a TEAM Mentor library called "PCI DSS Compliance" with a view per PCI DSS area
 
 {{{
 
 var topPanel = panel.clear().add_Panel();
-//var tm_Source = new API_TeamMentor_WebServices("http://tm-pci-dss.apphb.com");
+//var tm_Source = new API_TEAM Mentor_WebServices("http://tm-pci-dss.apphb.com");
 
-var tm_Source = new API_TeamMentor_WebServices("http://127.0.0.1:12201");
-var tm_Target = new API_TeamMentor_WebServices("http://127.0.0.1:12200"); 
+var tm_Source = new API_TEAM Mentor_WebServices("http://127.0.0.1:12201");
+var tm_Target = new API_TEAM Mentor_WebServices("http://127.0.0.1:12200"); 
 tm_Source.login("reader", readerPwd);
 tm_Target.login("admin",adminPwd);
 
@@ -49,8 +49,8 @@ foreach(var library in tm_Source.libraries())
 }
 
 return "ok";
-//using SecurityInnovation.TeamMentor
-//O2File:..\TeamMentor_UnitTests\APIs\API_TeamMentor_WebServices.cs
+//using SecurityInnovation.TEAM Mentor
+//O2File:..\TEAM Mentor_UnitTests\APIs\API_TEAM Mentor_WebServices.cs
 
 }}}
 ]]></Data>

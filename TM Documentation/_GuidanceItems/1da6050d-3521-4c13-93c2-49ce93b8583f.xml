@@ -22,9 +22,9 @@ In this case there was a double encoding issue on the Article's Schema update fr
 ===Fixing the Double Encode issue in one file===
 {{{
 var topPanel = panel.clear().add_Panel();
-var sourceFiles = @"C:\_WorkDir\TeamMentor\TM - Libraries\SI_Library\Java\Java";
+var sourceFiles = @"C:\_WorkDir\TEAM Mentor\TM - Libraries\SI_Library\Java\Java";
 
-var target = @"...\TeamMentor\TM - Libraries\SI_Library\Java\Java\Checklist Item\c88e1b49-357d-4202-aafc-86ce0de485bd.xml";
+var target = @"...\TEAM Mentor\TM - Libraries\SI_Library\Java\Java\Checklist Item\c88e1b49-357d-4202-aafc-86ce0de485bd.xml";
 
 topPanel.add_SourceCodeViewer()
 		.open(target);
@@ -34,14 +34,14 @@ tmArticle.Content.Data.Value = tmArticle.Content.Data.Value.replace("&","&");
 tmArticle.saveAs(target);
  
 return target;
-//using SecurityInnovation.TeamMentor.WebClient
-//O2File:...\Web Applications\TeamMentor.CoreLib\TM_AppCode\Schemas\TeamMentor_Article.cs
+//using SecurityInnovation.TEAM Mentor.WebClient
+//O2File:...\Web Applications\TEAM Mentor.CoreLib\TM_AppCode\Schemas\TeamMentor_Article.cs
 }}}
 
 ===Fixing the double encoding for all files===
 {{{
 var topPanel = panel.clear().add_Panel();
-var sourceFiles = @"C:\_WorkDir\TeamMentor\TM - Libraries\SI_Library";
+var sourceFiles = @"C:\_WorkDir\TEAM Mentor\TM - Libraries\SI_Library";
 
 foreach (var file in sourceFiles.files("*.xml",true))
 {	
@@ -58,13 +58,13 @@ foreach (var file in sourceFiles.files("*.xml",true))
 		"Skipping: {0}".info(file);	
   } 
 
-//using SecurityInnovation.TeamMentor.WebClient
-//O2File:...\Web Applications\TeamMentor.CoreLib\TM_AppCode\Schemas\TeamMentor_Article.cs
+//using SecurityInnovation.TEAM Mentor.WebClient
+//O2File:...\Web Applications\TEAM Mentor.CoreLib\TM_AppCode\Schemas\TeamMentor_Article.cs
 }}}
 
 ===Upgrading 1 file from 3.0 schema to 3.1===
 {{{
-var target = @"...\TeamMentor\TM - Libraries\SI_Library\Java\Java\Code Example\18ac74df-602b-4a58-8998-52f638f3a045.xml";
+var target = @"...\TEAM Mentor\TM - Libraries\SI_Library\Java\Java\Code Example\18ac74df-602b-4a58-8998-52f638f3a045.xml";
 return target.load&lt; Guidance_Item_Import&gt;().transform().saveAs(target);
 }}}
 

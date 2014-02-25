@@ -3,10 +3,10 @@
   <Metadata>
     <Id>00000000-0000-0000-0000-0000008c5464</Id>
     <Library_Id>eb39d862-f752-4d1c-ab6e-14ed697397c0</Library_Id>
-    <Title>TeamMentor Documentation - Table of Contents</Title>
+    <Title>TEAM Mentor Documentation - Table of Contents</Title>
     <Category>Table of Contents</Category>
     <Phase>NA</Phase>
-    <Technology>TeamMentor</Technology>
+    <Technology>TEAM Mentor</Technology>
     <Type>Documentation</Type>
     <DirectLink />
     <Tag />
@@ -19,7 +19,7 @@
     <Data><![CDATA[
 <div><font face="Arial, Verdana" size="2" style="font-family:Arial,Verdana; font-size:10pt; font-style:normal; font-variant:normal; font-weight:normal; line-height:normal"><br>
 </font></div>
-<font face="Arial, Verdana" size="2" style="font-family:Arial,Verdana; font-size:10pt; font-style:normal; font-variant:normal; font-weight:normal; line-height:normal">The TeamMentor Documentation is organized into the following areas:
+<font face="Arial, Verdana" size="2" style="font-family:Arial,Verdana; font-size:10pt; font-style:normal; font-variant:normal; font-weight:normal; line-height:normal">The TEAM Mentor Documentation is organized into the following areas:
 </font>
 <div style="font-family:Arial,Verdana; font-size:10pt; font-style:normal; font-variant:normal; font-weight:normal; line-height:normal">
 <br>
@@ -51,15 +51,15 @@
 </li><li><a href="?#ruledisplay:00000000-0000-0000-0000-000000579bb9">Editing Folders</a></li><li><a href="?#ruledisplay:00000000-0000-0000-0000-00000060462d">Editing Libraries</a></li><li><a href="?#ruledisplay:00000000-0000-0000-0000-0000008e9fb0">Editing Views</a></li></ul>
 </div>
 <div style="font-family:Arial,Verdana; font-size:10pt; font-style:normal; font-variant:normal; line-height:normal">
-<font face="Arial, Verdana" size="2"><b>04 - Customizing TeamMentor</b></font></div>
+<font face="Arial, Verdana" size="2"><b>04 - Customizing TEAM Mentor</b></font></div>
 <div style="font-family:Arial,Verdana; font-size:10pt; font-style:normal; font-variant:normal; font-weight:normal; line-height:normal">
 <font face="Arial, Verdana" size="2"><br>
 </font></div>
 <div style="font-family:Arial,Verdana; font-size:10pt; font-style:normal; font-variant:normal; line-height:normal">
-<font face="Arial, Verdana" size="2"><b>05 - Installing TeamMentor</b></font></div>
+<font face="Arial, Verdana" size="2"><b>05 - Installing TEAM Mentor</b></font></div>
 <div>
 <ul>
-<li><a href="?#ruledisplay:00000000-0000-0000-0000-00000017c916">Install TeamMentor from a GitHub Repository</a><font face="Arial, Verdana" size="2">
+<li><a href="?#ruledisplay:00000000-0000-0000-0000-00000017c916">Install TEAM Mentor from a GitHub Repository</a><font face="Arial, Verdana" size="2">
 </font></li></ul>
 </div>
 </div>

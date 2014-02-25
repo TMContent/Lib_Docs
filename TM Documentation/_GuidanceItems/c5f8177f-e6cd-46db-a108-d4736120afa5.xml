@@ -6,28 +6,28 @@
     <Title>Case Study - Creating a CWE Library from CWE raw XML</Title>
   </Metadata>
   <Content Sanitized="false" DataType="wikitext">
-    <Data><![CDATA[After  we have a normalized CWE XML file lets create the TeamMentor project
+    <Data><![CDATA[After  we have a normalized CWE XML file lets create the TEAM Mentor project
 
 
 **Logging in into teamMentor:**
 {{{
-var teamMentor = new API_TeamMentor_WebServices("http://localhost:12115");
+var teamMentor = new API_TEAM Mentor_WebServices("http://localhost:12115");
 
 teamMentor.login("editor",editorPwd).str();
 return teamMentor.isLoggedIn();
-//using SecurityInnovation.TeamMentor 
-//O2File:...\TM_UnitTests\APIs\API_TeamMentor_WebServices.cs
+//using SecurityInnovation.TEAM Mentor 
+//O2File:...\TM_UnitTests\APIs\API_TEAM Mentor_WebServices.cs
 //O2Ref:System.Web.Services.dll
 }}}
 
 **Get Current User roles:**
 {{{
-var teamMentor = new API_TeamMentor_WebServices("http://127.0.0.1:12115"); 
+var teamMentor = new API_TEAM Mentor_WebServices("http://127.0.0.1:12115"); 
 
 teamMentor.login("editor",editorPwd).str();
 return teamMentor.currentUser_Roles();
 get Current Libraries
-var teamMentor = new API_TeamMentor_WebServices("http://127.0.0.1:12115"); 
+var teamMentor = new API_TEAM Mentor_WebServices("http://127.0.0.1:12115"); 
 teamMentor.login("editor",editorPwd).str();
 
 return teamMentor.libraries();
@@ -35,7 +35,7 @@ return teamMentor.libraries();
 
 **Create/Get CWE Library**
 {{{
-var teamMentor = new API_TeamMentor_WebServices("http://127.0.0.1:12115"); 
+var teamMentor = new API_TEAM Mentor_WebServices("http://127.0.0.1:12115"); 
 teamMentor.login("editor",editorPwd).str();
 
 var cweLibrary = teamMentor.library("CWE");
@@ -62,11 +62,11 @@ var mappedXml = targetDir.pathCombine("Cwe_data.xml");
 var cweData = mappedXml.load<CWE_Data>();
 
 
-var teamMentor = new API_TeamMentor_WebServices("http://localhost:12115");
+var teamMentor = new API_TEAM Mentor_WebServices("http://localhost:12115");
 teamMentor.login("editor",editorPwd).str();
 
-//using SecurityInnovation.TeamMentor 
-//O2File:...\TM_UnitTests\APIs\API_TeamMentor_WebServices.cs
+//using SecurityInnovation.TEAM Mentor 
+//O2File:...\TM_UnitTests\APIs\API_TEAM Mentor_WebServices.cs
 //O2File:CWE_Data.cs
 //O2Ref:System.Web.Services.dll
 }}}
@@ -76,7 +76,7 @@ teamMentor.login("editor",editorPwd).str();
 
 var cweData = mappedXml.load<CWE_Data>();
 
-var teamMentor = new API_TeamMentor_WebServices("http://localhost:12115");
+var teamMentor = new API_TEAM Mentor_WebServices("http://localhost:12115");
 teamMentor.login("editor",editorPwd).str();
 
 var tmLibrary = teamMentor.library("CWE").delete().library("CWE");
@@ -156,7 +156,7 @@ var mappedXml = targetDir.pathCombine("Cwe_data.xml");
 var cweData = mappedXml.load<CWE_Data>();
 
 var tmSite = "http://localhost.:12115";
-var teamMentor = new API_TeamMentor_WebServices(tmSite);
+var teamMentor = new API_TEAM Mentor_WebServices(tmSite);
 
 
 teamMentor.login("editor",editorPwd).str(); 
@@ -200,8 +200,8 @@ panel.clear().add_WebBrowser_Control().open(tmSite);
 
 
 return "done";
-//using SecurityInnovation.TeamMentor 
-//O2File:..\TM_UnitTests\APIs\API_TeamMentor_WebServices.cs
+//using SecurityInnovation.TEAM Mentor 
+//O2File:..\TM_UnitTests\APIs\API_TEAM Mentor_WebServices.cs
 //O2File:CWE_Data.cs
 //O2Ref:System.Web.Services.dll
 }}}

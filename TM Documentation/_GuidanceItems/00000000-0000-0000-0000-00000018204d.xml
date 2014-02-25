@@ -6,7 +6,7 @@
     <Title>Using the Search Function</Title>
     <Category>Reading</Category>
     <Phase>NA</Phase>
-    <Technology>TeamMentor</Technology>
+    <Technology>TEAM Mentor</Technology>
     <Type>Documentation</Type>
     <DirectLink>Using the Search Function</DirectLink>
     <Tag />
@@ -19,7 +19,7 @@
     <Data><![CDATA[<div style="font-size:10pt">The search function allows the user to find articles based on whether their titles or contents include a certain text string. The Search bar is located in the filter pane and acts as a filter based on the article title and article
  content. The applied search string shows up as a filter on top of the navigation pane, like the other filters. The search is applied to the list of articles displayed in the article list pane in the bottom center of the main user interface based on the currently
  selected library, folder, or view in the navigation pane on the left. Search string persists when different folder, view or library is selected and will automatically be applied to the newly selected article list.<br /><br /></div>
-  <div style="font-size:10pt">Entering multiple words will search for the specific string that is entered. The search function currently does not support Boolean operations or regular expressions.<br /><br /><h1>Special Search Options</h1><p>By default, Team Mentor will search for text through all content of the articles displayed in the article list pane. However the following parameters will modify this behavior.</p><div><i>all: &lt;search string&gt;</i> - Will search through all content of all installed libraries.</div><div><i>title:&lt;search string&gt;</i> - Will search only in the titles of articles currently displayed in the article list pane.</div><p>Note: These modifiers cannot be used simultaneously.<br /></p></div>
+  <div style="font-size:10pt">Entering multiple words will search for the specific string that is entered. The search function currently does not support Boolean operations or regular expressions.<br /><br /><h1>Special Search Options</h1><p>By default, TEAM Mentor will search for text through all content of the articles displayed in the article list pane. However the following parameters will modify this behavior.</p><div><i>all: &lt;search string&gt;</i> - Will search through all content of all installed libraries.</div><div><i>title:&lt;search string&gt;</i> - Will search only in the titles of articles currently displayed in the article list pane.</div><p>Note: These modifiers cannot be used simultaneously.<br /></p></div>
   <div style="font-size:10pt">
   </div>]]></Data>
   </Content>

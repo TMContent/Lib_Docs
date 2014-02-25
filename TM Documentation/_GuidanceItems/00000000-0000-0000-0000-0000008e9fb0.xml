@@ -6,7 +6,7 @@
     <Title>Editing Views</Title>
     <Category>Editing</Category>
     <Phase>NA</Phase>
-    <Technology>TeamMentor</Technology>
+    <Technology>TEAM Mentor</Technology>
     <Type>Documentation</Type>
     <DirectLink />
     <Tag />
@@ -17,11 +17,11 @@
   </Metadata>
   <Content Sanitized="true" DataType="Html">
     <Data><![CDATA[
-<div>Editing content in TeamMentor is done via &quot;Edit Mode&quot;. &quot;Edit Mode&quot; is only available to Editors and Administrators. To access &quot;Edit Mode&quot;, login as either an Administrator or an Editor user and click the &quot;Edit Mode&quot; link in the top right of the main user
+<div>Editing content in TEAM Mentor is done via &quot;Edit Mode&quot;. &quot;Edit Mode&quot; is only available to Editors and Administrators. To access &quot;Edit Mode&quot;, login as either an Administrator or an Editor user and click the &quot;Edit Mode&quot; link in the top right of the main user
  interface.</div>
 <div><br>
 </div>
-<div>The three main ways to edit views in TeamMentor are via the right-click context menu, via drag &amp; drop operations, and via the content list buttons. Right-click menu context operations allow managing the views, drag &amp; drop operations allow moving articles
+<div>The three main ways to edit views in TEAM Mentor are via the right-click context menu, via drag &amp; drop operations, and via the content list buttons. Right-click menu context operations allow managing the views, drag &amp; drop operations allow moving articles
  into views, and content list buttons allow removing articles from views.</div>
 <div><br>
 </div>

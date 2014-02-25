@@ -11,31 +11,31 @@
     <DirectLink>Case Study - Creating a CWE Library from CheckMarx data</DirectLink>
   </Metadata>
   <Content Sanitized="false" DataType="wikitext">
-    <Data><![CDATA[This article shows an script example on how a custom CWE Library was created using TeamMentor's WebServices API, using as source material the CWE HTML files distributed with Checkmarx
+    <Data><![CDATA[This article shows an script example on how a custom CWE Library was created using TEAM Mentor's WebServices API, using as source material the CWE HTML files distributed with Checkmarx
 
-**Requirements**: Windows with .NET 4.0, [[https://github.com/o2platform/O2_Install | O2 Platform]], [[https://github.com/TeamMentor/UnitTests | TeamMentor Unit Tests]] GitHub Repository
+**Requirements**: Windows with .NET 4.0, [[https://github.com/o2platform/O2_Install | O2 Platform]], [[https://github.com/TEAM Mentor/UnitTests | TEAM Mentor Unit Tests]] GitHub Repository
 
-===Connect to a instance of TeamMentor and and login===
+===Connect to a instance of TEAM Mentor and and login===
 
 {{{
-var teamMentor = new API_TeamMentor_WebServices("http://localhost:3186/"); 
+var teamMentor = new API_TEAM Mentor_WebServices("http://localhost:3186/"); 
 teamMentor.login("admin", adminPwd);
 return teamMentor.loggedIn();
-//using SecurityInnovation.TeamMentor;
-//O2File:..\TeamMentor-UnitTests\APIs\API_TeamMentor_WebServices.cs
+//using SecurityInnovation.TEAM Mentor;
+//O2File:..\TEAM Mentor-UnitTests\APIs\API_TEAM Mentor_WebServices.cs
 }}}
 
-===Connect to a instance of TeamMentor and and login===
+===Connect to a instance of TEAM Mentor and and login===
 
 {{{
-var teamMentor = new API_TeamMentor_WebServices("http://localhost:3186/"); 
+var teamMentor = new API_TEAM Mentor_WebServices("http://localhost:3186/"); 
 teamMentor.login("admin", adminPwd);
 return teamMentor.loggedIn();
 }}}
 
 ===Create Checkmarx library===
 {{{
-var teamMentor = new API_TeamMentor_WebServices("http://localhost:3186/"); 
+var teamMentor = new API_TEAM Mentor_WebServices("http://localhost:3186/"); 
 teamMentor.login("admin", adminPwd);
 var library = teamMentor.library("Checkmarx");
 return library;
@@ -43,7 +43,7 @@ return library;
 
 ===Create/Get View:===
 {{{
-var teamMentor = new API_TeamMentor_WebServices("http://localhost:3186/"); 
+var teamMentor = new API_TEAM Mentor_WebServices("http://localhost:3186/"); 
 teamMentor.login("admin", adminPwd);
 var library = teamMentor.library("Checkmarx");
 return library.view("CWE Data");
@@ -75,7 +75,7 @@ return view.add_Article(title, content, technology, phase, type, category);
 
 ===Add one article===
 {{{
-var teamMentor = new API_TeamMentor_WebServices("http://localhost.:3186/");  
+var teamMentor = new API_TEAM Mentor_WebServices("http://localhost.:3186/");  
 teamMentor.login("admin", adminPwd); 
 
 var library = teamMentor.library("Checkmarx").delete().library("Checkmarx");
@@ -106,7 +106,7 @@ return view.add_Article(title, content, technology, phase, type, category);
 
 ===Add all articles===
 {{{
-var teamMentor = new API_TeamMentor_WebServices(tmSite);  
+var teamMentor = new API_TEAM Mentor_WebServices(tmSite);  
 teamMentor.login("admin", adminPwd); 
 
 var library = teamMentor.library("Checkmarx").delete().library("Checkmarx");
@@ -140,7 +140,7 @@ foreach(var cweEntry in cweEntries)
 	if (count++.mod0(20))
 		"[{0} / {1}]".debug(count, cweEntries.size());
 }
-return "Created {0} TeamMentor articles".format(count).info();
+return "Created {0} TEAM Mentor articles".format(count).info();
 
 }}}
 

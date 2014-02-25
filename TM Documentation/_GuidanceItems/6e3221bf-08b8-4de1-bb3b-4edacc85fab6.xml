@@ -6,7 +6,7 @@
     <Title>Active Directory Support</Title>
   </Metadata>
   <Content Sanitized="false" DataType="wikitext">
-    <Data><![CDATA[By default TeamMentor uses its Xml-based User Store, but it is possible to use Active Directory to authenticate users.
+    <Data><![CDATA[By default TEAM Mentor uses its Xml-based User Store, but it is possible to use Active Directory to authenticate users.
 
 ===Set-up==
 
@@ -20,14 +20,14 @@ By default the impersonate value is set to false, so you will need to set it to 
 {{{
 	<system.web>
 		...
-		<identity impersonate="false"/> <!-- for TeamMentor ActiveDirectory support set to true-->
+		<identity impersonate="false"/> <!-- for TEAM Mentor ActiveDirectory support set to true-->
 	</system.web>
 }}}
 
 Due to changes in .Net 4 and IIS, the following setting must also be set when impersonate="true" (note that the default value is already set to false)
 {{{
 	<system.webServer>
-	    <validation  validateIntegratedModeConfiguration="false"/> <!-- for TeamMentor ActiveDirectory support-->
+	    <validation  validateIntegratedModeConfiguration="false"/> <!-- for TEAM Mentor ActiveDirectory support-->
 		...	
 	</system.webServer>
 }}}
@@ -41,9 +41,9 @@ By default WindowsAuthentication is set to false, so you will need to set the En
 	<TMConfig>
 		<WindowsAuthentication>
 			<Enabled>false</Enabled>
-			<ReaderGroup>TEAMMENTOR\TeamMentor Readers</ReaderGroup>
-			<EditorGroup>TEAMMENTOR\TeamMentor Editors</EditorGroup>
-			<AdminGroup>TEAMMENTOR\TeamMentor Admins</AdminGroup>
+			<ReaderGroup>TEAMMENTOR\TEAM Mentor Readers</ReaderGroup>
+			<EditorGroup>TEAMMENTOR\TEAM Mentor Editors</EditorGroup>
+			<AdminGroup>TEAMMENTOR\TEAM Mentor Admins</AdminGroup>
 		</WindowsAuthentication>
 	</TMConfig>
 }}}
@@ -56,7 +56,7 @@ By default WindowsAuthentication is set to false, so you will need to set the En
 
 **A: ** See this Microsoft KB for a workaround [[http://support.microsoft.com/kb/871179]]
 
-**Q: You get this error when running TeamMentor on a fresh IIS installation: //"Handler'"WebServiceHandlerFactory-Integrated' has a bad module 'ManagedPipelineHandler' in its module list."//**
+**Q: You get this error when running TEAM Mentor on a fresh IIS installation: //"Handler'"WebServiceHandlerFactory-Integrated' has a bad module 'ManagedPipelineHandler' in its module list."//**
 
 **A: ** Try running //aspnet_regiis.exe -i// from the .Net 4.0 folder. See this post for more details: http://forums.iis.net/p/1149449/1869918.aspx
 

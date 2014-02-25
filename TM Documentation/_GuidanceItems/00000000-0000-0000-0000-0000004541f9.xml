@@ -6,7 +6,7 @@
     <Title>Script - Batch Creation of Users from CSV file</Title>
     <Category> </Category>
     <Phase>Draft</Phase>
-    <Technology>TeamMentor</Technology>
+    <Technology>TEAM Mentor</Technology>
     <Type />
     <DirectLink />
     <Tag />
@@ -29,11 +29,11 @@
 <div><font face="Arial, Verdana" size="2">//var adminPwd = &quot;....!&quot;;</font></div>
 <div><font face="Arial, Verdana" size="2"><br>
 </font></div>
-<div><font face="Arial, Verdana" size="2">var tmSite = &quot;http://teammentor.securityinnovation.com&quot;;</font></div>
+<div><font face="Arial, Verdana" size="2">var tmSite = &quot;http://TEAM Mentor.securityinnovation.com&quot;;</font></div>
 <div><font face="Arial, Verdana" size="2">var adminPwd = &quot;...&quot;;</font></div>
 <div><font face="Arial, Verdana" size="2"><br>
 </font></div>
-<div><font face="Arial, Verdana" size="2">var tmWebServices = new API_TeamMentor_WebServices(tmSite); &nbsp; &nbsp; &nbsp;</font></div>
+<div><font face="Arial, Verdana" size="2">var tmWebServices = new API_TEAM Mentor_WebServices(tmSite); &nbsp; &nbsp; &nbsp;</font></div>
 <div><font face="Arial, Verdana" size="2">tmWebServices.login(&quot;admin&quot;,adminPwd).str();</font></div>
 <div><font face="Arial, Verdana" size="2"><br>
 </font></div>
@@ -77,8 +77,8 @@
 <div><font face="Arial, Verdana" size="2">return tmWebServices.users().size();</font></div>
 <div><font face="Arial, Verdana" size="2"><br>
 </font></div>
-<div><font face="Arial, Verdana" size="2">//O2File:API_TeamMentor_WebServices.cs</font></div>
-<div><font face="Arial, Verdana" size="2">//using SecurityInnovation.TeamMentor</font></div>
+<div><font face="Arial, Verdana" size="2">//O2File:API_TEAM Mentor_WebServices.cs</font></div>
+<div><font face="Arial, Verdana" size="2">//using SecurityInnovation.TEAM Mentor</font></div>
 <div><font face="Arial, Verdana" size="2">//O2Ref:System.Web.Services.dll</font></div>
 <div><font face="Arial, Verdana" size="2">//O2Ref:O2_Misc_Microsoft_MPL_Libs.dll</font></div>
 <div><font face="Arial, Verdana" size="2">//_O2Tag_DontAddExtraO2Files</font></div>

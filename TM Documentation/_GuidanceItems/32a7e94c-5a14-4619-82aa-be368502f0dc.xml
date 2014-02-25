@@ -31,7 +31,7 @@ foreach(var mappedItem in mappedItems)
 	
 //return mappedItems;
 
-//using O2.SecurityInnovation.TeamMentor
+//using O2.SecurityInnovation.TEAM Mentor
 //O2File:TM_WebServices.cs
 //O2File:Test_TM_Config.cs
 //O2Ref:System.Web.Services.dll
@@ -55,7 +55,7 @@ foreach(var view in views)
 
 return viewsByLibrary[libraryId];
 
-//using O2.SecurityInnovation.TeamMentor
+//using O2.SecurityInnovation.TEAM Mentor
 //O2File:TM_WebServices.cs
 //O2File:Test_TM_Config.cs
 //O2Ref:System.Web.Services.dll
@@ -134,7 +134,7 @@ foreach(var library in tmWebServices.GetLibraries())
  }
  return "all Done";
 
-//using O2.SecurityInnovation.TeamMentor
+//using O2.SecurityInnovation.TEAM Mentor
 //O2File:TM_WebServices.cs
 //O2File:Test_TM_Config.cs
 //O2Ref:System.Web.Services.dll

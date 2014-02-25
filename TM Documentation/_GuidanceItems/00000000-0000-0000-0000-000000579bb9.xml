@@ -6,7 +6,7 @@
     <Title>Editing Folders</Title>
     <Category>Editing</Category>
     <Phase>NA</Phase>
-    <Technology>TeamMentor</Technology>
+    <Technology>TEAM Mentor</Technology>
     <Type>Documentation</Type>
     <DirectLink />
     <Tag />
@@ -17,11 +17,11 @@
   </Metadata>
   <Content Sanitized="true" DataType="Html">
     <Data><![CDATA[
-<div>Editing content in TeamMentor is done via &quot;Edit Mode&quot;. &quot;Edit Mode&quot; is only available to Editors and Administrators. To access &quot;Edit Mode&quot;, login as either an Administrator or an Editor user and click the &quot;Edit Mode&quot; link in the top right of the main user
+<div>Editing content in TEAM Mentor is done via &quot;Edit Mode&quot;. &quot;Edit Mode&quot; is only available to Editors and Administrators. To access &quot;Edit Mode&quot;, login as either an Administrator or an Editor user and click the &quot;Edit Mode&quot; link in the top right of the main user
  interface.</div>
 <div><br>
 </div>
-<div>The two main ways to edit folders in TeamMentor are via the right-click context menu and via drag &amp; drop operations. Right-click context menu operations allow managing the folders themselves, while drag &amp; drop operations allow placing content inside of
+<div>The two main ways to edit folders in TEAM Mentor are via the right-click context menu and via drag &amp; drop operations. Right-click context menu operations allow managing the folders themselves, while drag &amp; drop operations allow placing content inside of
  folders.</div>
 <div><br>
 </div>

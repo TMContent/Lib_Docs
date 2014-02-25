@@ -6,7 +6,7 @@
     <Title>Using the Control Panel</Title>
     <Category>User Interface</Category>
     <Phase>NA</Phase>
-    <Technology>TeamMentor</Technology>
+    <Technology>TEAM Mentor</Technology>
     <Type>Documentation</Type>
     <DirectLink />
     <Tag />
@@ -17,7 +17,7 @@
   </Metadata>
   <Content Sanitized="true" DataType="Html">
     <Data><![CDATA[
-<div>Administrators can manage TeamMentor users and perform various administrative operations via the Control Panel. The Control Panel can be accessed via the &quot;Control Panel&quot; link in the top right corner of the main user interface. The TeamMentor Control Panel
+<div>Administrators can manage TEAM Mentor users and perform various administrative operations via the Control Panel. The Control Panel can be accessed via the &quot;Control Panel&quot; link in the top right corner of the main user interface. The TEAM Mentor Control Panel
  is only available to Administrator users. The Control Panel has user management and back-end operations sections.</div>
 <div><br>
 </div>
@@ -25,24 +25,24 @@
  a page that allows managing all the users of the application. The &quot;Create Multiple Users&quot; link opens a page that allows creating multiple user accounts.</div>
 <div><br>
 </div>
-<div>The back-end operations section consists of the following links: &quot;Admin Tasks&quot; and &quot;TeamMentor Web Services&quot;. The &quot;Admin Tasks&quot; link opens a page that allows performing various administrative operations. The &quot;TeamMentor Web Services&quot; link opens a page
- that allows interacting with the web services back-end of TeamMentor directly.&nbsp;</div>
+<div>The back-end operations section consists of the following links: &quot;Admin Tasks&quot; and &quot;TEAM Mentor Web Services&quot;. The &quot;Admin Tasks&quot; link opens a page that allows performing various administrative operations. The &quot;TEAM Mentor Web Services&quot; link opens a page
+ that allows interacting with the web services back-end of TEAM Mentor directly.&nbsp;</div>
 <div><br>
 </div>
 <div>The following administrative operations are available via the &quot;Admin Tasks&quot; page:&nbsp;</div>
 <div>
 <ul>
-<li>Get time - this command gets the current server time.</li><li>View the configuration file - this command displays the contents of the configuration file.</li><li>Get library path - this command displays the location of the library files.</li><li>Set library path - this command allows setting the location of the library files during run-time. This command should not be used, rather the TMConfig.config file should be edited to set the location of the libraries.</li><li>Get library zips path - this command shows the location of the zip files, which contain the library files. TeamMentor is capable of unpacking zip files and loading libraries from them. However, it is recommended to unzip library files manually and set their
- location via the TMConfig.config file.</li><li>Set library zips path - this command allows setting the location of the zip files, which contain the library files, during run-time. TeamMentor is capable of unpacking zip files and loading libraries from them. However, it is recommended to unzip library
+<li>Get time - this command gets the current server time.</li><li>View the configuration file - this command displays the contents of the configuration file.</li><li>Get library path - this command displays the location of the library files.</li><li>Set library path - this command allows setting the location of the library files during run-time. This command should not be used, rather the TMConfig.config file should be edited to set the location of the libraries.</li><li>Get library zips path - this command shows the location of the zip files, which contain the library files. TEAM Mentor is capable of unpacking zip files and loading libraries from them. However, it is recommended to unzip library files manually and set their
+ location via the TMConfig.config file.</li><li>Set library zips path - this command allows setting the location of the zip files, which contain the library files, during run-time. TEAM Mentor is capable of unpacking zip files and loading libraries from them. However, it is recommended to unzip library
  files manually and set their location via the TMConfig.config file.</li><li>Get libraries - this command lists the currently available libraries.</li><li>Reload server cache - this command reloads the server cache, it is useful to make sure that changes to the libraries show up after doing things like changing library paths or installing new libraries.</li></ul>
 </div>
 <div><br>
 </div>
-<div>The web services exposed via the &quot;TeamMentor Web Services&quot; page should not be used during regular operation, but are provided to make modification of TeamMentor code simpler, if that is neccesary. There are far too many functions available via the &quot;TeamMentor
+<div>The web services exposed via the &quot;TEAM Mentor Web Services&quot; page should not be used during regular operation, but are provided to make modification of TEAM Mentor code simpler, if that is neccesary. There are far too many functions available via the &quot;TEAM Mentor
  Web Services&quot; page to list here.</div>
 <div><br>
 </div>
-<div>The TeamMentor Control Panel provides controls for managing users and performing administrative tasks. In addition to the Control Panel, some settings can be changed via the TMConfig.config file in the &quot;Web Application&quot; directory.</div>
+<div>The TEAM Mentor Control Panel provides controls for managing users and performing administrative tasks. In addition to the Control Panel, some settings can be changed via the TMConfig.config file in the &quot;Web Application&quot; directory.</div>
 <div><br>
 </div>
 <div></div>

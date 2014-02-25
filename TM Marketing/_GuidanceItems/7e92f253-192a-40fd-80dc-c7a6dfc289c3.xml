@@ -6,25 +6,25 @@
     <Title>Eval</Title>
     <Category>Marketing</Category>
     <Phase>EvalX</Phase>
-    <Technology>TeamMentor</Technology>
+    <Technology>TEAM Mentor</Technology>
     <Type>XML</Type>
     <DirectLink>Eval</DirectLink>
   </Metadata>
   <Content Sanitized="false" DataType="xml">
     <Data><![CDATA[<?xml-stylesheet type="text/xsl" href="/xml/xslt_LandingPage Variation 2"?>
-<TeamMentor_LandingPage>
+<TEAM Mentor_LandingPage>
 
 	<!-- Splash Content-->
-	<SplashPanel_Data	title			= "Try TeamMentor Today! Our Evaluation Version is Available for Free!" a= "Thanks for Trying TeamMentor"
+	<SplashPanel_Data	title			= "Try TEAM Mentor Today! Our Evaluation Version is Available for Free!" a= "Thanks for Trying TEAM Mentor"
 					image		= "http://securityinnovation.com/_img/page-art/FINAL%20Full%20eLearning%20Lifecycle.png" 
 					
 					button_1_text	= "Try Now"
-					button_1_link	= "http://owasp.teammentor.net/"
+					button_1_link	= "http://owasp.TEAMMentor.net/"
 					button_2_text 	= "Download Now"
-					button_2_link	= "https://github.com/downloads/TeamMentor/Master/TeamMentor%203.2.3%20with%20OWASP%20Library.zip" />
+					button_2_link	= "https://github.com/downloads/TEAM Mentor/Master/TEAM Mentor%203.2.3%20with%20OWASP%20Library.zip" />
 
 	<SplashPanel_Text>
-				      	TeamMentor shows you how exactly to remediate vulnerable code.<br/>
+				      	TEAM Mentor shows you how exactly to remediate vulnerable code.<br/>
 					Integrates with Static Analysis tools and IDE’s. <br/>
 					Accepts your internal security policies and is fully customizable. <br/>
 					Helps meet compliance requirements.<br/>
@@ -34,31 +34,31 @@
 
 	<Feature_1  	title 		= "Try Now" 
 			  	image 	= "http://securityinnovation.com/_img/page-art/TM_mainpage_clean.jpg"
-			  	text 		= "Try the Web-based version of TeamMentor here."/>
+			  	text 		= "Try the Web-based version of TEAM Mentor here."/>
 
 	<Feature_2	title	 	= "Download Now" 
 			  	image	= "/tm_images/UnZip_TM.jpg"
-			  	text		= "This download contains all the files necessary to run TeamMentor locally on a hosted Web Server or IIS. Just unzip the files to run from your computer."/>
+			  	text		= "This download contains all the files necessary to run TEAM Mentor locally on a hosted Web Server or IIS. Just unzip the files to run from your computer."/>
 
 	<Feature_3  	title 		= "Install It"
 				image 	= "/tm_images/Run_Locally.jpg"
-				text		= "Click on the 'Start TeamMentor.bat' file to launch your local version of TeamMentor. To run on IIS, create an IIS web site and point it to your /Web Applications/ TM_Website folder." />
+				text		= "Click on the 'Start TEAM Mentor.bat' file to launch your local version of TEAM Mentor. To run on IIS, create an IIS web site and point it to your /Web Applications/ TM_Website folder." />
 
 
-	<BigYellowBox 	title 		  = "Looking for TeamMentor Documentation?"
+	<BigYellowBox 	title 		  = "Looking for TEAM Mentor Documentation?"
 			 	body_text 	  = "Click here to view our page featuring comprehensive product documentation, training videos and how-to articles. "
 				button_text = "View Documentation"
-				button_href = "http://docs.teammentor.net"/> 	 
+				button_href = "http://docs.TEAMMentor.net"/> 	 
 
-	<TM_Animation title 		 = "Sort TeamMentor content how you want to consume it. "/>
-        <Videos		title 		 = "View four TeamMentor videos:"/>
+	<TM_Animation title 		 = "Sort TEAM Mentor content how you want to consume it. "/>
+        <Videos		title 		 = "View four TEAM Mentor videos:"/>
 
-	<Gallery		image_1_href = "http://docs.teammentor.net/Image/Edit%20mode%20-%20context%20menu%20item.jpg"
-				image_2_href = "http://docs.teammentor.net/Image/GuidanceItem%20Editor%20-%20In%20browser.jpg"
-				image_3_href = "http://docs.teammentor.net/Image/Link%20to%20Guidance%20Items%20Editor.jpg"
-				image_4_href = "http://docs.teammentor.net/Image/GuidanceItem%20Editor%20-%20popup%20window.jpg"
-				image_5_href = "http://docs.teammentor.net/Image/Edit%20Mode%20Buttons.jpg"
-				image_6_href = "http://docs.teammentor.net/Image/Edit%20link%20(top%20right).jpg"   />
+	<Gallery		image_1_href = "http://docs.TEAMMentor.net/Image/Edit%20mode%20-%20context%20menu%20item.jpg"
+				image_2_href = "http://docs.TEAMMentor.net/Image/GuidanceItem%20Editor%20-%20In%20browser.jpg"
+				image_3_href = "http://docs.TEAMMentor.net/Image/Link%20to%20Guidance%20Items%20Editor.jpg"
+				image_4_href = "http://docs.TEAMMentor.net/Image/GuidanceItem%20Editor%20-%20popup%20window.jpg"
+				image_5_href = "http://docs.TEAMMentor.net/Image/Edit%20Mode%20Buttons.jpg"
+				image_6_href = "http://docs.TEAMMentor.net/Image/Edit%20link%20(top%20right).jpg"   />
 
 	<Testimonials 	title 		 	 = "See what industry analysts are saying"
 				slot_1_text 	 = "For organizations using static analysis tools, the results can often be overwhelming in terms of prioritization and remediation. As Security and Development teams progress in collaborating to ensure that software is delivered securely, they've needed a just-in-time 'pull' model, where people can look up the information they need right when they need it. In turn it becomes more effective to run results against prescriptive guidance in a central location so you can start to reduce software vulnerabilities."
@@ -71,11 +71,11 @@
 				slot_4_company = "" />
 	
 
-	<FooterText>TeamMentor is a real-time reference guide, the industry's largest repository of secure software development standards 
+	<FooterText>TEAM Mentor is a real-time reference guide, the industry's largest repository of secure software development standards 
 			    that provides software developers secure coding checklists and relevant examples, at the time they need it.
 	</FooterText>
 	<FooterTextCopyright>Copyright 2012 Security Innovation.</FooterTextCopyright>
 
-</TeamMentor_LandingPage>]]></Data>
+</TEAM Mentor_LandingPage>]]></Data>
   </Content>
 </TeamMentor_Article>

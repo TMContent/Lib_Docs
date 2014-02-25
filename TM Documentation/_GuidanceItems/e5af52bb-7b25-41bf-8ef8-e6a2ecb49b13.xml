@@ -6,6 +6,6 @@
     <Title>Html Test</Title>
   </Metadata>
   <Content Sanitized="false" DataType="html">
-    <Data><![CDATA[this is a simple Html based <b>TeamMentor article</b>]]></Data>
+    <Data><![CDATA[this is a simple Html based <b>TEAM Mentor article</b>]]></Data>
   </Content>
 </TeamMentor_Article>

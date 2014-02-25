@@ -3,10 +3,10 @@
   <Metadata>
     <Id>726f9f42-9b10-428e-970e-04523c4853a0</Id>
     <Library_Id>eb39d862-f752-4d1c-ab6e-14ed697397c0</Library_Id>
-    <Title>TeamMentor REST API</Title>
+    <Title>TEAM Mentor REST API</Title>
   </Metadata>
   <Content Sanitized="false" DataType="wikitext">
-    <Data><![CDATA[TeamMentor currently support a number of RESTfull APIs calls, which can be used to access its data in a variety of different formats.
+    <Data><![CDATA[TEAM Mentor currently support a number of RESTfull APIs calls, which can be used to access its data in a variety of different formats.
 
 Using as a an example the '[[Html Test]]' article (here are the multiple ways it article can be accessed:
 

@@ -3,15 +3,15 @@
   <Metadata>
     <Id>e14b4d0b-5968-40af-9090-9ea1379cb569</Id>
     <Library_Id>eb39d862-f752-4d1c-ab6e-14ed697397c0</Library_Id>
-    <Title>Consuming TeamMentor Data</Title>
+    <Title>Consuming TEAM Mentor Data</Title>
     <Category />
     <Phase />
     <Technology />
     <Type />
-    <DirectLink>Consuming TeamMentor Data</DirectLink>
+    <DirectLink>Consuming TEAM Mentor Data</DirectLink>
   </Metadata>
   <Content Sanitized="false" DataType="wikitext">
-    <Data><![CDATA[TeamMentor was designed from the ground up to facilitate the easy access and manipulation of its data.
+    <Data><![CDATA[TEAM Mentor was designed from the ground up to facilitate the easy access and manipulation of its data.
 
 There are number of ways do it by:
 
@@ -19,7 +19,7 @@ There are number of ways do it by:
 * Accessing the [[Web Services API]] directly
 * Using the **Javascript API** (which wraps the WebServices)
 * **Manipulating the XML files** (either at the master XML Git repository or at a local install/fork/clone)
-* Consuming the **Server-side TeamMentor.CoreLib.Dll** (using or nor the WebServices methods)
-* Using the O2 Platform and its multiple TeamMentor data manipulation and viewing GUIs]]></Data>
+* Consuming the **Server-side TEAM Mentor.CoreLib.Dll** (using or nor the WebServices methods)
+* Using the O2 Platform and its multiple TEAM Mentor data manipulation and viewing GUIs]]></Data>
   </Content>
 </TeamMentor_Article>

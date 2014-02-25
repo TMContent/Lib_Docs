@@ -3,10 +3,10 @@
   <Metadata>
     <Id>0335cbcd-9f38-4db6-8265-8588d9467646</Id>
     <Library_Id>eb39d862-f752-4d1c-ab6e-14ed697397c0</Library_Id>
-    <Title>TeamMentor Release Checklist</Title>
+    <Title>TEAM Mentor Release Checklist</Title>
   </Metadata>
   <Content Sanitized="false" DataType="wikitext">
-    <Data><![CDATA[Checklist for TeamMentor Releases
+    <Data><![CDATA[Checklist for TEAM Mentor Releases
 
 **Before final sign-off from QA**
 * Update GitHub site

@@ -3,12 +3,12 @@
   <Metadata>
     <Id>00000000-0000-0000-0000-00000017c916</Id>
     <Library_Id>eb39d862-f752-4d1c-ab6e-14ed697397c0</Library_Id>
-    <Title>Install TeamMentor from a GitHub Repository</Title>
+    <Title>Install TEAM Mentor from a GitHub Repository</Title>
     <Category>Version Control</Category>
     <Phase>Draft</Phase>
-    <Technology>TeamMentor</Technology>
+    <Technology>TEAM Mentor</Technology>
     <Type>Documentation</Type>
-    <DirectLink>Install TeamMentor from a GitHub Repository</DirectLink>
+    <DirectLink>Install TEAM Mentor from a GitHub Repository</DirectLink>
     <Tag />
     <Security_Demand />
     <Author />
@@ -16,15 +16,15 @@
     <Status />
   </Metadata>
   <Content Sanitized="true" DataType="wikitext">
-    <Data><![CDATA[This article will explain how to install TeamTeamor in a local computer from an GitHub Repository, in this case the TeamMentor Evaluation version which contains the full TeamMentor Engine and an OWASP Top 10 Library [[https://github.com/TMContent/Lib_OWASP|https://github.com/TMContent/Lib_OWASP]]
+    <Data><![CDATA[This article will explain how to install TeamTeamor in a local computer from an GitHub Repository, in this case the TEAM Mentor Evaluation version which contains the full TEAM Mentor Engine and an OWASP Top 10 Library [[https://github.com/TMContent/Lib_OWASP|https://github.com/TMContent/Lib_OWASP]]
 
 In the target machine make sure IIS and TortoiseGit is installed. (Tortoise can be installed from [[https://code.google.com/p/tortoisegit/|here]].) Also make sure you have a valid github account. No special permissions are needed for the account.
  
-#Create a folder to hold your GitHub Clones. In this example we are going to use: //C:\TeamMentor_From_GitHub//
-#In the //C:\TeamMentor_From_GitHub// folder right-click inside it, and chose from the Context Menu the option //'Git Clone'//
-#In a browser open the page: [[https://github.com/TeamMentor/Master]], click on the //'Git Read-only'// button and copy the url to its right (in this case [[git://github.com/TeamMentor/Master.git]]). If you want to make commits from this version, you will need to use an account with push privileges to this repository.
-#Back in the Git Clone Gui, put the Git url in the 'Url' TextBox ([[git://github.com/TeamMentor/Master.git]]) and set the 'Directory' TextBox to //'C:\TeamMentor_From_GitHub\Master'//). Click OK
-#The //'C:\TeamMentor_From_GitHub\Master'// should now be populated with a number of files and folders. 
-#Now you need to install the OWASP library. Follow the instructions under **Installing TeamMentor Library from Github** in [[article/00000000-0000-0000-0000-0000005b52c6|Installing Libraries]] and use https://[USERNAME]:[PASSWORD]@github.com/TMContent/Lib_OWASP.git ( replacing [USERNAME] and [PASSWORD] with your github credentials) in the appropriate place as described.]]></Data>
+#Create a folder to hold your GitHub Clones. In this example we are going to use: //C:\TEAM Mentor_From_GitHub//
+#In the //C:\TEAM Mentor_From_GitHub// folder right-click inside it, and chose from the Context Menu the option //'Git Clone'//
+#In a browser open the page: [[https://github.com/TEAM Mentor/Master]], click on the //'Git Read-only'// button and copy the url to its right (in this case [[git://github.com/TEAM Mentor/Master.git]]). If you want to make commits from this version, you will need to use an account with push privileges to this repository.
+#Back in the Git Clone Gui, put the Git url in the 'Url' TextBox ([[git://github.com/TEAM Mentor/Master.git]]) and set the 'Directory' TextBox to //'C:\TEAM Mentor_From_GitHub\Master'//). Click OK
+#The //'C:\TEAM Mentor_From_GitHub\Master'// should now be populated with a number of files and folders. 
+#Now you need to install the OWASP library. Follow the instructions under **Installing TEAM Mentor Library from Github** in [[article/00000000-0000-0000-0000-0000005b52c6|Installing Libraries]] and use https://[USERNAME]:[PASSWORD]@github.com/TMContent/Lib_OWASP.git ( replacing [USERNAME] and [PASSWORD] with your github credentials) in the appropriate place as described.]]></Data>
   </Content>
 </TeamMentor_Article>

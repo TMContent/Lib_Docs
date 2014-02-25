@@ -6,7 +6,7 @@
     <Title>Changing Layout and Collaborating</Title>
     <Category>Editing</Category>
     <Phase>NA</Phase>
-    <Technology>TeamMentor</Technology>
+    <Technology>TEAM Mentor</Technology>
     <Type>Documentation</Type>
     <DirectLink>Changing Layout and Collaborating</DirectLink>
     <Author />
@@ -15,7 +15,7 @@
   </Metadata>
   <Content Sanitized="false" DataType="html">
     <Data><![CDATA[<h1>Displaying a Link to a Particular View</h1>
-  <p>Sometimes it is necessary to generate and send a link to a particular view. Team Mentor provides that capability for logged in users via the “Display Direct Link” feature. </p>
+  <p>Sometimes it is necessary to generate and send a link to a particular view. TEAM Mentor provides that capability for logged in users via the “Display Direct Link” feature. </p>
   <p>Navigate to a library view to be shared.</p>
   <img height="410" src="/Image/chlayout-img01.jpg" width="660" />
   <br />
@@ -35,7 +35,7 @@ Right click on that item to bring up the context menu and clicks on “Show Dire
   <br />
   <br />
   <h1>Changing Layout</h1>
-  <p>Team Mentor GUI is composed of 4 main panes. The navigator pane sows the list of available Libraries, Folders and Views.  Search and Filter pane shows the search bar and list of available metadata filters of Technology, Phase, Type and Category.   The article list pane shows the list of articles in a navigator selection.  Finally, the preview pane shows a preview of the article currently selected on the article list pane.  It is possible change the size of these panes by dragging the sides of each pane. It is also possible to close and open these panes by clicking on the dark blue ribbon on the side of each pane.  
+  <p>TEAM Mentor GUI is composed of 4 main panes. The navigator pane sows the list of available Libraries, Folders and Views.  Search and Filter pane shows the search bar and list of available metadata filters of Technology, Phase, Type and Category.   The article list pane shows the list of articles in a navigator selection.  Finally, the preview pane shows a preview of the article currently selected on the article list pane.  It is possible change the size of these panes by dragging the sides of each pane. It is also possible to close and open these panes by clicking on the dark blue ribbon on the side of each pane.  
 </p>
   <img height="410" src="/Image/chlayout-img05.jpg" width="660" />
   <br />

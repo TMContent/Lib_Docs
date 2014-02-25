@@ -6,7 +6,7 @@
     <Title>Configuring Email</Title>
     <Category>Administration</Category>
     <Phase>NA</Phase>
-    <Technology>TeamMentor</Technology>
+    <Technology>TEAM Mentor</Technology>
     <Type>Documentation</Type>
     <DirectLink>Configuring Email</DirectLink>
     <Author />
@@ -14,7 +14,7 @@
     <Status />
   </Metadata>
   <Content Sanitized="false" DataType="wikitext">
-    <Data><![CDATA[TeamMentor has the capability of sending email. This is required for “Forgot Password” functionality to send the temporary password reset link. Team Mentor will also send status emails to specified Admin accounts. These emails include: 
+    <Data><![CDATA[TEAM Mentor has the capability of sending email. This is required for “Forgot Password” functionality to send the temporary password reset link. TEAM Mentor will also send status emails to specified Admin accounts. These emails include: 
 
 *User Login/Logout
 *Password Reset

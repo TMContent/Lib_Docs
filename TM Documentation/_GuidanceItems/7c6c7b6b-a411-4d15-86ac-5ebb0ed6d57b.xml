@@ -6,7 +6,7 @@
     <Title>Forgot Password</Title>
     <Category>User Interface</Category>
     <Phase>NA</Phase>
-    <Technology>TeamMentor</Technology>
+    <Technology>TEAM Mentor</Technology>
     <Type>Documentation</Type>
     <DirectLink>Forgot Password</DirectLink>
     <Author />
@@ -14,7 +14,7 @@
     <Status />
   </Metadata>
   <Content Sanitized="false" DataType="wikitext">
-    <Data><![CDATA[TeamMentor can assist users in case they have forgotten their password. The user can simply click on forgot password link at the login prompt. 
+    <Data><![CDATA[TEAM Mentor can assist users in case they have forgotten their password. The user can simply click on forgot password link at the login prompt. 
 
 {{/Image/forgotpassword1.jpg}}
 

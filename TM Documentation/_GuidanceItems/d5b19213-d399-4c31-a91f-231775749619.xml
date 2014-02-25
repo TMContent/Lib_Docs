@@ -16,7 +16,7 @@ var adminPwd= "...";
 var topPanel = panel.clear().add_Panel();
 var tree1 = topPanel.add_GroupBox("OK").add_TreeView().sort().afterSelect<string>((text)=> text.clipboardText_Set());
 var tree2 = tree1.insert_Right().add_GroupBox("NOT OK").add_TreeView().sort().afterSelect<string>((text)=> text.clipboardText_Set());
-var teamMentor = new API_TeamMentor_WebServices(tmSite);  
+var teamMentor = new API_TEAM Mentor_WebServices(tmSite);  
 teamMentor.login("admin", adminPwd); 
 
 //return teamMentor.loggedIn();
@@ -104,9 +104,9 @@ return "links fixed: {0}".info(linksFixed);
 //return library.articles();
 
 
-//using SecurityInnovation.TeamMentor;
+//using SecurityInnovation.TEAM Mentor;
 //O2File:HtmlAgilityPack_ExtensionMethods.cs
-//O2File:...\TeamMentor-UnitTests\APIs\API_TeamMentor_WebServices.cs
+//O2File:...\TEAM Mentor-UnitTests\APIs\API_TEAM Mentor_WebServices.cs
 //O2Ref:System.Web.Services.dll
 //O2Ref:O2_Misc_Microsoft_MPL_Libs.dll
 //O2Tag_DontAddExtraO2Files

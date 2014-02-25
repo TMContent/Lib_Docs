@@ -6,14 +6,14 @@
     <Title>Set-up Environment</Title>
   </Metadata>
   <Content Sanitized="false" DataType="WikiText">
-    <Data><![CDATA[Here is the recommended set-up for TeamMentor QA and Development activities
+    <Data><![CDATA[Here is the recommended set-up for TEAM Mentor QA and Development activities
 
 ==Windows==
 
 * Git (msysgit): http://code.google.com/p/msysgit/downloads/list?q=full+installer+official+git
 * TortoiseGit: http://code.google.com/p/tortoisegit/downloads/list
 * O2 Platform: https://github.com/o2platform/O2_Install
-* Test version of TeamMentor: https://github.com/TeamMentor-OWASP/Master
+* Test version of TEAM Mentor: https://github.com/TEAM Mentor-OWASP/Master
 
 ]]></Data>
   </Content>

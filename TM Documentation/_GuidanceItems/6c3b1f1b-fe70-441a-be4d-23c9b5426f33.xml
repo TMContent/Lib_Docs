@@ -6,10 +6,10 @@
     <Title>Unit Tests</Title>
   </Metadata>
   <Content Sanitized="false" DataType="wikitext">
-    <Data><![CDATA[There are a number of TeamMentor UnitTests which cover a wide range of use cases.
+    <Data><![CDATA[There are a number of TEAM Mentor UnitTests which cover a wide range of use cases.
 
 The Javascript/QUnit tests are part of TM source code and can be accessed via the 'extra' features of the control panel (available if you go to [[http://{tm server}/admin_extra]] )
 
-The C#/NUnit based unit tests are hosted on this GitHub Repository: https://github.com/TeamMentor/UnitTests (the helper tools need the [[http://o2platform.com | O2 Platform.com]] to run]]></Data>
+The C#/NUnit based unit tests are hosted on this GitHub Repository: https://github.com/TEAM Mentor/UnitTests (the helper tools need the [[http://o2platform.com | O2 Platform.com]] to run]]></Data>
   </Content>
 </TeamMentor_Article>

@@ -3,18 +3,18 @@
   <Metadata>
     <Id>00000000-0000-0000-0000-0000002b8175</Id>
     <Library_Id>eb39d862-f752-4d1c-ab6e-14ed697397c0</Library_Id>
-    <Title>Team Mentor Wiki Markup</Title>
+    <Title>TEAM Mentor Wiki Markup</Title>
     <Category>Editing</Category>
     <Phase>NA</Phase>
-    <Technology>TeamMentor</Technology>
+    <Technology>TEAM Mentor</Technology>
     <Type>Documentation</Type>
-    <DirectLink>Team Mentor Wiki Markup</DirectLink>
+    <DirectLink>TEAM Mentor Wiki Markup</DirectLink>
     <Author />
     <Priority />
     <Status />
   </Metadata>
   <Content Sanitized="false" DataType="html">
-    <Data><![CDATA[<p>Team Mentor supports WikiCreole as its markup language for editing WikiText type articles. WikiCreole was developed by taking multiple wiki markup languages and choosing the best of the breed. &amp;nbsp;By using this easy to understand language, Team Mentor allows wider audiences, including users that don’t have explicit TeamMentor training, to contribute their knowledge.&amp;nbsp;</p>
+    <Data><![CDATA[<p>TEAM Mentor supports WikiCreole as its markup language for editing WikiText type articles. WikiCreole was developed by taking multiple wiki markup languages and choosing the best of the breed. &amp;nbsp;By using this easy to understand language, TEAM Mentor allows wider audiences, including users that don’t have explicit TEAM Mentor training, to contribute their knowledge.&amp;nbsp;</p>
   <p>
     <img src="/Image/tmwikimarkup-img01.jpg" />
   </p>

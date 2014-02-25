@@ -11,17 +11,17 @@
     <DirectLink>Table of Contents</DirectLink>
   </Metadata>
   <Content Sanitized="false" DataType="wikitext">
-    <Data><![CDATA[=TeamMentor Technology=
+    <Data><![CDATA[=TEAM Mentor Technology=
 
-This section contains technical details on how TeamMentor works, its architecture and how to consume/manipulate its data.
+This section contains technical details on how TEAM Mentor works, its architecture and how to consume/manipulate its data.
 
-Note: We are currently updating this content for the forthcoming TeamMentor 3.1 release. If you see something wrong please contact [[mailto:dcruz@securityinnovation.com | Dinis Cruz]]
+Note: We are currently updating this content for the forthcoming TEAM Mentor 3.1 release. If you see something wrong please contact [[mailto:dcruz@securityinnovation.com | Dinis Cruz]]
 ===Features===
 
-* [[Consuming TeamMentor Data]]
+* [[Consuming TEAM Mentor Data]]
 ** [[Web_Services_API]]
-* [[TeamMentor Article Schema]]
-* [[TeamMentor REST API]]
+* [[TEAM Mentor Article Schema]]
+* [[TEAM Mentor REST API]]
 * [[WikiText Support]]
 * [[Active Directory Support]]
 
@@ -34,20 +34,20 @@ Note: We are currently updating this content for the forthcoming TeamMentor 3.1 
 * [[Case Study - Fix Duplicate Article GUIDs created by Library split]]
 * [[Case Study - Fix Intra-Article Broken Links]]
 * [[How to - Upload Files or Images]]
-* [[How to - Control TeamMentor via IE Automation]]
+* [[How to - Control TEAM Mentor via IE Automation]]
 
 
-===TeamMentor Testing/QA===
+===TEAM Mentor Testing/QA===
 * [[Set-up Environment]]
 * [[Unit Tests]]
 * [[User Scenario Matrix]]
 * [[QA Action Plan]]
 * [[Security Testing]]
 
-===TeamMentor Development===
+===TEAM Mentor Development===
 * [[TM SourceCode]]
 * [[3.2 Development]]
 
-This site is powered by a TeamMentor website, which can be [[/html_pages/Gui/TeamMentor.html | accessed here]]]]></Data>
+This site is powered by a TEAM Mentor website, which can be [[/html_pages/Gui/TEAM Mentor.html | accessed here]]]]></Data>
   </Content>
 </TeamMentor_Article>
