@@ -14,8 +14,10 @@
     <Status />
   </Metadata>
   <Content Sanitized="false" DataType="wikitext">
-    <Data><![CDATA[TEAM Mentor integrates with Fortify SCA UI through Fortify provided Custom Rules interface. This puts TEAM Mentor relevant security guidance at the user's fingertips, directly in Fortify SCA UI. This superior security information and remediation strategies as close as possible  to the source facilitates quick resolution and lowest cost of remediation. 
+    <Data><![CDATA[TEAM Mentor currently works with HP Fortify Static Code Analyzer product. TEAM Mentor integrates with Fortify SCA UI through Fortify provided Custom Rules interface. This puts TEAM Mentor relevant security guidance at the user's fingertips, directly in Fortify SCA UI. This superior security information and remediation strategies as close as possible  to the source facilitates quick resolution and lowest cost of remediation. 
 
- Fortify allows to define “Custom Explanation” and “Custom Recommendations” for Fortify Finding Categories and Subcategories.  Once installed, when a Fortify Finding is clicked, relevant TEAM Mentor guidance (if available) will be displayed in those fields.  ]]></Data>
+Fortify allows to define “Custom Explanation” and “Custom Recommendations” for Fortify Finding Categories and Subcategories.  Once installed, when a Fortify Finding is clicked, relevant TEAM Mentor guidance (if available) will be displayed in those fields.  
+
+Note: We have extensively tested TEAM Mentor integration with HP Fortify SCA version 4.0. However, it will work with other Fortify SCA versions where the same rule-set files are used.]]></Data>
   </Content>
 </TeamMentor_Article>
