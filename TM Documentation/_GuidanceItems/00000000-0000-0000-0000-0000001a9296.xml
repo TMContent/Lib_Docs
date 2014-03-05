@@ -45,18 +45,18 @@
   <p>
     <br />
   </p>
-  <h1>Pining Filters</h1>
+  <h1>Pinning Filters</h1>
   <p>Selected filters only apply to the article list currently selected for display in the navigation pane.&amp;nbsp; Clicking on another view, library or folder in the navigation pane will reset the filters. Sometimes this behavior&amp;nbsp; is not desirable.&amp;nbsp; TEAM Mentor offers the option of “pinning” the filter. </p>
   <p>&amp;nbsp;To pin the filter, first select the filter. The selected filter will show up in the “Applied Filters” section of the navigation pane.</p>
-  <img height="256" src="/Image/filtering-img01.jpg" width="720" />
+  <img src="/Image/filtering-img01.jpg" height="256" width="720" />
   <br />
   <br />
   <p>Then click the pin icon.&amp;nbsp; This will pin the filter. Now when navigating to a different folder, library or view, the selected filter will still be applied. To remove the filter, click the “X” next to the filter.&amp;nbsp; <br /></p>
-  <img height="378" src="/Image/filtering-img02.jpg" width="720" />
+  <img src="/Image/filtering-img02.jpg" height="378" width="720" />
   <br />
   <br />
   <p>Note: If there are no articles that match filter selection in a particular list of articles.&amp;nbsp;</p>
-  <img height="394" src="/Image/filtering-img03.jpg" width="723" />
+  <img src="/Image/filtering-img03.jpg" height="394" width="723" />
   <br />
   <br />
   <h1>Filtering by Meta-Data in the URL</h1>
@@ -70,16 +70,16 @@ For example, if the user is interested only in Java technology, he/she can type"
   <pre>http://127.0.0.1:12115/html_pages/Gui/TEAM Mentor.html#technology:Java
 </pre>
   <p>In the URL window of the browser and the Java technology filter will be automatically selected. </p>
-  <img height="394" src="/Image/filtering-img04.jpg" width="723" />
+  <img src="/Image/filtering-img04.jpg" height="394" width="723" />
   <br />
   <br />
   <p>To filter by “Java” technology and look only for “Data Access” article categories construct the following link:</p>
   <pre>http://127.0.0.1:12115/html_pages/Gui/TEAM Mentor.html#technology:Java&amp;category:Data Access<br />&amp;nbsp;</pre>
-  <img height="394" src="/Image/filtering-img05.jpg" width="723" />
+  <img src="/Image/filtering-img05.jpg" height="394" width="723" />
   <br />
   <br />
   <p>Or to look only for Guidelines use: :</p>
   <pre>http://127.0.0.1:12115/html_pages/Gui/TEAM Mentor.html#type:Guideline<br />&amp;nbsp;</pre>
-  <img height="394" src="/Image/filtering-img06.jpg" width="723" />]]></Data>
+  <img src="/Image/filtering-img06.jpg" height="394" width="723" />]]></Data>
   </Content>
 </TeamMentor_Article>

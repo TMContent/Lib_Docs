@@ -31,9 +31,9 @@ And in //\Library_Data\XmlDatabase\User_Data\TMConfig.config//
 
 
 {{{
-   <Default_AdminEmail>Email address that TM will send status email to</Default_AdminEmail>
+   <Default_AdminEmail>Email address that TEAM Mentor will send status email to</Default_AdminEmail>
 }}}
 
-Note that TM does not currently support unauthenticated SMTP connections. Also note that the FROM address on the status emails will be the same as the TO address set in //<Default_AdminEmail>//. ]]></Data>
+Note that TEAM Mentor does not currently support unauthenticated SMTP connections. Also note that the FROM address on the status emails will be the same as the TO address set in //<Default_AdminEmail>//. ]]></Data>
   </Content>
 </TeamMentor_Article>

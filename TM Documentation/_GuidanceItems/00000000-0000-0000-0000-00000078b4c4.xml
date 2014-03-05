@@ -24,9 +24,7 @@ This is an official Microsoft tool and while Microsoft does not plan on releasin
 Cat.NET is able to scan all (currently released) versions of the .NET Framework (not just 2.0). Note that on the default install of the Cat.NET add-in, there is no support for Visual Studio 2010, but that is a configuration change (the TEAM Mentor Visual Studio Plugin automatically installs this Add-In and configures it accordingly)
 This is a YouTube Video showing it in action: TM - Install and demo of Visual Studio Extension with Cat.NET integration v1.0 [[http://www.youtube.com/watch?v=QeI3POSpAvQ]] 
 
-====Is there a plan to integrate SI content into other scanning engines?====
-From SI's and TEAM Mentor point of view, Cat.NET is just one of the scanners that we will support. We have started the integration with CheckMarx and plan to add next support for: White Hat, Fortify, AppScan Development and Standard editions, and manual security engagements. 
-Here is a couple videos of our PoC of integrating TEAM Mentor with CheckMarx [[http://diniscruz.blogspot.co.uk/2012/04/poc-of-integrating-TEAM Mentor-with.html]]
+
 
 ]]></Data>
   </Content>

@@ -3,7 +3,7 @@
   <library name="eb39d862-f752-4d1c-ab6e-14ed697397c0" caption="TM Documentation">
     <items />
     <libraryStructure>
-      <view id="fab28cbc-945f-4b4a-aa7a-b3b86c8cecbf" caption="About TEAM Mentor" creationDate="2013-05-04T19:19:08.6940289+00:00">
+      <view id="fab28cbc-945f-4b4a-aa7a-b3b86c8cecbf" caption="About TEAM Mentor" creationDate="2013-05-05T04:49:08.6940289+09:30">
         <items>
           <item>00000000-0000-0000-0000-0000002ccdf6</item>
           <item>1eda3d77-43e0-474b-be99-9ba118408dd3</item>
@@ -78,7 +78,7 @@
           <item>00000000-0000-0000-0000-00000025cc25</item>
         </items>
       </view>
-      <view id="171edd2a-7090-4a36-84b9-2ed74b3bd9b7" caption="Eclipse Plugin" creationDate="2014-02-17T02:35:36.3959985+00:00">
+      <view id="171edd2a-7090-4a36-84b9-2ed74b3bd9b7" caption="Eclipse for Fortify plugin" creationDate="2014-02-17T13:05:36.3959985+10:30">
         <items>
           <item>3021d469-0b21-4908-b50a-fd6492eef7da</item>
           <item>39274045-7359-4ed4-9be8-b92232b7bbbf</item>
@@ -92,7 +92,7 @@
           <item>34acf3d3-404e-4c77-bc80-3336e74f0cd3</item>
         </items>
       </view>
-      <view id="e6dea69a-30e5-48fb-bf14-8f7a24b358e8" caption="HP Fortify SCA UI Integration" creationDate="2014-02-19T07:26:04.0191871+00:00">
+      <view id="e6dea69a-30e5-48fb-bf14-8f7a24b358e8" caption="HP Fortify SCA UI Integration" creationDate="2014-02-19T17:56:04.0191871+10:30">
         <items>
           <item>52a6e6cc-fa22-414a-b42a-b1e2dd815990</item>
           <item>dac20027-6138-4cd1-8888-3b7e6a007ea5</item>
