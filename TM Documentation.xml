@@ -69,15 +69,6 @@
           <item>00000000-0000-0000-0000-0000002b8175</item>
         </items>
       </view>
-      <view id="4c266663-9b37-4ba9-81af-9a205b26079d" caption="Consuming TM Data" creationDate="0001-01-01T00:00:00">
-        <items>
-          <item>00000000-0000-0000-0000-000000443637</item>
-          <item>00000000-0000-0000-0000-00000028dbbc</item>
-          <item>00000000-0000-0000-0000-0000004541f9</item>
-          <item>00000000-0000-0000-0000-000000919e51</item>
-          <item>00000000-0000-0000-0000-00000025cc25</item>
-        </items>
-      </view>
       <view id="171edd2a-7090-4a36-84b9-2ed74b3bd9b7" caption="Eclipse for Fortify plugin" creationDate="2014-02-17T13:05:36.3959985+10:30">
         <items>
           <item>3021d469-0b21-4908-b50a-fd6492eef7da</item>
