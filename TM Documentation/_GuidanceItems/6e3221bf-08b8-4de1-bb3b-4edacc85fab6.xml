@@ -58,7 +58,7 @@ By default WindowsAuthentication is set to false, so you will need to set the En
 
 **Step 3: Disabling IIS Anonymous access  and Enabling Windows Authentication **
 
-Make sure you've already installed Windows Authentication in the server where you are configuring TEAM Mentor to use Active Directory.   Windows Authentication can be installed from the Add Roles and Features from the Server Manager Dashboard. You can read more about how to install Windows Authentication here [[http://www.iis.net/configreference/system.webserver/security/authentication/windowsauthentication]]
+Make sure you have already installed Windows Authentication in the server where you are configuring TEAM Mentor to use Active Directory.   Windows Authentication can be installed from the Add Roles and Features from the Server Manager Dashboard. You can read more about how to install Windows Authentication here [[http://www.iis.net/configreference/system.webserver/security/authentication/windowsauthentication]]
 
 Once Windows Authentication has been installed, then it's necessary to enable it for the current Web site and then disable Anonymous access. 
 In order to to that, you need to select the TEAM Mentor Web site and then select the Authentication feature from the IIS group. Make sure Anonymous access is disabled and Windows Authentication is enabled for this Web site.
