@@ -4,6 +4,11 @@
     <Id>6e3221bf-08b8-4de1-bb3b-4edacc85fab6</Id>
     <Library_Id>eb39d862-f752-4d1c-ab6e-14ed697397c0</Library_Id>
     <Title>Active Directory Support</Title>
+    <Category />
+    <Phase />
+    <Technology />
+    <Type />
+    <DirectLink>Active Directory Support</DirectLink>
   </Metadata>
   <Content Sanitized="false" DataType="wikitext">
     <Data><![CDATA[By default TEAM Mentor uses its Xml-based User Store, but it is possible to use Active Directory to authenticate users.
@@ -52,7 +57,7 @@ By default WindowsAuthentication is set to false, so you will need to set the En
 
 **Step 3: IS Anonymous access  and Enabling Windows authentication  **
 
-Make sure you've already installed Windows Authentication in the server where you are configuring TEAM Mentor to use Active Directory.   Windows Authentication can be installed from the Add Roles and Features from the Server Manager Dashboard. You can read more about how to install Windows Authentication <a href="http://www.iis.net/configreference/system.webserver/security/authentication/windowsauthentication"> here. </a>
+Make sure you've already installed Windows Authentication in the server where you are configuring TEAM Mentor to use Active Directory.   Windows Authentication can be installed from the Add Roles and Features from the Server Manager Dashboard. You can read more about how to install Windows Authentication [[http://www.iis.net/configreference/system.webserver/security/authentication/windowsauthentication]]
 Then you need to locate the Web Server section and expand the  Security tree view, you should be
 == Troubleshoot ==
 
