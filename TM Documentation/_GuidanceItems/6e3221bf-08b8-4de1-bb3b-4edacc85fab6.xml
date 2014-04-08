@@ -21,6 +21,7 @@ By default the impersonate value is set to false, so you will need to set it to 
 	<system.web>
 		...
 		<identity impersonate="false"/> <!-- for TEAM Mentor ActiveDirectory support set to true-->
+                 <authentication mode="None"/>  <!-- for TEAM Mentor ActiveDirectory support set to Windows-->
 	</system.web>
 }}}
 
