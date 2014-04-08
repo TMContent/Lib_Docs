@@ -84,6 +84,8 @@ Then you need to grant the Active Directory groups with permissions in the TEAM 
 
 ==References==
 * on why need to set validateIntegratedModeConfiguration=false
-** [[http://forums.iis.net/t/1187993.aspx]]]]></Data>
+** [[http://forums.iis.net/t/1187993.aspx]]
+* Installing Windows Authentication
+** [[http://www.iis.net/configreference/system.webserver/security/authentication/windowsauthentication/providers/add]]]]></Data>
   </Content>
 </TeamMentor_Article>
