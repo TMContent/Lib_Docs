@@ -58,7 +58,17 @@ By default WindowsAuthentication is set to false, so you will need to set the En
 **Step 3: Disabling IIS Anonymous access  and Enabling Windows authentication **
 
 Make sure you've already installed Windows Authentication in the server where you are configuring TEAM Mentor to use Active Directory.   Windows Authentication can be installed from the Add Roles and Features from the Server Manager Dashboard. You can read more about how to install Windows Authentication [[http://www.iis.net/configreference/system.webserver/security/authentication/windowsauthentication]]
-Then you need to locate the Web Server section and expand the  Security tree view, you should be
+
+Once Windows Authentication has been installed, then it's necessary to enable it for the current Web site and then disable Anonymous access. 
+In order to to that, you need to select the TEAM Mentor Web site and then select the Authentication feature from the IIS group.Make sure Anonymous access is disabled and Windows Authentication is enabled for this Web site.
+
+**Step 4: Security settings **
+
+Now that you have created the Web site, you need to assign security permissions. First you need grant the application pool with permissions on the Web Site. When discovering the username, you will need to use the format '''IIS AppPool\[Name of the Application Pool]''' . You need to find this user at the server level and not at the domain level.
+
+Then you need to grant the Active Directory groups with permissions over that folder. If there is an Active Directory group called TeamMentorReader, which should be used just for readers, then you need to grant this group with permissions into the TeamMentor. You need to select the Web site, right click on it, and select the Edit Permissions option from the contextual menu.
+
+
 == Troubleshoot ==
 
 
