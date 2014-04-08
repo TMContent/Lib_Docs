@@ -67,7 +67,7 @@ In order to to that, you need to select the TEAM Mentor Web site and then select
 
 Now that you have created the Web site, you need to assign security permissions. First you need grant the application pool identity with permissions on the Web Site. When discovering the user, you will need to use the format **IIS AppPool\[Name of the Application Pool]**.You need to find this user at the server level and not at the domain level.
 
-Then you need to grant the Active Directory groups with permissions in the TEAM Mentor Web application. If there is an Active Directory group called TeamMentorReader, which should be used just for readers, then you need to grant this group with permissions in the TEAM Mentor site. You need to select the Web site, right click on it, and select the Edit Permissions option from the contextual menu, from there you need to enter the group name.
+Then you need to grant the Active Directory groups with permissions in the TEAM Mentor Web application. If there is an Active Directory group called TeamMentorReader for instance, which should be used just for readers, then you need to grant this group with permissions in the TEAM Mentor site. You need to select the Web site, right click on it, and select the Edit Permissions option from the contextual menu, from there you need to enter the group name.
 
 
 == Troubleshoot ==
