@@ -48,7 +48,7 @@ By default WindowsAuthentication is set to false, so you will need to set the En
 {{{
 	<TMConfig>
 		<WindowsAuthentication>
-			<Enabled>false</Enabled>
+			<Enabled>true</Enabled>
 			<ReaderGroup>TEAMMENTOR\TEAM Mentor Readers</ReaderGroup>
 			<EditorGroup>TEAMMENTOR\TEAM Mentor Editors</EditorGroup>
 			<AdminGroup>TEAMMENTOR\TEAM Mentor Admins</AdminGroup>
