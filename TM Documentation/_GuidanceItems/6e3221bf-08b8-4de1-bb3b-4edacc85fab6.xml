@@ -35,6 +35,7 @@ Due to changes in .Net 4 and IIS, the following setting must also be set when im
 {{{
 	<system.webServer>
 	    <validation  validateIntegratedModeConfiguration="false"/> <!-- for TEAM Mentor ActiveDirectory support-->
+            <modules runAllManagedModulesForAllRequests="true" />      <!-- for TeamMentor ActiveDirectory support-->
 		...	
 	</system.webServer>
 }}}
