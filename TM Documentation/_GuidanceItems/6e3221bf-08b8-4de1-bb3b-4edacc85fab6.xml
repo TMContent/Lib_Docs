@@ -45,18 +45,18 @@ Your new <system.web> properties should have these values:
 In system.webServer section:
 
 Add the this tag:
-//<validation validateintegratedmodeconfiguration="false"></validation>//
+//<validation validateIntegratedModeConfiguration="false"></validation>//
 
 Set the modules runAllManagedModulesForAllRequest to //true//
-//<modules runallmanagedmodulesforallrequests="true"></modules>//
+//<modules runAllManagedModulesForAllRequest="true"></modules>//
 
 Your new <system.webserver> should have these values:
 
 {{{
    <system.webserver>
     ...
-    <validation validateintegratedmodeconfiguration="false"></validation>
-    <modules runallmanagedmodulesforallrequests="true"></modules>    
+    <validation validateIntegratedModeConfiguration="false"></validation>
+    <modules runAllManagedModulesForAllRequest="true"></modules>    
     ...	
     </system.webserver>
 }}}
