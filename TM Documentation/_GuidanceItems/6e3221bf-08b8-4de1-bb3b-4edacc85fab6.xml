@@ -4,10 +4,10 @@
     <Id>6e3221bf-08b8-4de1-bb3b-4edacc85fab6</Id>
     <Library_Id>eb39d862-f752-4d1c-ab6e-14ed697397c0</Library_Id>
     <Title>Active Directory Support</Title>
-    <Category />
-    <Phase />
-    <Technology />
-    <Type />
+    <Category>Administration</Category>
+    <Phase>NA</Phase>
+    <Technology>TEAM Mentor</Technology>
+    <Type>Documentation</Type>
     <DirectLink>Active Directory Support</DirectLink>
   </Metadata>
   <Content Sanitized="false" DataType="wikitext">
@@ -24,18 +24,18 @@ In this file which you will find in the Web Root  //\Web Applications\TM_Website
 In the system.web identity element:
 
 Set the impersonate value to //true//, by default it is set to //false//, \\
-//<identity impersonate="**true**"/>//
+//<identity impersonate="**true**"></identity>//
 
 Set the authentication mode to //Windows//, by default it is set to //None//\\
-//<authentication mode="**Windows**"/>//
+//<authentication mode="**Windows**"></authentication>//
 
 Your new <system.web> properties should have these values:
 
 {{{
     <system.web>
     ...
-    <identity impersonate="true"/>
-    <authentication mode="Windows"/>
+    <identity impersonate="true"></identity>
+    <authentication mode="Windows"></authentication>
     ... 
     </system.web>
 }}}
@@ -45,20 +45,20 @@ Your new <system.web> properties should have these values:
 In system.webServer section:
 
 Add the this tag:
-//<validation  validateIntegratedModeConfiguration="false"/>//
+//<validation validateintegratedmodeconfiguration="false"></validation>//
 
 Set the modules runAllManagedModulesForAllRequest to //true//
-//<modules runAllManagedModulesForAllRequests="true" />//
+//<modules runallmanagedmodulesforallrequests="true"></modules>//
 
-Your new <system.webServer> should have these values:
+Your new <system.webserver> should have these values:
 
 {{{
-   <system.webServer>
+   <system.webserver>
     ...
-    <validation  validateIntegratedModeConfiguration="false"/>
-    <modules runAllManagedModulesForAllRequests="true" />    
+    <validation validateintegratedmodeconfiguration="false"></validation>
+    <modules runallmanagedmodulesforallrequests="true"></modules>    
     ...	
-    </system.webServer>
+    </system.webserver>
 }}}
 
 
@@ -73,12 +73,12 @@ By default Windows Authentication is set to false, so you will need to set the E
 Your TMConfig file Windows Authentication section should look similar to the below. 
 
 {{{
-		<WindowsAuthentication>
-			<Enabled>true</Enabled>
-			<ReaderGroup>TMREAD</ReaderGroup>
-			<EditorGroup>TMEDIT</EditorGroup>
-			<AdminGroup>TMADMIN</AdminGroup>
-		</WindowsAuthentication>
+		<windowsauthentication>
+			<enabled>true</enabled>
+			<readergroup>TMREAD</readergroup>
+			<editorgroup>TMEDIT</editorgroup>
+			<admingroup>TMADMIN</admingroup>
+		</windowsauthentication>
 	
 }}}
 
@@ -126,6 +126,6 @@ Then you need to grant the Active Directory groups with permissions in the TEAM 
 * on why need to set validateIntegratedModeConfiguration=false
 ** [[http://forums.iis.net/t/1187993.aspx]]
 * Installing Windows Authentication
-** [[http://www.iis.net/configreference/system.webserver/security/authentication/windowsauthentication/providers/add]]]]></Data>
+** [[http://www.iis.net/configreference/system.webserver/security/authentication/windowsauthentication/providers/add]]</system.webserver></system.web>]]></Data>
   </Content>
 </TeamMentor_Article>
