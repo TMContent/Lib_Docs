@@ -45,18 +45,18 @@ Your new <system.web> properties should have these values:
 In system.webServer section:
 
 Add the this tag:
-//<validation validateIntegratedModeConfiguration="false"></validation>//
+//<validation validateintegratedmodeconfiguration="false"></validation>//
 
 Set the modules runAllManagedModulesForAllRequest to //true//
-//<modules runAllManagedModulesForAllRequest="true"></modules>//
+//<modules runallmanagedmodulesforallrequest="true"></modules>//
 
 Your new <system.webserver> should have these values:
 
 {{{
    <system.webserver>
     ...
-    <validation validateIntegratedModeConfiguration="false"></validation>
-    <modules runAllManagedModulesForAllRequest="true"></modules>    
+    <validation validateintegratedmodeconfiguration="false"></validation>
+    <modules runallmanagedmodulesforallrequest="true"></modules>    
     ...	
     </system.webserver>
 }}}
@@ -107,6 +107,7 @@ Then you need to grant the Active Directory groups with permissions in the TEAM 
 
 {{/Image/adins3.png}}
 
+Make sure that the Active Directory groups have access to the TEAM Mentor Web Application by adding them to the target folder and grant them with read and write permissions.
 \\
 
 
