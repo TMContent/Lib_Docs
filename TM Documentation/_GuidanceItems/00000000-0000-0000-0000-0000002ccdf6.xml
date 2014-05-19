@@ -19,7 +19,7 @@
 TEAM Mentor release 3.4.1 includes a number of back-end and front end enhancements gathered from customer feedback and requirements. This includes custom user fields in signup form, and user approval workflow, better activity logging and reporting, single sign on enhancements as well as a number of bug fixes and performance enhancements. Content changes include .NET 2.0 Library update,  .NET 3.5 Library Update, and updates to the Vulnerability library.
 
 
-*APPLICATION CHANGES*\\
+**APPLICATION CHANGES**\\
 The following main application changes are included in 3.4.1 release.
 
 - User signup approval flow, where admin can now approve new users via email
