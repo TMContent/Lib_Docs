@@ -22,17 +22,17 @@ TEAM Mentor release 3.4.1 includes a number of back-end and front end enhancemen
 **APPLICATION CHANGES**\\
 The following main application changes are included in 3.4.1 release.
 
-- User signup approval flow, where admin can now approve new users via email
-- Custom defined fields in the user registration form
-- Improvements in controlling what is shown to anonymous (non-logged in users)
-- Overhaul of the admin interface
-- Centralized logging using Firebase
-- Improved User Activity tracking and reporting
-- Email template improvements
-- AD integration fixes
-- SSO improvements and integration with TEAM Professor
-- Bulk user import using CSV file
-- Branding changes
+- User signup approval flow, where admin can now approve new users via email\\
+- Custom defined fields in the user registration form\\
+- Improvements in controlling what is shown to anonymous (non-logged in users)\\
+- Overhaul of the admin interface\\
+- Centralized logging using Firebase\\
+- Improved User Activity tracking and reporting\\
+- Email template improvements\\
+- AD integration fixes\\
+- SSO improvements and integration with TEAM Professor\\
+- Bulk user import using CSV file\\
+- Branding changes\\
 
 
 **CONTENT CHANGES**\\
