@@ -36,7 +36,6 @@ The following main application changes are included in 3.4.1 release.
 
 
 **CONTENT CHANGES**\\
-
 The TeamMentor 3.4.1 release includes the following content changes:
 
 Vulnerability Library Update
@@ -73,9 +72,7 @@ PHP Library Update
 22 items have been added to facilitate scanner integration. 
 Guidelines and Checklist Items have been added to support integration with the Fortify scanner.
 
-
-
-
+\\
 
 =3.3 RELEASE=
 The TEAM Mentor 3.3 release includes both new application security content and new web application capabilities. 
