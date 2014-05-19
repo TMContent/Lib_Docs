@@ -14,7 +14,80 @@
     <Status />
   </Metadata>
   <Content Sanitized="false" DataType="wikitext">
-    <Data><![CDATA[=3.3 RELEASE=
+    <Data><![CDATA[=3.4.1 RELEASE=
+
+TEAM Mentor release 3.4.1 includes a number of back-end and front end enhancements gathered from customer feedback and requirements. This includes custom user fields in signup form, and user approval workflow, better activity logging and reporting, single sign on enhancements as well as a number of bug fixes and performance enhancements. Content changes include .NET 2.0 Library update,  .NET 3.5 Library Update, and updates to the Vulnerability library.
+
+
+**APPLICATION CHANGES**\\
+The following main application changes are included in 3.4.1 release.
+
+- User signup approval flow, where admin can now approve new users via email\\
+- Custom defined fields in the user registration form\\
+- Improvements in controlling what is shown to anonymous (non-logged in users)\\
+- Overhaul of the admin interface\\
+- Centralized logging using Firebase\\
+- Improved User Activity tracking and reporting\\
+- Email template improvements\\
+- AD integration fixes\\
+- SSO improvements and integration with TEAM Professor\\
+- Bulk user import using CSV file\\
+- Branding changes\\
+
+
+**CONTENT CHANGES**\\
+The TeamMentor 3.4.1 release includes the following content changes:
+
+Vulnerability Library Update
+
+A number of articles to the new Vulnerability library has been added to aid integration with code vulnerability scanners. A vulnerability type article directs the user to the guidance for implementing the relevant countermeasures and course materials for background information. The Vulnerability pages are designed to be used from a code scanner, but can be used independently. The Vulnerability library currently has 221 articles and it is growing rapidly.
+
+.NET 2.0 Library Update
+
+921 items have been removed to optimize the reading experience.
+Previous versions include "Question and Answer" type articles that are essentially the same in function as "Checklist Item" type articles. Additionally, many "Checklist Item" type articles were nearly identical. The result was that the library was difficult to navigate because of many similar articles. The redundant articles have been removed and the quality of the remaining articles has been improved.
+
+.NET 3.5 Library Update
+
+943 items have been removed to optimize the reading experience.
+Previous versions include "Question and Answer" type articles, that are essentially the same in function as "Checklist Item" type articles. Additionally, many "Checklist Item" type articles were nearly identical. The result was that the library was difficult to navigate because of many similar articles. The redundant articles have been removed and the quality of the remaining articles has been improved.
+
+.NET 4.0 Library Update
+
+8 items have been added to facilitate scanner integration.
+Guidelines and Checklist Items have been added to support integration with the Fortify scanner.
+
+Java Library Update
+
+16 items have been added to facilitate scanner integration.
+Guidelines and Checklist Items have been added to support integration with the Fortify scanner.
+
+C++ Library Update
+
+16 items have been added to facilitate scanner integration.
+Guidelines and Checklist Items have been added to support integration with the Fortify scanner.
+
+PHP Library Update
+
+22 items have been added to facilitate scanner integration. 
+Guidelines and Checklist Items have been added to support integration with the Fortify scanner.
+
+\\
+
+=3.4 RELEASE=
+The TeamMentor 3.4 release includes new and updated content and a number of user experience and back-end bug fixes. Content libraries covering HTML5 and Scala security have been added and multiple fixes have been made to content. New "Vulnerability" had been introduced to facilitate integration with vulnerability scanners, such as Checkmarx, Fortify and others.  
+
+**CONTENT CHANGES**\\
+The TeamMentor 3.4 release includes the following content changes:
++ New SCALA library - an exclusive SCALA secure application development library. There are very few resources focused on SCALA security at the moment, so this is one of the first.
++ New HTML5 Library - a new library that describes important aspects of writing secure HTML5 applications. Both server-side and client-side issues are considered and guidance is provided on how to prevent or fix them.
++ New Vulnerability Library - a new library used to interface with vulnerability scanners. The Vulnerability library is a set of pages that describe most common vulnerabilities and leads to guidance on how to prevent or fix these vulnerabilities.
++ Multiple content fixes - most importantly, the recommended way to store passwords is to use iterative hashing now and the content has been updated to reflect this in ASP.NET 4.0, Java, PHP and C++ libraries. Multiple minor fixes have been made, such as removing outdated links from the ASP.NET 4.0 library.
+
+
+\\
+
+=3.3 RELEASE=
 The TEAM Mentor 3.3 release includes both new application security content and new web application capabilities. 
 The update includes over 100 new articles added to multiple libraries to facilitate integration with code analysis tools.
 
