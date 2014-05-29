@@ -4,10 +4,10 @@
     <Id>6e3221bf-08b8-4de1-bb3b-4edacc85fab6</Id>
     <Library_Id>eb39d862-f752-4d1c-ab6e-14ed697397c0</Library_Id>
     <Title>Active Directory Support</Title>
-    <Category>Administration</Category>
-    <Phase>NA</Phase>
-    <Technology>TEAM Mentor</Technology>
-    <Type>Documentation</Type>
+    <Category />
+    <Phase />
+    <Technology />
+    <Type />
     <DirectLink>Active Directory Support</DirectLink>
   </Metadata>
   <Content Sanitized="false" DataType="wikitext">
@@ -66,9 +66,14 @@ Your new <system.webserver> should have these values:
 
 **Step 2: Configure TMConfig.Config file **
 
-In this file which you will find in the //Library_Data\XmlDatabase\User_Data// or an alternative location if you have set one,  you need to make two changes: Enable Windows Authentication and set the relevant security groups.
+Open the TMConfig editor by clicking on //Tbot// in the //Admin// menu and selecting //Edit TMConfig// from the //Admin - Config // row. In the Windows Authentication section you need to Enable Windows Authentication and set the relevant security groups. By default Windows Authentication is set to false, so you will need to set the Enabled element to true and change the ReaderGroup, EditorGroup, AdminGroup values to match your Active Directory security group names. Your Windows Authentication section should look something similar to this.
 
-By default Windows Authentication is set to false, so you will need to set the Enabled element to true and change the ReaderGroup, EditorGroup, AdminGroup values to match your Active Directory security group names. 
+{{/Image/tmcfg10.jpg}}
+
+\\
+
+Alternatively you can make the same changes in the actual TMConfig.Config xml file if necessary. This file you will find in the //Library_Data\XmlDatabase\User_Data// or an alternative location if you have set one.
+
 
 Your TMConfig file Windows Authentication section should look similar to the below. 
 

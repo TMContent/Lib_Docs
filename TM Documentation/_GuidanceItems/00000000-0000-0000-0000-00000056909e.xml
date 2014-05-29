@@ -3,12 +3,12 @@
   <Metadata>
     <Id>00000000-0000-0000-0000-00000056909e</Id>
     <Library_Id>eb39d862-f752-4d1c-ab6e-14ed697397c0</Library_Id>
-    <Title>Installing TEAM Mentor on IIS 7.0</Title>
+    <Title>Installing TEAM Mentor on IIS 7.0 and 7.5</Title>
     <Category>Administration</Category>
     <Phase>NA</Phase>
     <Technology>TEAM Mentor</Technology>
     <Type>Documentation</Type>
-    <DirectLink>Installing TEAM Mentor on IIS 7.0</DirectLink>
+    <DirectLink>Installing TEAM Mentor on IIS 7.0 and 7.5</DirectLink>
     <Tag />
     <Security_Demand />
     <Author />
@@ -22,7 +22,7 @@ If you want to use the application locally only, use Cassini. If you want to exp
     <br />
   </div>
   <div style="font-family:Arial,Verdana; font-size:10pt; font-style:normal; font-variant:normal; font-weight:normal; line-height:normal">
-To install TEAM Mentor on IIS 7.0:</div>
+To install TEAM Mentor on IIS 7.0 and IIS 7.5:</div>
   <div style="font-style:normal; font-variant:normal; font-weight:normal; line-height:normal; font-family:'Times New Roman'; font-size:medium">
     <span>
       <br />
@@ -57,7 +57,7 @@ be created on first run of TM)</li></ul></li>
         </ul>
       </li>
       <li>
-        <b>Set up SSL</b>. SSL is enabled by default for TEAM Mentor. Therefore it is necessary to set up SSL certificate. (Note: It is possible to disable SSL configuration see: )</li>
+        <b>Set up SSL</b>. SSL is enabled by default for TEAM Mentor. Therefore it is necessary to set up SSL certificate. (Note: It is possible to disable SSL configuration)</li>
       <ol>
         <li>First generate a CSR<br /></li>
         <ul>
@@ -102,64 +102,7 @@ Install your certificate</li>
         </ul>
       </ol>
       <li style="font-family:Arial,Verdana; font-size:10pt; font-style:normal; font-variant:normal; font-weight:normal; line-height:normal">
-        <b>Set up Permissions,</b>
-        <span>&amp;nbsp;the account used by IIS needs to have write privileges to the TEAM Mentor Library_Data folder</span>
-        <br />
-        <ul>
-          <li>
-            <span>
-              <b>Identify the application account.</b>&amp;nbsp;which is the Windows user account used by the&amp;nbsp;</span>
-            <span>IIS Application Pool configured on the TEAM Mentor website.</span>
-          </li>
-        </ul>
-        <ol>
-          <ul>
-            <li>
-              <span>On the "Internet&amp;nbsp;</span>
-              <span>Information Services (IIS) Manager".&amp;nbsp;</span>
-            </li>
-            <li>
-              <span>Navigate to "Application Pools" in the tree on the&amp;nbsp;left.&amp;nbsp;</span>
-            </li>
-            <li>
-              <span>Right-click on the "Default App Pool" and select "Advanced Settings...”&amp;nbsp;</span>
-            </li>
-            <li>
-              <span>Take note&amp;nbsp;of the user-name in the "Identity" row under "Process Model"</span>
-            </li>
-            <li>
-              <span>By default, it is&amp;nbsp;"NetworkService"</span>
-              <br />
-            </li>
-          </ul>
-        </ol>
-        <ul>
-          <li>
-            <span>
-              <b>Adjust the file-system permissions</b>. Give write permissions for the TEAM Mentor folder&amp;nbsp;</span>
-            <span>to the Windows user account that is used to run TEAM Mentor. This is the username that&amp;nbsp;</span>
-            <span>has been discovered in the previous step.&amp;nbsp;</span>
-          </li>
-        </ul>
-        <ol>
-          <ul>
-            <li>
-              <span>Right click on the TEAM Mentor Library_Data folder</span>
-            </li>
-            <li>
-              <span>Select "Properties". A "Properties" window&amp;nbsp;</span>
-              <span>should appear.&amp;nbsp;</span>
-            </li>
-            <li>
-              <span>Select the "Security" tab in the "Properties" window. Give "Full Access"&amp;nbsp;</span>
-              <span>permissions to the Windows account that is used to run TEAM Mentor.&amp;nbsp;</span>
-            </li>
-            <li>
-              <span>Click "OK"</span>
-            </li>
-          </ul>
-        </ol>
-      </li>
+        <b>Set up Permissions -&amp;nbsp;</b> find        <span>the account used by IIS needs to have write privileges to the TEAM Mentor Library_Data folder</span><br /><ul><li><span><b>On IIS 7 Identify the application account.</b>&amp;nbsp;which is the Windows user account used by the&amp;nbsp;</span><span>IIS Application Pool configured on the TEAM Mentor website.</span></li></ul><ol><ul><li><span>On the "Internet&amp;nbsp;</span><span>Information Services (IIS) Manager".&amp;nbsp;</span></li><li><span>Navigate to "Application Pools" in the tree on the&amp;nbsp;left.&amp;nbsp;</span></li><li><span>Right-click on the "Default App Pool" and select "Advanced Settings...”&amp;nbsp;</span></li><li><span>Take note&amp;nbsp;of the user-name in the "Identity" row under "Process Model"</span></li><li><span>By default, it is&amp;nbsp;"NetworkService"</span>&amp;nbsp;</li></ul></ol><ul><li><span><b>On IIS 7.5 the application account name is the same as Application Pool name. </b>This is the Windows user account used by the&amp;nbsp;</span><span>IIS Application Pool configured on the TEAM Mentor website.</span></li><ul><li><span>On the "Internet&amp;nbsp;</span><span>Information Services (IIS) Manager".</span></li><li><span>Navigate to "Application Pools" in the tree on the&amp;nbsp;left</span></li><li><span>Find the Application Pool name, it will be the same as the "Site Name" you have created in step 3 above. <br /></span></li><li><span>Make sure that the .NET Framework version is set to v4.0. Otherwise double click on the Application Pool and set the correct versoin</span></li><li><span>Take a note of the Application Pool name.<br /></span></li></ul><li><span><b>Adjust the file-system permissions</b>. Give write permissions for the TEAM Mentor folder&amp;nbsp;</span><span>to the Windows user account that is used to run TEAM Mentor. This is the username that&amp;nbsp;</span><span>has been discovered in the previous step.&amp;nbsp;</span></li></ul><ol><ul><li><span>Right click on the TEAM Mentor Library_Data folder</span></li><li><span>Select "Properties". A "Properties" window&amp;nbsp;</span><span>should appear.&amp;nbsp;</span></li><li><span>Select the "Security" tab in the "Properties" window. Give "Full Access"&amp;nbsp;</span><span>permissions to the Windows account that is used to run TEAM Mentor. <br /></span></li><li><span>In case of IIS 7.5 give "Full Control" to the account IIS AppPool\&lt;AppPoolName&gt; where the AppPoolName is the name identified above. <br /></span></li><li><span>Click "OK"</span></li></ul></ol></li>
     </ol>
   </div>]]></Data>
   </Content>

@@ -14,26 +14,26 @@
     <Status />
   </Metadata>
   <Content Sanitized="false" DataType="wikitext">
-    <Data><![CDATA[TEAM Mentor has the capability of sending email. This is required for “Forgot Password” functionality to send the temporary password reset link. TEAM Mentor will also send status emails to specified Admin accounts. These emails include: 
+    <Data><![CDATA[TEAM Mentor has the capability of sending email. This is required for “Forgot Password” functionality to send the temporary password reset link. TEAM Mentor will also send status emails to specified Admin account. Email is also used for user approval workflow, if enabled. As explained in [[/article/00000000-0000-0000-0000-0000001c8add|Managing Users]]. 
 
-*User Login/Logout
-*Password Reset
+A good way to customize your TEAM Mentor installation for your organization is to configure an Email Footer. This will be appended to all email sent by TEAM Mentor. 
 
-To configure email, set the following information in the //\Library_Data\XmlDatabase\User_Data\TMSecretData.config// file:
+To configure email, access Tbot configuration page from the main Administrator Menu and select "Edit Secret Data" in Admin-Config row. Complete the information under the SMTP Config section. 
 
-{{{
-  <SMTP_Server>SMTP Server FQDN or IP address</SMTP_Server>
-  <SMTP_UserName>SMTP  User Name </SMTP_UserName>
-  <SMTP_Password>SMTP User Password </SMTP_Password>
-}}}
+{{/Image/smtp01.jpg}}
 
-And in //\Library_Data\XmlDatabase\User_Data\TMConfig.config//
+Hit "Save Data" once you are done 
+
+The following is the explanation of all the options:
+
+**Server** - SMTP Server to be used to send email\\
+**UserName** - SMTP User name for the Server\\
+**Password** - Password for the SMTP username\\
+**Default From** - The default email address that TEAM Mentor will use to send email //from//. \\
+**Default To** - This is the default admin email address that all the TEAM Mentor email will be sent //to//. This includes the status emails as well as the approval workflow emails\\
+**Email Footer** - This will be appended to ALL emails sent by TEAM Mentor, including new user welcome emails. This is a good way to customize you TEAM Mentor instance for your organization.\\
 
 
-{{{
-   <Default_AdminEmail>Email address that TEAM Mentor will send status email to</Default_AdminEmail>
-}}}
-
-Note that TEAM Mentor does not currently support unauthenticated SMTP connections. Also note that the FROM address on the status emails will be the same as the TO address set in //<Default_AdminEmail>//. ]]></Data>
+Note that TEAM Mentor does not currently support unauthenticated SMTP connections. ]]></Data>
   </Content>
 </TeamMentor_Article>

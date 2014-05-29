@@ -36,7 +36,7 @@ Here’s additional detail on what are considered alphanumeric and non-alphanume
 
 To access TEAM Mentor content, click the Login link in the top right corner. 
 
-{{/Image/login1.jpg}}
+{{/Image/qsg01.jpg}}
 
 Enter your user account credentials in the Login into TEAM Mentor pop up that appears. After successfully authenticating, you will be able to access TEAM Mentor content. 
 
@@ -88,6 +88,79 @@ This returns a more easily managed number of items to review. Select the specifi
 
 {{/Image/example2-3.jpg}}
 
+\\
+
+==Example #3 – Finding Information on a Vulnerability (SQL Injection Example)==
+One example of how you can use TEAM Mentor is to look for information you need regarding specific software vulnerabilities. This may be because you wish to avoid this vulnerability in your code, you have been assigned to fix a vulnerability, or are just looking for information on the topic. To do this, after you have successfully authenticated, Click on the //Vulnerabilities// Library in the Navigation Pane
+
+{{/Image/example3-1.jpg}}
+
+Select the technology from the Filters Pane. We use Java for this example. Note that the Applied Filters had been updated with your selection.
+
+{{/Image/example3-2.jpg}}
+
+Search for “SQL Injection” in the Search bar and hit <enter>. Note the Applied Filters was updated with your search criteria and that Article List Pane is now showing articles matching your filter selection and search criteria. Click on SQL Injection article. It will appear in the Preview Pane. Look over the description and make sure this what you are looking for. 
+
+{{/Image/example3-3.jpg}}
+
+Double click on the article to open it in the full article view.
+
+{{/Image/example3-4.jpg}}
+
+Read through the article and choose the countermeasures you want to read more about. In this case we chose to read more on Using Parametarized APIs for Data Access. Click on the link to open the article.
+
+{{/Image/example3-5.jpg}}
+
+Read through the article for specific information on how to fix the vulnerability.
+
+\\
+
+==Sharing information on vulnerability==
+You may wish to share this information once you found it for collaboration on a fix, testing, or using the information to avoid that vulnerability in your code. Once you have opened a vulnerability (of any other) article you would like to share, simply copy the URL on the URL bar
+
+{{/Image/share01.jpg}}
+
+\\
+
+==Saving information on vulnerability==
+If you would like to save an article for later reference, after you’ve opened the article in full view, simply use your browser’s bookmarking feature to bookmark the article. The URL of articles do not change, so when you use the bookmark you will be taken right to the article. If you are not logged in, you will have to log in to see the article
+
+\\
+
+==Sharing a set of documents==
+As you may know, content in TEAM Mentor is organized similar to playlists in music playing software. There are libraries, which contain folders, which in turn contain views. A view is a set of articles that are all related to the same topic, which is the title of the view. If you found a particular view of interest, you can focus just on the particular set of articles by using the Reading View. Simply right click on the view that you want to focus on and choose Show Reading View Link
+
+{{/Image/share02.jpg}}
+
+The screen will re-arrange to show the Reading View for this set of articles.
+
+{{/Image/share03.jpg}}
+
+You can share this view with others by simply selecting and copying the URL
+
+{{/Image/share04.jpg}}
+
+And pasting it into an email. When a person receives the link, when they open it they will see exactly the same set of articles, once they have logged in.
+
+\\
+
+==Saving a set of articles==
+If you would like to save a set of articles for later reference, you can simply use your browsers functionality to bookmark the reading view.
+
+\\
+
+==Save filter search setting for re-use==
+If you created a complex search using filters, you can save it for later reuse to get back to the same information.  Once you have selected the necessary filters. Use the pin button next to the filter in the Applied Filters box. 
+
+{{/Image/share05.jpg}}
+
+Clicking the button shades the pin in solid color and updates the URL in the address bar with the selected filter.
+
+{{/Image/share06.jpg}}
+
+{{/Image/share07.jpg}}
+
+Use your browser to bookmark the URL,  which saves the filters for future re-use. When you click on the bookmark, it will open TEAM Mentor with the same search and filters and thus display the same set of articles.
 
 
 
