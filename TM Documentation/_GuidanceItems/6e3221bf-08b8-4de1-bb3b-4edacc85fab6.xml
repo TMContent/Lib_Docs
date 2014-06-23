@@ -55,7 +55,7 @@ Your new <system.webserver> should have these values:
 {{{
    <system.webserver>
     ...
-    <validation validateintegratedmodeconfiguration="false"></validation>
+    <validation validateIntegratedModeConfiguration="false"></validation>
     <modules runallmanagedmodulesforallrequest="true"></modules>    
     ...	
     </system.webserver>
