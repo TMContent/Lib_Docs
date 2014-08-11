@@ -13,8 +13,6 @@
   <Content Sanitized="false" DataType="wikitext">
     <Data><![CDATA[This Script shows how the Article's XML file can be edited directly (useful for large/batch changes/fixes).
 
-blah
-
 
 In this case there was a double encoding issue on the Article's Schema update from version 3.0 to 3.1
 
