@@ -72,7 +72,7 @@ Open the TMConfig editor by clicking on //Tbot// in the //Admin// menu and selec
 
 \\
 
-Alternatively you can make the same changes in the actual TMConfig.Config xml file if necessary. This file you will find in the //Library_Data\XmlDatabase\User_Data// or an alternative location if you have set one.Make sure that the Active Directory groups names are correct. You can verify this information by following the instructions in Step 4: Security settings.
+Alternatively you can make the same changes in the actual TMConfig.Config xml file if necessary. This file you will find in the //Library_Data\XmlDatabase\User_Data// or an alternative location if you have set one. Make sure that the Active Directory groups names are correct. You can verify this information by following the instructions in Step 4: Security settings.
 
 
 Your TMConfig file Windows Authentication section should look similar to the below. 
