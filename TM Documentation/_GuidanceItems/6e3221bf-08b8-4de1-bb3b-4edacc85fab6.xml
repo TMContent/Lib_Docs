@@ -72,7 +72,8 @@ Open the TMConfig editor by clicking on //Tbot// in the //Admin// menu and selec
 
 \\
 
-Alternatively you can make the same changes in the actual TMConfig.Config xml file if necessary. This file you will find in the //Library_Data\XmlDatabase\User_Data// or an alternative location if you have set one. Make sure that the Active Directory groups names are correct and then give them read and writing permissions to the target TEAM Mentor working folder. When give permissions to TEAM Mentor working folder and then you click on the Security Tab, you will be able to verify if the Active Directory groups you are about to configure already exist and then you can grant with the read and write permissions.  
+Alternatively you can make the same changes in the actual TMConfig.Config xml file if necessary. This file you will find in the //Library_Data\XmlDatabase\User_Data// or an alternative location if you have set one.
+Make sure that the Active Directory groups names are correct and then give them read and writing permissions to the target TEAM Mentor working folder. When giving permissions to TEAM Mentor working folder, you need to right click and then select the Security Tab and from there you will be able to verify if the Active Directory groups you are about to configure already exist and then you will be able to assign the respective permissions.
 
 
 Your TMConfig file Windows Authentication section should look similar to the below. 
