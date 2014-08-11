@@ -106,7 +106,7 @@ In order to to that, you need to select the TEAM Mentor Web site and then select
 
 **Step 4: IIS Application Pool configuration **
 
-When configuring TEAM Mentor Web site in the Internet Information Services (IIS) you need to create a new Application Pool or assign it to an existing Application Pool. In any of those cases, this pool needs to be configured to always use the Microsoft .NET framework  4.0 or higher. Also the Managed pipeline mode needs to be **Integrated**.
+When configuring TEAM Mentor Web site in the Internet Information Services (IIS), you need to create a new Application Pool or assign it to an existing Application Pool. In any of those cases, this pool needs to be configured to always use the Microsoft .NET framework  4.0 or higher. Also the Managed pipeline mode needs to be **Integrated**.
 
 **Step 5: Security settings **
 
