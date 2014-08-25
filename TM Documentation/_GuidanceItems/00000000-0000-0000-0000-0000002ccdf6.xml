@@ -15,7 +15,7 @@
   </Metadata>
   <Content Sanitized="false" DataType="wikitext">
     <Data><![CDATA[=3.5.1 RELEASE
-This is a hotfix addressing issue 877 GuidanceItemViewer and GuidanceItemEditor customizations are not picked up.
+This is a hotfix addressing some minor issues in 3.5
 
 
 = 3.5 RELEASE
@@ -28,12 +28,7 @@ MAJOR IMPROVEMENTS
 - Site Data, which is client customization, and User Data, which is config and Users information, are now separated\\
 - Virtual Articles is now supported for redirecting to another TM instance.\\
 - Checkmarx native integration for Checkmarx GUI\\
-- Direct Link article support, allows  /a/<any text> to be directly mapped to an article\\
-
-
-
-
-
+- Direct Link article support, allows  {{{/a/<anyname>}}} to be directly mapped to an article\\
 
 
 
