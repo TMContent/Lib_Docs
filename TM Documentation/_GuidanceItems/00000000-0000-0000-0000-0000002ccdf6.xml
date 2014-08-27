@@ -13,7 +13,7 @@
     <Priority />
     <Status />
   </Metadata>
-  <Content Sanitized="false" DataType="markdown">
+  <Content Sanitized="false" DataType="wikitext">
     <Data><![CDATA[=3.5.1 RELEASE
 This is a hotfix addressing some minor issues in 3.5
 
