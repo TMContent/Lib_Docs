@@ -8,12 +8,12 @@
     <Phase>NA</Phase>
     <Technology>TEAM Mentor</Technology>
     <Type>Documentation</Type>
-    <DirectLink>What is new in this release?</DirectLink>
+    <DirectLink>WhatsNew</DirectLink>
     <Author />
     <Priority />
     <Status />
   </Metadata>
-  <Content Sanitized="false" DataType="wikitext">
+  <Content Sanitized="false" DataType="markdown">
     <Data><![CDATA[=3.5.1 RELEASE
 This is a hotfix addressing some minor issues in 3.5
 
