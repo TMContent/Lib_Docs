@@ -14,7 +14,11 @@
     <Status />
   </Metadata>
   <Content Sanitized="false" DataType="wikitext">
-    <Data><![CDATA[=3.5.1 RELEASE
+    <Data><![CDATA[=3.5.2 RELEASE
+This is a hotfix addressing article deletion issue in 3.5\\
+Minor fixes in integration with TEAM Professor 
+
+=3.5.1 RELEASE
 This is a hotfix addressing some minor issues in 3.5
 
 
