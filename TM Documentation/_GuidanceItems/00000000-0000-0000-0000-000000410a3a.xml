@@ -18,7 +18,7 @@
 The following hardware and software is required to run TEAM Mentor.
 
 *Windows 2008/2012 with IIS 7.5
-*NET Framework 4.5
+*NET Framework 4.5.1 (You can download this version from http://www.microsoft.com/en-us/download/details.aspx?id=40779 )
 *2GB of RAM
 *1GB of Storage
 *SSL Certificate
