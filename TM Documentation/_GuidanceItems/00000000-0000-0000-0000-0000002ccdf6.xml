@@ -14,30 +14,47 @@
     <Status />
   </Metadata>
   <Content Sanitized="false" DataType="wikitext">
-    <Data><![CDATA[=3.5.2 RELEASE
-This is a hotfix addressing article deletion issue in 3.5\\
-Minor fixes in integration with TEAM Professor 
+    <Data><![CDATA[APPLICATION CHANGES
 
-=3.5.1 RELEASE
-This is a hotfix addressing some minor issues in 3.5
+4.0 is a major rewrite of TEAM Mentor under new architecture. This includes:\\
+- Simplified, modern, easy to use interface and intuitive design\\
+- Focus on making it easy to find answers to security questions\\
+- Improved search and filter capability. It algorithmically presents the most relevant articles and allows to further narrow down results with robust filtering\\
+- Improved ability to browse content. Users can now browse by subject matter, technology, article type and other keywords. Progressively narrowing down results with selected filters\\
+- Main User UI fully written in Node JS. \\
+- Main User UI support for all browsers. Including legacy and mobile browsers.\\
+- Underlying use of a NoSQL database \\
+- Robust integration current editor and admin interfaces\\
 
+\\
+CONTENT CHANGES
 
-= 3.5 RELEASE
-APPLICATION CHANGES:
-The following application changes are included in 3.5 release
+- Content had been re-classified into subject matter areas for easy browsing through the taxonomy\\
+- Article filters appropriately changed to making more intuitive to find relevant information\\
+- Major clean-up of articles. Removal of articles with too little information\\
+- Moved away from multiple library structure. All of the content is now in one well-organized library.\\
 
-MAJOR IMPROVEMENTS
-
-- Markdown support\\
-- Site Data, which is client customization, and User Data, which is config and Users information, are now separated\\
-- Virtual Articles is now supported for redirecting to another TM instance.\\
-- Checkmarx native integration for Checkmarx GUI\\
-- Direct Link article support, allows  {{{/a/<anyname>}}} to be directly mapped to an article\\
-
-
-
+\\
 MINIMUM REQUIREMENTS
 
-Note that TEAM Mentor now requires .NET Framework 4.5]]></Data>
+Note the change in minimum requirements specified here:
+
+Server Side Requirements:\\
+-Windows 2012 R2 (64 Bit) with IIS 8.0 or higher\\
+-NET Framework 4.5.1 (You can download this version from http://www.microsoft.com/en-us/download/details.aspx?id=40779 )\\
+ -2GB of RAM\\
+ -2GB of Storage\\
+
+
+Client Side Requirements\\
+
+TM 4.0 Jade supports all browsers including IE8. Mobile browers for Android and iOS are also supported. 
+
+TM 3.6 Backend support the following browsers\\
+- IE 11\\
+- Firefox\\
+- Chrome\\
+- Safari (v6.1 and v7.0 on OSX only)\\
+]]></Data>
   </Content>
 </TeamMentor_Article>
