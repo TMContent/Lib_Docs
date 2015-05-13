@@ -20,7 +20,7 @@ Security Innovation allows 30 days of free access to [[https://www.TEAMMentor.ne
 
 To create a TEAM Mentor account, click "Sign Up" in the top menu.
 
-{{/Image/signup0.png}}
+{{/Image/signup01.png}}
 
 \\
 \\
@@ -38,7 +38,7 @@ Here’s additional detail on what are considered alphanumeric and non-alphanume
 *Non-alphanumeric (symbols): ~`!@#$%^&*()+-_=[]\{}|;’:”,./<>?
 
 
-{{/Image/signup1.png}}
+{{/Image/signup02.png}}
 
 \\
 \\
@@ -48,26 +48,28 @@ Here’s additional detail on what are considered alphanumeric and non-alphanume
 
 To access TEAM Mentor content, click the Login link in the top right corner. 
 
-{{/Image/qsg01.png}}
+{{/Image/login01.png}}
 
 \\
 \\
 
 Enter your user account credentials. After successfully authenticating, you will be able to access TEAM Mentor content. 
 
-{{/Image/login01.png}}
+{{/Image/login02.png}}
 
 \\
 \\
 
 If you have forgotten your password, click on the Forgot your password? link, fill in your email address and then a password reset email will be sent to you.
 
-{{/Image/forgotpassword1.png}}
+{{/Image/forgotpassword01.png}}
 
 \\
 \\
 
 ==Using TEAM Mentor==
+
+===Searching===
 
 The simplest way to use TEAM Mentor is by searching. The page you see immediately after login is the search page. Simply type your query in the search bar. \\
 You can return to this page at any time by clicking "Search" on the top menu.
@@ -85,14 +87,19 @@ The main search page also shows your last three recently viewed articles, the th
 \\
 \\
 
-Once the search results are shown, you can further narrow down the search by using one or more filters on the right. 
+Once the search results are shown, you can see the total article count. You can further narrow down the search by using one or more filters on the right. The numbers next to the filters represent the number of articles each filter selects.
 
 {{/Image/search03.png}}
 
 \\
 \\
 
+Icons next to the articles correspond to filters on the right. Making it easier to identify articles at a glance.
+
 {{/Image/search04.png}}
+
+\\
+\\
 
 You can easily remove any filter by clicking on the "X"  next to it.
 
@@ -103,15 +110,61 @@ You can easily remove any filter by clicking on the "X"  next to it.
 \\
 \\
 
-Another way to browse for content is by using the "Index" page
+===Browsing==
 
-via the navigation pane on the left. The navigation pane shows a tree representation of the available libraries as folders and views. This tree can be navigated in a manner similar to playlists in a music player, such as iTunes. 
-TEAM Mentor content is organized in a manner similar to playlists. All the articles are located in the library. Views are references to sub-sets of these files. Folders are a way to organize the views. An article may appear in multiple views and folders, but there is still only one copy of the article - the views and folders display references to it.
-Articles can be opened from the article list pane. Navigating the folders and views in the navigation pane changes the list of articles presented in the article list pane. The list of articles can be further narrowed down by using filters. Once the desired articles have been located, they can be previewed in the preview pane on the right by single-clicking on the article title in the list. To open the article in a new window, double-click on the article title in the list. 
+You may choose to to browse for content is by using the "Index" page. This is useful when you would like to discover the information we have.  Click on "Index" in the upper right.
 
-{{/Image/nav1.jpg}}
+The index page is comprised of 3 main components. The subject matter taxonomy on the left, the filters on the right, and the list of available articles in the middle. 
+
+{{/Image/index01.png}}
 
 \\
+\\
+
+You start to navigate the "Index" by ether selecting a subject of interest on the left, or a filter on the right. You may continue to select ether filters or subjects of interest until you find a list of articles that you would like to read. Then simply open the article by clicking on its title.
+
+Go back to the list by using your browsers "Back" button. Some people also prefer to open articles in separate tabs, by right-clicking on the article title and selecting "Open in new tab"
+
+Numbers next to each subject on the left represent the number of articles that exists for that subject. When you select a subject of interest. You drill down further into specific sub-topics in that subject. Narrowing down the list of articles. Bread crumb navigation on top, shows exactly where you are in the taxonomy. 
+
+
+{{/Image/index02.png}}
+
+\\
+\\
+
+{{/Image/index03.png}}
+
+\\
+\\
+
+{{/Image/index04.png}}
+
+\\
+\\
+
+At any time you may select a filter on the right to narrow down the displayed list of articles further. Numbers next to the filter represent the number of articles this filter selects.
+
+{{/Image/index05.png}}
+
+\\
+\\
+
+{{/Image/index06.png}}
+
+\\
+\\
+
+You may also start your navigation with selecting one or more filter. Once selected, subject directory on the left updates, showing only available topics for the filter(s) 
+
+{{/Image/index07.png}}
+
+\\
+\\
+
+As you can see, the combination of the topics and filters creates a powerful browsing mechanism that allows you to reach the desired articles quickly and intuitively. 
+
+
 
 =Example #1 – Find Information about Cross-Site Scripting==
 
