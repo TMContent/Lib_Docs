@@ -5,7 +5,7 @@
     <Library_Id>eb39d862-f752-4d1c-ab6e-14ed697397c0</Library_Id>
     <Title>Navigation Pane</Title>
     <Category>User Interface</Category>
-    <Phase>NA</Phase>
+    <Phase>Draft</Phase>
     <Technology>TEAM Mentor</Technology>
     <Type>Documentation</Type>
     <DirectLink />
@@ -16,15 +16,9 @@
     <Status />
   </Metadata>
   <Content Sanitized="true" DataType="Html">
-    <Data><![CDATA[The navigation pane gives an overview of content organized into libraries, folders, and views.&nbsp;This tree can be navigated in a manner similar to files and folders, which are familiar to most people.&nbsp;
-<div><br>
-</div>
-<div>Browsing TEAM Mentor content via the navigation pane is similar to exploring files and folders, but there are some differences. All the articles are located in the library, rather than in the folders or views. Views are references to sub-sets of these files,
- like playlists in music players. Folders are a way to organize the views. An article may appear in multiple views and folders, but there is still only one copy of the article - the views and folders display references to it.</div>
-<div><br>
-</div>
-<div>On top of the Navigation Pane is the &quot;Applied Filters&quot; control. This control shows the list of the current applied filters. These filters can be all removed at once by clicking the &quot;X&quot; icon next to the &quot;Applied Filters&quot; label. Each individual applied filter
- can be removed by clicking the &quot;X&quot; icon next to it.</div>
-]]></Data>
+    <Data><![CDATA[The navigation pane gives an overview of content organized into libraries, folders, and views.&amp;nbsp;This tree can be navigated in a manner similar to files and folders, which are familiar to most people.&amp;nbsp;
+<div><br /></div><div>Browsing TEAM Mentor content via the navigation pane is similar to exploring files and folders, but there are some differences. All the articles are located in the library, rather than in the folders or views. Views are references to sub-sets of these files,
+ like playlists in music players. Folders are a way to organize the views. An article may appear in multiple views and folders, but there is still only one copy of the article - the views and folders display references to it.</div><div><br /></div><div>On top of the Navigation Pane is the "Applied Filters" control. This control shows the list of the current applied filters. These filters can be all removed at once by clicking the "X" icon next to the "Applied Filters" label. Each individual applied filter
+ can be removed by clicking the "X" icon next to it.</div>]]></Data>
   </Content>
 </TeamMentor_Article>

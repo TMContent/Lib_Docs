@@ -16,7 +16,9 @@
     <Status />
   </Metadata>
   <Content Sanitized="true" DataType="wikitext">
-    <Data><![CDATA[Administrators can manage TEAM Mentor users via the Tbot. Tbot can be accessed via the "Tbot" link in the top right corner of the main user interface. The TEAM Mentor Tbot is only available to Administrator users. 
+    <Data><![CDATA[Users sign up, login and reset their passwords using the new TEAM Mentor 4.0 User Interface. However, all users are stored in the TEAM Mentor 3.6 Back-end and are managed from the respective UI.
+
+Administrators can manage TEAM Mentor users via the Tbot. Tbot is accessible using TEAM Mentor 3.6 Back-end. Tbot can be accessed via the "Tbot" link in the top right corner of the main user interface. The TEAM Mentor Tbot is only available to Administrator users. 
 
 The user management section is under "Users" row in Tbot and of consists of the following links: "Current Users", "New User", and "SSO Token". The "Users" link opens a section that lists all current users and their vital statistics.
 
@@ -50,10 +52,10 @@ It is possible to tag a user with any Key/Value pair tag. This becomes very usef
 \\
 
 ==Preventing Users From Signing Up==
-At the moment when ShowContentToAnonymousUsers is set to false, TEAM Mentor displays the user sign up page. By default any user can sign up for access. Upon successful sign up the user access is restricted only by the following two parameters:
+By default any user can sign up for access. Upon successful sign up the user access is restricted only by the following two parameters:
 
-*EvalAccounts_Enabled(true) This setting specifies if unauthenticated users will be able to create accounts on the system for Evaluation purposes (only works if ShowContentToAnonymousUsers=false) (note: due to current limitation, if set to "false" users are still able to create accounts on the system which will not expire)
-*EvalAccounts_Days(15) This specifies the duration, in days, that self-created account will have read access to the content (only works if ShowContentToAnonymousUsers=false). 
+*EvalAccounts_Enabled(true) This setting specifies if unauthenticated users will be able to create accounts on the system for Evaluation purposes (note: due to current limitation, if set to "false" users are still able to create accounts on the system which will not expire)
+*EvalAccounts_Days(15) This specifies the duration, in days, that self-created account will have read access to the content 
 
 Regardless if the the access is allowed for evaluation or not, anonymous user sign-up may not be the desired behavior.  To work around the current limitation, please set **EvalAccounts_Enabled** to **true** and **EvalAccounts_Days** to **-1**. This will still allow users to create accounts, however they will not be usable. If this workaround is implemented only the administrator will be able to create user accounts.
 
@@ -79,12 +81,7 @@ You must also configure the email correctly. See [[/article/d0b2bade-6d25-4c61-8
  
 \\
 
-==User Account Structure and User Activity Log==
-User accounts now stored in XML structure that is specific to the user. Each user is stored in a file under //\Library_Data\XmlDatabase\User_Data\Users directory// with a file name that begins with a user name followed by the user GUID.   The file contains user information, expiration date and other meta information. The file also contains user activity. Activity is updated when user clicks on an article and the article is viewed in ether a preview pane or in full view.
 
-{{/Image/userfile1.jpg}}
-
-{{/Image/useractivity1.jpg}}
 
 ]]></Data>
   </Content>

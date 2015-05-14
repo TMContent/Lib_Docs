@@ -18,7 +18,7 @@
 
 A good way to customize your TEAM Mentor installation for your organization is to configure an Email Footer. This will be appended to all email sent by TEAM Mentor. 
 
-To configure email, access Tbot configuration page from the main Administrator Menu and select "Edit Secret Data" in Admin-Config row. Complete the information under the SMTP Config section. 
+To configure email, access Tbot configuration page. Login to the TEAM Mentor 3.6 Back-end with administrator privilege account. Click on //Tbot// in the top menu. From the main Administrator Menu and select "Edit Secret Data" in Admin-Config row. Complete the information under the SMTP Config section. 
 
 {{/Image/smtp01.jpg}}
 

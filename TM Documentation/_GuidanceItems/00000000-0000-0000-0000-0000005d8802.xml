@@ -3,7 +3,7 @@
   <Metadata>
     <Id>00000000-0000-0000-0000-0000005d8802</Id>
     <Library_Id>eb39d862-f752-4d1c-ab6e-14ed697397c0</Library_Id>
-    <Title>Editing the Default Configuration</Title>
+    <Title>Editing the Default TM 3.6 Configuration</Title>
     <Category>Administration</Category>
     <Phase>NA</Phase>
     <Technology>TEAM Mentor</Technology>
@@ -16,14 +16,10 @@
     <Status />
   </Metadata>
   <Content Sanitized="true" DataType="wikitext">
-    <Data><![CDATA[ ==User_Data Directory==
-//Library_Data\XmlDatabase\User_Data// directory directory contains information about user credentials and configuration of this instance of TM.
-
-{{/Image/user_datadir1.jpg}}
-
+    <Data><![CDATA[
 
 ==Configuration File==
-To edit TEAM Mentor configuration, go to TBot screen from the main Admin menu and select //Edit TMConfig// from the //Admin - Config// row.
+To edit TEAM Mentor 3.6 Back-end configuration, go to TBot screen from the main Admin menu and select //Edit TMConfig// from the //Admin - Config// row.
 
 The interface will show you various configurable options broken down by specific areas.
 
@@ -31,8 +27,8 @@ The following are some of the settings available in the TM Security section. Set
 
 {{/Image/tmcfg01.jpg}}
 
-**Show Content to Anonymous Users** (true)- This setting defines whether or not full articles will be displayed to unauthenticated users.\\
-**Show Library to Anonymous Users**(true) - This setting defines whether or not library structure is displayed to unauthenticated users. In case this is unchecked and  "Show Content to Anonymous Users" is disabled, all the user will see is a login screen when accessing TEAM Mentor\\
+**Show Content to Anonymous Users** (true)-  (depreciated) This setting defines whether or not full articles will be displayed to unauthenticated users.\\
+**Show Library to Anonymous Users**(true) - (depreciated) This setting defines whether or not library structure is displayed to unauthenticated users. In case this is unchecked and  "Show Content to Anonymous Users" is disabled, all the user will see is a login screen when accessing TEAM Mentor\\
 **SSL Redirect Http to Https** (true)- This setting redirects all non SSL traffic, except for traffic coming from localhost, to SSL port. This ensures all TEAM Mentor traffic is protected using SSL.\\
 **New Accounts Enabled** (true)- Activates / Deactivates the user approval workflow. If this is unchecked, all users that sign up will have to be approved by the administrator. See [[/article/00000000-0000-0000-0000-0000001c8add|Managing Users]]\\
 **New Accounts Don't Expire**(false) - Specifies if new accounts created by users signing up have an expiration date\\
@@ -76,19 +72,6 @@ All settings not otherwise available via the GUI are available using the Config 
 
 \\
 
-TEAM Mentor configuration file is located  //Library_Data\XmlDatabase\User_Data\TmConfig.config//. This file will contain the configuration values. It can be edited by hand if necessary.  For example:
-
-{{{
-<?xml version="1.0"?>
-<TMConfig>
-   <Git>
-    <AutoCommit_UserData>true</AutoCommit_UserData>
-    <AutoCommit_LibraryData>true</AutoCommit_LibraryData>
-  </Git>
-</TMConfig>
-}}}
-
-\\
 
 ==Secret Configuration File==
 To edit TEAM Mentor Secret configuration, go to TBot screen from the main Admin menu and select Edit Secret Data from the Admin - Config row. This configuration contains parameters that are sensitive in nature. These include SMTP user accounts and passwords, Git repository user names, and others. These, with the exception of SMTP parameters, should not be edited unless following specific instructions for enabling a feature, or unless directed by SI support staff. 

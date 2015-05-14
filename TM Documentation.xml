@@ -39,26 +39,16 @@
           <item>6e3221bf-08b8-4de1-bb3b-4edacc85fab6</item>
         </items>
       </view>
-      <view id="dbd83828-15b8-453e-ba97-261cfdde3fcc" caption="UI Elements" creationDate="0001-01-01T00:00:00">
-        <items>
-          <item>00000000-0000-0000-0000-0000000693a7</item>
-          <item>00000000-0000-0000-0000-00000061eb3b</item>
-          <item>00000000-0000-0000-0000-00000008578b</item>
-          <item>00000000-0000-0000-0000-0000000c24d5</item>
-          <item>00000000-0000-0000-0000-0000008d8ed7</item>
-          <item>00000000-0000-0000-0000-00000087e538</item>
-          <item>00000000-0000-0000-0000-000000067e51</item>
-          <item>00000000-0000-0000-0000-0000006c87b2</item>
-          <item>7c6c7b6b-a411-4d15-86ac-5ebb0ed6d57b</item>
-        </items>
-      </view>
-      <view id="a1416f12-a35b-4ddb-9498-57736b7c7839" caption="Reading Content" creationDate="0001-01-01T00:00:00">
+      <view id="a1416f12-a35b-4ddb-9498-57736b7c7839" caption="Accessing and Reading Content" creationDate="0001-01-01T00:00:00">
         <items>
           <item>00000000-0000-0000-0000-000000803568</item>
           <item>00000000-0000-0000-0000-00000018204d</item>
           <item>00000000-0000-0000-0000-0000001a9296</item>
           <item>00000000-0000-0000-0000-00000024fdb5</item>
           <item>00000000-0000-0000-0000-0000001ecaec</item>
+          <item>7c6c7b6b-a411-4d15-86ac-5ebb0ed6d57b</item>
+          <item>00000000-0000-0000-0000-00000061eb3b</item>
+          <item>00000000-0000-0000-0000-00000008578b</item>
         </items>
       </view>
       <view id="dbb802e1-4051-45f9-8935-bf9e2186b752" caption="Editing Content" creationDate="0001-01-01T00:00:00">

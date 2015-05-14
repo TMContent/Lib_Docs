@@ -11,7 +11,9 @@
     <DirectLink>Active Directory Support</DirectLink>
   </Metadata>
   <Content Sanitized="false" DataType="wikitext">
-    <Data><![CDATA[By default TEAM Mentor uses its Xml-based User Store, however Active Directory integration is also supported.  TEAM Mentor can use AD to authenticate and authorize users.
+    <Data><![CDATA[**This is configured on the TEAM Mentor 3.6 Backend.**
+
+By default TEAM Mentor uses its Xml-based User Store, however Active Directory integration is also supported.  TEAM Mentor can use AD to authenticate and authorize users.
 
 ===Set-up==
 
