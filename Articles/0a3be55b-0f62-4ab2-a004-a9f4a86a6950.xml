@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<TeamMentor_Article Metadata_Hash="0" Content_Hash="0">
+  <Metadata>
+    <Id>0a3be55b-0f62-4ab2-a004-a9f4a86a6950</Id>
+    <Library_Id>eb39d862-f752-4d1c-ab6e-14ed697397c0</Library_Id>
+    <Title>Installing TEAM Mentor 4.0</Title>
+    <Category />
+    <Phase>NA</Phase>
+    <Technology />
+    <Type />
+    <DirectLink />
+    <Author />
+    <Priority />
+    <Status />
+  </Metadata>
+  <Content Sanitized="false" DataType="markdown">
+    <Data><![CDATA[
+Installation of TEAM Mentor 4.0 consists of three major steps. 
+
+1. Installation of TEAM Mentor 3.6 .NET Back-end 
+2. Installation  of TEAM Mentor 4.0 Front end
+3. Installation and configuration of IIS Reverse Proxy
+
+First start by unzipping the installation file.
+
+You should have the following structure:
+
+[](/Image/install01.png)
+
+Start by installing l all the components in the Dependencies folder. Install using all defaults. 
+
+
+]]></Data>
+  </Content>
+</TeamMentor_Article>
