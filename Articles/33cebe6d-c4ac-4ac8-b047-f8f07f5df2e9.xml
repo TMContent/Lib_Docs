@@ -30,7 +30,12 @@ In the \TM40-PXY directory edit the *web.config* file using the notepad editor
     
     Replacing *tmstg02-beta.teammentor.net* with the URL for your site. Make sure to leave the last /error as is and only change the first part of the URL. For example replace with *www.teammentor.net* . 
     
-    This is with the exception of the line.  ``` <error statusCode="403" subStatusCode="4" path="https://tmstg02-beta.teammentor.net" responseMode="Redirect" />``` This should have no */error* at the end. 
+    This is with the exception of the line.  
+    
+    ``` <error statusCode="403" subStatusCode="4" path="https://tmstg02-beta.teammentor.net" responseMode="Redirect" />```
+    
+     This should have no */error* at the end. 
+     
 3. Change the default error to the correct URL.
 
      ```<customErrors mode="RemoteOnly" defaultRedirect="https://tmstg02-beta.teammentor.net/error" />```
