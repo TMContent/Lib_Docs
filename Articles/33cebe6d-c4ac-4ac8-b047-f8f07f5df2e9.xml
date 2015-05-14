@@ -3,15 +3,62 @@
   <Metadata>
     <Id>33cebe6d-c4ac-4ac8-b047-f8f07f5df2e9</Id>
     <Library_Id>eb39d862-f752-4d1c-ab6e-14ed697397c0</Library_Id>
-    <Title>New Guidance Item</Title>
+    <Title>Installing Reverse Proxy</Title>
     <Category />
+    <Phase />
     <Technology />
     <Type />
+    <DirectLink />
     <Author />
     <Priority />
     <Status />
   </Metadata>
-  <Content Sanitized="false" DataType="Markdown">
-    <Data><![CDATA[]]></Data>
+  <Content Sanitized="false" DataType="markdown">
+    <Data><![CDATA[####Edit Configuration
+
+In the \TM40-PXY directory edit the *web.config* file using the notepad editor
+
+![](/Image/install08.png)
+
+1.  Change the line:
+    
+    ```<action type="Rewrite" value="http{R:1}://tmstg02-beta.teammentor.net/{R:2}" />``` 
+    
+    Replacing *tmstg02-beta.teammentor.net* with the URL  of your site. For example *www.teammentor.net*
+    
+2. Change the lines for custom errors.
+    
+    Replacing *tmstg02-beta.teammentor.net* with the URL for your site. Make sure to leave the last /error as is and only change the first part of the URL. For example replace with *www.teammentor.net* . 
+    
+    This is with the exception of the line.  ``` <error statusCode="403" subStatusCode="4" path="https://tmstg02-beta.teammentor.net" responseMode="Redirect" />``` This should have no */error* at the end. 
+3. Change the default error to the correct URL.
+
+     ```<customErrors mode="RemoteOnly" defaultRedirect="https://tmstg02-beta.teammentor.net/error" />```
+
+####Configure IIS Site.
+- Open IIS and choose to “Add Site”
+- Give the site a name. Point the physical path to the TM40-PXY directory. 
+- Enter the hostname of your TM40 site. This will be the URL most users will be accessing at all times.
+
+![](/Image/install09.png)
+
+Edit bindings and add the SSL version of the site.
+
+
+####Force SSL
+- In the Proxy site you’ve just configured open SSL Settings
+- Click on “Require SSL”
+
+![](/Image/install10.png)
+
+####Enable URL Rewrite
+- In the server node configuration, select Application Request Routing
+- Select “Server Proxy Settings” On the right hand side
+- Click “Enable Proxy” 
+
+![](/Image/install11.png)
+
+
+]]></Data>
   </Content>
 </TeamMentor_Article>
