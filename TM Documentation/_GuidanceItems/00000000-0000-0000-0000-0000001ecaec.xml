@@ -24,6 +24,7 @@ For example. Lets say you found a really cool article that you want to share wit
 ![](/Image/sharing05.png)
 
 Copy the URL:
+
 ```
 www.teammentor.net/article/eb2d53a86fb3/Create-a-Threat-Model-for-a-Web-Application-at-Design-Time
 ```
@@ -41,6 +42,7 @@ Sharing search results is as easy as sharing a singe article. Lets say you have 
 ![](/Image/sharing07.png) 
 
 Copy the URL:
+
 ```
 https://www.teammentor.net/search?text=prevent+SQL+injection&filters=/query-1b296e810647,query-8f3ba300c46a,query-891ed0bcf3bd
 ```
