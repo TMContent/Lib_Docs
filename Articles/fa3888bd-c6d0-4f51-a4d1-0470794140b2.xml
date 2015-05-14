@@ -80,6 +80,14 @@ On IIS 8 the application account name is the same as Application Pool name. This
     - Give "Full Control" to the account IIS AppPool\<AppPoolName> where the AppPoolName is the name identified above.
     - Click "OK"
 
+####Configure the TM36 Backend
+
+Login to TM36 Backend using the URL you’ve specified in the installation step. (Make sure the URL resolves via DNS). Use an account with admin privileges. Refer to release notes for default admin account information. 
+
+- Click on ```Tbot``` in the upper right corner. 
+- Select ```Edit Secret Data```
+- Enter your SMPT Server information in the appropriate field.
+- Enter the URL of your *TM40* installation in “TEAM Mentor Server URL”
 
 Continue by going through [Installation of TEAM Mentor 4.0](article/0a27b133-4b24-40ed-98b1-6ac7f35da716)
 ]]></Data>
