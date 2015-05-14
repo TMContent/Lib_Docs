@@ -14,7 +14,7 @@
     <Status />
   </Metadata>
   <Content Sanitized="false" DataType="markdown">
-    <Data><![CDATA[Start by configuring TEAM Mentor 4.0. 
+    <Data><![CDATA[####Start by configuring TEAM Mentor 4.0. 
 
 The simple configuration file is located in
 ```\TM40\TM_4_0_Design\src\misc```
@@ -26,7 +26,7 @@ Here you only need to edit the line that says ```@tm_35_Server ```
 ![](/Image/install04.png)
 
 
-Set up components as services
+####Set up components as services
 
 - Open Command Prompt as Administrator and navigate to the ```TM40\TM_4_0_GraphDB``` directory
 - Run ```npm run-script installWinSvc``` (note the capitlization it is case sensitive)
@@ -36,7 +36,7 @@ Set up components as services
 
 ![](/Image/install05.png)
 
-Set up User for the newly created services.
+####Set up User for the newly created services.
 
 - Open the Computer Manager snap-in, and create a new user _TM40_
 
@@ -52,7 +52,7 @@ Make sure you create a strong password. You will need this password in the next 
 
 - Repeat the same step for the TM_4_0_Design Service.
 
-Set up permissions. 
+####Set up permissions. 
 
 Go to the TM40 directory and give the newly created _TM40_ user full control over the directory.
 
