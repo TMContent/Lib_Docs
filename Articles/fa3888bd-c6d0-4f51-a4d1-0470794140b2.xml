@@ -14,9 +14,7 @@
     <Status />
   </Metadata>
   <Content Sanitized="false" DataType="markdown">
-    <Data><![CDATA[###Add TEAM Mentor to IIS 8.0###
-
-####Install and configure IIS (if not already installed)####
+    <Data><![CDATA[####Install and configure IIS (if not already installed)####
 
 - Use the Windows Role Manager to install the HTTPS Server role.  
 - Select ASP.NET 4.5 as an additional feature under .NET 4.5 Framework. 
