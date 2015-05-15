@@ -15,7 +15,17 @@
     <Priority />
     <Status />
   </Metadata>
-  <Content Sanitized="true" DataType="wikitext">
-    <Data><![CDATA[Users can create new TEAM Mentor accounts via the "Sign Up" window. The TEAM Mentor "Sign Up" window is available in the "preview pane" of TEAM Mentor when the administrator has enabled Evaluation Accouts. These are enabled trhough EvalAccounts_Enabled option in the config file. The window has input fields for the username, the password, the e-mail address, the first name, and the last name; the first three are mandatory to create an account. Clicking the "Sign Up" button submits the entered information. If the submitted information is valid, a new account is created and can be used to access the application. The application access will be available for the amount of days configured by the administrator. This is configured through EvalAccounts_Day configuration parameter. ]]></Data>
+  <Content Sanitized="true" DataType="markdown">
+    <Data><![CDATA[Users can create new TEAM Mentor accounts via the "Sign Up" link on the top menu.
+
+![](/Image/signup01.png)
+
+At Security Innovation, we believe in quick, just-in-time answers to your security questions. That is why we make the sign up process as quick as possible. We only ask for information that is absolutely required to create your account. Your username, you password, and an email address we can send the password reset link, if you happen to need it.
+
+![](/Image/signup02.png)
+
+Clicking the "Sign Up" button submits the entered information. If the submitted information is valid, a new account is created and can be used to access the application.
+
+. ]]></Data>
   </Content>
 </TeamMentor_Article>
