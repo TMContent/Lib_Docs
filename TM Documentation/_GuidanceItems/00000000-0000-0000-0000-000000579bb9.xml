@@ -16,22 +16,27 @@
     <Status />
   </Metadata>
   <Content Sanitized="true" DataType="Html">
-    <Data><![CDATA[
-<div>Editing content in TEAM Mentor is done via &quot;Edit Mode&quot;. &quot;Edit Mode&quot; is only available to Editors and Administrators. To access &quot;Edit Mode&quot;, login as either an Administrator or an Editor user and click the &quot;Edit Mode&quot; link in the top right of the main user
+    <Data><![CDATA[<div>Editing content in TEAM Mentor is done via "Edit Mode". "Edit Mode" is only available to Editors and Administrators. To access "Edit Mode", login as either an Administrator or an Editor user and click the "Edit Mode" link in the top right of the main user
  interface.</div>
-<div><br>
-</div>
-<div>The two main ways to edit folders in TEAM Mentor are via the right-click context menu and via drag &amp; drop operations. Right-click context menu operations allow managing the folders themselves, while drag &amp; drop operations allow placing content inside of
+  <div>
+    <br />
+  </div>
+  <div>The two main ways to edit folders in TEAM Mentor are via the right-click context menu and via drag &amp; drop operations. Right-click context menu operations allow managing the folders themselves, while drag &amp; drop operations allow placing content inside of
  folders.</div>
-<div><br>
-</div>
-<div>The right-click content menu provides the following options: &quot;Add View&quot;, &quot;Add Folder&quot;, &quot;Rename Folder&quot;, &quot;Delete Folder&quot;, and &quot;Exit Edit Mode&quot;. &quot;Add View&quot; creates a new view in the selected folder. &quot;Add Folder&quot; creates a new folder inside the selected folder.
- &quot;Rename Folder&quot; allows renaming the current folder. &quot;Delete Folder&quot; deletes the clicked folder. &quot;Exit Edit Mode&quot; returns the user interface to regular mode.</div>
-<div><br>
-</div>
-<div>Drag &amp; drop operations allow placing existing views inside a folder. To move a view into a folder, drag it into the destination folder. Items cannot be moved across libraries.</div>
-<div><font size="2"></font></div>
-<div></div>
-]]></Data>
+  <div>
+    <br />
+  </div>
+  <div>The right-click content menu provides the following options: "Add View", "Add Folder", "Rename Folder", "Delete Folder", and "Exit Edit Mode". "Add View" creates a new view in the selected folder. "Add Folder" creates a new folder inside the selected folder.
+ "Rename Folder" allows renaming the current folder. "Delete Folder" deletes the clicked folder. "Exit Edit Mode" returns the user interface to regular mode.</div>
+  <div>
+    <br />
+  </div>
+  <div>Drag &amp; drop operations allow placing existing views inside a folder. To move a view into a folder, drag it into the destination folder.</div>
+  <div>
+    <font size="2">
+    </font>
+  </div>
+  <div>
+  </div>]]></Data>
   </Content>
 </TeamMentor_Article>

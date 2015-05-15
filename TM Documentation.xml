@@ -88,12 +88,6 @@
           <item>3ce441aa-3a43-4080-9c8f-533f7de70ed0</item>
         </items>
       </view>
-      <view id="dd217eed-8165-40ad-8059-6ea59a3c3f6a" caption="Visual Studio Plugin" creationDate="0001-01-01T00:00:00">
-        <items>
-          <item>00000000-0000-0000-0000-0000004866a5</item>
-          <item>00000000-0000-0000-0000-00000078b4c4</item>
-        </items>
-      </view>
     </libraryStructure>
   </library>
 </guidanceExplorer>

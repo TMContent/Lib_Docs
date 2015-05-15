@@ -5,7 +5,7 @@
     <Library_Id>eb39d862-f752-4d1c-ab6e-14ed697397c0</Library_Id>
     <Title>Editing Libraries</Title>
     <Category>Editing</Category>
-    <Phase>NA</Phase>
+    <Phase>Draft</Phase>
     <Technology>TEAM Mentor</Technology>
     <Type>Documentation</Type>
     <DirectLink />
@@ -16,25 +16,30 @@
     <Status />
   </Metadata>
   <Content Sanitized="true" DataType="Html">
-    <Data><![CDATA[
-<div>Editing content in TEAM Mentor is done via &quot;Edit Mode&quot;. &quot;Edit Mode&quot; is only available to Editors and Administrators. To access &quot;Edit Mode&quot;, login as either an Administrator or an Editor user and click the &quot;Edit Mode&quot; link in the top right of the main user
+    <Data><![CDATA[<div>Editing content in TEAM Mentor is done via "Edit Mode". "Edit Mode" is only available to Editors and Administrators. To access "Edit Mode", login as either an Administrator or an Editor user and click the "Edit Mode" link in the top right of the main user
  interface.</div>
-<div><br>
-</div>
-<div>The two main ways to edit libraries in TEAM Mentor are via the right-click context menu and via drag &amp; drop operations. Right-click context menu operations allow managing the libraries themselves and creating new items, while drag &amp; drop operations allow
+  <div>
+    <br />
+  </div>
+  <div>The two main ways to edit libraries in TEAM Mentor are via the right-click context menu and via drag &amp; drop operations. Right-click context menu operations allow managing the libraries themselves and creating new items, while drag &amp; drop operations allow
  organizing the items inside the libraries.</div>
-<div><br>
-</div>
-<div>The right-click context menu provides access to the operations: &quot;Add View&quot;, &quot;Add Folder&quot;, &quot;Add Guidance Item&quot;, &quot;Rename Library&quot;, &quot;Delete Library&quot;, &quot;New Library&quot;, and &quot;Exit Edit Mode&quot;. &quot;Add View&quot; creates a new view inside the current library. &quot;Add Folder&quot;
- creates a new folder inside the current library. &quot;Add Guidance Item&quot; creates a new article in the current library. &quot;Rename Library&quot; allows renaming the current library. &quot;Delete Library&quot; allows deleting the clicked library. &quot;New Library&quot; creates a new library.
- &quot;Exit Edit Mode&quot; returns the main user interface to regular mode.</div>
-<div><br>
-</div>
-<div>Drag &amp; drop operations allow moving content around inside the library. A library should have a set of folders and views. Views can be moved into folders, but folders cannot be moved into other folders. The views are the important aspect of the library
- and folders are a supporting element to help organize the views. Therefore, articles can be dragged and dropped into views, but not into folders. &nbsp;The views contain links to articles. The same article can be located in multiple views, but a view can only be
+  <div>
+    <br />
+  </div>
+  <div>The right-click context menu provides access to the operations: "Add View", "Add Folder", "Add Guidance Item", "Rename Library", "Delete Library", "New Library", and "Exit Edit Mode". "Add View" creates a new view inside the current library. "Add Folder"
+ creates a new folder inside the current library. "Add Guidance Item" creates a new article in the current library. "Rename Library" allows renaming the current library. "Delete Library" allows deleting the clicked library. "New Library" creates a new library.
+ "Exit Edit Mode" returns the main user interface to regular mode.</div>
+  <div>
+    <br />
+  </div>
+  <div>Drag &amp; drop operations allow moving content around inside the library. A library should have a set of folders and views. Views can be moved into folders, but folders cannot be moved into other folders. The views are the important aspect of the library
+ and folders are a supporting element to help organize the views. Therefore, articles can be dragged and dropped into views, but not into folders. &amp;nbsp;The views contain links to articles. The same article can be located in multiple views, but a view can only be
  inside one folder. Selecting a folder in the navigation pane shows all the items in the views that are contained in that folder. Items cannot be moved between libraries.</div>
-<div><font size="2"></font></div>
-<div></div>
-]]></Data>
+  <div>
+    <font size="2">
+    </font>
+  </div>
+  <div>
+  </div>]]></Data>
   </Content>
 </TeamMentor_Article>
