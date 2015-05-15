@@ -30,9 +30,9 @@ Selected filter is shown on the top, next to the "Article Count" (in red below).
 
 Icons (indicated with green arrows below) match each filter with an article providing a visual representation on the "Technology", "Phase" and "Type" of the article. 
 
-![](/Image/search04.png)
+The gray numbers to the right of each filter represent the amount of articles, from the current result set, that would be selected if this filter was applied. 
 
-The gray to the right of each filter represent the amount of articles, from the current result set, that would be selected if this filter was applied. 
+![](/Image/search04.png)
 
 Filter can be removed, by clicking "X" next to it. Only one filter can be removed at a time. Removal of the filter returns the set of articles to a state before that filter was applied.
 
