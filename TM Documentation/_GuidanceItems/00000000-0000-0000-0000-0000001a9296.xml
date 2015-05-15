@@ -16,7 +16,7 @@
     <Status />
   </Metadata>
   <Content Sanitized="true" DataType="Html">
-    <Data><![CDATA[<div style="font-size:10pt">Filters allow narrowing down the presented article list to help find the most relevant articles in the currently selected library, folder, or view in the navigation pane. The filters are located in the filters pane in the center
+    <Data><![CDATA[<div style="font-size:10pt">To the right of the article list, is the list of filters. Selecting each filter only shows articles from the list that match a the selected filter. Selecting multiple filters shows only the the list of articles that match ALL of the selected filters. <br /><br />Filters are divided into categories. <br /><br /><br />Filters allow narrowing down the presented article list to help find the most relevant articles in the currently selected library, folder, or view in the navigation pane. The filters are located in the filters pane in the center
  of the main user interface. The currently active filters are displayed on top of the navigation pane on the left. The currently active filters may be cleared by clicking the respective "X" icons. Selecting filters narrows down the list of available articles
  and therefore the list of available filters. Filters that are no longer available are greyed out.</div>
   <div style="font-size:10pt">
