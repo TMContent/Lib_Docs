@@ -11,6 +11,19 @@
           <item>323dae88-b74b-465c-a949-d48c33f4ac85</item>
         </items>
       </view>
+      <view id="a1416f12-a35b-4ddb-9498-57736b7c7839" caption="Accessing and Reading Content" creationDate="0001-01-01T00:00:00">
+        <items>
+	  <item>00000000-0000-0000-0000-00000061eb3b</item>
+          <item>00000000-0000-0000-0000-00000008578b</item>
+          <item>00000000-0000-0000-0000-000000803568</item>
+          <item>00000000-0000-0000-0000-00000018204d</item>
+          <item>00000000-0000-0000-0000-0000001a9296</item>
+          <item>00000000-0000-0000-0000-00000024fdb5</item>
+          <item>00000000-0000-0000-0000-0000001ecaec</item>
+          <item>7c6c7b6b-a411-4d15-86ac-5ebb0ed6d57b</item>
+
+        </items>
+      </view>
       <view id="42d43763-f674-4929-98f4-71a3345a5ec8" caption="Installation" creationDate="0001-01-01T00:00:00">
         <items>
           <item>00000000-0000-0000-0000-000000410a3a</item>
@@ -37,18 +50,6 @@
           <item>d0b2bade-6d25-4c61-8ae3-94ae0110f959</item>
           <item>bc697c6c-e340-4a20-ba75-9f410dc9d5bb</item>
           <item>6e3221bf-08b8-4de1-bb3b-4edacc85fab6</item>
-        </items>
-      </view>
-      <view id="a1416f12-a35b-4ddb-9498-57736b7c7839" caption="Accessing and Reading Content" creationDate="0001-01-01T00:00:00">
-        <items>
-          <item>00000000-0000-0000-0000-000000803568</item>
-          <item>00000000-0000-0000-0000-00000018204d</item>
-          <item>00000000-0000-0000-0000-0000001a9296</item>
-          <item>00000000-0000-0000-0000-00000024fdb5</item>
-          <item>00000000-0000-0000-0000-0000001ecaec</item>
-          <item>7c6c7b6b-a411-4d15-86ac-5ebb0ed6d57b</item>
-          <item>00000000-0000-0000-0000-00000061eb3b</item>
-          <item>00000000-0000-0000-0000-00000008578b</item>
         </items>
       </view>
       <view id="dbb802e1-4051-45f9-8935-bf9e2186b752" caption="Editing Content" creationDate="0001-01-01T00:00:00">
