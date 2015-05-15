@@ -32,6 +32,7 @@ The Top Menu. Which provides access to the "Search" and "Index" functionality, a
 **Search Page**
 
 The default workspace is the "Search" page. Type your queries on the search bar. 
+
 ![](/Image/search01.png)
 
 The main search page also shows your last three recently viewed articles, the three most popular trending search terms in TEAM Mentor, and the top three articles viewed on the site.
@@ -42,37 +43,29 @@ The main search page also shows your last three recently viewed articles, the th
 
 **Search Results Page**
 
-Search Results Page displays the list of articles that match your query. The articles are numbered in accordance with relevance to your query. This is based on our algorithm, which is specifically tuned for InforSec questions. The algorithm is constantly being perfected to yield even more accurate results up on top.
+Search Results Page displays the list of articles that match your query. The number of articles show is displayed on top.
+
+The articles are numbered in accordance with relevance to your query. This is based on our algorithm, which is specifically tuned for InforSec questions. The algorithm is constantly being perfected to yield even more accurate results up on top.
+
+Icon's next to the articles provide visual queues representing their relationship to a filter. 
 
 The filters on your right help narrow down the search results. Read more about the filters [here](/article/00000000-0000-0000-0000-0000001a9296)
 
+![](/Image/search03.png)
+
+**Index Page**
 
 
 
 
-<div><br>
-</div>
-<div>The banner pane provides access to application controls, such as logging in, switching to edit mode, or opening the control panel.</div>
-<div><br>
-</div>
-<div>The navigation pane gives an overview of content organized into libraries, folders, and views. Folders and views work differently than file system objects, although there are some similarities. The similarities are mostly in the way they are navigated
- - folders contain multiple other objects inside them. The difference is that TEAM Mentor folders contain views, not file system objects - the same article may appear in multiple folders and/or views.</div>
-<div><br>
-</div>
-<div>The filters pane allows filtering content in the current library/folder/view based on applicable technology, development phase, article type, and subject matter category. Filters can be enabled or disabled by using the corresponding checkboxes.</div>
-<div><br>
-</div>
-<div>The preview pane displays the content of the currently selected article in the list. The purpose of the preview pane is to give the user an idea of what's inside while browsing the list to help find the right article. </div>
-<div><br>
-</div>
-<div>The article list pane displays the list of articles in the current library/folder/view in the navigation pane. The list of articles is filtered using the currently selected filters in the filters pane. The article list is the main control of the application.
- Selecting an article in the list updates the preview pane with the contents of the selected article. Double-clicking on an article opens it in a new window.</div>
-<div><br>
-</div>
-<div>The TEAM Mentor interface is designed to be simple and intuitive. The main task of navigating the content to find specific articles should be familiar to most users, because it is similar to navigating file-system objects.<br>
-</div>
-</div>
-<div></div>
-t]]></Data>
+
+
+
+
+
+
+
+
+]]></Data>
   </Content>
 </TeamMentor_Article>
