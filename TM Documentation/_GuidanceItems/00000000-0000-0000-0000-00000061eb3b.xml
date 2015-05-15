@@ -43,9 +43,9 @@ The main search page also shows your last three recently viewed articles, the th
 
 **Search Results Page**
 
-Search Results Page displays the list of articles that match your query. The number of articles show is displayed on top.
+Search Results Page displays the list of articles that match your query. The number of articles shown is displayed on top.
 
-The articles are numbered in accordance with relevance to your query. This is based on our algorithm, which is specifically tuned for InforSec questions. The algorithm is constantly being perfected to yield even more accurate results up on top.
+The articles are numbered based on relevance to your query. Our search algorithm is specifically tuned for InfoSec questions. The algorithm is constantly being perfected to yield even more accurate results on top.
 
 Icon's next to the articles provide visual queues representing their relationship to a filter. 
 
