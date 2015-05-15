@@ -16,7 +16,11 @@
     <Status />
   </Metadata>
   <Content Sanitized="true" DataType="markdown">
-    <Data><![CDATA[To the right of the article list, on both "Search Results" and "Index" pages is the list of filters. Selecting each filter only shows articles from the list that match a the selected filter. Selecting multiple filters shows only the the list of articles that match ALL of the selected filters. 
+    <Data><![CDATA[To the right of the article list, on both "Search Results" and "Index" pages is the list of filters.
+
+Selecting each filter only shows articles from the list that match a the selected filter. 
+
+Selecting multiple filters shows only the the list of articles that match ALL of the selected filters. 
 
 ![](/Image/filters01.png)
 
