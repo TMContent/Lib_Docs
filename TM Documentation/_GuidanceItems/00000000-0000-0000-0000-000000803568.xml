@@ -3,7 +3,7 @@
   <Metadata>
     <Id>00000000-0000-0000-0000-000000803568</Id>
     <Library_Id>eb39d862-f752-4d1c-ab6e-14ed697397c0</Library_Id>
-    <Title>Navigating</Title>
+    <Title>Navigating the Index</Title>
     <Category>Reading</Category>
     <Phase>NA</Phase>
     <Technology>TEAM Mentor</Technology>
@@ -15,21 +15,33 @@
     <Priority />
     <Status />
   </Metadata>
-  <Content Sanitized="true" DataType="Html">
-    <Data><![CDATA[
-<div>The simplest way to navigate TEAM Mentor content is via the aptly named navigation pane on the left. The navigation pane shows a tree representation of the available libraries as folders and views. This tree can be navigated in a manner similar to playlists
- in a music player, such as iTunes.&nbsp;</div>
-<div><br>
-</div>
-<div>TEAM Mentor content is organized in a manner similar to playlists. All the articles are located in the library. Views are references to sub-sets of these files, like playlists in music players. Folders are a way to organize the views. An article may appear
- in multiple views and folders, but there is still only one copy of the article - the views and folders display references to it.</div>
-<div><br>
-</div>
-<div>Articles can be opened via the article list pane. Navigating the folders and views changes the list of articles presented in the article list pane. This list can be further narrowed down by using filters. Once the desired articles have been located, it
- can be previewed in the preview pane on the right by single-clicking on the article title in the list. To open the article in a new window, double-click on the article title in the list.</div>
-<br>
-<div><font size="2"></font></div>
-<div></div>
+  <Content Sanitized="true" DataType="markdown">
+    <Data><![CDATA[You may choose to to browse for content is by using the "Index" page. This is useful when you would like to discover the information we have. Click on "Index" in the upper right. 
+
+ You start to navigate the "Index" by ether selecting a subject of interest on the left, or a filter on the right. You may continue to select ether filters or subjects of interest until you find a list of articles that you would like to read. Then simply open the article by clicking on its title.
+
+Go back to the list by using your browsers "Back" button. Some people also prefer to open articles in separate tabs, by right-clicking on the article title and selecting "Open in new tab"
+
+Numbers next to each subject on the left represent the number of articles that exists for that subject. When you select a subject of interest. You drill down further into specific sub-topics in that subject. Narrowing down the list of articles. Bread crumb navigation on top, shows exactly where you are in the taxonomy
+
+![](/Image/index02.png)
+
+![](/Image/index03.png)
+
+![](/Image/index04.png)
+
+At any time you may select a filter on the right to narrow down the displayed list of articles further. Numbers next to the filter represent the number of articles this filter selects. 
+
+![](/Image/index05.png)
+
+
+![](/Image/index06.png)
+
+You may also start your navigation with selecting one or more filter. Once selected, subject directory on the left updates, showing only available topics for the filter(s) 
+
+![](/Image/index07.png)
+
+
 ]]></Data>
   </Content>
 </TeamMentor_Article>
