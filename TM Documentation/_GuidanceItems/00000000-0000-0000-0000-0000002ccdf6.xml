@@ -39,22 +39,28 @@ MINIMUM REQUIREMENTS
 
 Note the change in minimum requirements specified here:
 
-Server Side Requirements:\\
--Windows 2012 R2 (64 Bit) with IIS 8.0 or higher\\
--NET Framework 4.5.1 (You can download this version from http://www.microsoft.com/en-us/download/details.aspx?id=40779 )\\
- -2GB of RAM\\
- -2GB of Storage\\
 
+====Server Side Requirements====
 
-Client Side Requirements\\
+   * Windows 2012 R2 (64 Bit) with IIS 8.0 or higher\\
+   * NET Framework 4.5.1 (You can download this version from http://www.microsoft.com/en-us/download/details.aspx?id=40779 )\\
+   * 4GB of RAM\\
+   * 4GB of Storage\\
+   * SSL Certificate\\
 
-TM 4.0 Jade supports all browsers including IE8. Mobile browers for Android and iOS are also supported. 
+Please note that it may be possible to run TEAM Mentor with less RAM and Storage. However performance does degrade under load and minimal configuration listed above is recommended for production environments. Also note, when connecting to TEAM Mentor on local machine (connecting to "localhost") SSL certificate is not required. Self-signed certificate may be used for test environments.
 
-TM 3.6 Backend support the following browsers\\
-- IE 11\\
-- Firefox\\
-- Chrome\\
-- Safari (v6.1 and v7.0 on OSX only)\\
+====Client Side Requirements====
+
+Following browsers and platforms are supported:
+
+TM 4.0 Jade supports all browsers including IE8. Mobile browsers for Android and iOS are also supported. 
+
+TM 3.6 Back0-end (used for Administration and Editing) supports the following browsers \\
+    * IE 11\\
+    * Firefox\\
+    * Chrome\\
+    * Safari (v6.1 and v7.0 on OSX only)\\
 ]]></Data>
   </Content>
 </TeamMentor_Article>
