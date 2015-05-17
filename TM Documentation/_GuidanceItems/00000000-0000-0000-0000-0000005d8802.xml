@@ -30,9 +30,9 @@ The following are some of the settings available in the TM Security section. Set
 **Show Content to Anonymous Users** (true)-  (depreciated) This setting defines whether or not full articles will be displayed to unauthenticated users.\\
 **Show Library to Anonymous Users**(true) - (depreciated) This setting defines whether or not library structure is displayed to unauthenticated users. In case this is unchecked and  "Show Content to Anonymous Users" is disabled, all the user will see is a login screen when accessing TEAM Mentor\\
 **SSL Redirect Http to Https** (true)- This setting redirects all non SSL traffic, except for traffic coming from localhost, to SSL port. This ensures all TEAM Mentor traffic is protected using SSL.\\
-**New Accounts Enabled** (true)- Activates / Deactivates the user approval workflow. If this is unchecked, all users that sign up will have to be approved by the administrator. See [[/article/00000000-0000-0000-0000-0000001c8add|Managing Users]]\\
+**New Accounts Enabled** (true)- Activates / Deactivates the user approval workflow. If this is unchecked, all users that sign up will have to be approved by the administrator. See [[00000000-0000-0000-0000-0000001c8add|Managing Users]]\\
 **New Accounts Don't Expire**(false) - Specifies if new accounts created by users signing up have an expiration date\\
-**Eval Accounts Enabled** (true)- This setting specifies if unauthenticated users will be able to create accounts on the system for Evaluation purposes (only works if ShowContentToAnonymousUsers=false) (note: due to current limitation, if set to "false" users are still able to create accounts on the system which will not expire, see [[article/00000000-0000-0000-0000-0000005d8802|Managing Users for workaround]])\\
+**Eval Accounts Enabled** (true)- This setting specifies if unauthenticated users will be able to create accounts on the system for Evaluation purposes (only works if ShowContentToAnonymousUsers=false) (note: due to current limitation, if set to "false" users are still able to create accounts on the system which will not expire, see [[00000000-0000-0000-0000-0000005d8802|Managing Users for workaround]])\\
 **Eval Accounts Days** (15) - This specifies the duration, in days, that self-created account will have read access to the content (only works if ShowContentToAnonymousUsers=false and NewAccountsDon'tExpire=false ). \\
 **Default Admin: UserName**(admin)  -  Set this option to define the default administrator user name. This user name will be used to manage TEAM Mentor in the early stages of using it.\\
 **Default Admin: Password** (!!tmadmin) -  Set this option to define the default administrator password. This password, together with the default administrator user name, will be used to manage TEAM Mentor in the initial setup stage. It is highly recommended to change the administrator password, using the //"Change Password"// link on the UI, right after TEAM Mentor had started for the first time.\\
@@ -60,7 +60,7 @@ The following are some of the settings available in the Git section. Settings no
 
 \\
 
-For information on Windows Authentication section see [[/article/6e3221bf-08b8-4de1-bb3b-4edacc85fab6|Active Directory Support]]
+For information on Windows Authentication section see [[6e3221bf-08b8-4de1-bb3b-4edacc85fab6|Active Directory Support]]
 
 {{/Image/tmcfg04.jpg}}
 
@@ -86,7 +86,7 @@ Firebase Config is to be used under supervision of support staff only.
 {{/Image/tmcfg07.jpg}}
 
 
-For SMTP Configuration see [[/article/d0b2bade-6d25-4c61-8ae3-94ae0110f959|Configuring Email]]
+For SMTP Configuration see [[d0b2bade-6d25-4c61-8ae3-94ae0110f959|Configuring Email]]
 
 {{/Image/tmcfg08.jpg}}
 
