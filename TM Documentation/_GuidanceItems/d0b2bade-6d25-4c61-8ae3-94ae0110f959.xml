@@ -14,7 +14,7 @@
     <Status />
   </Metadata>
   <Content Sanitized="false" DataType="wikitext">
-    <Data><![CDATA[TEAM Mentor has the capability of sending email. This is required for “Forgot Password” functionality to send the temporary password reset link. TEAM Mentor will also send status emails to specified Admin account. Email is also used for user approval workflow, if enabled. As explained in [[/article/00000000-0000-0000-0000-0000001c8add|Managing Users]]. 
+    <Data><![CDATA[TEAM Mentor has the capability of sending email. This is required for “Forgot Password” functionality to send the temporary password reset link. TEAM Mentor will also send status emails to specified Admin account. Email is also used for user approval workflow, if enabled. As explained in [[00000000-0000-0000-0000-0000001c8add|Managing Users]]. 
 
 A good way to customize your TEAM Mentor installation for your organization is to configure an Email Footer. This will be appended to all email sent by TEAM Mentor. 
 
