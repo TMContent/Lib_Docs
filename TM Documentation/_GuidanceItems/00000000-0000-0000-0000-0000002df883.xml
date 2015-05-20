@@ -25,7 +25,7 @@ Each article has the following meta-data:
 * **Type** tag:  The type tag describes the type of the article
 * **Category** tag:  The category tag describes what kind of security control the article is about
 
-The values of these fields create the filters and a drop-down list items in the article editor. These values can be change in the WYSIWING editor window. Use the drop downs to change the metadata of the articles. To add a new tag, enter the tag in the drop down field and click “Save Changes”
+The values of these fields create the filters and a drop-down list items in the article editor. These values can be changed in the WYSIWYG editor window. Use the drop downs to change the metadata of the articles. To add a new tag, enter the tag in the drop down field and click “Save Changes”
 
 {{/Image/editmetadata-img1.jpg}}
 
