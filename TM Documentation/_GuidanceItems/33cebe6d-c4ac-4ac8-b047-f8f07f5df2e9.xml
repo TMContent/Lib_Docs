@@ -63,6 +63,12 @@ Edit bindings and add the SSL version of the site.
 
 ![](/Image/install11.png)
 
+#### Disable unnecessary AAR header information
+- Open command prompt as "Administrator"
+- Run the following command 
+```
+%windir%\system32\inetsrv\appcmd set config  -section:system.webServer/proxy /arrResponseHeader:"False"  /commit:apphost
+```
 
 ]]></Data>
   </Content>
