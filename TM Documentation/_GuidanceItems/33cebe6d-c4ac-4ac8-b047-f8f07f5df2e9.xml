@@ -22,23 +22,23 @@ In the \TM40-PXY directory edit the *web.config* file using the notepad editor
 
 1.  Change the line:
     
-    ```<action type="Rewrite" value="http{R:1}://tmstg02-beta.teammentor.net/{R:2}" />``` 
+    ```<action type="Rewrite" value="http{R:1}://www.teammentor.net/{R:2}" />``` 
     
-    Replacing *tmstg02-beta.teammentor.net* with the URL  of your site. For example *www.teammentor.net*
+    Replacing *www.teammentor.net* with the URL  of your site. For example *beta.teammentor.net*
     
 2. Change the lines for custom errors.
     
-    Replacing *tmstg02-beta.teammentor.net* with the URL for your site. Make sure to leave the last /error as is and only change the first part of the URL. For example replace with *www.teammentor.net* . 
+    Replacing *www.teammentor.net* with the URL for your site. Make sure to leave the last /error as is and only change the first part of the URL. For example replace with *beta.teammentor.net* . 
     
     This is with the exception of the line.  
     
-    ``` <error statusCode="403" subStatusCode="4" path="https://tmstg02-beta.teammentor.net" responseMode="Redirect" />```
+    ``` <error statusCode="403" subStatusCode="4" path="https://www.teammentor.net" responseMode="Redirect" />```
     
      This should have no */error* at the end. 
      
 3. Change the default error to the correct URL.
 
-     ```<customErrors mode="RemoteOnly" defaultRedirect="https://tmstg02-beta.teammentor.net/error" />```
+     ```<customErrors mode="RemoteOnly" defaultRedirect="https://www.teammentor.net/error" />```
 
 #### Configure IIS Site.
 - Open IIS and choose to “Add Site”
