@@ -16,15 +16,33 @@
   <Content Sanitized="false" DataType="markdown">
     <Data><![CDATA[#### Start by configuring TEAM Mentor 4.0. 
 
+```
+{
+  "tm_design":
+    {
+      "jade_Compilation_Enabled": true                                                               ,
+      "folder_Docs_Json"        : "../../data/Lib_Docs-json"                                         ,
+      "folder_Jade_Files"       : "../../code/TM_Jade"                                               ,
+      "webServices"             : "https://www36.teammentor.net/Aspx_Pages/TM_WebServices.asmx",
+      "port"                    : 10001
+    },
+  "tm_graph":
+    {
+      "folder_Lib_UNO_Json"     : "../../data/Lib_UNO-json",
+      "port"                    : 10002
+    }
+}
+```
+
+
+
 The simple configuration file is located in
-```\TM40\TM_4_0_Design\src\misc```
+```TM40\TM\config\SiteData\TM```
 
-- Open the ```Config.coffee``` file
-Here you only need to edit the line that says ```@tm_35_Server ``` 
+- Open the ```tm.config``` file
+Here you only need to edit the line that says ```webServices ``` 
 - Change the URL to the TM36 URL you configured in the settup of TM36 Backend section. 
-
-![](/Image/install04.png)
-
+- Change the 
 
 #### Set up components as services
 
