@@ -40,6 +40,8 @@ In the \TM40-PXY directory edit the *web.config* file using the notepad editor
 
      ```<customErrors mode="RemoteOnly" defaultRedirect="https://www.teammentor.net/error" />```
 
+4. Replace ```1337``` in the file with the port value you entered in```tm_design``` in TM40 configuration
+
 #### Configure IIS Site.
 - Open IIS and choose to “Add Site”
 - Give the site a name. Point the physical path to the TM40-PXY directory. 
