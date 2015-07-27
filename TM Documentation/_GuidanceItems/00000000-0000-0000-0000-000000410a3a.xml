@@ -22,6 +22,10 @@ The following hardware and software is required to run TEAM Mentor.
 
    * Windows 2012 R2 (64 Bit) with IIS 8.0 or higher\\
    * NET Framework 4.5.1 (You can download this version from http://www.microsoft.com/en-us/download/details.aspx?id=40779 )\\
+   * Git Version Control with Tools (Available https://github.com/msysgit/git) 
+   * NodeJS (Distributed with TEAM Mentor ZIP File)
+   * IIS AAR 3.0 Extension (Distributed with TEAM Mentor ZIP File)
+   * IIS URLRewrite2 Extension (Distributed with TEAM Mentor ZIP File)
    * 4GB of RAM\\
    * 4GB of Storage\\
    * SSL Certificate\\

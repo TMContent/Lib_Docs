@@ -73,8 +73,14 @@ On IIS 8 the application account name is the same as Application Pool name. This
 - Find the Application Pool name, it will be the same as the "Site Name" you have created in step 3 above.
 - Make sure that the .NET Framework version is set to v4.0. Otherwise double click on the Application Pool and set the correct version
 - Take a note of the Application Pool name.
-- Adjust the file-system permissions. Give full control permissions for the “\TM36\Library_Data” folder to the Windows user account that is used to run TEAM Mentor. This is the username that has been discovered in the previous step. 
-    - Right click on the TEAM Mentor Library_Data folder
+- Adjust the file-system permissions. Give full control permissions for the following folders to the Windows user account that is used to run TEAM Mentor. This is the username that has been discovered in the previous step. 
+* “\TM36\Library_Data”
+* "\TM40\TM\data"
+* "\TM40\TM\code\TM_Graph\.tmCache"
+
+To do this, for each of the folders 
+
+    - Right click on the folder
     - Select "Properties". A "Properties" window should appear. 
     - Select the "Security" tab in the "Properties" window..
     - Give "Full Control" to the account IIS AppPool\<AppPoolName> where the AppPoolName is the name identified above.
