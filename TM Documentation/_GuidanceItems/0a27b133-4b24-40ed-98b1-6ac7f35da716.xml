@@ -25,31 +25,56 @@ The simple configuration file is located in
 {
   "tm_design":
     {
-      "jade_Compilation_Enabled": true,
-      "folder_Docs_Json"        : "../../data/Lib_Docs-json",
-      "folder_Jade_Files"       : "../../code/TM_Jade",
-      "webServices"             : "https://www36.teammentor.net/Aspx_Pages/TM_WebServices.asmx",
+      "jade_Compilation_Enabled": false,
+      "folder_Docs_Json"        : "../../data/Lib_Docs-json"                                         ,
+      "folder_Jade_Files"       : "../../code/TM_Jade"                                               ,
+      "tm_35_Server"            : "https://tmdevr01-beta36.teammentor.net"                            ,
+      "webServices"             : "/Aspx_Pages/TM_WebServices.asmx"                                  ,
       "port"                    : 10001
     },
   "tm_graph":
     {
       "folder_Lib_UNO_Json"     : "../../data/Lib_UNO-json",
-      "port"                    : 10002
+      "port"                    : 10002		
+    },
+  "hubspot":
+    {
+      "HubspotEndpoint"        :"https://forms.hubspot.com/uploads/form/v2/",
+      "HubspotEnabled"         :false,
+      "HubspotLeadSource"      :"Demo Request",
+      "HubspotLeadSourceDetail":"TM Evaluation" ,
+      "secrets":
+      {
+        "HubspotSiteId"  :"" ,
+        "HubspotFormGuid":""
+      }
+    } ,
+  "piwikAnalytics":
+    {
+      "analitycsEnabled"  :false,
+      "analitycsSiteId"   :"",
+      "analitycsTrackUrl" :"",
+      "secrets":
+      {
+          "analyticsApiKey" :""
+      }
     }
 }
 ~~~
 
 
 - Open the ```tm.config``` file
-Here you only need to edit the line that says ```webServices ``` 
-- Change the URL to the TM36 URL you configured in the settup of TM36 Backend section. 
+Here you only need to edit the line that says ```tm_35_Server``` 
+- Change the URL to the TM36 URL you configured in the setup of TM36 Backend section. 
 - Change the port for both tm_design and tm_graph to something meaningful. You will need this later.
+- If you are using Piwik or Hubspot, configure accordingly. This step is optional.
 
 #### Set up components as services
 
 * Open the Git Bash as Administrator
 * Navigate to your ```TM40\TM\``` directory 
 * Issue ```$ ./bin/winInstallSrvc.sh``` and follow the prompts
+* Issue ```$./bin/winSrvcGrant.sh <BACKEND SITE NAME>``` where the backend site name is the name of the TM36 site in IIS
 * Start the services for the first time using ```./bin/winTM.sh start```
 
 The services will autostart at reboot. 
