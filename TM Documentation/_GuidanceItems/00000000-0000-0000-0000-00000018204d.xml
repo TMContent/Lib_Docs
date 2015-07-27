@@ -18,6 +18,8 @@
   <Content Sanitized="true" DataType="markdown">
     <Data><![CDATA[Searching is the default and the simplest way of finding content in TEAM Mentor. However, search requires you to know a little bit about the subject at hand. Use the "Search" function when you have formulated a security question. Simply go to the "Search" page and type your query in the search box.
 
+(note that currently search supports simple queries only. Boolean operators such as AND OR NOT are planned for future release)
+
 ![](/Image/search01.png)
 
 Once the search results are shown, you can see the total article count. You can further narrow down the search by using one or more filters on the right.  Find out more about filters [here](00000000-0000-0000-0000-0000001a9296)
