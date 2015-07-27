@@ -63,7 +63,7 @@ The simple configuration file is located in
 ~~~
 
 
-- Open the ```tm.config``` file
+- Open ```tm.config``` 
 Here you only need to edit the line that says ```tm_35_Server``` 
 - Change the URL to the TM36 URL you configured in the setup of TM36 Backend section. 
 - Change the port for both tm_design and tm_graph to something meaningful. You will need this later.
@@ -72,7 +72,7 @@ Here you only need to edit the line that says ```tm_35_Server```
 #### Set up components as services
 
 * Open the Git Bash as Administrator
-* Navigate to your ```TM40\TM\``` directory 
+* Navigate to ```TM40\TM\``` 
 * Issue ```$ ./bin/winInstallSrvc.sh``` and follow the prompts
 * Issue ```$./bin/winSrvcGrant.sh <BACKEND SITE NAME>``` where the backend site name is the name of the TM36 site in IIS
 * Start the services for the first time using ```./bin/winTM.sh start```
