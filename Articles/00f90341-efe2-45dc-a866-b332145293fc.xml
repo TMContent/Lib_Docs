@@ -3,7 +3,7 @@
   <Metadata>
     <Id>00f90341-efe2-45dc-a866-b332145293fc</Id>
     <Library_Id>eb39d862-f752-4d1c-ab6e-14ed697397c0</Library_Id>
-    <Title>About Documentation</Title>
+    <Title>Welcome to TEAM Mentor Documentation</Title>
     <Category>Getting Started</Category>
     <Phase>NA</Phase>
     <Technology>TEAM Mentor</Technology>
@@ -14,16 +14,15 @@
     <Status />
   </Metadata>
   <Content Sanitized="false" DataType="markdown">
-    <Data><![CDATA[##TEAM Mentor Documentation
-
+    <Data><![CDATA[
 Welcome to the TEAM Mentor  Documentation Website, where you will find detailed information on how to install TEAM Mentor, how it works and how to customize it.
 
 If you are new to TEAM Mentor, we suggest you start with the [Quick Start Guide](/article/0bfb008b-49c8-4526-bb6a-0a21d01eeb0e)
 
-###TEAM Mentor in action    
+### TEAM Mentor in action    
 
 * TEAM Mentor production site - [https://www.teammentor.net](https://www.teammentor.net) - trusted security knowledge at your fingertips
-* TEAM Mentor beta site - [https://www.teammentor.net](https://www.teammentor.net) - here experience the latest innovations.
+* TEAM Mentor beta site - [https://beta.teammentor.net](https://beta.teammentor.net) - here experience the latest innovations.
 * TEAM Mentor with OWASP library - [https://owasp.teammentor.net](https://owasp.teammentor.net) - TEAM Mentor with the OWASP Top 10 library
 	  
 	  
