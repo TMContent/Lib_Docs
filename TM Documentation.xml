@@ -16,7 +16,6 @@
         <items>
           <item>00000000-0000-0000-0000-00000061eb3b</item>
           <item>00000000-0000-0000-0000-00000008578b</item>
-          <item>00000000-0000-0000-0000-00000018204d</item>
           <item>00000000-0000-0000-0000-0000001a9296</item>
           <item>00000000-0000-0000-0000-0000001ecaec</item>
           <item>7c6c7b6b-a411-4d15-86ac-5ebb0ed6d57b</item>
@@ -80,6 +79,7 @@
       <view id="dd584e17-4863-4c5b-9726-d3aae585db68" caption="Using the Jade Fail Safe Version" creationDate="2015-11-09T15:42:52.8404075-05:00">
         <items>
           <item>00000000-0000-0000-0000-000000803568</item>
+          <item>00000000-0000-0000-0000-00000018204d</item>
         </items>
       </view>
     </libraryStructure>
