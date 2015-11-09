@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<TeamMentor_Article Metadata_Hash="0" Content_Hash="0">
+  <Metadata>
+    <Id>70197456-9d4c-4bac-8124-a96f7456ea9b</Id>
+    <Library_Id>eb39d862-f752-4d1c-ab6e-14ed697397c0</Library_Id>
+    <Title>Browsing Guidance</Title>
+    <Category>Reading</Category>
+    <Phase>NA</Phase>
+    <Technology>TEAM Mentor</Technology>
+    <Type>Documentation</Type>
+    <DirectLink />
+    <Author />
+    <Priority />
+    <Status />
+  </Metadata>
+  <Content Sanitized="false" DataType="markdown">
+    <Data><![CDATA[You may simply use the UI to browse and filter all the guidance items by using lef-hand navigation and right-hand filters. This is useful when you would like to discover the information we have.  
+
+Start  by ether selecting a subject of interest on the left, or a filter on the right. You may continue to select ether filters or subjects of interest until you find a list of articles that you would like to read. Then simply open the article by clicking on its title.
+
+Go back to the list by using your browsers "Back" button.
+
+Some people also prefer to open articles in separate tabs, by right-clicking on the article title and selecting "Open in new tab"
+
+Numbers next to each subject on the left represent the number of articles that exists for that subject. When you select a subject of interest. You drill down further into specific sub-topics in that subject. Narrowing down the list of articles. Bread crumb navigation on top, shows exactly where you are in the taxonomy
+
+![](/Image/index-ng-02.png)
+
+![](/Image/index-ng-03.png)
+
+![](/Image/index-ng-04.png)
+
+At any time you may select a filter on the right to narrow down the displayed list of articles further. Numbers next to the filter represent the number of articles this filter selects. 
+
+![](/Image/index-ng-05.png)
+
+
+![](/Image/index-ng-06.png)
+
+
+
+You may also start your navigation with selecting one or more filter. Once selected, subject directory on the left updates, showing only available topics for the filter(s) 
+
+![](/Image/index-ng-07.png)
+
+
+]]></Data>
+  </Content>
+</TeamMentor_Article>

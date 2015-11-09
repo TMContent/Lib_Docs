@@ -17,10 +17,10 @@
           <item>00000000-0000-0000-0000-00000061eb3b</item>
           <item>00000000-0000-0000-0000-00000008578b</item>
           <item>00000000-0000-0000-0000-00000018204d</item>
-          <item>00000000-0000-0000-0000-000000803568</item>
           <item>00000000-0000-0000-0000-0000001a9296</item>
           <item>00000000-0000-0000-0000-0000001ecaec</item>
           <item>7c6c7b6b-a411-4d15-86ac-5ebb0ed6d57b</item>
+          <item>70197456-9d4c-4bac-8124-a96f7456ea9b</item>
         </items>
       </view>
       <view id="42d43763-f674-4929-98f4-71a3345a5ec8" caption="Installation" creationDate="0001-01-01T00:00:00">
@@ -75,6 +75,11 @@
           <item>f9db3370-b202-49b4-8e68-bc9c8f6042df</item>
           <item>95fc4945-6916-4fcc-9cdb-56aced23d1b0</item>
           <item>3ce441aa-3a43-4080-9c8f-533f7de70ed0</item>
+        </items>
+      </view>
+      <view id="dd584e17-4863-4c5b-9726-d3aae585db68" caption="Using the Jade Fail Safe Version" creationDate="2015-11-09T15:42:52.8404075-05:00">
+        <items>
+          <item>00000000-0000-0000-0000-000000803568</item>
         </items>
       </view>
     </libraryStructure>
