@@ -55,15 +55,22 @@ Please note that it may be possible to run TEAM Mentor with less RAM and Storage
 
 Client Side Requirements
 
-Following browsers and platforms are supported:
+The main client side version code named Flare requires:
 
-TM 4.0 Jade supports all browsers including IE8. Mobile browsers for Android and iOS are also supported. 
+* IE11 or higher \\
+* Firefox 42 or higher \\
+* Chrome 46 or higher \\
+* Safari v6.1 and 7.0 on OSX only \\
+* Mobile browsers for Android and iOS have experimental support. \\
 
-TM 3.6 Back0-end (used for Administration and Editing) supports the following browsers \\
-    * IE 11\\
-    * Firefox\\
-    * Chrome\\
-    * Safari (v6.1 and v7.0 on OSX only)\\
+There is  a fallback version code named Jade. Jade supports all available browsers, including IE8 and Lynx. 
+
+
+TM 3.6 Back-end (used for Administration and Editing) supports the following browsers \\
+* IE11 or higher \\
+* Firefox 42 or higher \\
+* Chrome 46 or higher \\
+* Safari v6.1 and 7.0 on OSX only \\
 ]]></Data>
   </Content>
 </TeamMentor_Article>
