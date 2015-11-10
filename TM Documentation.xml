@@ -14,7 +14,6 @@
       </view>
       <view id="a1416f12-a35b-4ddb-9498-57736b7c7839" caption="Accessing and Reading Content" creationDate="0001-01-01T00:00:00">
         <items>
-          <item>00000000-0000-0000-0000-00000061eb3b</item>
           <item>00000000-0000-0000-0000-00000008578b</item>
           <item>00000000-0000-0000-0000-0000001a9296</item>
           <item>00000000-0000-0000-0000-0000001ecaec</item>
@@ -81,6 +80,7 @@
         <items>
           <item>00000000-0000-0000-0000-000000803568</item>
           <item>00000000-0000-0000-0000-00000018204d</item>
+          <item>00000000-0000-0000-0000-00000061eb3b</item>
         </items>
       </view>
     </libraryStructure>
