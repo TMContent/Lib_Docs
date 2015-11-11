@@ -18,11 +18,11 @@
   <Content Sanitized="true" DataType="markdown">
     <Data><![CDATA[Users can create new TEAM Mentor accounts via the "Sign Up" link on the top menu.
 
-![](/Image/signup01.png)
+![](/Image/signup-ng-01.png)
 
 At Security Innovation, we believe in quick, just-in-time answers to your security questions. That is why we make the sign up process as quick as possible. We only ask for information that is absolutely required to create your account. Your username, you password, and an email address we can send the password reset link, if you happen to need it.
 
-![](/Image/signup02.png)
+![](/Image/signup-ng-02.png)
 
 Clicking the "Sign Up" button submits the entered information. If the submitted information is valid, a new account is created and can be used to access the application.
 
