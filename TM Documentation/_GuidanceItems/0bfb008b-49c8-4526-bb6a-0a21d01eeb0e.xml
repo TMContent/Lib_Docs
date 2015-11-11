@@ -37,6 +37,8 @@ Here’s additional detail on what are considered alphanumeric and non-alphanume
 *Alphanumeric characters (word characters): a-z; A-Z; 0-9; _ (underscore); space
 *Non-alphanumeric (symbols): ~`!@#$%^&*()+-_=[]\{}|;’:”,./<>?
 
+\\
+\\
 
 {{/Image/signup-ng-02.png}}
 
@@ -75,7 +77,9 @@ If you have forgotten your password, click on the Forgot your password? link, fi
 
 The main interface consists of the navigation menu, the search bar and the work space. The default work space contains subject matter directory on the left hand side and filters on the right hand side. You can use them interchangeably to quickly access the content you need.  
 
-{{/Image/uioverview-ng-01.png)}}
+\\
+
+{{/Image/uioverview-ng-01.png}}
 
 \\
 
@@ -85,14 +89,20 @@ The simplest way to use TEAM Mentor is by searching.  Simply type your query in 
 
 {{/Image/search-ng-00.png}}
 
+\\
+
 {{/Image/search-ng-01.png}}
 
 \\
 \\
 
-Once the search results are shown you can further narrow down the search by using one or more filters on the right or subject areas on the left.  The numbers next to the filters represent the number of articles each filter selects.
+Once the search results are shown you can further narrow down the search by using one or more filters on the right or subject areas on the left.  The numbers next to the filters represent the number of articles each filter selects. You can easily remove any filter by clicking on the "X"  next to it.
+
+\\
 
 {{/Image/search-ng-04.png}}
+
+\\
 
 {{/Image/search-ng-05.png}}
 
@@ -101,51 +111,44 @@ Once the search results are shown you can further narrow down the search by usin
 
 Icons next to the articles correspond to filters on the right. Making it easier to identify articles at a glance.
 
-{{/Image/filters-ng-02.png)}}
-
-\\
-\\
-
-You can easily remove any filter by clicking on the "X"  next to it.
+{{/Image/filters-ng-02.png}}
 
 \\
 \\
 
 ===Browsing==
 
-You may choose to to browse for content. This is useful when you would like to discover the information we have.  
-
-
-You start by ether selecting a subject of interest on the left, or a filter on the right. You may continue to select ether filters or subjects of interest until you find a list of articles that you would like to read. Then simply open the article by clicking on its title.
+Browsing is useful when you would like to discover the information we have.  Start by ether selecting a subject of interest on the left, or a filter on the right. You may continue to select ether filters or subjects of interest until you find a list of articles that you would like to read. Then simply open the article by clicking on its title.
 
 Go back to the list by using your browsers "Back" button. Some people also prefer to open articles in separate tabs, by right-clicking on the article title and selecting "Open in new tab"
 
 Numbers next to each subject on the left represent the number of articles that exists for that subject. When you select a subject of interest. You drill down further into specific sub-topics in that subject. Narrowing down the list of articles. Bread crumb navigation on top, shows exactly where you are in the taxonomy. 
 
+\\
+
 {{/Image/index-ng-02.png}}
 
-\\
 \\
 
 {{/Image/index-ng-03.png}}
 
 \\
-\\
 
 {{/Image/index-ng-04.png}}
 
 \\
-\\
-At any time you may select a filter on the right to narrow down the displayed list of articles further. Numbers next to the filter represent the number of articles this filter selects. 
 
+At any time you may select a filter on the right to narrow down the displayed list of articles further. 
+
+\\ 
 
 {{/Image/index-ng-05.png}}
 
+\\
 
 {{/Image/index-ng-06.png}}
 
-
-
+\\
 
 You may also start your navigation with selecting one or more filter. Once selected, subject directory on the left updates, showing only available topics for the filter(s) 
 
@@ -192,7 +195,7 @@ You can further narrow down the search results or simply open the most relevant 
 
 ==Example #2 – Discover Authentication Best Practices for .NET==
 
-Now let’s practice using Index. In this example, we will identify the authentication best practices for .NET. It’s very simple, all we have to do is select .NET filter on the index page and then select "Authentication" from the subject directory.
+Now let’s practice browsing our guidance. In this example, we will identify the authentication best practices for .NET. It’s very simple, all we have to do is select .NET filter on the index page and then select "Authentication" from the subject directory.
 
 {{/Image/example2-01.png}}
 
