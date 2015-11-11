@@ -36,7 +36,7 @@ The gray numbers to the right of each filter represent the amount of articles, f
 
 Filter can be removed, by clicking "X" next to it. Only one filter can be removed at a time. Removal of the filter returns the set of articles to a state before that filter was applied.
 
-![](/Image/search05.png)
+![](/Image/filters-ng-03.png)
 
 
 Filters are divided into categories for easier organization. 
