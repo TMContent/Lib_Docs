@@ -197,18 +197,18 @@ You can further narrow down the search results or simply open the most relevant 
 
 Now let’s practice browsing our guidance. In this example, we will identify the authentication best practices for .NET. It’s very simple, all we have to do is select .NET filter on the index page and then select "Authentication" from the subject directory.
 
-{{/Image/example2-01.png}}
+{{/Image/example2-ng-01.png}}
 
 \\
 
-{{/Image/example2-02.png}}
+{{/Image/example2-ng-02.png}}
 
 \\
 \\
 
 The query returns a number of results. 
 
-{{/Image/example2-03.png}}
+{{/Image/example2-ng-03.png}}
 
 \\
 \\
@@ -216,59 +216,59 @@ The query returns a number of results.
 We can further narrow down the list of articles by selecting a sub-category from the subject directory. 
 
 
-{{/Image/example2-04.png}}
+{{/Image/example2-ng-04.png}}
 
 \\
 
-{{/Image/example2-05.png}}
+{{/Image/example2-ng-05.png}}
 
 
 
 Further narrow this down to show just How To articles by checking How To in the Type filter list:
 
-{{/Image/example2-06.png}}
+{{/Image/example2-ng-06.png}}
 
 \\
 \\
 
 This returns a small relevant number of articles.
 
-{{/Image/example2-07.png}}
+{{/Image/example2-ng-07.png}}
 
 \\
 
 ==Example #3 – Finding Information on a Vulnerability (XSS Example)==
 One example of how you can use TEAM Mentor is to look for information you need regarding specific software vulnerabilities. This may be because you wish to avoid this vulnerability in your code, you have been assigned to fix a vulnerability, or are just looking for information on the topic. To do this, after you have successfully authenticated, Search for //XSS// (in this example) on the search page.
 
-{{/Image/example3-01.png}}
+{{/Image/example3-ng-01.png}}
 
 \\
 \\
 
 Select "Vulnerability" type in the Filters list..
 
-{{/Image/example3-02.png}}
+{{/Image/example3-ng-02.png}}
 
 \\
 \\
 
-You are presented with a few relative articles. If you look closely, the articles relate to specific technology. This is indicated by the icon next to the article summary. 
-{{/Image/example3-03.png}}
+You are presented with a few relative articles.
+{{/Image/example3-ng-03.png}}
 
 \\
 \\
 
-Select a "Technology Independent" filter. This filter shows articles not related to a particular technology. This would show you generic article for this vulnerability.
+You may want to filter even further by specific technology you are using. In this example we pick PHP.
 
 
-{{/Image/example3-04.png}}
+{{/Image/example3-ng-04.png}}
 
 \\
 \\
 
 Open the article and read for specific information on how to fix the vulnerability.
 
-{{/Image/example3-05.png}}
+{{/Image/example3-ng-05.png}}
 
 \\
 \\
