@@ -14,59 +14,38 @@
     <Status />
   </Metadata>
   <Content Sanitized="false" DataType="markdown">
-    <Data><![CDATA[TEAM Mentor provides two main avenues for accessing the vast content we offer. "Searching and Filtering", and "Index Navigation". Each aiming at providing the answers you are looking for in the least amounts of clicks. The best method to use depends on your goal.
+    <Data><![CDATA[TEAM Mentor provides a number of avenues for accessing the vast content we offer.  Each aiming at providing the answers you are looking for in the least amounts of clicks. The best method to use depends on your goal.
 
-If you have a specific question, and know what you are looking for, then simply use the "search and filter" .
+If you have a specific question, and know what you are looking for, then simply use the "search and filter" functionality further described [here](article/2f29c7a1-ab67-40b9-89cb-4983558bc718).
 
-If you are not sure what you are interested in, or simply would like to browse our content, use the "Index" directory to go through a list of topics until you find one that deserves your further attention.
+If you are not sure what you are interested in, or simply would like to browse our content, use the "Index" subject matter directory on the left and filters on the right to go through a list of topics until you find one that deserves your further attention. This is described in detail 
+[here](article/70197456-9d4c-4bac-8124-a96f7456ea9b)
 
-**The Main User Interface Has Two Areas.**
+Guides provide a curated, guided, learning experience understanding a particular topic. More information on guides can be found  [here](/article/622af01d-5dfe-4d82-b100-d3f3a83ff055)
 
-The Top Menu. Which provides access to the "Search" and "Index" functionality, as well as access to this documentation. And the workspace below which changes based on the functionality chose.
+**The Main Interface**
 
-![](/Image/uioverview01.png)
+The main interface consists of the navigation menu, the search bar and the work area. The navigation menu provides access to different TEAM Mentor functionality, as well as access to this documentation. The search bar allows to perform searches on our guidance. The workspace below which changes based on the functionality chose.
 
-
-**Search Page**
-
-The default workspace is the "Search" page. Type your queries on the search bar. 
-
-![](/Image/search01.png)
-
-The main search page also shows your last three recently viewed articles, the three most popular trending search terms in TEAM Mentor, and the top three articles viewed on the site.
-(Note that when you first sign up there will not be any recently viewed articles on the page) 
-
-![](/Image/search02.png)
-
-
-**Search Results Page**
-
-Search Results Page displays the list of articles that match your query. The number of articles shown is displayed on top.
-
-The articles are numbered based on relevance to your query. 
+The default workspace contains subject matter directory on the left hand side and filters on the right hand side. You can use them interchangeably to quickly access the content you need.
 
 Icon's next to the articles provide visual queues representing their relationship to a filter. 
 
-The filters on your right help narrow down the search results. Read more about the filters [here](00000000-0000-0000-0000-0000001a9296)
+The list of available articles based on your search or filtering criteria is show in the middle in the middle. 
 
-![](/Image/search03.png)
-
-**Index Page**
-
-The index page is comprised of 3 main components. The subject matter taxonomy on the left, the filters on the right, and the list of available articles in the middle. 
+![](/Image/uioverview-ng-01.png)
 
 
-![](/Image/index01.png)
 
 **Article View Page**
 
 Article view page provides easy, distraction free, way of reading and understanding the content. Each guidance type has a slightly different format. However, most start by explaining the issue at high level, continue into prescriptive details, include problem and solution examples, and are followed by additional reading references. 
 
-Open the article view page by clicking on the title of the article on ether "Search" or "Index" Page. 
+Open the article view page by clicking on the title of the article.
 
 Go back to the list by using your browsers "Back" button. Some people also prefer to open articles in separate tabs, by right-clicking on the article title and selecting "Open in new tab" 
 
-![](/Image/example1-05.png)
+![](/Image/uioverview-ng-02.png)
 
 
 
