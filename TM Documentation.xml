@@ -15,13 +15,13 @@
       <view id="a1416f12-a35b-4ddb-9498-57736b7c7839" caption="Accessing and Reading Content" creationDate="0001-01-01T00:00:00">
         <items>
           <item>00000000-0000-0000-0000-00000008578b</item>
+	  <item>8293816f-f84d-4775-bc7d-ee26fabbd61b</item>
+          <item>2f29c7a1-ab67-40b9-89cb-4983558bc718</item>
+          <item>70197456-9d4c-4bac-8124-a96f7456ea9b</item>
+          <item>622af01d-5dfe-4d82-b100-d3f3a83ff055</item>
           <item>00000000-0000-0000-0000-0000001a9296</item>
           <item>00000000-0000-0000-0000-0000001ecaec</item>
           <item>7c6c7b6b-a411-4d15-86ac-5ebb0ed6d57b</item>
-          <item>70197456-9d4c-4bac-8124-a96f7456ea9b</item>
-          <item>2f29c7a1-ab67-40b9-89cb-4983558bc718</item>
-          <item>8293816f-f84d-4775-bc7d-ee26fabbd61b</item>
-          <item>622af01d-5dfe-4d82-b100-d3f3a83ff055</item>
         </items>
       </view>
       <view id="42d43763-f674-4929-98f4-71a3345a5ec8" caption="Installation" creationDate="0001-01-01T00:00:00">
@@ -80,10 +80,10 @@
       </view>
       <view id="dd584e17-4863-4c5b-9726-d3aae585db68" caption="Using the Jade Fail Safe Version" creationDate="2015-11-09T15:42:52.8404075-05:00">
         <items>
+          <item>8ae80b79-b3aa-4ff0-9c74-717b9bc56bab</item>
           <item>00000000-0000-0000-0000-000000803568</item>
           <item>00000000-0000-0000-0000-00000018204d</item>
           <item>00000000-0000-0000-0000-00000061eb3b</item>
-          <item>8ae80b79-b3aa-4ff0-9c74-717b9bc56bab</item>
         </items>
       </view>
     </libraryStructure>
