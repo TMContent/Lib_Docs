@@ -15,7 +15,7 @@
   </Metadata>
   <Content Sanitized="false" DataType="markdown">
     <Data><![CDATA[## What You See - They See
-
+   
 TEAM Mentor makes it super easy to share articles, searches, filter settings and any combination of the above. While viewing an article use the "Share" button, or anywhere else in the application simply copy the URL from your browser into any medium that allows you to share it. Email the URL, IM the URL or print the URL out and post it. As soon as the other party receives and opens the URL, providing they have access to TEAM Mentor, they will be able to see what you see. 
 
 ### Sharing an Article
@@ -54,6 +54,7 @@ Open your collaboration tool, or email, paste, and send the URL.
 
 ### Sharing Anything
 As you can see you can share anything and everything you are looking at, spreading the wealth of knowledge TEAM Mentor offers in  your organization.
-]]></Data>
+   
+     ]]></Data>
   </Content>
 </TeamMentor_Article>
