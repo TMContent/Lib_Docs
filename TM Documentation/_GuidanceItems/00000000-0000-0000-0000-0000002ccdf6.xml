@@ -14,7 +14,10 @@
     <Status />
   </Metadata>
   <Content Sanitized="false" DataType="wikitext">
-    <Data><![CDATA[APPLICATION CHANGES
+    <Data><![CDATA[\\
+\\
+
+APPLICATION CHANGES
 
 4.0 is a major rewrite of TEAM Mentor under new architecture. This includes:\\
 - Simplified, modern, easy to use interface and intuitive design\\

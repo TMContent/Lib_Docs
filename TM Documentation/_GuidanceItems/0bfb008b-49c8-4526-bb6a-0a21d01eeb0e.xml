@@ -14,11 +14,16 @@
     <Status />
   </Metadata>
   <Content Sanitized="false" DataType="wikitext">
-    <Data><![CDATA[==Signing Up==
-Depending on how your administrator had set up your instance of TEAM Mentor you may need to create an account. \\
+    <Data><![CDATA[\\
+===Signing Up===
+Depending on how your administrator had set up your instance of TEAM Mentor you may need to create an account. 
+\\
+\\
 Security Innovation allows 7 days of free access to [[https://www.TEAMMentor.net]] - a full version of TEAM Mentor. 
-
+\\
 To create a TEAM Mentor account, click "Sign Up" in the top menu.
+
+\\
 
 {{/Image/signup-ng-01.png}}
 
@@ -46,9 +51,11 @@ Here’s additional detail on what are considered alphanumeric and non-alphanume
 \\
 
 
-==Accessing TEAM Mentor==
+===Accessing TEAM Mentor===
 
 To access TEAM Mentor content, click the Login link in the top right corner. 
+
+\\
 
 {{/Image/login-ng-01.png}}
 
@@ -57,6 +64,8 @@ To access TEAM Mentor content, click the Login link in the top right corner.
 
 Enter your user account credentials. After successfully authenticating, you will be able to access TEAM Mentor content. 
 
+\\
+
 {{/Image/login-ng-02.png}}
 
 \\
@@ -64,16 +73,18 @@ Enter your user account credentials. After successfully authenticating, you will
 
 If you have forgotten your password, click on the Forgot your password? link, fill in your email address and then a password reset email will be sent to you. The list of available articles based on your search or filtering criteria is show in the middle in the middle. 
 
+\\
+
 {{/Image/forgotpassword-ng-01.png}}
 
 \\
 \\
 
-==Using TEAM Mentor==
+===Using TEAM Mentor===
 
 \\
 
-==User Interface
+===User Interface===
 
 The main interface consists of the navigation menu, the search bar and the work space. The default work space contains subject matter directory on the left hand side and filters on the right hand side. You can use them interchangeably to quickly access the content you need.  
 
@@ -120,7 +131,11 @@ Icons next to the articles correspond to filters on the right. Making it easier 
 
 Browsing is useful when you would like to discover the information we have.  Start by ether selecting a subject of interest on the left, or a filter on the right. You may continue to select ether filters or subjects of interest until you find a list of articles that you would like to read. Then simply open the article by clicking on its title.
 
+\\
+
 Go back to the list by using your browsers "Back" button. Some people also prefer to open articles in separate tabs, by right-clicking on the article title and selecting "Open in new tab"
+
+\\
 
 Numbers next to each subject on the left represent the number of articles that exists for that subject. When you select a subject of interest. You drill down further into specific sub-topics in that subject. Narrowing down the list of articles. Bread crumb navigation on top, shows exactly where you are in the taxonomy. 
 
@@ -162,7 +177,7 @@ As you can see, the combination of the topics and filters creates a powerful bro
 \\
 \\
 
-=Example #1 – Find Information about securing connection strings==
+===Example #1 – Find Information about securing connection strings===
 
 On the "Search" page, type //secure connection strings// and hit <enter> or click the search icon. 
 
@@ -195,7 +210,7 @@ You can further narrow down the search results or simply open the most relevant 
 \\
 \\
 
-==Example #2 – Discover Authentication Best Practices for .NET==
+===Example #2 – Discover Authentication Best Practices for .NET===
 
 Now let’s practice browsing our guidance. In this example, we will identify the authentication best practices for .NET. First lets select .NET filter on the index page and then select "Authentication" from the subject directory.
 
@@ -252,7 +267,7 @@ As you can see, with just a few clicks we filtered down massive library of knowl
 \\
 \\
 
-==Example #3 – Finding Information on a Vulnerability (XSS Example)==
+===Example #3 – Finding Information on a Vulnerability (XSS Example)===
 
 One example of how you can use TEAM Mentor is to look for information you need regarding specific software vulnerabilities. This may be because you wish to avoid this vulnerability in your code, you have been assigned to fix a vulnerability, or are just looking for information on the topic. To do this, after you have successfully authenticated, Search for //XSS// (in this example) on the search page.
 
