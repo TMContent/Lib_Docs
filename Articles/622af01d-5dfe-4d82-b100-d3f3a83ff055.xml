@@ -14,16 +14,22 @@
     <Status />
   </Metadata>
   <Content Sanitized="false" DataType="markdown">
-    <Data><![CDATA[TEAM Mentor Guides provide an easy learning experience for specifically selected topics. Following a guide is as simple as going to a museum. 
-
+    <Data><![CDATA[   
+TEAM Mentor Guides provide an easy learning experience for specifically selected topics. Following a guide is as simple as going to a museum. 
+   
+   
 Select "Guides" on the top menu to enter the "Guides" interface. 
-
+    
+    
 You are presented with the list of available topics. Click on the subject of interest and follow the guide as you learn. 
-
+    
+    
 The left navigation provides a convenient shortcut for all the topics and their subtopics. 
-
+   
+   
 ![](/Image/guides-02.png)
-
+   
+   
 ]]></Data>
   </Content>
 </TeamMentor_Article>
