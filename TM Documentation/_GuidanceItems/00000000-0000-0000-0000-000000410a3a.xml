@@ -22,7 +22,7 @@ The following hardware and software is required to run TEAM Mentor.
 
    * Windows 2012 R2 (64 Bit) with IIS 8.0 or higher\\
    * NET Framework 4.5.1 ( You can download this version from [[http://www.microsoft.com/en-us/download/details.aspx?id=40779|http://www.microsoft.com/en-us/download/details.aspx?id=40779]] )\\
-   * Git Version Control with Tools ( Available at [[https://github.com/msysgit/git|https://github.com/msysgit/git]] ) \\
+   * Git Version Control with Tools ( Available at [[http://www.git-scm.com/download/win|http://www.git-scm.com/download/win]] ) \\
    * NodeJS ( Distributed with TEAM Mentor ZIP File  ) \\
    * IIS AAR 3.0 Extension ( Distributed with TEAM Mentor ZIP File ) \\
    * IIS URLRewrite2 Extension ( Distributed with TEAM Mentor ZIP File ) \\
@@ -36,13 +36,22 @@ Please note that it may be possible to run TEAM Mentor with less RAM and Storage
 
 Following browsers and platforms are supported:
 
-TM 4.0 Jade supports all browsers including IE8. Mobile browsers for Android and iOS are also supported. 
+The full version of TEAM Mentor 4.0, code named Flare, supports:\\
+ * IE 11\\
+ * Firefox 42 and above\\
+ * Chrome 46 and above\\
+ * Safari 9 and above  (on OSX only) \\
+ * Experimental support for iOS and Android mobile browsers\\
 
-TM 3.6 Back0-end (used for Administration and Editing) supports the following browsers \\
-    * IE 11\\
-    * Firefox\\
-    * Chrome\\
-    * Safari (v6.1 and v7.0 on OSX only)\\
+The fail safe TEAM Mentor 4.0, code named Jade, supports all browsers including IE8 and Lynx. \\
+Mobile browsers for Android and iOS are also supported. 
+
+TM 3.6 Back-end (used for Administration and Editing) supports the following browsers: \\
+ * IE 11\\
+ * Firefox 42 and above\\
+ * Chrome 46 and above\\
+ * Safari 9 and above  (on OSX only) \\
+
 
 
 
