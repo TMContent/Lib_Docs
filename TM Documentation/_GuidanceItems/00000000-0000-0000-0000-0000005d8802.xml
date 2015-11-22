@@ -27,8 +27,8 @@ The following are some of the settings available in the TM Security section. Set
 
 {{/Image/tmcfg01.jpg}}
 
-**Show Content to Anonymous Users** (true)-  (depreciated) This setting defines whether or not full articles will be displayed to unauthenticated users.\\
-**Show Library to Anonymous Users**(true) - (depreciated) This setting defines whether or not library structure is displayed to unauthenticated users. In case this is unchecked and  "Show Content to Anonymous Users" is disabled, all the user will see is a login screen when accessing TEAM Mentor\\
+**Show Content to Anonymous Users** (true)-  (depreciated, should always be set to false) This setting defines whether or not full articles will be displayed to unauthenticated users.\\
+**Show Library to Anonymous Users**(true) - (depreciated, should always be set to false) This setting defines whether or not library structure is displayed to unauthenticated users. In case this is unchecked and  "Show Content to Anonymous Users" is disabled, all the user will see is a login screen when accessing TEAM Mentor\\
 **SSL Redirect Http to Https** (true)- This setting redirects all non SSL traffic, except for traffic coming from localhost, to SSL port. This ensures all TEAM Mentor traffic is protected using SSL.\\
 **New Accounts Enabled** (true)- Activates / Deactivates the user approval workflow. If this is unchecked, all users that sign up will have to be approved by the administrator. See [[00000000-0000-0000-0000-0000001c8add|Managing Users]]\\
 **New Accounts Don't Expire**(false) - Specifies if new accounts created by users signing up have an expiration date\\
@@ -45,8 +45,7 @@ The following are some of the settings available in the TM Setup section. Settin
 {{/Image/tmcfg02.jpg}}
 
 
-**Xml Libraries Path**(TM_Libraries) This is the path to the library files. This is probably the most important option to edit, because it has to be set correctly for TM to load the library files. The value of this property can be either an absolute path or a path relative to the //"\Library_Data\XmlDatabase"// folder. \\
-**Libraries Uploaded Files**(LibrariesUploadedFiles) - This is path for where uploaded library files are staged prior to being installed.\\
+**Xml Libraries Path**(TM_Libraries) This is the path to the library files. This is the location of Lib_UNO library. The value of this property can be either an absolute path or a path relative to the //"\Library_Data\XmlDatabase"// folder. \\
 **EnableGZipForWebServices**(true) - This option enables or disables GZip compression for WebService interaction with TEAM Mentor. GZip compression generally increases performance.\\
 
 \\
@@ -56,7 +55,7 @@ The following are some of the settings available in the Git section. Settings no
 {{/Image/tmcfg03.jpg}}
 
 **Auto Commit UserData**(false) - Specifies if any changes to //User_Data// directory (including the configuration file) will be automatically saved and versioned using built in Git auto-commit mechanism
-**Auto Commit LibraryData**(false) - Specifies if any changes to the content of the libraries will be automatically saved, versioned, and pushed to git remote repository using built in Git auto-commit mechanism
+**Auto Commit LibraryData**(false) - Specifies if any changes to the content of the library will be automatically save and versioned using built in Git auto-commit mechanism. 
 
 \\
 

@@ -15,7 +15,7 @@
       <view id="a1416f12-a35b-4ddb-9498-57736b7c7839" caption="Accessing and Reading Content" creationDate="0001-01-01T00:00:00">
         <items>
           <item>00000000-0000-0000-0000-00000008578b</item>
-	  <item>8293816f-f84d-4775-bc7d-ee26fabbd61b</item>
+          <item>8293816f-f84d-4775-bc7d-ee26fabbd61b</item>
           <item>2f29c7a1-ab67-40b9-89cb-4983558bc718</item>
           <item>70197456-9d4c-4bac-8124-a96f7456ea9b</item>
           <item>622af01d-5dfe-4d82-b100-d3f3a83ff055</item>
@@ -52,6 +52,7 @@
           <item>00000000-0000-0000-0000-0000003ea057</item>
           <item>00000000-0000-0000-0000-0000002df883</item>
           <item>00000000-0000-0000-0000-0000002b8175</item>
+          <item>a23b465e-5277-4764-8caa-78c4d1f441a4</item>
         </items>
       </view>
       <view id="171edd2a-7090-4a36-84b9-2ed74b3bd9b7" caption="Eclipse for Fortify plugin" creationDate="2014-02-16T21:35:36.3959985-05:00">
