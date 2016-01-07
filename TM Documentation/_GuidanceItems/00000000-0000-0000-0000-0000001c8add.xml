@@ -20,7 +20,7 @@
 
 Administrators can manage TEAM Mentor users via the Tbot. Tbot is accessible using TEAM Mentor 3.6 Back-end. Tbot can be accessed via the "Tbot" link in the top right corner of the main user interface. The TEAM Mentor Tbot is only available to Administrator users. 
 
-The user management section is under "Users" row in Tbot and of consists of the following links: "Current Users", "New User", and "SSO Token". The "Users" link opens a section that lists all current users and their vital statistics.
+The user management section is under "Users" row in Tbot and of consists of the following links: "Current Users", "New User", and "SSO Token". The "Current Users" link opens a section that lists all current users and their vital statistics.
 
 
 
@@ -39,7 +39,7 @@ The "New User" link opens a page that allows creating a new user.
 Another user management section is available under "Users - Import". This consists of "Import Legacy Users", "Users in CSV",  and "User Import CSV". "Import Legacy Users" will help in importing users from TEAM Mentor versions prior to 3.3. "Users in CSV" will output a list of users in the CSV format. "User Import CSV" will allow importing a large amount of users in bulk from a CSV file. 
 
 
-User reporting is available throuth "Users - Analysis" row in Tbot. At this time the following reports are available. "All Users Activities", "All Users Tags", "Users Accounts Expiration", and "Users Mapped by Email". "All Users Activities" provides filterable information on logged user events. These events include user login/logout, and "view article". "All Users Tags" show a filtrable list of users and their associated custom tags (see below). "Users Accounts Expiration" shows a list of users grouped by "No Expiration Date" - users with no expiration date, "Not Expired" - users with expiration date in the future, "Not Enabled" - user accounts which are disabled,  "Empty Email" - Users which have no email in the email field. Note that these mostly would be legacy users from prior to 3.3 where email was not a required field. 
+User reporting is available throuth "Users - Analysis" row in Tbot. At this time the following reports are available. "All Users Activities", "All Users Tags", "Users Accounts Expiration", and "Users Mapped by Email". "All Users Activities" provides filterable information on logged user events. These events include user login/logout, however "view article" and "search" do not work at this time. "All Users Tags" show a filtrable list of users and their associated custom tags (see below). "Users Accounts Expiration" shows a list of users grouped by "No Expiration Date" - users with no expiration date, "Not Expired" - users with expiration date in the future, "Not Enabled" - user accounts which are disabled,  "Empty Email" - Users which have no email in the email field. Note that these mostly would be legacy users from prior to 3.3 where email was not a required field. 
 
 \\
 

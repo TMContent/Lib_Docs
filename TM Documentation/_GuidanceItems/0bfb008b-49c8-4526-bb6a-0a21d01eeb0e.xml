@@ -14,13 +14,18 @@
     <Status />
   </Metadata>
   <Content Sanitized="false" DataType="wikitext">
-    <Data><![CDATA[==Signing Up==
-Depending on how your administrator had set up your instance of TEAM Mentor you may need to create an account. \\
-Security Innovation allows 30 days of free access to [[https://www.TEAMMentor.net]] - a full version of TEAM Mentor. 
-
+    <Data><![CDATA[\\
+===Signing Up===
+Depending on how your administrator had set up your instance of TEAM Mentor you may need to create an account. 
+\\
+\\
+Security Innovation allows 7 days of free access to [[https://www.TEAMMentor.net]] - a full version of TEAM Mentor. 
+\\
 To create a TEAM Mentor account, click "Sign Up" in the top menu.
 
-{{/Image/signup01.png}}
+\\
+
+{{/Image/signup-ng-01.png}}
 
 \\
 \\
@@ -37,129 +42,134 @@ Here’s additional detail on what are considered alphanumeric and non-alphanume
 *Alphanumeric characters (word characters): a-z; A-Z; 0-9; _ (underscore); space
 *Non-alphanumeric (symbols): ~`!@#$%^&*()+-_=[]\{}|;’:”,./<>?
 
+\\
+\\
 
-{{/Image/signup02.png}}
+{{/Image/signup-ng-02.png}}
 
 \\
 \\
 
 
-==Accessing TEAM Mentor==
+===Accessing TEAM Mentor===
 
 To access TEAM Mentor content, click the Login link in the top right corner. 
 
-{{/Image/login01.png}}
+\\
+
+{{/Image/login-ng-01.png}}
 
 \\
 \\
 
 Enter your user account credentials. After successfully authenticating, you will be able to access TEAM Mentor content. 
 
-{{/Image/login02.png}}
+\\
+
+{{/Image/login-ng-02.png}}
 
 \\
 \\
 
-If you have forgotten your password, click on the Forgot your password? link, fill in your email address and then a password reset email will be sent to you.
+If you have forgotten your password, click on the Forgot your password? link, fill in your email address and then a password reset email will be sent to you. The list of available articles based on your search or filtering criteria is show in the middle in the middle. 
 
-{{/Image/forgotpassword01.png}}
+\\
+
+{{/Image/forgotpassword-ng-01.png}}
 
 \\
 \\
 
-==Using TEAM Mentor==
+===Using TEAM Mentor===
+
+\\
+
+===User Interface===
+
+The main interface consists of the navigation menu, the search bar and the work space. The default work space contains subject matter directory on the left hand side and filters on the right hand side. You can use them interchangeably to quickly access the content you need.  
+
+\\
+
+{{/Image/uioverview-ng-01.png}}
 
 \\
 
 ===Searching===
 
-The simplest way to use TEAM Mentor is by searching. The page you see immediately after login is the search page. Simply type your query in the search bar. \\
-You can return to this page at any time by clicking "Search" on the top menu.
+The simplest way to use TEAM Mentor is by searching.  Simply type your query in the search bar anywhere in the application. As you type you can choose to click on one of the search predictions, if available, or type your full query\\
 
-{{/Image/search01.png}}
+{{/Image/search-ng-00.png}}
+
+\\
+
+{{/Image/search-ng-01.png}}
 
 \\
 \\
 
-The main search page also shows your last three recently viewed articles, the three most popular trending search terms in TEAM Mentor, and the top three articles viewed on the site. \\
-(Note that when you first sign up there will not be any recently viewed articles on the page)
-
-{{/Image/search02.png}}
+Once the search results are shown you can further narrow down the search by using one or more filters on the right or subject areas on the left.  The numbers next to the filters represent the number of articles each filter selects. You can easily remove any filter by clicking on the "X"  next to it.
 
 \\
+
+{{/Image/search-ng-04.png}}
+
 \\
 
-Once the search results are shown, you can see the total article count. You can further narrow down the search by using one or more filters on the right. The numbers next to the filters represent the number of articles each filter selects.
-
-{{/Image/search03.png}}
+{{/Image/search-ng-05.png}}
 
 \\
 \\
 
 Icons next to the articles correspond to filters on the right. Making it easier to identify articles at a glance.
 
-{{/Image/search04.png}}
-
-\\
-\\
-
-You can easily remove any filter by clicking on the "X"  next to it.
-
-
-{{/Image/search05.png}}
-
+{{/Image/filters-ng-02.png}}
 
 \\
 \\
 
 ===Browsing==
 
-You may choose to to browse for content is by using the "Index" page. This is useful when you would like to discover the information we have.  Click on "Index" in the upper right.
-
-The index page is comprised of 3 main components. The subject matter taxonomy on the left, the filters on the right, and the list of available articles in the middle. 
-
-{{/Image/index01.png}}
+Browsing is useful when you would like to discover the information we have.  Start by ether selecting a subject of interest on the left, or a filter on the right. You may continue to select ether filters or subjects of interest until you find a list of articles that you would like to read. Then simply open the article by clicking on its title.
 
 \\
-\\
-
-You start to navigate the "Index" by ether selecting a subject of interest on the left, or a filter on the right. You may continue to select ether filters or subjects of interest until you find a list of articles that you would like to read. Then simply open the article by clicking on its title.
 
 Go back to the list by using your browsers "Back" button. Some people also prefer to open articles in separate tabs, by right-clicking on the article title and selecting "Open in new tab"
 
+\\
+
 Numbers next to each subject on the left represent the number of articles that exists for that subject. When you select a subject of interest. You drill down further into specific sub-topics in that subject. Narrowing down the list of articles. Bread crumb navigation on top, shows exactly where you are in the taxonomy. 
 
-
-{{/Image/index02.png}}
-
-\\
 \\
 
-{{/Image/index03.png}}
+{{/Image/index-ng-02.png}}
 
 \\
-\\
 
-{{/Image/index04.png}}
-
-\\
-\\
-
-At any time you may select a filter on the right to narrow down the displayed list of articles further. Numbers next to the filter represent the number of articles this filter selects.
-
-{{/Image/index05.png}}
+{{/Image/index-ng-03.png}}
 
 \\
+
+{{/Image/index-ng-04.png}}
+
 \\
 
-{{/Image/index06.png}}
+At any time you may select a filter on the right to narrow down the displayed list of articles further. 
+
+\\ 
+
+{{/Image/index-ng-05.png}}
 
 \\
+
+{{/Image/index-ng-06.png}}
+
 \\
 
 You may also start your navigation with selecting one or more filter. Once selected, subject directory on the left updates, showing only available topics for the filter(s) 
 
-{{/Image/index07.png}}
+{{/Image/index-ng-07.png}}
+
+\\
 
 
 As you can see, the combination of the topics and filters creates a powerful browsing mechanism that allows you to reach the desired articles quickly and intuitively. 
@@ -167,122 +177,154 @@ As you can see, the combination of the topics and filters creates a powerful bro
 \\
 \\
 
-=Example #1 – Find Information about SQL Injection==
+===Example #1 – Find Information about securing connection strings===
 
-On the "Search" page, type //sql injection// and hit <enter> or click the search icon. 
+On the "Search" page, type //secure connection strings// and hit <enter> or click the search icon. 
 
-{{/Image/example1-01.png}}
+\\
+
+{{/Image/example1-ng-01.png}}
 
 \\
 \\
 
-The search query returns a number of results. We can look through those or narrow down results using filters. Let’s look for .NET specific guidance by selecting the .NET filter
-
-{{/Image/example1-02.png}}
+The search query returns a number of results. We can look through those or narrow down results using filters. Let’s look for Java specific guidance by selecting the Java filter
 
 \\
 
-{{/Image/example1-03.png}}
+{{/Image/example1-ng-02.png}}
 
 \\
 \\
 
 You can further narrow down the search results or simply open the most relevant article displayed on top  by clicking on the title.
 
-{{/Image/example1-04.png}}
+\\
+
+{{/Image/example1-ng-03.png}}
 
 \\
 
-{{/Image/example1-05.png}}
-
-\\
-\\
-
-==Example #2 – Discover Authentication Best Practices for .NET==
-
-Now let’s practice using Index. In this example, we will identify the authentication best practices for .NET. It’s very simple, all we have to do is select .NET filter on the index page and then select "Authentication" from the subject directory.
-
-{{/Image/example2-01.png}}
-
-\\
-
-{{/Image/example2-02.png}}
+{{/Image/example1-ng-04.png}}
 
 \\
 \\
 
-The query returns a number of results. 
+===Example #2 – Discover Authentication Best Practices for .NET===
 
-{{/Image/example2-03.png}}
+Now let’s practice browsing our guidance. In this example, we will identify the authentication best practices for .NET. First lets select .NET filter on the index page and then select "Authentication" from the subject directory.
+
+\\
+
+{{/Image/example2-ng-01.png}}
+
+\\
+\\
+
+{{/Image/example2-ng-02.png}}
+
+\\
+\\
+
+The query returns a number of relevant results. 
+
+\\
+
+{{/Image/example2-ng-03.png}}
 
 \\
 \\
 
 We can further narrow down the list of articles by selecting a sub-category from the subject directory. 
 
-
-{{/Image/example2-04.png}}
-
 \\
 
-{{/Image/example2-05.png}}
+{{/Image/example2-ng-04.png}}
 
+\\
+\\
 
+{{/Image/example2-ng-05.png}}
+
+\\
+\\
 
 Further narrow this down to show just How To articles by checking How To in the Type filter list:
 
-{{/Image/example2-06.png}}
+\\
+
+{{/Image/example2-ng-06.png}}
 
 \\
 \\
 
-This returns a small relevant number of articles.
-
-{{/Image/example2-07.png}}
+As you can see, with just a few clicks we filtered down massive library of knowledge to something very relevant to what we were looking for. 
 
 \\
 
-==Example #3 – Finding Information on a Vulnerability (XSS Example)==
+{{/Image/example2-ng-07.png}}
+
+\\
+\\
+
+===Example #3 – Finding Information on a Vulnerability (XSS Example)===
+
 One example of how you can use TEAM Mentor is to look for information you need regarding specific software vulnerabilities. This may be because you wish to avoid this vulnerability in your code, you have been assigned to fix a vulnerability, or are just looking for information on the topic. To do this, after you have successfully authenticated, Search for //XSS// (in this example) on the search page.
 
-{{/Image/example3-01.png}}
+\\
+
+{{/Image/example3-ng-01.png}}
 
 \\
 \\
 
 Select "Vulnerability" type in the Filters list..
 
-{{/Image/example3-02.png}}
+\\
+
+{{/Image/example3-ng-02.png}}
 
 \\
 \\
 
-You are presented with a few relative articles. If you look closely, the articles relate to specific technology. This is indicated by the icon next to the article summary. 
-{{/Image/example3-03.png}}
+You are presented with a small number of relative articles. You may look through the list to find the one that appeals the most.
+
+\\
+
+{{/Image/example3-ng-03.png}}
 
 \\
 \\
 
-Select a "Technology Independent" filter. This filter shows articles not related to a particular technology. This would show you generic article for this vulnerability.
+Or you may want to filter even further by specific technology you are using. In this example we pick PHP.
 
+\\
 
-{{/Image/example3-04.png}}
+{{/Image/example3-ng-04.png}}
 
 \\
 \\
 
 Open the article and read for specific information on how to fix the vulnerability.
 
-{{/Image/example3-05.png}}
+\\
+
+{{/Image/example3-ng-05.png}}
 
 \\
 \\
 
 
 ==Sharing information on vulnerability==
-You may wish to share this information once you found it for collaboration on a fix, testing, or using the information to avoid that vulnerability in your code. Once you have opened a vulnerability (of any other) article you would like to share, simply copy the URL on the URL bar
+You may wish to share this information once you found it for collaboration on a fix, testing, or using the information to avoid that vulnerability in your code. Once you have opened a vulnerability (of any other) article you would like to share, click on the "Share" icon. Then copy the sharable link and email, IM or send it by other means to anyone you would like to share it with.  
 
-{{/Image/sharing01.png}}
+\\
+
+{{/Image/sharing-ng-01.png}}
+
+\\
+
+{{/Image/sharing-ng-02.png}}
 
 \\
 \\
@@ -295,26 +337,20 @@ If you would like to save an article for later reference, after you’ve opened 
 
 ==Save or Share Your Results=
 
-If you created a complex query and would like to share the resulting list of articles, or reuse the same filter later, simply bookmark or email the URL of the page you are on. 
-
-The URL always reflects the state of the application, therefore it is easy to save or share what you are seeing with anyone else.
+If you created a complex query and would like to share the resulting list of articles, or reuse the same filter later, simply bookmark or email the URL of the page you are on. The URL always reflects the state of the application, therefore it is easy to save or share what you are seeing with anyone else.
 
 
 Search and filter, or browse, to the list of articles that you like.
 
-{{/Image/sharing02.png}}
-
 \\
 
-{{/Image/sharing03.png}}
-
+{{/Image/sharing-ng-03.png}}
 \\
 \\
 
 Then use your browser to bookmark the URL, which saves the state for future re-use. When you click on the bookmark, it will open TEAM Mentor with the same search and filters and thus display the same set of articles.
-You can also send the same URL to anyone that has access to TEAM Mentor. When they click on the URL, they will see the same set of articles. This makes collaboration on fixing security defects as easy as sending an IM or email between colleges. 
 
-{{/Image/sharing04.png}}
+You can also send the same URL to anyone that has access to TEAM Mentor. When they click on the URL, they will see the same set of articles. This makes collaboration on fixing security defects as easy as sending an IM or email between colleges. 
 
 
 

@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<TeamMentor_Article Metadata_Hash="0" Content_Hash="0">
+  <Metadata>
+    <Id>2f29c7a1-ab67-40b9-89cb-4983558bc718</Id>
+    <Library_Id>eb39d862-f752-4d1c-ab6e-14ed697397c0</Library_Id>
+    <Title>Searching and Filtering</Title>
+    <Category>Reading</Category>
+    <Phase>NA</Phase>
+    <Technology>TEAM Mentor</Technology>
+    <Type>Documentation</Type>
+    <DirectLink />
+    <Author />
+    <Priority />
+    <Status />
+  </Metadata>
+  <Content Sanitized="false" DataType="markdown">
+    <Data><![CDATA[   
+Searching is the simplest way of finding content in TEAM Mentor. However, search requires you to know a little bit about the subject at hand. Simply start typing your query in the search box.  As you type, you will see prediction box being populated with possible query options. 
+   
+   
+![](/Image/search-ng-00.png)
+    
+    
+You can click on one of the predictions or alternatively hit enter or click the search icon for a full listing of related articles. Total article count relating to your query is shown on top.
+
+(note that currently search supports simple queries only. Boolean operators such as AND OR NOT are planned for future release)
+   
+   
+![](/Image/search-ng-01.png)
+   
+   
+Remember that you can move right-hand side filters out of the way, to give you more room for article listings, by clicking the filter icon on the right
+   
+    
+![](/Image/search-ng-02.png)
+    
+    
+![](/Image/search-ng-03.png)    
+    
+    
+Once the search results are shown you can further narrow down the search by using one or more filters on the right or subject areas on the left.  Find out more about filters [here](00000000-0000-0000-0000-0000001a9296)
+    
+    
+![](/Image/search-ng-04.png)
+   
+       
+![](/Image/search-ng-05.png)
+    
+    
+You may also start your search, anywhere in the application, by selecting specific technology from the drop down next to the search bar. Lets say you are coding in Java and are interested in SQL Injection.
+    
+    
+![](/Image/search-ng-06.png)
+    
+    
+![](/Image/search-ng-07.png)
+    
+    
+As you can see this is the same as performing the search and then selecting "Java" as a technology filter. However we feel it will save you some mouse clicks. And they do add up.
+
+(note that predictive search currently is not available when the technology is selected via the drop down)
+    
+    
+Our search algorithm is specifically tuned for InfoSec questions. The algorithm is constantly being perfected to yield even more accurate results on top.
+   
+   
+   
+]]></Data>
+  </Content>
+</TeamMentor_Article>

@@ -15,18 +15,21 @@
   </Metadata>
   <Content Sanitized="false" DataType="markdown">
     <Data><![CDATA[## What You See - They See
-
-TEAM Mentor makes it super easy to share articles, searches, filter settings and any combination of the above. The state of the application is always reflected in the URL. Simply copy the URL from your browser into any medium that allows you to share and that is it. Email the URL, IM the URL or print the URL out and post it. As soon as the other party receives and opens the URL, providing they have access to TEAM Mentor, they will be able to see what you see. 
+   
+TEAM Mentor makes it super easy to share articles, searches, filter settings and any combination of the above. While viewing an article use the "Share" button, or anywhere else in the application simply copy the URL from your browser into any medium that allows you to share it. Email the URL, IM the URL or print the URL out and post it. As soon as the other party receives and opens the URL, providing they have access to TEAM Mentor, they will be able to see what you see. 
 
 ### Sharing an Article
-For example. Lets say you found a really cool article that you want to share with your colleague in London. Simply open and love the article
+For example. Lets say you found a really cool article that you want to share with your colleague in London. Simply open and love the article. Then hit the "Share" button. 
 
-![](/Image/sharing05.png)
+![](/Image/sharing-ng-01.png)
 
-Copy the URL:
+Copy the URL highlighted for you in the dialogue box :
+
+![](/Image/sharing-ng-02.png)
+
 
 ```
-www.teammentor.net/article/eb2d53a86fb3/Create-a-Threat-Model-for-a-Web-Application-at-Design-Time
+https://www.teammentor.net/article/eb2d53a86fb3/Create-a-Threat-Model-for-a-Web-Application-at-Design-Time
 ```
 
 Open your collaboration tool, or email, paste, and send the URL. 
@@ -39,21 +42,20 @@ Your colleague clicks on the link, opens the article and both of you are on the 
 ### Sharing Search Results
 Sharing search results is as easy as sharing a singe article. Lets say you have spend the last 5 minutes searching and filtering for information on fixing SQL Injection. Now you want to share what you found with your friend from another unit in Australia.  Simply go to the page you think will be most useful
 
-![](/Image/sharing07.png) 
-
+![](/Image/sharing-ng-03.png) 
+   
+    
 Copy the URL:
 
 ```
-https://www.teammentor.net/search?text=prevent+SQL+injection&filters=/query-1b296e810647,query-8f3ba300c46a,query-891ed0bcf3bd
+www.teammentor.net/angular/user/index/search-prevent-sql-injection/query-52d32dc0410d,query-6f96508587cd,query-a531c9597899
 ```
 
 Open your collaboration tool, or email, paste, and send the URL. 
 
-![](/Image/sharing07.png) 
-
-
 ### Sharing Anything
 As you can see you can share anything and everything you are looking at, spreading the wealth of knowledge TEAM Mentor offers in  your organization.
-]]></Data>
+   
+     ]]></Data>
   </Content>
 </TeamMentor_Article>

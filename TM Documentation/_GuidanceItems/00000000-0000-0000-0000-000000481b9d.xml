@@ -15,9 +15,11 @@
   </Metadata>
   <Content Sanitized="false" DataType="WikiText">
     <Data><![CDATA[=Editing in TEAM Mentor=
-TEAM Mentor supports flexible update of content and customization based on user needs. While consumption of content is done using TEAM Mentor 4.0 Front-end, editing is done using TEAM Mentor 3.6 Back-end. Most editing operations in TEAM Mentor are done using the "Edit Mode". This mode is available to users with "Editor" or "Administrator" roles and allows editing of folders and views. Articles can be edited through "Edit Mode" as well. 
+TEAM Mentor supports flexible update of content and customization based on user needs. While consumption of content is done using TEAM Mentor 4.x Front-end, editing is done using TEAM Mentor 3.6 Back-end. Most editing operations in TEAM Mentor are done using the "Edit Mode". This mode is available to users with "Editor" or "Administrator" roles and allows editing of folders and views. Articles can be edited through "Edit Mode" as well. 
 
 Currently Folders and Views in TEAM Mentor 3.6 correspond to left-hand side "Index" navigation.   
+
+Note that you MUST publish the data as described in [[a23b465e-5277-4764-8caa-78c4d1f441a4|Publishing Data]] for your edits to become available in TM 4.x front end\\
 
 ==Editing in View Mode==
 TEAM Mentor offers the flexibility of editing articles without going in and out of "Edit Mode". If the logged in user is in "Administrator" or "Editor" role, articles can be edited by clicking on one of the edit buttons in the article view.  

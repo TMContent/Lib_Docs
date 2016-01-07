@@ -14,16 +14,29 @@
     <Status />
   </Metadata>
   <Content Sanitized="false" DataType="wikitext">
-    <Data><![CDATA[TEAM Mentor can assist users in case they have forgotten their password. The user can simply click on forgot password link at the login prompt. 
+    <Data><![CDATA[\\
+TEAM Mentor can assist users in case they have forgotten their password. The user can simply click on forgot password link at the login prompt. 
 
-{{/Image/forgotpassword00.png}}
+\\
+
+{{/Image/forgotpassword-ng-00.png}}
+
+\\
+\\
 
 The user will be asked for the email that associated with the users account. TM will then send a one-time, temporary password reset link to the users email account on file.  
 
+\\
 
-{{/Image/forgotpassword01.png}}
+{{/Image/forgotpassword-ng-01.png}}
+
+\\
+\\
 
 In order for “forgot password” feature to work, email must be configured properly and user must have a valid email address associated with his/hers account. 
+
+\\
+\\
 ]]></Data>
   </Content>
 </TeamMentor_Article>

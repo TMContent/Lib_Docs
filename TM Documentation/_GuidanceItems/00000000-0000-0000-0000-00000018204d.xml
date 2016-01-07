@@ -3,7 +3,7 @@
   <Metadata>
     <Id>00000000-0000-0000-0000-00000018204d</Id>
     <Library_Id>eb39d862-f752-4d1c-ab6e-14ed697397c0</Library_Id>
-    <Title>Searching and Filtering</Title>
+    <Title>Jade Searching and Filtering</Title>
     <Category>Reading</Category>
     <Phase>NA</Phase>
     <Technology>TEAM Mentor</Technology>
@@ -16,7 +16,7 @@
     <Status />
   </Metadata>
   <Content Sanitized="true" DataType="markdown">
-    <Data><![CDATA[Searching is the default and the simplest way of finding content in TEAM Mentor. However, search requires you to know a little bit about the subject at hand. Use the "Search" function when you have formulated a security question. Simply go to the "Search" page and type your query in the search box.
+    <Data><![CDATA[Searching is the simplest way of finding content in TEAM Mentor. However, search requires you to know a little bit about the subject at hand. Use the "Search" function when you have formulated a security question. Simply go to the "Search" page and type your query in the search box.
 
 (note that currently search supports simple queries only. Boolean operators such as AND OR NOT are planned for future release)
 

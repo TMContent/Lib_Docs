@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<TeamMentor_Article Metadata_Hash="0" Content_Hash="0">
+  <Metadata>
+    <Id>8ae80b79-b3aa-4ff0-9c74-717b9bc56bab</Id>
+    <Library_Id>eb39d862-f752-4d1c-ab6e-14ed697397c0</Library_Id>
+    <Title>What is Jade?</Title>
+    <Category>Reading</Category>
+    <Phase>NA</Phase>
+    <Technology>TEAM Mentor</Technology>
+    <Type>Documentation</Type>
+    <DirectLink />
+    <Author />
+    <Priority />
+    <Status />
+  </Metadata>
+  <Content Sanitized="false" DataType="markdown">
+    <Data><![CDATA[Jade is the fail safe version of TEAM Mentor. TEAM Mentor was designed to run on modern browsers to provide a smooth user experience. However, we do realize that sometimes customers for various reasons cannot run newest browsers. To accommodate we have created the Jade version. While not as slick as the main, Flare, version it still provides the main functionality in an easy to use package. It runs on legacy browsers, including IE8 and Lynx.  TEAM Mentor automatically determines if it your browser can't handle Flare version and will present you with Jade. Chances are you will never get to see it, but in case you do, this section of the documentation explains how to use it. ]]></Data>
+  </Content>
+</TeamMentor_Article>

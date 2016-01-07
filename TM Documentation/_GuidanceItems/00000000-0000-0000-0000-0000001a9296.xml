@@ -16,31 +16,43 @@
     <Status />
   </Metadata>
   <Content Sanitized="true" DataType="markdown">
-    <Data><![CDATA[To the right of the article list, on both "Search Results" and "Index" pages is the list of filters.
-
+    <Data><![CDATA[   
+   
+To the right of the article list is the list of filters.
+   
+   
 Selecting each filter only shows articles from the list that match a the selected filter. 
-
-Selecting multiple filters shows only the the list of articles that match ALL of the selected filters. 
-
-![](/Image/filters01.png)
-
+   
+   Selecting multiple filters shows only the the list of articles that match ALL of the selected filters. 
+   
+   
+![](/Image/filters-ng-01.png)
+   
+   
 Filters allow narrowing down the presented article list to help find the most relevant articles. 
-
-Selected filter is shown on the top, next to the "Article Count" (in red below). 
-
+    
+    
+Selected filter is shown on the top" (in red below). 
+   
+   
 Icons (indicated with green arrows below) match each filter with an article providing a visual representation on the "Technology", "Phase" and "Type" of the article. 
-
+   
+   
 The gray numbers to the right of each filter represent the amount of articles, from the current result set, that would be selected if this filter was applied. 
-
-![](/Image/search04.png)
-
+   
+   
+![](/Image/filters-ng-02.png)
+    
+    
 Filter can be removed, by clicking "X" next to it. Only one filter can be removed at a time. Removal of the filter returns the set of articles to a state before that filter was applied.
-
-![](/Image/search05.png)
-
-
+   
+   
+![](/Image/filters-ng-03.png)    
+    
+    
 Filters are divided into categories for easier organization. 
-
+   
+   
 - The "Technology" filter - the technology filter allows the user to display only the articles that pertain to a specific technology. For example Microsoft .NET. _Technology Independent_ filter means that the articles it selects do not belong to a specific technology, and the prescriptions in that guidance can be applied universally. 
 - The "Phase" filter - the phase filter allows the user to select only the articles that apply to a specific software development life-cycle phase.
 - The "Type" filter - the type filter allows the user to choose what types of articles to display. The most common types are "Checklists" and "Guidelines". "Guidelines" describe how to do something in general terms that should be applicable to most applications, but still specific enough to be implemented. A "Checklist" describes how to test if a specific security measure or control has been implemented correctly and how to implement it correctly. Checklists and "Guidelines" usually exist in pairs. Other types of articles include: "Vulnerability", "Code Example", "How To",  and "Principle"

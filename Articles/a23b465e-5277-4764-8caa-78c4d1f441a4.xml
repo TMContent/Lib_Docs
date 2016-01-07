@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<TeamMentor_Article Metadata_Hash="0" Content_Hash="0">
+  <Metadata>
+    <Id>a23b465e-5277-4764-8caa-78c4d1f441a4</Id>
+    <Library_Id>eb39d862-f752-4d1c-ab6e-14ed697397c0</Library_Id>
+    <Title>Publishing Data</Title>
+    <Category>Editing</Category>
+    <Phase>NA</Phase>
+    <Technology>TEAM Mentor</Technology>
+    <Type>Documentation</Type>
+    <DirectLink />
+    <Author />
+    <Priority />
+    <Status />
+  </Metadata>
+  <Content Sanitized="false" DataType="markdown">
+    <Data><![CDATA[After you are done editing guidance, you must publish guidance to TEAM Mentor 4.x user interface. 
+
+* Open Tbot interface 
+* In the Admin row select "Publish Data"
+Click on Publish Data. Note the process takes some time (around 5 minutes) during which time TEAM Mentor front end web site is unavailable. Do not interrupt the process.
+
+  
+  
+![Image Text](/Image/publish-data-01.png)]]></Data>
+  </Content>
+</TeamMentor_Article>
