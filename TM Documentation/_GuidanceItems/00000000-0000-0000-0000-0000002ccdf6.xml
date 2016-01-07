@@ -19,7 +19,7 @@
 
 APPLICATION CHANGES
 
-4.0 is a major rewrite of TEAM Mentor under new architecture. This includes:\\
+4.2 is a major rewrite of TEAM Mentor under new architecture. This includes:\\
 - Simplified, modern, easy to use interface and intuitive design\\
 - Focus on making it easy to find answers to security questions\\
 - Improved search and filter capability. It algorithmically presents the most relevant articles and allows to further narrow down results with robust filtering\\
@@ -28,6 +28,8 @@ APPLICATION CHANGES
 - Main User UI support for all browsers. Including legacy and mobile browsers.\\
 - Underlying use of a NoSQL database \\
 - Robust integration current editor and admin interfaces\\
+- Integration with Piwik for statistical information
+ 
 
 \\
 CONTENT CHANGES
@@ -36,6 +38,7 @@ CONTENT CHANGES
 - Article filters appropriately changed to making more intuitive to find relevant information\\
 - Major clean-up of articles. Removal of articles with too little information\\
 - Moved away from multiple library structure. All of the content is now in one well-organized library.\\
+- New AWS content 
 
 \\
 
