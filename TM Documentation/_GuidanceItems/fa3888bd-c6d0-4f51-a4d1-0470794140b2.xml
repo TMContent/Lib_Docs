@@ -29,11 +29,12 @@
 - Edit the following two lines and provide the correct pull path for the TM40 directory
 
 
-``` <TMReloadDataScriptPath>C:\TEAM Mentor\TM01-Site_www.teammentor.net\TM40\TM\bin\reload_data.bat</TMReloadDataScriptPath>
+~~~
+<TMReloadDataScriptPath>C:\TEAM Mentor\TM01-Site_www.teammentor.net\TM40\TM\bin\reload_data.bat</TMReloadDataScriptPath>
 
-```
 <XmlLibrariesPath>C:\TEAM Mentor\TM01-Site_www.teammentor.net\TM40\TM\data</XmlLibrariesPath>
-```
+~~~
+
 
 #### Add TEAM Mentor as a site in IIS.
 - Open the "Internet Information Services (IIS) Manager". 
