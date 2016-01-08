@@ -23,6 +23,19 @@
 
 ![](/Image/install03.png)
 
+#### Edit the TEAM Mentor 3.6 Configuration file
+
+- In notepad open "\TM36\Library_Data\XmlDatabase\User_Data\TMConfig.config"
+- Edit the following two lines and provide the correct pull path for the TM40 directory
+
+
+~~~
+<TMReloadDataScriptPath>C:\TEAM Mentor\TM01-Site_www.teammentor.net\TM40\TM\bin\reload_data.bat</TMReloadDataScriptPath>
+
+<XmlLibrariesPath>C:\TEAM Mentor\TM01-Site_www.teammentor.net\TM40\TM\data</XmlLibrariesPath>
+~~~
+
+
 #### Add TEAM Mentor as a site in IIS.
 - Open the "Internet Information Services (IIS) Manager". 
 - Navigate to the "Sites" folder in the "Connections" tree on the left. 
@@ -76,7 +89,8 @@ On IIS 8 the application account name is the same as Application Pool name. This
 - Adjust the file-system permissions. Give full control permissions for the following folders to the Windows user account that is used to run TEAM Mentor. This is the username that has been discovered in the previous step. 
 * “\TM36\Library_Data”
 * "\TM40\TM\data"
-* "\TM40\TM\code\TM_Graph\.tmCache"
+* "\TM40\TM\code\TM_Graph\\.tmCache"
+* "\TM40\TM\build\TM_4_0_JSON_Data"
 
 To do this, for each of the folders 
 
