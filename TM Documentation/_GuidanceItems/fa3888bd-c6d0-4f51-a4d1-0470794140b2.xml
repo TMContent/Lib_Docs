@@ -28,6 +28,7 @@
 - In notepad open "\TM36\Library_Data\XmlDatabase\User_Data\TMConfig.config"
 - Edit the following two lines and provide the correct pull path for the TM40 directory
 
+
 ``` <TMReloadDataScriptPath>C:\TEAM Mentor\TM01-Site_www.teammentor.net\TM40\TM\bin\reload_data.bat</TMReloadDataScriptPath>
 
 ```
