@@ -22,6 +22,7 @@ The following hardware and software is required to run TEAM Mentor.
 
    * Windows 2012 R2 (64 Bit) with IIS 8.0 or higher\\
    * NET Framework 4.5.1 ( You can download this version from [[http://www.microsoft.com/en-us/download/details.aspx?id=40779|http://www.microsoft.com/en-us/download/details.aspx?id=40779]] )\\
+   * 7-Zip ( Available at [[http://www.7-zip.org|http://www.7-zip.org]] ) \\
    * Git Version Control with Tools ( Available at [[http://www.git-scm.com/download/win|http://www.git-scm.com/download/win]] ) \\
    * NodeJS ( Distributed with TEAM Mentor ZIP File  ) \\
    * IIS AAR 3.0 Extension ( Distributed with TEAM Mentor ZIP File ) \\
@@ -30,6 +31,9 @@ The following hardware and software is required to run TEAM Mentor.
    * 4GB of Storage\\
    * 2 URLs. resolvable through DNS. One for administration the other for user access\\
    * 2 SSL Certificates. One for each URL. Can be one wildcard or Subject Alternative Names certificate as well.\\
+
+
+Please note that you will need 7-Zip application to unzip the TEAM Mentor package. 
 
 Please note that it may be possible to run TEAM Mentor with less RAM and Storage. However performance does degrade under load and minimal configuration listed above is recommended for production environments. Also note, when connecting to TEAM Mentor on local machine (connecting to "localhost") SSL certificate is not required. Self-signed certificate may be used for test environments, with administration only available locally.
 
