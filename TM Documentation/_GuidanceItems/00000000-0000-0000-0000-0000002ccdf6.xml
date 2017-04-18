@@ -38,10 +38,10 @@
 - Main User UI support for all browsers. Including legacy and mobile browsers.\\
 - Underlying use of a NoSQL database \\
 - Robust integration current editor and admin interfaces\\
-- Integration with Piwik for statistical information
+- Integration with Piwik for statistical information\\
 \\
 
- - Content had been re-classified into subject matter areas for easy browsing through the taxonomy\\
+- Content had been re-classified into subject matter areas for easy browsing through the taxonomy\\
 - Article filters appropriately changed to making more intuitive to find relevant information\\
 - Major clean-up of articles. Removal of articles with too little information\\
 - Moved away from multiple library structure. All of the content is now in one well-organized library.\\
